@@ -30,13 +30,6 @@ export function DesignTwo() {
     "Industry-standard warranties"
   ];
 
-  const boardMembers = [
-    { name: "John Anderson", title: "CEO & Founder", initials: "JA" },
-    { name: "Sarah Mitchell", title: "Chief Operations Officer", initials: "SM" },
-    { name: "Michael Chen", title: "VP Engineering", initials: "MC" },
-    { name: "Emily Rodriguez", title: "VP Business Development", initials: "ER" }
-  ];
-
   const faqs = [
     {
       q: "What makes PES Field Systems' turf different?",
