@@ -1213,7 +1213,7 @@ export default function App() {
                 }}
               >
                 The only synthetic turf system with a U.S. patent on rubber infill placement — delivering uncompromised fall impact safety, cooler surface temperatures, and maintenance freedom for athletes of all abilities in Cincinnati, Ohio and beyond.
-              
+               </motion.p>
               <div className="flex flex-wrap gap-4 justify-center">
                 <motion.button 
                   className="bg-[#1E3FD8] text-white hover:bg-[#4F73D6] transition-colors duration-200"
