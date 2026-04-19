@@ -134,9 +134,9 @@ export function Contact() {
                       </div>
                       <div>
                         <h3 className="font-black text-lg mb-1">CALL US</h3>
-                        <p className="text-slate-600 mb-2">Speak with a field specialist</p>
-                        <a href="tel:+15551234567" className="text-blue-600 font-bold text-lg hover:underline">
-                          (555) 123-4567
+                        <p className="text-slate-600 mb-2">Speak with us</p>
+                        <a href="tel:+15132363398" className="text-blue-600 font-bold text-lg hover:underline">
+                          (513) 236-3398
                         </a>
                       </div>
                     </div>
@@ -152,8 +152,8 @@ export function Contact() {
                       <div>
                         <h3 className="font-black text-lg mb-1">EMAIL US</h3>
                         <p className="text-slate-600 mb-2">Get a response within 24 hours</p>
-                        <a href="mailto:info@pesfieldsystems.com" className="text-blue-600 font-bold hover:underline">
-                          info@pesfieldsystems.com
+                        <a href="mailto:triffon@pesfieldsystems.com" className="text-blue-600 font-bold hover:underline">
+                          triffon@pesfieldsystems.com
                         </a>
                       </div>
                     </div>
@@ -170,8 +170,8 @@ export function Contact() {
                         <h3 className="font-black text-lg mb-1">VISIT US</h3>
                         <p className="text-slate-600 mb-2">Main office location</p>
                         <p className="text-slate-700">
-                          123 Field Systems Way<br/>
-                          Atlanta, GA 30303
+                          3460 Oakmeadow Lane<br/>
+                          Cincinnati, OH 45239
                         </p>
                       </div>
                     </div>
