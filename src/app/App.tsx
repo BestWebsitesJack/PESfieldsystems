@@ -334,7 +334,7 @@ export default function App() {
     {
       name: 'Eric Schmidt',
       role: 'CEO & Owner',
-      bio: 'Eric founded PES Field Systems in 2021 with a vision to revolutionize synthetic turf construction through innovative engineering and unwavering commitment to athlete safety. As the architect behind the company\'s U.S. patented infill regulation technology, Eric has transformed how athletic fields are built across the country. With decades of industry expertise and a passion for delivering superior playing surfaces, he leads PES with a hands-on approach that ensures every project meets the highest standards of quality, performance, and customer satisfaction.',
+      bio: 'Eric founded PES Field Systems in 2021 with a vision to revolutionize synthetic turf construction through innovative engineering and unwavering commitment to athlete safety. As the architect behind the company\'s U.S. patented turf technology, Eric has transformed how athletic fields are built across the country. With decades of industry expertise and a passion for delivering superior playing surfaces, he leads PES with a hands-on approach that ensures every project meets the highest standards of quality, performance, and customer satisfaction.',
       email: 'eric@pesfieldsystems.com',
       image: ericSchmidtImg,
     },
@@ -350,7 +350,7 @@ export default function App() {
   const faqs = [
     {
       q: 'What makes PES Field Systems different from other turf companies?',
-      a: 'Our U.S. patented technology regulates granular rubber infill placement beneath the turf, delivering superior fall impact safety, 20° cooler surface temperatures, and enhanced playability that traditional systems simply cannot match.',
+      a: 'Our U.S. patented technology regulates granular rubber infill placement beneath the synthetic turf surface — delivering superior fall impact safety, cooler surface temperatures, and zero infill migration. No other synthetic turf contractor in the country offers this patented system',
     },
     {
       q: 'How quickly can you complete a project?',
@@ -358,11 +358,11 @@ export default function App() {
     },
     {
       q: 'Do you specialize in Miracle League and adaptive fields?',
-      a: 'Absolutely! Miracle League fields and adaptive facilities are core to our mission. We create inclusive playing surfaces designed specifically for athletes of all abilities, with safety as our top priority.',
+      a: 'Absolutely. Miracle League fields and adaptive synthetic turf surfaces are core to our mission. We have completed multiple Miracle League installations across the country and specialize in inclusive field designs that support athletes of all abilities — with fall impact safety and accessibility as our top priorities.',
     },
     {
       q: 'What geographic areas do you serve?',
-      a: 'We serve customers nationwide, utilizing both in-house construction resources and licensed subcontractors under our direct supervision to ensure quality and consistency across every installation.',
+      a: 'PES Field Systems serves clients nationwide. From Cincinnati, Ohio to Montana, Michigan, Florida, and beyond — we utilize both in-house construction resources and licensed subcontractors under our direct supervision to deliver consistent, high-quality synthetic turf installations anywhere in the country.',
     },
     {
       q: 'Are warranties included with your installations?',
@@ -390,7 +390,7 @@ export default function App() {
             <div className="flex items-center">
               <img
                 src={pesLogo}
-                alt="PES Field Systems"
+                alt="PES Field Systems synthetic turf contractor logo"
                 className="h-36 cursor-pointer"
                 style={{ objectFit: 'contain', objectPosition: 'left center' }}
                 onClick={() => {
@@ -1151,7 +1151,7 @@ export default function App() {
             >
               <img
                 src={montanaFieldImg}
-                alt="Athletic Field Background"
+                alt="Synthetic turf athletic field construction by PES Field Systems"
                 className="w-full h-full"
                 style={{
                   objectFit: 'cover',
@@ -1704,15 +1704,13 @@ export default function App() {
                   viewport={{ once: true }}
                   transition={{ duration: 0.6 }}
                 >
-                  <Badge className="bg-[#4F73D6]/20 text-[#4F73D6] border border-[#4F73D6]/30 mb-6 font-bold tracking-wider">
-                    OUR FOUNDATION
                   </Badge>
                   <h2 className="text-6xl md:text-7xl font-black text-[#E6E6E6] mb-6 tracking-tight">
-                    THREE CORE PILLARS
+                    SAFER. SMARTER. SELF-SUSTAINABLE.
                   </h2>
                   <div className="w-24 h-1 bg-[#1E3FD8] mx-auto mb-6"></div>
                   <p className="text-xl text-[#B7C6CF] max-w-2xl mx-auto">
-                    Every PES installation is built on these fundamental principles
+                    Every synthetic turf field we build is engineered around three principles that set PES Field Systems apart from every other turf contractor in the country.
                   </p>
                 </motion.div>
               </div>
@@ -1774,7 +1772,7 @@ export default function App() {
                     textTransform: 'uppercase'
                   }}
                 >
-                  Witness The Transformation
+                  See How Synthetic Turf Fields Are Built
                 </h2>
               </motion.div>
 
@@ -1973,8 +1971,10 @@ export default function App() {
                 >
                   Every surface. Every athlete. Every ability.
                 </h2>
-                <div className="w-24 h-1 bg-white"></div>
-              </div>
+                <p className="text-white mt-6 max-w-2xl" style={{ fontSize: '18px', lineHeight: '1.6', opacity: '0.85' }}>
+                  From baseball and softball fields to Miracle League adaptive surfaces, football fields, putting greens, and daycare play areas — we build synthetic turf systems that perform safely for athletes of all abilities, nationwide.
+                </p>
+                <div className="w-24 h-1 bg-white mt-8"></div>
 
               {/* Services Grid - 8 cards */}
               <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
@@ -2079,7 +2079,10 @@ export default function App() {
                 >
                   Built. Proven. Trusted.
                 </h2>
-                <div className="w-24 h-1 bg-[#1E3FD8]"></div>
+                <p className="text-[#B7C6CF] mt-6 max-w-2xl" style={{ fontSize: '18px', lineHeight: '1.6' }}>
+                  Completed synthetic turf field installations for schools, Miracle League organizations, and athletic programs across the country — each built with our U.S. patented rubber infill technology.
+                </p>
+                <div className="w-24 h-1 bg-[#1E3FD8] mt-8"></div>
               </div>
 
               {/* Projects Grid - Tighter Horizontal Layout */}
@@ -2283,7 +2286,7 @@ export default function App() {
           </div>
         </section>
 
-        {/* Work With PES Section */}
+        {/* Work With PES Field Systems Section */}
         <section className="py-40" style={{ background: '#0A1428' }}>
           <div className="container mx-auto px-6">
             <div className="max-w-6xl mx-auto">
@@ -2315,7 +2318,7 @@ export default function App() {
                       lineHeight: '1.2'
                     }}
                   >
-                    Ready to transform your field?
+                    Ready to Build Your Synthetic Turf Field?
                   </h2>
                   <div className="w-24 h-1 bg-[#1E3FD8] mx-auto"></div>
                 </motion.div>
@@ -2570,7 +2573,7 @@ export default function App() {
                       fontSize: '36px'
                     }}
                   >
-                    Work With PES
+                    Work With PES Field Systems
                   </h2>
 
                   {/* Subsection 1 - Contractor and Trade Partners */}
@@ -2728,7 +2731,7 @@ export default function App() {
                       fontSize: '28px'
                     }}
                   >
-                    Tell Us About Your Project
+                    Tell Us About Your Turf Field Project
                   </h2>
                   
                   <form data-netlify="true" name="contact" className="space-y-5">
@@ -4214,14 +4217,14 @@ export default function App() {
                       <div className="bg-[#0A0F2C] border border-[#4F73D6]/30 rounded-lg overflow-hidden h-80">
                         <img
                           src={midAmericaImg1}
-                          alt="Mid-America Ballyard - Image 1"
+                          alt="Mid-America Ballyard synthetic baseball field Cincinnati Ohio built by PES Field Systems - Image 1"
                           className="w-full h-full object-cover"
                         />
                       </div>
                       <div className="bg-[#0A0F2C] border border-[#4F73D6]/30 rounded-lg overflow-hidden h-80">
                         <img
                           src={midAmericaImg2}
-                          alt="Mid-America Ballyard - Image 2"
+                          alt="Mid-America Ballyard synthetic baseball field Cincinnati Ohio built by PES Field Systems - Image 2"
                           className="w-full h-full object-cover"
                         />
                       </div>
@@ -4231,14 +4234,14 @@ export default function App() {
                       <div className="bg-[#0A0F2C] border border-[#4F73D6]/30 rounded-lg overflow-hidden h-80">
                         <img
                           src={lasalleImg1}
-                          alt="LaSalle High School - Image 1"
+                          alt="aSalle High School baseball field synthetic turf installation Cincinnati Ohio - Image 1"
                           className="w-full h-full object-cover"
                         />
                       </div>
                       <div className="bg-[#0A0F2C] border border-[#4F73D6]/30 rounded-lg overflow-hidden h-80">
                         <img
                           src={lasalleImg2}
-                          alt="LaSalle High School - Image 2"
+                          alt="aSalle High School baseball field synthetic turf installation Cincinnati Ohio - Image 2"
                           className="w-full h-full object-cover"
                         />
                       </div>
@@ -4249,7 +4252,7 @@ export default function App() {
                       <div className="md:col-span-2 bg-[#0A0F2C] border border-[#4F73D6]/30 rounded-lg overflow-hidden h-96">
                         <img
                           src={montanaImg1}
-                          alt="Miracle League NW Montana - Hero"
+                          alt="Miracle League adaptive synthetic turf field Kalispell Montana by PES Field Systems- Hero"
                           className="w-full h-full object-cover"
                         />
                       </div>
@@ -4257,7 +4260,7 @@ export default function App() {
                       <div className="bg-[#0A0F2C] border border-[#4F73D6]/30 rounded-lg overflow-hidden h-96">
                         <img
                           src={montanaImg2}
-                          alt="Miracle League NW Montana - Image 2"
+                          alt="Miracle League adaptive synthetic turf field Kalispell Montana by PES Field Systems - Image 2"
                           className="w-full h-full object-cover"
                         />
                       </div>
@@ -4304,14 +4307,14 @@ export default function App() {
                       <div className="bg-[#0A0F2C] border border-[#4F73D6]/30 rounded-lg overflow-hidden h-80">
                         <img
                           src={plymouthImg1}
-                          alt="Miracle League Plymouth - After"
+                          alt="Miracle League inclusive adaptive field Plymouth Michigan synthetic turf - After"
                           className="w-full h-full object-cover"
                         />
                       </div>
                       <div className="bg-[#0A0F2C] border border-[#4F73D6]/30 rounded-lg overflow-hidden h-80">
                         <img
                           src={plymouthImg2}
-                          alt="Miracle League Plymouth - Before"
+                          alt="Miracle League inclusive adaptive field Plymouth Michigan synthetic turf - Before"
                           className="w-full h-full object-cover"
                         />
                       </div>
@@ -4336,7 +4339,7 @@ export default function App() {
                       <div className="md:col-span-2 bg-[#0A0F2C] border border-[#4F73D6]/30 rounded-lg overflow-hidden h-96">
                         <img
                           src={floridaImg1}
-                          alt="Miracle League Central Florida - Hero"
+                          alt="Miracle League synthetic turf adaptive field Orlando Florida - Hero"
                           className="w-full h-full object-cover"
                         />
                       </div>
