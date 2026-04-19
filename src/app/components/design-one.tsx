@@ -61,13 +61,6 @@ export function DesignOne() {
     ]
   };
 
-  const boardMembers = [
-    { name: "John Anderson", title: "CEO & Founder", image: "https://images.unsplash.com/photo-1560250097-0b93528c311a?w=400" },
-    { name: "Sarah Mitchell", title: "Chief Operations Officer", image: "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=400" },
-    { name: "Michael Chen", title: "VP Engineering", image: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=400" },
-    { name: "Emily Rodriguez", title: "VP Business Development", image: "https://images.unsplash.com/photo-1580489944761-15a19d654956?w=400" }
-  ];
-
   const faqs = [
     {
       question: "What makes PES Field Systems' turf different?",
@@ -89,12 +82,6 @@ export function DesignOne() {
       question: "Do you handle both design and construction?",
       answer: "Yes. We partner closely with each customer to determine the best project delivery approach. We use in-house construction resources or licensed subcontractors under our supervision."
     }
-  ];
-
-  const reviews = [
-    { name: "Tom Harrison", rating: 5, text: "PES built our Miracle League field and it's been transformative for our community. The safety features are outstanding.", date: "2 weeks ago" },
-    { name: "Jennifer Lopez", rating: 5, text: "From design to completion, the team was professional and delivered exactly what they promised. Our football field is incredible.", date: "1 month ago" },
-    { name: "Mark Stevens", rating: 5, text: "The cooler surface makes a huge difference for our youth soccer programs. Highly recommend PES Field Systems.", date: "2 months ago" }
   ];
 
   return (
