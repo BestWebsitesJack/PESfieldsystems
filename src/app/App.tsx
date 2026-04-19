@@ -2788,7 +2788,7 @@ export default function App() {
                       <input 
                         type="tel"
                         name="phone"
-                        placeholder="(555) 123-4567"
+                        placeholder="(513) 236-3398"
                         className="w-full text-[#E6E6E6] bg-[#0A0F2C] outline-none transition-all duration-200"
                         style={{ 
                           border: '1px solid rgba(183, 198, 207, 0.4)',
@@ -3828,7 +3828,7 @@ export default function App() {
                         <label className="font-bold text-sm text-[#E6E6E6] mb-2 block tracking-wider">
                           Phone
                         </label>
-                        <Input type="tel" placeholder="(555) 123-4567" className="bg-[#111111] border-[#4F73D6]/30 text-[#E6E6E6] placeholder:text-[#B7C6CF]" />
+                        <Input type="tel" placeholder="(513) 236-3398" className="bg-[#111111] border-[#4F73D6]/30 text-[#E6E6E6] placeholder:text-[#B7C6CF]" />
                       </div>
                       <div>
                         <label className="font-bold text-sm text-[#E6E6E6] mb-2 block tracking-wider">
@@ -3871,7 +3871,7 @@ export default function App() {
                         </div>
                         <div>
                           <h3 className="font-black text-lg mb-1 text-[#E6E6E6] tracking-wider">PHONE</h3>
-                          <p className="text-[#B7C6CF]">(555) 123-4567</p>
+                          <p className="text-[#B7C6CF]">(513) 236-3398</p>
                           <p className="text-sm text-[#B7C6CF]">Monday - Friday, 8AM - 6PM EST</p>
                         </div>
                       </div>
@@ -3882,7 +3882,7 @@ export default function App() {
                         </div>
                         <div>
                           <h3 className="font-black text-lg mb-1 text-[#E6E6E6] tracking-wider">EMAIL</h3>
-                          <p className="text-[#B7C6CF]">info@pesfieldsystems.com</p>
+                          <p className="text-[#B7C6CF]">triffon@pesfieldsystems.com</p>
                           <p className="text-sm text-[#B7C6CF]">We respond within 24 hours</p>
                         </div>
                       </div>
