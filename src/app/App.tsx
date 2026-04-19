@@ -1198,8 +1198,7 @@ export default function App() {
                   letterSpacing: '-0.03em'
                 }}
               >
-                Safer Fields.<br />
-                Superior Play.
+                Safer Fields.  Superior Play.  Self-Sustainable.<br />
               </motion.h1>
               
               <motion.p 
@@ -1213,8 +1212,7 @@ export default function App() {
                   maxWidth: '520px'
                 }}
               >
-                The only synthetic turf system with patented infill placement — delivering uncompromised fall safety, cooler surfaces, and maintenance freedom.
-              </motion.p>
+                The only synthetic turf system with a U.S. patent on rubber infill placement — delivering uncompromised fall impact safety, cooler surface temperatures, and maintenance freedom for athletes of all abilities in Cincinnati, Ohio and beyond.
               
               <div className="flex flex-wrap gap-4 justify-center">
                 <motion.button 
@@ -1499,7 +1497,7 @@ export default function App() {
                       color: 'rgba(255, 255, 255, 0.8)'
                     }}
                   >
-                    U.S. Patented Technology
+                    U.S. Patented Turf Technology — Cincinnati, Ohio
                   </p>
 
                   {/* Heading */}
