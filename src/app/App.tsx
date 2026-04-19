@@ -1182,7 +1182,7 @@ export default function App() {
                   fontWeight: '600'
                 }}
               >
-                U.S. Patented Technology
+                U.S. Patented Turf Technology 
               </motion.p>
               
               <motion.h1 
@@ -1212,8 +1212,7 @@ export default function App() {
                   maxWidth: '520px'
                 }}
               >
-                The only synthetic turf system with a U.S. patent on rubber infill placement — delivering uncompromised fall impact safety, cooler surface temperatures, and maintenance freedom for athletes of all abilities in Cincinnati, Ohio and beyond.
-               </motion.p>
+                The only synthetic turf system with a U.S. patent on rubber infill placement — delivering uncompromised fall impact safety, cooler surface temperatures, and maintenance freedom for athletes of all abilities nationwide.
               <div className="flex flex-wrap gap-4 justify-center">
                 <motion.button 
                   className="bg-[#1E3FD8] text-white hover:bg-[#4F73D6] transition-colors duration-200"
@@ -1497,7 +1496,7 @@ export default function App() {
                       color: 'rgba(255, 255, 255, 0.8)'
                     }}
                   >
-                    U.S. Patented Turf Technology — Cincinnati, Ohio
+                    U.S. Patented Turf Technology
                   </p>
 
                   {/* Heading */}
