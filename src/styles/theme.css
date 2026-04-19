@@ -1,0 +1,148 @@
+@custom-variant dark (&:is(.dark *));
+
+:root {
+  /* PES Field Systems Brand Colors */
+  --primary-blue: #1E3FD8;
+  --secondary-blue: #4F73D6;
+  --silver-blue: #B7C6CF;
+  --light-gray: #E6E6E6;
+  --background-black: #000000;
+  --dark-navy: #0A0F2C;
+  --dark-charcoal: #111111;
+  
+  /* Typography */
+  --font-heading: 'Rajdhani', 'Inter', sans-serif;
+  --font-body: 'Inter', sans-serif;
+  --font-size: 16px;
+  --font-weight-bold: 700;
+  --font-weight-semibold: 600;
+  --font-weight-medium: 500;
+  --font-weight-normal: 400;
+
+  /* Component Colors */
+  --background: #000000;
+  --foreground: #E6E6E6;
+  --card: #0A0F2C;
+  --card-foreground: #E6E6E6;
+  --popover: #0A0F2C;
+  --popover-foreground: #E6E6E6;
+  --primary: #1E3FD8;
+  --primary-foreground: #E6E6E6;
+  --secondary: #4F73D6;
+  --secondary-foreground: #E6E6E6;
+  --muted: #111111;
+  --muted-foreground: #B7C6CF;
+  --accent: #1E3FD8;
+  --accent-foreground: #E6E6E6;
+  --destructive: #d4183d;
+  --destructive-foreground: #E6E6E6;
+  --border: rgba(183, 198, 207, 0.3);
+  --input: transparent;
+  --input-background: #111111;
+  --switch-background: #4F73D6;
+  --ring: #1E3FD8;
+  --radius: 0.5rem;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-card: var(--card);
+  --color-card-foreground: var(--card-foreground);
+  --color-popover: var(--popover);
+  --color-popover-foreground: var(--popover-foreground);
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-secondary: var(--secondary);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-accent: var(--accent);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-destructive: var(--destructive);
+  --color-destructive-foreground: var(--destructive-foreground);
+  --color-border: var(--border);
+  --color-input: var(--input);
+  --color-input-background: var(--input-background);
+  --color-switch-background: var(--switch-background);
+  --color-ring: var(--ring);
+  --radius-sm: calc(var(--radius) - 4px);
+  --radius-md: calc(var(--radius) - 2px);
+  --radius-lg: var(--radius);
+  --radius-xl: calc(var(--radius) + 4px);
+  
+  /* PES Brand Color Utilities */
+  --color-primary-blue: var(--primary-blue);
+  --color-secondary-blue: var(--secondary-blue);
+  --color-silver-blue: var(--silver-blue);
+  --color-light-gray: var(--light-gray);
+  --color-background-black: var(--background-black);
+  --color-dark-navy: var(--dark-navy);
+  --color-dark-charcoal: var(--dark-charcoal);
+}
+
+@layer base {
+  * {
+    @apply border-border outline-ring/50;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+    font-family: var(--font-body);
+  }
+
+  html {
+    font-size: var(--font-size);
+    scroll-behavior: smooth;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-heading);
+    font-weight: var(--font-weight-bold);
+    letter-spacing: -0.02em;
+  }
+
+  h1 {
+    font-size: 3.5rem;
+    line-height: 1.1;
+  }
+
+  h2 {
+    font-size: 2.5rem;
+    line-height: 1.2;
+  }
+
+  h3 {
+    font-size: 1.75rem;
+    line-height: 1.3;
+  }
+
+  h4 {
+    font-size: 1.25rem;
+    line-height: 1.4;
+  }
+
+  p {
+    font-family: var(--font-body);
+    font-weight: var(--font-weight-normal);
+    line-height: 1.6;
+  }
+
+  label {
+    font-family: var(--font-body);
+    font-size: 0.875rem;
+    font-weight: var(--font-weight-semibold);
+    line-height: 1.5;
+  }
+
+  button {
+    font-family: var(--font-heading);
+    font-weight: var(--font-weight-bold);
+    letter-spacing: 0.05em;
+  }
+
+  input, textarea, select {
+    font-family: var(--font-body);
+    font-weight: var(--font-weight-normal);
+  }
+}
