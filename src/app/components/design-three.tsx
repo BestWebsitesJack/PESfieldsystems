@@ -58,13 +58,6 @@ export function DesignThree() {
     }
   ];
 
-  const boardMembers = [
-    { name: "John Anderson", role: "CEO & Founder", color: "from-blue-500 to-cyan-500" },
-    { name: "Sarah Mitchell", role: "Chief Operations Officer", color: "from-purple-500 to-pink-500" },
-    { name: "Michael Chen", role: "VP Engineering", color: "from-green-500 to-emerald-500" },
-    { name: "Emily Rodriguez", role: "VP Business Development", color: "from-orange-500 to-red-500" }
-  ];
-
   return (
     <div className="min-h-screen bg-white">
       {/* Back Button */}
@@ -348,20 +341,6 @@ export function DesignThree() {
               <h2 className="text-5xl font-black text-slate-900 mb-2">5.0 STARS</h2>
               <p className="text-xl text-slate-600">47 Google Reviews</p>
             </div>
-
-            <div className="grid md:grid-cols-3 gap-6">
-              {[
-                { name: "Tom Harrison", text: "The Miracle League field is incredible. Safety features are top-notch!", org: "Community League" },
-                { name: "Jennifer Lopez", text: "Professional team, amazing results. Our football field is world-class.", org: "City Parks Dept" },
-                { name: "Mark Stevens", text: "Cooler temps make all the difference. Kids love it!", org: "Youth Sports" }
-              ].map((review, idx) => (
-                <Card key={idx} className="border-2">
-                  <CardContent className="p-6">
-                    <div className="flex mb-3">
-                      {[...Array(5)].map((_, i) => (
-                        <Star key={i} className="w-5 h-5 fill-yellow-400 text-yellow-400" />
-                      ))}
-                    </div>
                     <p className="font-bold text-lg mb-4">"{review.text}"</p>
                     <div>
                       <div className="font-black">{review.name}</div>
