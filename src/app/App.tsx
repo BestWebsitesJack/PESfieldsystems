@@ -2537,20 +2537,17 @@ export default function App() {
                 viewport={{ once: true }}
                 transition={{ duration: 0.6 }}
               >
-                <FileDown className="w-20 h-20 mx-auto mb-8" />
+               <FileDown className="w-20 h-20 mx-auto mb-8" />
                 <h2 className="text-5xl md:text-6xl font-black mb-8 tracking-tight">
                   ARCHITECT SPECIFICATIONS
                 </h2>
                 <p className="text-xl text-white/90 mb-10">
                   Download detailed technical specifications for planning and bidding purposes
                 </p>
-                <Button 
-                  size="lg" 
-                  className="bg-white text-[#1E3FD8] hover:bg-[#E6E6E6] font-black text-base px-8 py-6 tracking-wider"
-                >
+                <a href="/architect-specs.pdf" download className="inline-flex items-center bg-white text-[#1E3FD8] hover:bg-[#E6E6E6] font-black text-base px-8 py-6 tracking-wider rounded-md transition-colors">
                   <Download className="mr-2 w-5 h-5" />
                   DOWNLOAD SPECS (PDF)
-                </Button>
+                </a>
               </motion.div>
             </div>
           </div>
