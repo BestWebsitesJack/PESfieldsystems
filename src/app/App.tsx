@@ -2780,27 +2780,6 @@ export default function App() {
                       />
                     </div>
 
-                    {/* Phone Field (Optional) */}
-                    <div>
-                      <label className="text-[#E6E6E6] block mb-2" style={{ fontSize: '14px', fontWeight: '600' }}>
-                        Phone <span className="text-[#B7C6CF]">(optional)</span>
-                      </label>
-                      <input 
-                        type="tel"
-                        name="phone"
-                        placeholder="(513) 236-3398"
-                        className="w-full text-[#E6E6E6] bg-[#0A0F2C] outline-none transition-all duration-200"
-                        style={{ 
-                          border: '1px solid rgba(183, 198, 207, 0.4)',
-                          borderRadius: '4px',
-                          padding: '14px 16px',
-                          fontSize: '14px'
-                        }}
-                        onFocus={(e) => e.currentTarget.style.borderColor = '#1E3FD8'}
-                        onBlur={(e) => e.currentTarget.style.borderColor = 'rgba(183, 198, 207, 0.4)'}
-                      />
-                    </div>
-
                     {/* Inquiry Type Dropdown */}
                     <div>
                       <label className="text-[#E6E6E6] block mb-2" style={{ fontSize: '14px', fontWeight: '600' }}>
@@ -3826,12 +3805,6 @@ export default function App() {
                       </div>
                       <div>
                         <label className="font-bold text-sm text-[#E6E6E6] mb-2 block tracking-wider">
-                          Phone
-                        </label>
-                        <Input type="tel" placeholder="(513) 236-3398" className="bg-[#111111] border-[#4F73D6]/30 text-[#E6E6E6] placeholder:text-[#B7C6CF]" />
-                      </div>
-                      <div>
-                        <label className="font-bold text-sm text-[#E6E6E6] mb-2 block tracking-wider">
                           Project Type
                         </label>
                         <select className="w-full px-4 py-2 bg-[#111111] border border-[#4F73D6]/30 rounded-lg text-[#E6E6E6]">
@@ -3871,7 +3844,6 @@ export default function App() {
                         </div>
                         <div>
                           <h3 className="font-black text-lg mb-1 text-[#E6E6E6] tracking-wider">PHONE</h3>
-                          <p className="text-[#B7C6CF]">(513) 236-3398</p>
                           <p className="text-sm text-[#B7C6CF]">Monday - Friday, 8AM - 6PM EST</p>
                         </div>
                       </div>
