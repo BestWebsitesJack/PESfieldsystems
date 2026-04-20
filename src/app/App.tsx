@@ -350,7 +350,7 @@ export default function App() {
   const faqs = [
     {
       q: 'What makes PES Field Systems different from other turf companies?',
-      a: 'Our U.S. patented technology regulates granular rubber infill placement beneath the turf, delivering superior fall impact safety, 20° cooler surface temperatures, and enhanced playability that traditional systems simply cannot match.',
+      a: 'Our U.S. patented technology regulates granular rubber infill placement beneath the turf, delivering superior fall impact safety, Controlled Heat Index °F, and enhanced playability that traditional systems simply cannot match.',
     },
     {
       q: 'How quickly can you complete a project?',
@@ -902,7 +902,7 @@ export default function App() {
                     Football Fields
                   </h3>
                   <p className="text-[#B7C6CF]" style={{ fontSize: '15px', lineHeight: '1.6' }}>
-                    Regulation fields built for safety, performance, and long-term durability, while maintaining cooler surface temperatures and cleaner play.
+                    Regulation fields built for safety, performance, and long-term durability, while maintaining cControlled Heat Index °F and cleaner play.
                   </p>
                 </motion.div>
 
@@ -2968,8 +2968,8 @@ export default function App() {
                 className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-4xl mx-auto"
               >
                 <div className="text-center">
-                  <div className="text-[#1E3FD8] mb-2" style={{ fontSize: '48px', fontWeight: '700' }}>20°</div>
-                  <div className="text-[#E6E6E6]" style={{ fontSize: '14px', fontWeight: '600' }}>Cooler Surface Temps</div>
+                  <div className="text-[#1E3FD8] mb-2" style={{ fontSize: '48px', fontWeight: '700' }}>Controlled</div>
+                  <div className="text-[#E6E6E6]" style={{ fontSize: '14px', fontWeight: '600' }}>Heat Index</div>
                 </div>
                 <div className="text-center">
                   <div className="text-[#1E3FD8] mb-2" style={{ fontSize: '48px', fontWeight: '700' }}>100%</div>
@@ -3183,33 +3183,12 @@ export default function App() {
 
                   {/* Download Links */}
                   <div className="space-y-4">
-                    <a
-                      href="#"
-                      className="flex items-center justify-between p-5 group"
-                      style={{
-                        background: 'rgba(30, 63, 216, 0.1)',
-                        border: '2px solid rgba(30, 63, 216, 0.3)',
-                        borderRadius: '8px',
-                        transition: 'all 0.3s ease'
-                      }}
-                      onMouseEnter={(e) => {
-                        e.currentTarget.style.borderColor = '#1E3FD8';
-                        e.currentTarget.style.background = 'rgba(30, 63, 216, 0.15)';
-                      }}
-                      onMouseLeave={(e) => {
-                        e.currentTarget.style.borderColor = 'rgba(30, 63, 216, 0.3)';
-                        e.currentTarget.style.background = 'rgba(30, 63, 216, 0.1)';
-                      }}
-                    >
+                   <a href="/architect-specs.pdf" download className="flex items-center justify-between p-5 group" style={{ background: 'rgba(30, 63, 216, 0.1)', border: '2px solid rgba(30, 63, 216, 0.3)', borderRadius: '8px', transition: 'all 0.3s ease' }} onMouseEnter={(e) => { e.currentTarget.style.borderColor = '#1E3FD8'; e.currentTarget.style.background = 'rgba(30, 63, 216, 0.15)'; }} onMouseLeave={(e) => { e.currentTarget.style.borderColor = 'rgba(30, 63, 216, 0.3)'; e.currentTarget.style.background = 'rgba(30, 63, 216, 0.1)'; }}>
                       <div className="flex items-center gap-4">
                         <FileText className="w-6 h-6 text-[#1E3FD8]" />
                         <div>
-                          <div className="text-[#E6E6E6]" style={{ fontSize: '16px', fontWeight: '600' }}>
-                            Architect Specifications
-                          </div>
-                          <div className="text-[#B7C6CF]" style={{ fontSize: '13px' }}>
-                            Complete technical specs (PDF, 2.4 MB)
-                          </div>
+                          <div className="text-[#E6E6E6]" style={{ fontSize: '16px', fontWeight: '600' }}>Architect Specifications</div>
+                          <div className="text-[#B7C6CF]" style={{ fontSize: '13px' }}>Complete technical specs (PDF)</div>
                         </div>
                       </div>
                       <Download className="w-5 h-5 text-[#1E3FD8]" />
