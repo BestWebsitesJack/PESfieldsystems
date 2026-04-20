@@ -125,24 +125,6 @@ export function Contact() {
                 </p>
               </div>
 
-              <div className="space-y-6">
-                <Card className="border-2 hover:border-blue-500 transition-all">
-                  <CardContent className="p-6">
-                    <div className="flex items-start gap-4">
-                      <div className="w-12 h-12 bg-blue-100 rounded-xl flex items-center justify-center flex-shrink-0">
-                        <Phone className="w-6 h-6 text-blue-600" />
-                      </div>
-                      <div>
-                        <h3 className="font-black text-lg mb-1">CALL US</h3>
-                        <p className="text-slate-600 mb-2">Speak with us</p>
-                        <a href="tel:+15132363398" className="text-blue-600 font-bold text-lg hover:underline">
-                          (513) 236-3398
-                        </a>
-                      </div>
-                    </div>
-                  </CardContent>
-                </Card>
-
                 <Card className="border-2 hover:border-blue-500 transition-all">
                   <CardContent className="p-6">
                     <div className="flex items-start gap-4">
