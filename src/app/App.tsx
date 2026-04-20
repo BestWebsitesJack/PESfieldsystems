@@ -3863,16 +3863,6 @@ export default function App() {
                 <div className="space-y-8">
                   <Card className="bg-[#0A0F2C] border-[#4F73D6]/30">
                     <CardContent className="p-8">
-                      <div className="flex items-start gap-4 mb-8">
-                        <div className="w-12 h-12 bg-gradient-to-r from-[#1E3FD8] via-[#4F73D6] to-[#B7C6CF] rounded-lg flex items-center justify-center flex-shrink-0">
-                          <Phone className="w-6 h-6 text-white" />
-                        </div>
-                        <div>
-                          <h3 className="font-black text-lg mb-1 text-[#E6E6E6] tracking-wider">PHONE</h3>
-                          <p className="text-[#B7C6CF]">(555) 123-4567</p>
-                          <p className="text-sm text-[#B7C6CF]">Monday - Friday, 8AM - 6PM EST</p>
-                        </div>
-                      </div>
 
                       <div className="flex items-start gap-4 mb-8">
                         <div className="w-12 h-12 bg-gradient-to-r from-[#1E3FD8] via-[#4F73D6] to-[#B7C6CF] rounded-lg flex items-center justify-center flex-shrink-0">
