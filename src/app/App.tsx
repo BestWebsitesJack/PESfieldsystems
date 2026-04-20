@@ -3178,8 +3178,7 @@ export default function App() {
                   <div className="w-24 h-1 bg-[#1E3FD8] mb-8"></div>
 
                   <p className="text-[#B7C6CF] mb-10" style={{ fontSize: '17px', lineHeight: '1.7' }}>
-                    Access comprehensive technical documentation, ASTM testing results, architect specifications,
-                    and certification details for planning and bidding purposes.
+                    Access comprehensive patent and architect specifications for planning and bidding purposes.
                   </p>
 
                   {/* Download Links */}
@@ -3216,65 +3215,12 @@ export default function App() {
                       <Download className="w-5 h-5 text-[#1E3FD8]" />
                     </a>
 
-                    <a
-                      href="#"
-                      className="flex items-center justify-between p-5 group"
-                      style={{
-                        background: 'rgba(30, 63, 216, 0.1)',
-                        border: '2px solid rgba(30, 63, 216, 0.3)',
-                        borderRadius: '8px',
-                        transition: 'all 0.3s ease'
-                      }}
-                      onMouseEnter={(e) => {
-                        e.currentTarget.style.borderColor = '#1E3FD8';
-                        e.currentTarget.style.background = 'rgba(30, 63, 216, 0.15)';
-                      }}
-                      onMouseLeave={(e) => {
-                        e.currentTarget.style.borderColor = 'rgba(30, 63, 216, 0.3)';
-                        e.currentTarget.style.background = 'rgba(30, 63, 216, 0.1)';
-                      }}
-                    >
+                    <a href="/pes-patent.pdf" download className="flex items-center justify-between p-5 group" style={{ background: 'rgba(30, 63, 216, 0.1)', border: '2px solid rgba(30, 63, 216, 0.3)', borderRadius: '8px', transition: 'all 0.3s ease' }} onMouseEnter={(e) => { e.currentTarget.style.borderColor = '#1E3FD8'; e.currentTarget.style.background = 'rgba(30, 63, 216, 0.15)'; }} onMouseLeave={(e) => { e.currentTarget.style.borderColor = 'rgba(30, 63, 216, 0.3)'; e.currentTarget.style.background = 'rgba(30, 63, 216, 0.1)'; }}>
                       <div className="flex items-center gap-4">
                         <FileText className="w-6 h-6 text-[#1E3FD8]" />
                         <div>
-                          <div className="text-[#E6E6E6]" style={{ fontSize: '16px', fontWeight: '600' }}>
-                            ASTM Testing Results
-                          </div>
-                          <div className="text-[#B7C6CF]" style={{ fontSize: '13px' }}>
-                            Safety certification documentation (PDF, 1.8 MB)
-                          </div>
-                        </div>
-                      </div>
-                      <Download className="w-5 h-5 text-[#1E3FD8]" />
-                    </a>
-
-                    <a
-                      href="#"
-                      className="flex items-center justify-between p-5 group"
-                      style={{
-                        background: 'rgba(30, 63, 216, 0.1)',
-                        border: '2px solid rgba(30, 63, 216, 0.3)',
-                        borderRadius: '8px',
-                        transition: 'all 0.3s ease'
-                      }}
-                      onMouseEnter={(e) => {
-                        e.currentTarget.style.borderColor = '#1E3FD8';
-                        e.currentTarget.style.background = 'rgba(30, 63, 216, 0.15)';
-                      }}
-                      onMouseLeave={(e) => {
-                        e.currentTarget.style.borderColor = 'rgba(30, 63, 216, 0.3)';
-                        e.currentTarget.style.background = 'rgba(30, 63, 216, 0.1)';
-                      }}
-                    >
-                      <div className="flex items-center gap-4">
-                        <FileText className="w-6 h-6 text-[#1E3FD8]" />
-                        <div>
-                          <div className="text-[#E6E6E6]" style={{ fontSize: '16px', fontWeight: '600' }}>
-                            Installation Guidelines
-                          </div>
-                          <div className="text-[#B7C6CF]" style={{ fontSize: '13px' }}>
-                            Technical installation manual (PDF, 3.1 MB)
-                          </div>
+                          <div className="text-[#E6E6E6]" style={{ fontSize: '16px', fontWeight: '600' }}>U.S. Patent #11,268,265</div>
+                          <div className="text-[#B7C6CF]" style={{ fontSize: '13px' }}>View or download the full patent document (PDF)</div>
                         </div>
                       </div>
                       <Download className="w-5 h-5 text-[#1E3FD8]" />
