@@ -274,7 +274,7 @@ export default function App() {
     {
       icon: TrendingUp,
       title: 'SELF-SUSTAINABLE',
-      description: '20° cooler surfaces and reduced maintenance create long-term value',
+      description: 'Cooler surfaces and reduced maintenance create long-term value',
     },
   ];
 
@@ -1212,7 +1212,7 @@ export default function App() {
                   maxWidth: '520px'
                 }}
               >
-                The only synthetic turf system with a U.S. patent on rubber infill placement — delivering uncompromised fall impact safety, cooler surface temperatures, and maintenance freedom for athletes of all abilities in Cincinnati, Ohio and beyond.
+                The only synthetic turf system with a U.S. patent on rubber infill placement — delivering uncompromised fall impact safety, cooler surface temperatures, and maintenance freedom for athletes of all abilities nationwide.
                </motion.p>
               <div className="flex flex-wrap gap-4 justify-center">
                 <motion.button 
@@ -3824,12 +3824,6 @@ export default function App() {
                       </div>
                       <div>
                         <label className="font-bold text-sm text-[#E6E6E6] mb-2 block tracking-wider">
-                          Phone
-                        </label>
-                        <Input type="tel" placeholder="(555) 123-4567" className="bg-[#111111] border-[#4F73D6]/30 text-[#E6E6E6] placeholder:text-[#B7C6CF]" />
-                      </div>
-                      <div>
-                        <label className="font-bold text-sm text-[#E6E6E6] mb-2 block tracking-wider">
                           Project Type
                         </label>
                         <select className="w-full px-4 py-2 bg-[#111111] border border-[#4F73D6]/30 rounded-lg text-[#E6E6E6]">
@@ -3870,7 +3864,7 @@ export default function App() {
                         </div>
                         <div>
                           <h3 className="font-black text-lg mb-1 text-[#E6E6E6] tracking-wider">EMAIL</h3>
-                          <p className="text-[#B7C6CF]">info@pesfieldsystems.com</p>
+                          <p className="text-[#B7C6CF]">triffon@pesfieldsystems.com</p>
                           <p className="text-sm text-[#B7C6CF]">We respond within 24 hours</p>
                         </div>
                       </div>
@@ -3900,24 +3894,6 @@ export default function App() {
                             Sunday: Closed
                           </p>
                         </div>
-                      </div>
-                    </CardContent>
-                  </Card>
-
-                  {/* Social Media */}
-                  <Card className="bg-[#0A0F2C] border-[#4F73D6]/30">
-                    <CardContent className="p-8">
-                      <h3 className="font-black text-xl mb-6 text-[#E6E6E6] tracking-wider">CONNECT WITH US</h3>
-                      <div className="flex gap-4">
-                        <a href="#" className="w-12 h-12 bg-gradient-to-r from-[#1E3FD8] via-[#4F73D6] to-[#B7C6CF] rounded-lg flex items-center justify-center hover:opacity-80 transition-opacity">
-                          <Instagram className="w-6 h-6 text-white" />
-                        </a>
-                        <a href="#" className="w-12 h-12 bg-gradient-to-r from-[#1E3FD8] via-[#4F73D6] to-[#B7C6CF] rounded-lg flex items-center justify-center hover:opacity-80 transition-opacity">
-                          <Facebook className="w-6 h-6 text-white" />
-                        </a>
-                        <a href="#" className="w-12 h-12 bg-gradient-to-r from-[#1E3FD8] via-[#4F73D6] to-[#B7C6CF] rounded-lg flex items-center justify-center hover:opacity-80 transition-opacity">
-                          <Linkedin className="w-6 h-6 text-white" />
-                        </a>
                       </div>
                     </CardContent>
                   </Card>
