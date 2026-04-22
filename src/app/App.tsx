@@ -1211,7 +1211,7 @@ export default function App() {
                   maxWidth: '520px'
                 }}
               >
-                The only synthetic turf system with a U.S. patent on rubber infill placement — delivering uncompromised fall impact safety, cooler surface temperatures, and significantly lower maintenance costs for athletes of all abilities nationwide.
+                The only synthetic turf system with a U.S. patent on rubber infill placement delivering uncompromised fall impact safety, cooler surface temperatures, and significantly lower maintenance costs for athletes of all abilities nationwide.
                </motion.p>
               <div className="flex flex-wrap gap-4 justify-center">
                 <motion.button 
@@ -1496,7 +1496,7 @@ export default function App() {
                       color: 'rgba(255, 255, 255, 0.8)'
                     }}
                   >
-                    U.S. Patented Turf Technology — Cincinnati, Ohio
+                    U.S. Patented Turf Technology, Cincinnati, Ohio
                   </p>
 
                   {/* Heading */}
@@ -2683,7 +2683,7 @@ export default function App() {
                   </h2>
                   
                   <form action="https://formspree.io/f/mqewgabj" method="POST" className="space-y-5">
-                    <input type="hidden" name="subject" value="New Project Inquiry — PES Field Systems Website" />
+                    <input type="hidden" name="subject" value="New Project Inquiry - PES Field Systems Website" />
                     {/* Name Field */}
                     <div>
                       <label className="text-[#E6E6E6] block mb-2" style={{ fontSize: '14px', fontWeight: '600' }}>
@@ -3601,7 +3601,7 @@ export default function App() {
                       Get notified of upcoming project opportunities and RFPs. Join our contractor network to receive exclusive bidding invitations.
                     </p>
                     <form action="https://formspree.io/f/mqewgabj" method="POST" className="space-y-4">
-                      <input type="hidden" name="subject" value="Bidder List Request — PES Field Systems Website" />
+                      <input type="hidden" name="subject" value="Bidder List Request - PES Field Systems Website" />
                       <div>
                         <label className="font-bold text-sm text-[#E6E6E6] mb-2 block tracking-wider">Company Name</label>
                         <Input name="company" placeholder="Your company" className="bg-[#111111] border-[#4F73D6]/30 text-[#E6E6E6] placeholder:text-[#B7C6CF]" />
@@ -3645,7 +3645,7 @@ export default function App() {
                       REQUEST A CONSULTATION
                     </h2>
                     <form action="https://formspree.io/f/mqewgabj" method="POST" className="space-y-4">
-                      <input type="hidden" name="subject" value="Consultation Request — PES Field Systems Website" />
+                      <input type="hidden" name="subject" value="Consultation Request - PES Field Systems Website" />
                       <div className="grid grid-cols-2 gap-4">
                         <div>
                           <label className="font-bold text-sm text-[#E6E6E6] mb-2 block tracking-wider">First Name</label>
@@ -3863,7 +3863,7 @@ export default function App() {
                         La Salle High School required a comprehensive baseball field upgrade to meet the expectations of elite student-athletes while improving safety, consistency, and long-term performance. PES Field Systems partnered closely with school leadership to refresh the existing field, addressing surface wear, drainage challenges, and playability issues that had developed over time.
                       </p>
                       <p className="text-[#B7C6CF] text-lg leading-relaxed">
-                        The project focused on precision grading, improved drainage systems, and durable, environmentally responsible materials to create a high-performing baseball field capable of supporting competitive play, daily practices, and community use. The result is a refreshed athletic surface that reflects La Salle's commitment to excellence—providing athletes with a safe, reliable field designed to perform at the highest level.
+                        The project focused on precision grading, improved drainage systems, and durable, environmentally responsible materials to create a high-performing baseball field capable of supporting competitive play, daily practices, and community use. The result is a refreshed athletic surface that reflects La Salle's commitment to excellence providing athletes with a safe, reliable field designed to perform at the highest level.
                       </p>
                     </>
                   ) : project.slug === 'miracle-league-nw-montana' ? (
@@ -3878,19 +3878,19 @@ export default function App() {
                   ) : project.slug === 'miracle-league-plymouth' ? (
                     <>
                       <p className="text-[#B7C6CF] text-lg leading-relaxed mb-4 font-semibold">
-                        The Miracle League of Plymouth enriches the community by offering inclusive recreation—especially baseball—for individuals with special needs and their families. Through player and "buddy" partnerships, the league promotes friendship, social development, and lasting connections.
+                        The Miracle League of Plymouth enriches the community by offering inclusive recreation especially baseball for individuals with special needs and their families. Through player and "buddy" partnerships, the league promotes friendship, social development, and lasting connections.
                       </p>
                       <div className="grid md:grid-cols-2 gap-8 mt-8">
                         <div className="bg-[#111111] border border-[#4F73D6]/30 rounded-lg p-6">
                           <h3 className="text-[#4F73D6] text-xl font-bold mb-3 tracking-wide">Before the Build</h3>
                           <p className="text-[#B7C6CF] leading-relaxed">
-                            Before construction began, Plymouth lacked an adaptive baseball field that could safely support athletes with special needs. The community envisioned a space where every child—regardless of ability—could experience the game in a safe, inclusive environment. Working alongside the Miracle League of Plymouth, we prepared for a field that would remove physical barriers and create a welcoming space for connection, confidence, and fun.
+                            Before construction began, Plymouth lacked an adaptive baseball field that could safely support athletes with special needs. The community envisioned a space where every child regardless of ability could experience the game in a safe, inclusive environment. Working alongside the Miracle League of Plymouth, we prepared for a field that would remove physical barriers and create a welcoming space for connection, confidence, and fun.
                           </p>
                         </div>
                         <div className="bg-[#111111] border border-[#4F73D6]/30 rounded-lg p-6">
                           <h3 className="text-[#4F73D6] text-xl font-bold mb-3 tracking-wide">After the Build</h3>
                           <p className="text-[#B7C6CF] leading-relaxed">
-                            The finished field features a custom rubberized turf surface designed for accessibility, safety, and all-weather play. Our team completed the surfacing and detail work to meet Miracle League standards, ensuring smooth mobility for wheelchairs and walkers while maintaining a professional look and feel. Today, the field is more than just a place to play—it's a space where inclusion thrives and every player gets their moment at bat.
+                            The finished field features a custom rubberized turf surface designed for accessibility, safety, and all-weather play. Our team completed the surfacing and detail work to meet Miracle League standards, ensuring smooth mobility for wheelchairs and walkers while maintaining a professional look and feel. Today, the field is more than just a place to play its a space where inclusion thrives and every player gets their moment at bat.
                           </p>
                         </div>
                       </div>
@@ -3994,7 +3994,7 @@ export default function App() {
                             Finished Field & Community Impact
                           </h3>
                           <p className="text-[#B7C6CF] leading-relaxed">
-                            The completed field delivers a professional-quality playing environment built for long-term performance and reduced maintenance. The upgraded facility now supports regular practices, competitive events, and community use—providing a reliable athletic space designed to last.
+                            The completed field delivers a professional-quality playing environment built for long-term performance and reduced maintenance. The upgraded facility now supports regular practices, competitive events, and community use providing a reliable athletic space designed to last.
                           </p>
                         </div>
                       </div>
