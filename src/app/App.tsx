@@ -539,7 +539,7 @@ export default function App() {
         }`}
         style={{ background: '#000000' }}
       >
-        <div className="flex flex-col items-center gap-8">
+        <div className="flex flex-col items-center gap-6 pt-48 pb-12 overflow-y-auto h-full w-full">
           <button
             onClick={() => {
               setCurrentPage('services');
@@ -1141,11 +1141,11 @@ export default function App() {
           <div className="absolute inset-0">
             <div
               style={{
-                transform: `translateY(${scrollY * 0.5}px)`,
-                transition: 'transform 0.1s ease-out',
-                height: '120%',
-                width: '100%',
-                position: 'absolute',
+                transform: window.innerWidth > 768 ? `translateY(${scrollY * 0.5}px)` : 'none',
+                  transition: 'transform 0.1s ease-out',
+                  height: '120%',
+                  width: '100%',
+                  position: 'absolute',
                 top: '-10%',
               }}
             >
@@ -1799,7 +1799,7 @@ export default function App() {
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true }}
                 transition={{ duration: 0.8, delay: 0.4 }}
-                className="flex flex-wrap justify-center items-center gap-8 mb-12"
+                className="grid grid-cols-2 gap-8 mb-12 max-w-sm mx-auto md:flex md:flex-wrap md:justify-center md:items-center md:max-w-none"
                 style={{
                   borderTop: '1px solid rgba(79, 115, 214, 0.3)',
                   borderBottom: '1px solid rgba(79, 115, 214, 0.3)',
@@ -1830,8 +1830,8 @@ export default function App() {
                   </div>
                 </div>
 
-                <div
-                  className="h-12 w-px"
+               <div
+                  className="hidden md:block h-12 w-px"
                   style={{ background: 'rgba(79, 115, 214, 0.3)' }}
                 />
 
