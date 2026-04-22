@@ -1140,7 +1140,7 @@ export default function App() {
           <div className="absolute inset-0">
             <div
               style={{
-                transform: window.innerWidth > 768 ? `translateY(${scrollY * 0.5}px)` : 'none',
+                transform: typeof window !== 'undefined' && window.innerWidth > 768 ? `translateY(${scrollY * 0.5}px)` : 'none',
                   transition: 'transform 0.1s ease-out',
                   height: '120%',
                   width: '100%',
