@@ -3739,8 +3739,7 @@ export default function App() {
         {/* Map Section */}
         <section className="h-96 bg-[#0A0F2C] border-t border-[#B7C6CF]/30">
           <iframe
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3090.9384706863935!2d-84.56486892346795!3d39.23856997167895!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8841b2f8a8a8a8a9%3A0x1234567890abcdef!2s3460%20Oakmeadow%20Ln%2C%20Cincinnati%2C%20OH%2045239!5e0!3m2!1sen!2sus!4v1234567890123!5m2!1sen!2sus"
-            width="100%"
+src={`https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3090.9384706863935!2d-84.56486892346795!3d39.23856997167895!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8841b2f8a8a8a8a9%3A0x1234567890abcdef!2s3460%20Oakmeadow%20Ln%2C%20Cincinnati%2C%20OH%2045239!5e0!3m2!1sen!2sus!4v1234567890123!5m2!1sen!2sus`}            width="100%"
             height="100%"
             style={{ border: 0 }}
             allowFullScreen
