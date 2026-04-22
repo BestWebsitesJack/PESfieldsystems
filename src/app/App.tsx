@@ -1279,7 +1279,7 @@ export default function App() {
             style={{ transform: 'translateX(-50%)' }}
           >
             <div
-              className="w-6 h-10 border-2 className="w-6 h-10 border-2 border-white rounded-full flex items-start justify-center p-2"border-[#1E3FD8] rounded-full flex items-start justify-center p-2"
+              className="w-6 h-10 border-2 border-white rounded-full flex items-start justify-center p-2"
             >
               <motion.div
                 className="w-1.5 h-1.5 bg-white rounded-full"
