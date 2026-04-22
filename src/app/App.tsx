@@ -3600,45 +3600,32 @@ export default function App() {
                     <p className="text-[#B7C6CF] mb-6 leading-relaxed">
                       Get notified of upcoming project opportunities and RFPs. Join our contractor network to receive exclusive bidding invitations.
                     </p>
-                    <div className="space-y-4">
+                    <form action="https://formspree.io/f/mqewgabj" method="POST" className="space-y-4">
+                      <input type="hidden" name="subject" value="Bidder List Request — PES Field Systems Website" />
                       <div>
-                        <label className="font-bold text-sm text-[#E6E6E6] mb-2 block tracking-wider">
-                          Company Name
-                        </label>
-                        <Input placeholder="Your company" className="bg-[#111111] border-[#4F73D6]/30 text-[#E6E6E6] placeholder:text-[#B7C6CF]" />
+                        <label className="font-bold text-sm text-[#E6E6E6] mb-2 block tracking-wider">Company Name</label>
+                        <Input name="company" placeholder="Your company" className="bg-[#111111] border-[#4F73D6]/30 text-[#E6E6E6] placeholder:text-[#B7C6CF]" />
                       </div>
                       <div>
-                        <label className="font-bold text-sm text-[#E6E6E6] mb-2 block tracking-wider">
-                          Primary Contact
-                        </label>
-                        <Input placeholder="Full name" className="bg-[#111111] border-[#4F73D6]/30 text-[#E6E6E6] placeholder:text-[#B7C6CF]" />
+                        <label className="font-bold text-sm text-[#E6E6E6] mb-2 block tracking-wider">Primary Contact</label>
+                        <Input name="name" placeholder="Full name" className="bg-[#111111] border-[#4F73D6]/30 text-[#E6E6E6] placeholder:text-[#B7C6CF]" />
                       </div>
                       <div>
-                        <label className="font-bold text-sm text-[#E6E6E6] mb-2 block tracking-wider">
-                          Email
-                        </label>
-                        <Input type="email" placeholder="email@company.com" className="bg-[#111111] border-[#4F73D6]/30 text-[#E6E6E6] placeholder:text-[#B7C6CF]" />
+                        <label className="font-bold text-sm text-[#E6E6E6] mb-2 block tracking-wider">Email</label>
+                        <Input type="email" name="email" placeholder="email@company.com" className="bg-[#111111] border-[#4F73D6]/30 text-[#E6E6E6] placeholder:text-[#B7C6CF]" />
                       </div>
                       <div>
-                        <label className="font-bold text-sm text-[#E6E6E6] mb-2 block tracking-wider">
-                          Service Area
-                        </label>
-                        <Input placeholder="States/regions you serve" className="bg-[#111111] border-[#4F73D6]/30 text-[#E6E6E6] placeholder:text-[#B7C6CF]" />
+                        <label className="font-bold text-sm text-[#E6E6E6] mb-2 block tracking-wider">Service Area</label>
+                        <Input name="service-area" placeholder="States/regions you serve" className="bg-[#111111] border-[#4F73D6]/30 text-[#E6E6E6] placeholder:text-[#B7C6CF]" />
                       </div>
                       <div>
-                        <label className="font-bold text-sm text-[#E6E6E6] mb-2 block tracking-wider">
-                          Specialties
-                        </label>
-                        <Textarea 
-                          placeholder="List your construction specialties..."
-                          rows={3}
-                          className="bg-[#111111] border-[#4F73D6]/30 text-[#E6E6E6] placeholder:text-[#B7C6CF]"
-                        />
+                        <label className="font-bold text-sm text-[#E6E6E6] mb-2 block tracking-wider">Specialties</label>
+                        <Textarea name="specialties" placeholder="List your construction specialties..." rows={3} className="bg-[#111111] border-[#4F73D6]/30 text-[#E6E6E6] placeholder:text-[#B7C6CF]" />
                       </div>
-                      <Button className="w-full bg-[#1E3FD8] text-white font-black hover:bg-[#4F73D6] tracking-wider">
+                      <button type="submit" className="w-full bg-[#1E3FD8] text-white font-black hover:bg-[#4F73D6] tracking-wider py-3 rounded-md transition-colors">
                         JOIN BIDDER LIST
-                      </Button>
-                    </div>
+                      </button>
+                    </form>
                   </CardContent>
                 </Card>
               </div>
@@ -3651,49 +3638,27 @@ export default function App() {
     );
   }
 
-  // CONTACT PAGE
-  if (currentPage === 'contact') {
-    return (
-      <div className="min-h-screen" style={{ background: '#0A1428' }}>
-        <Navigation />
-
-        <section className="pt-48 pb-24 bg-black">
-          <div className="container mx-auto px-4">
-            <div className="max-w-6xl mx-auto">
-              <div className="text-center mb-16">
-                <h1 className="text-6xl md:text-7xl font-black text-[#E6E6E6] mb-4 tracking-tight">
-                  LET'S BUILD TOGETHER
-                </h1>
-                <p className="text-xl text-[#B7C6CF]">
-                  Ready to build your synthetic turf field? Contact PES Field Systems to discuss your project — we work with schools, municipalities, Miracle League organizations, daycares, and athletic programs nationwide.
-                </p>
-              </div>
-
-              <div className="grid md:grid-cols-2 gap-12">
-                {/* Contact Form */}
+  {/* Contact Form */}
                 <Card className="bg-[#0A0F2C] border-[#4F73D6]/30">
                   <CardContent className="p-8">
                     <h2 className="text-3xl font-black text-[#E6E6E6] mb-8 tracking-tight">
                       REQUEST A CONSULTATION
                     </h2>
-                    <div className="space-y-4">
+                    <form action="https://formspree.io/f/mqewgabj" method="POST" className="space-y-4">
+                      <input type="hidden" name="subject" value="Consultation Request — PES Field Systems Website" />
                       <div className="grid grid-cols-2 gap-4">
                         <div>
-                          <label className="font-bold text-sm text-[#E6E6E6] mb-2 block tracking-wider">
-                            First Name
-                          </label>
-                          <Input placeholder="John" className="bg-[#111111] border-[#4F73D6]/30 text-[#E6E6E6] placeholder:text-[#B7C6CF]" />
+                          <label className="font-bold text-sm text-[#E6E6E6] mb-2 block tracking-wider">First Name</label>
+                          <Input name="first-name" placeholder="John" className="bg-[#111111] border-[#4F73D6]/30 text-[#E6E6E6] placeholder:text-[#B7C6CF]" />
                         </div>
                         <div>
-                          <label className="font-bold text-sm text-[#E6E6E6] mb-2 block tracking-wider">
-                            Last Name
-                          </label>
-                          <Input placeholder="Doe" className="bg-[#111111] border-[#4F73D6]/30 text-[#E6E6E6] placeholder:text-[#B7C6CF]" />
+                          <label className="font-bold text-sm text-[#E6E6E6] mb-2 block tracking-wider">Last Name</label>
+                          <Input name="last-name" placeholder="Doe" className="bg-[#111111] border-[#4F73D6]/30 text-[#E6E6E6] placeholder:text-[#B7C6CF]" />
                         </div>
                       </div>
                       <div>
                         <label className="font-bold text-sm text-[#E6E6E6] mb-2 block tracking-wider">Email</label>
-                        <Input type="email" placeholder="john@example.com" className="bg-[#111111] border-[#4F73D6]/30 text-[#E6E6E6] placeholder:text-[#B7C6CF]" />
+                        <Input type="email" name="email" placeholder="john@example.com" className="bg-[#111111] border-[#4F73D6]/30 text-[#E6E6E6] placeholder:text-[#B7C6CF]" />
                       </div>
                       <div>
                         <label className="font-bold text-sm text-[#E6E6E6] mb-2 block tracking-wider">Phone <span className="text-[#B7C6CF] font-normal">(optional)</span></label>
@@ -3701,8 +3666,8 @@ export default function App() {
                       </div>
                       <div>
                         <label className="font-bold text-sm text-[#E6E6E6] mb-2 block tracking-wider">Project Type</label>
-                        <select className="w-full px-4 py-2 bg-[#111111] border border-[#4F73D6]/30 rounded-lg text-[#E6E6E6]">
-                          <option>Baseball / Softball </option>
+                        <select name="project-type" className="w-full px-4 py-2 bg-[#111111] border border-[#4F73D6]/30 rounded-lg text-[#E6E6E6]">
+                          <option>Baseball / Softball</option>
                           <option>Soccer / Lacrosse</option>
                           <option>Football</option>
                           <option>Adaptive Field</option>
@@ -3711,23 +3676,16 @@ export default function App() {
                         </select>
                       </div>
                       <div>
-                        <label className="font-bold text-sm text-[#E6E6E6] mb-2 block tracking-wider">
-                          Message
-                        </label>
-                        <Textarea 
-                          placeholder="Tell us about your project..."
-                          rows={5}
-                          className="bg-[#111111] border-[#4F73D6]/30 text-[#E6E6E6] placeholder:text-[#B7C6CF]"
-                        />
+                        <label className="font-bold text-sm text-[#E6E6E6] mb-2 block tracking-wider">Message</label>
+                        <Textarea name="message" placeholder="Tell us about your project..." rows={5} className="bg-[#111111] border-[#4F73D6]/30 text-[#E6E6E6] placeholder:text-[#B7C6CF]" />
                       </div>
-                      <Button className="w-full bg-[#1E3FD8] text-white font-black text-lg hover:bg-[#4F73D6] py-6 tracking-wider">
-                        <Send className="mr-2 w-5 h-5" />
+                      <button type="submit" className="w-full bg-[#1E3FD8] text-white font-black text-lg hover:bg-[#4F73D6] py-4 tracking-wider rounded-md transition-colors flex items-center justify-center gap-2">
+                        <Send className="w-5 h-5" />
                         SEND MESSAGE
-                      </Button>
-                    </div>
+                      </button>
+                    </form>
                   </CardContent>
                 </Card>
-
                 {/* Contact Info */}
                 <div className="space-y-8">
                   <Card className="bg-[#0A0F2C] border-[#4F73D6]/30">
