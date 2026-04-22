@@ -3543,7 +3543,7 @@ export default function App() {
                     <h2 className="text-3xl font-black text-[#E6E6E6] mb-8 tracking-tight">
                       PARTNERSHIP INQUIRY
                     </h2>
-                    <div className="space-y-4">
+                    <form action="https://formspree.io/f/mqewgabj" method="POST" className="space-y-4">n                      <input type="hidden" name="subject" value="Partnership Inquiry - PES Field Systems Website" />
                       <div>
                         <label className="font-bold text-sm text-[#E6E6E6] mb-2 block tracking-wider">
                           Company Name
@@ -3583,11 +3583,11 @@ export default function App() {
                           className="bg-[#111111] border-[#4F73D6]/30 text-[#E6E6E6] placeholder:text-[#B7C6CF]"
                         />
                       </div>
-                      <Button className="w-full bg-[#1E3FD8] text-white font-black hover:bg-[#4F73D6] tracking-wider">
+                      <button type="submit" className="w-full bg-[#1E3FD8] text-white font-black hover:bg-[#4F73D6] tracking-wider py-3 rounded-md transition-colors flex items-center justify-center gap-2">
                         <Send className="mr-2 w-4 h-4" />
                         SUBMIT INQUIRY
-                      </Button>
-                    </div>
+                      </button>
+                    </form>
                   </CardContent>
                 </Card>
 
