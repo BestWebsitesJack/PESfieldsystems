@@ -2682,8 +2682,8 @@ export default function App() {
                     Tell Us About Your Project
                   </h2>
                   
-                  <form data-netlify="true" name="contact" className="space-y-5">
-                    <input type="hidden" name="form-name" value="contact" />
+                  <form action="https://formspree.io/f/mqewgabj" method="POST" className="space-y-5">
+                    <input type="hidden" name="subject" value="New Project Inquiry — PES Field Systems Website" />
                     {/* Name Field */}
                     <div>
                       <label className="text-[#E6E6E6] block mb-2" style={{ fontSize: '14px', fontWeight: '600' }}>
