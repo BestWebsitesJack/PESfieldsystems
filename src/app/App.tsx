@@ -802,8 +802,7 @@ export default function App() {
                   lineHeight: '1.7'
                 }}
               >
-                PES Field Systems partners closely with each customer, collaboratively determining the best project delivery approach to align with budget, permitting, and schedule requirements. Using in-house construction resources or licensed subcontractors under our supervision, we deliver custom athletic fields and outdoor recreation spaces with industry-standard performance warranties.
-              </p>
+              PES Field Systems partners closely with schools, municipalities, Miracle League organizations, daycares, and athletic programs nationwide to design and build synthetic turf fields that meet your budget, permitting, and schedule requirements. Using in-house construction resources or licensed subcontractors under our direct supervision, we deliver custom athletic fields and outdoor recreation spaces with industry-standard performance warranties.              </p>
             </div>
           </div>
         </section>
@@ -3293,7 +3292,7 @@ export default function App() {
                   lineHeight: '1.7'
                 }}
               >
-                Experienced leaders driving innovation in synthetic turf technology
+                The experienced team behind America's only patented synthetic turf infill system — building safer fields for schools, Miracle League organizations, municipalities, and athletic programs nationwide.
               </p>
             </div>
           </div>
@@ -3364,7 +3363,7 @@ export default function App() {
                   PROJECT GALLERY
                 </h1>
                 <p className="text-xl text-[#B7C6CF]">
-                  Explore our portfolio of completed installations
+                  Explore our completed synthetic turf field installations for schools, Miracle League organizations, municipalities, and athletic programs nationwide
                 </p>
               </div>
 
@@ -3533,7 +3532,7 @@ export default function App() {
                   PARTNER WITH US
                 </h1>
                 <p className="text-xl text-[#B7C6CF]">
-                  Join our network of suppliers, contractors, and bidders
+                  Join our nationwide network of synthetic turf contractors, suppliers, and bidders. We partner with general contractors, site work specialists, and trades to deliver field installations for schools, municipalities, Miracle League organizations, and athletic programs across the country.
                 </p>
               </div>
 
@@ -3666,7 +3665,7 @@ export default function App() {
                   LET'S BUILD TOGETHER
                 </h1>
                 <p className="text-xl text-[#B7C6CF]">
-                  Ready to transform your field? Get in touch with our team today
+                  Ready to build your synthetic turf field? Contact PES Field Systems to discuss your project — we work with schools, municipalities, Miracle League organizations, daycares, and athletic programs nationwide.
                 </p>
               </div>
 
