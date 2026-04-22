@@ -2731,7 +2731,7 @@ export default function App() {
                     {/* Phone Field (Optional) */}
                     <div>
                       <label className="text-[#E6E6E6] block mb-2" style={{ fontSize: '14px', fontWeight: '600' }}>
-                        Phone <span className="text-[#B7C6CF]">(optional)</span>
+                        Phone <span className="text-[#B7C6CF]"></span>
                       </label>
                       <input 
                         type="tel"
@@ -3692,17 +3692,17 @@ export default function App() {
                         </div>
                       </div>
                       <div>
-                        <label className="font-bold text-sm text-[#E6E6E6] mb-2 block tracking-wider">
-                          Email
-                        </label>
+                        <label className="font-bold text-sm text-[#E6E6E6] mb-2 block tracking-wider">Email</label>
                         <Input type="email" placeholder="john@example.com" className="bg-[#111111] border-[#4F73D6]/30 text-[#E6E6E6] placeholder:text-[#B7C6CF]" />
                       </div>
                       <div>
-                        <label className="font-bold text-sm text-[#E6E6E6] mb-2 block tracking-wider">
-                          Project Type
-                        </label>
+                        <label className="font-bold text-sm text-[#E6E6E6] mb-2 block tracking-wider">Phone <span className="text-[#B7C6CF] font-normal">(optional)</span></label>
+                        <Input type="tel" name="phone" placeholder="Your phone number" className="bg-[#111111] border-[#4F73D6]/30 text-[#E6E6E6] placeholder:text-[#B7C6CF]" />
+                      </div>
+                      <div>
+                        <label className="font-bold text-sm text-[#E6E6E6] mb-2 block tracking-wider">Project Type</label>
                         <select className="w-full px-4 py-2 bg-[#111111] border border-[#4F73D6]/30 rounded-lg text-[#E6E6E6]">
-                          <option>Baseball / Softball</option>
+                          <option>Baseball / Softball </option>
                           <option>Soccer / Lacrosse</option>
                           <option>Football</option>
                           <option>Adaptive Field</option>
