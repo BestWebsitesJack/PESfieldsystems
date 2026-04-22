@@ -31,11 +31,11 @@ import floridaImg2 from '../imports/MLCentralFlorida2-1.jpg';
 import floridaImg3 from '../imports/MLCentralFlorida3.jpg';
 import floridaImg4 from '../imports/MLCentralFloridaB4.jpg';
 import floridaImg5 from '../imports/MLCentralFloridaB5.jpg';
-import lasalleClientLogo from '../imports/Screen_Shot_2026-04-11_at_12.05.08_PM-1.png';
-import client2Logo from '../imports/Screen_Shot_2026-04-16_at_3.53.13_PM.png';
-import client3Logo from '../imports/Screen_Shot_2026-04-16_at_3.53.37_PM.png';
-import client4Logo from '../imports/Screen_Shot_2026-04-16_at_3.53.53_PM.png';
-import client5Logo from '../imports/Screen_Shot_2026-04-16_at_3.54.11_PM.png';
+import lasalleClient from '../imports/Screen_Shot_2026-04-11_at_12.05.08_PM-1.png';
+import client2 from '../imports/Screen_Shot_2026-04-16_at_3.53.13_PM.png';
+import client3 from '../imports/Screen_Shot_2026-04-16_at_3.53.37_PM.png';
+import client4 from '../imports/Screen_Shot_2026-04-16_at_3.53.53_PM.png';
+import client5 from '../imports/Screen_Shot_2026-04-16_at_3.54.11_PM.png';
 import { Button } from './components/ui/button';
 import { Card, CardContent } from './components/ui/card';
 import { Badge } from './components/ui/badge';
@@ -626,7 +626,7 @@ export default function App() {
     <footer 
       className="text-[#E6E6E6]"
       style={{
-        background: '#0A1428',
+        background: '#000000',
         borderTop: '1px solid rgba(30, 63, 216, 0.3)'
       }}
     >
@@ -1172,7 +1172,7 @@ export default function App() {
           <div className="container relative mx-auto px-6 py-24">
             <div className="max-w-4xl mx-auto text-center">
               <motion.p 
-                className="text-[#4F73D6] mb-6 uppercase"
+                className="text-white mb-6 uppercase"
                 initial={{ opacity: 0, y: 20 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ delay: 0.1, duration: 0.6 }}
@@ -1212,7 +1212,7 @@ export default function App() {
                   maxWidth: '520px'
                 }}
               >
-                The only synthetic turf system with a U.S. patent on rubber infill placement — delivering uncompromised fall impact safety, cooler surface temperatures, and maintenance freedom for athletes of all abilities nationwide.
+                The only synthetic turf system with a U.S. patent on rubber infill placement — delivering uncompromised fall impact safety, cooler surface temperatures, and significantly lower maintenance costs for athletes of all abilities nationwide.
                </motion.p>
               <div className="flex flex-wrap gap-4 justify-center">
                 <motion.button 
@@ -1237,7 +1237,7 @@ export default function App() {
                 </motion.button>
                 
                 <motion.button 
-                  className="bg-transparent text-[#1E3FD8] border-2 border-[#1E3FD8] hover:bg-[#1E3FD8]/10 transition-colors duration-200"
+                 className="bg-transparent text-white border-2 border-white hover:bg-white/10 transition-colors duration-200"
                   onClick={() => setCurrentPage('gallery')}
                   whileHover={{ 
                     scale: 1.05,
@@ -1279,10 +1279,10 @@ export default function App() {
             style={{ transform: 'translateX(-50%)' }}
           >
             <div
-              className="w-6 h-10 border-2 border-[#1E3FD8] rounded-full flex items-start justify-center p-2"
+              className="w-6 h-10 border-2 className="w-6 h-10 border-2 border-white rounded-full flex items-start justify-center p-2"border-[#1E3FD8] rounded-full flex items-start justify-center p-2"
             >
               <motion.div
-                className="w-1.5 h-1.5 bg-[#1E3FD8] rounded-full"
+                className="w-1.5 h-1.5 bg-white rounded-full"
                 animate={{ y: [0, 16, 0] }}
                 transition={{
                   repeat: Infinity,
@@ -1570,7 +1570,7 @@ export default function App() {
                   {/* CTA Link */}
                   <button
                     onClick={() => setCurrentPage('technology')}
-                    className="text-[#1E3FD8] inline-flex items-center gap-2 hover:text-[#4F73D6] transition-colors"
+                    className="text-white inline-flex items-center gap-2 hover:text-[#B7C6CF] transition-colors"
                     style={{
                       fontSize: '16px',
                       fontWeight: '600'
@@ -1713,7 +1713,7 @@ export default function App() {
                   </h2>
                   <div className="w-24 h-1 bg-[#1E3FD8] mx-auto mb-6"></div>
                   <p className="text-xl text-[#B7C6CF] max-w-2xl mx-auto">
-                    Every PES installation is built on these fundamental principles
+                    Every PES Field Systems installation is built on these fundamental principles
                   </p>
                 </motion.div>
               </div>
@@ -1816,7 +1816,7 @@ export default function App() {
                       fontSize: '32px'
                     }}
                   >
-                    50+
+                    25+
                   </div>
                   <div
                     className="text-[#B7C6CF]"
@@ -1844,7 +1844,7 @@ export default function App() {
                       fontSize: '32px'
                     }}
                   >
-                    20°
+                    Controlled
                   </div>
                   <div
                     className="text-[#B7C6CF]"
@@ -1854,7 +1854,7 @@ export default function App() {
                       textTransform: 'uppercase'
                     }}
                   >
-                    Cooler Surfaces
+                    Heat Index
                   </div>
                 </div>
 
@@ -2104,27 +2104,29 @@ export default function App() {
                         />
                       </div>
                       {/* Content Area */}
-                      <div style={{ padding: '16px' }}>
-                        <h3
-                          className="text-[#E6E6E6] mb-1"
-                          style={{
-                            fontFamily: 'Inter, sans-serif',
-                            fontWeight: '700',
-                            fontSize: '14px',
-                            lineHeight: '1.3'
-                          }}
-                        >
-                          {project.name}
-                        </h3>
-                        <p className="text-[#B7C6CF] mb-1" style={{ fontSize: '12px' }}>
-                          {project.location}
-                        </p>
-                        <p
-                          className="text-[#4F73D6] mb-3"
-                          style={{ fontSize: '12px', fontWeight: '600' }}
-                        >
-                          {project.type}
-                        </p>
+                      <div style={{ padding: '16px', display: 'flex', flexDirection: 'column', justifyContent: 'space-between', minHeight: '140px' }}>
+                        <div>
+                          <h3
+                            className="text-[#E6E6E6] mb-1"
+                            style={{
+                              fontFamily: 'Inter, sans-serif',
+                              fontWeight: '700',
+                              fontSize: '14px',
+                              lineHeight: '1.3'
+                            }}
+                          >
+                            {project.name}
+                          </h3>
+                          <p className="text-[#B7C6CF] mb-1" style={{ fontSize: '12px' }}>
+                            {project.location}
+                          </p>
+                          <p
+                            className="text-[#4F73D6] mb-3"
+                            style={{ fontSize: '12px', fontWeight: '600' }}
+                          >
+                            {project.type}
+                          </p>
+                        </div>
                         <button
                           onClick={() => {
                             setCurrentProjectSlug(project.slug);
@@ -2665,54 +2667,6 @@ export default function App() {
                       deserve better.
                     </p>
                     
-                    {/* Placeholder Supplier Logos */}
-                    <div className="grid grid-cols-3 gap-4">
-                      <div 
-                        style={{
-                          border: '1px solid rgba(30, 63, 216, 0.3)',
-                          borderRadius: '4px',
-                          padding: '24px 16px',
-                          display: 'flex',
-                          alignItems: 'center',
-                          justifyContent: 'center',
-                          minHeight: '80px'
-                        }}
-                      >
-                        <span className="text-[#1E3FD8]/50" style={{ fontSize: '12px', fontWeight: '600' }}>
-                          LOGO
-                        </span>
-                      </div>
-                      <div 
-                        style={{
-                          border: '1px solid rgba(30, 63, 216, 0.3)',
-                          borderRadius: '4px',
-                          padding: '24px 16px',
-                          display: 'flex',
-                          alignItems: 'center',
-                          justifyContent: 'center',
-                          minHeight: '80px'
-                        }}
-                      >
-                        <span className="text-[#1E3FD8]/50" style={{ fontSize: '12px', fontWeight: '600' }}>
-                          LOGO
-                        </span>
-                      </div>
-                      <div 
-                        style={{
-                          border: '1px solid rgba(30, 63, 216, 0.3)',
-                          borderRadius: '4px',
-                          padding: '24px 16px',
-                          display: 'flex',
-                          alignItems: 'center',
-                          justifyContent: 'center',
-                          minHeight: '80px'
-                        }}
-                      >
-                        <span className="text-[#1E3FD8]/50" style={{ fontSize: '12px', fontWeight: '600' }}>
-                          LOGO
-                        </span>
-                      </div>
-                    </div>
                   </div>
                 </div>
 
