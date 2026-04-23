@@ -3545,7 +3545,8 @@ export default function App() {
                       PARTNERSHIP INQUIRY
                     </h2>
                     <form action="https://api.web3forms.com/submit" method="POST" className="space-y-4">
-                      <input type="hidden" name="access_key" value="77400af3-9113-4b92-b903-07e1f50df9a4" />n                     <input type="hidden" name="subject" value="Partnership Inquiry - PES Field Systems Website" />
+                      <input type="hidden" name="access_key" value="77400af3-9113-4b92-b903-07e1f50df9a4" />
+                      <input type="hidden" name="subject" value="Partnership Inquiry - PES Field Systems Website" />
                       <div>
                         <label className="font-bold text-sm text-[#E6E6E6] mb-2 block tracking-wider">
                           Company Name
