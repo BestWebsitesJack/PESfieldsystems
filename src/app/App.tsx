@@ -3566,7 +3566,7 @@ export default function App() {
                         <label className="font-bold text-sm text-[#E6E6E6] mb-2 block tracking-wider">
                           Partnership Type
                         </label>
-                        <select name="partnership-type" className="w-full px-4 py-2 bg-[#111111]" border border-[#4F73D6]/30 rounded-lg text-[#E6E6E6]">
+                          <select name="partnership-type" className="w-full px-4 py-2 bg-[#111111] border border-[#4F73D6]/30 rounded-lg text-[#E6E6E6]">
                           <option>Supplier</option>
                           <option>Contractor</option>
                           <option>Distributor</option>
