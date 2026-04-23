@@ -3548,25 +3548,25 @@ export default function App() {
                         <label className="font-bold text-sm text-[#E6E6E6] mb-2 block tracking-wider">
                           Company Name
                         </label>
-                        <Input placeholder="Your company" className="bg-[#111111] border-[#4F73D6]/30 text-[#E6E6E6] placeholder:text-[#B7C6CF]" />
+                        <Input name="company" placeholder="Your company" className="bg-[#111111] border-[#4F73D6]/30 text-[#E6E6E6] placeholder:text-[#B7C6CF]" />
                       </div>
                       <div>
                         <label className="font-bold text-sm text-[#E6E6E6] mb-2 block tracking-wider">
                           Contact Person
                         </label>
-                        <Input placeholder="Full name" className="bg-[#111111] border-[#4F73D6]/30 text-[#E6E6E6] placeholder:text-[#B7C6CF]" />
+                        <Input name="name" placeholder="Full name" className="bg-[#111111] border-[#4F73D6]/30 text-[#E6E6E6] placeholder:text-[#B7C6CF]" />
                       </div>
                       <div>
                         <label className="font-bold text-sm text-[#E6E6E6] mb-2 block tracking-wider">
                           Email
                         </label>
-                        <Input type="email" placeholder="email@company.com" className="bg-[#111111] border-[#4F73D6]/30 text-[#E6E6E6] placeholder:text-[#B7C6CF]" />
+                        <Input type="email" name="email" placeholder="email@company.com" className="bg-[#111111] border-[#4F73D6]/30 text-[#E6E6E6] placeholder:text-[#B7C6CF]" />
                       </div>
                       <div>
                         <label className="font-bold text-sm text-[#E6E6E6] mb-2 block tracking-wider">
                           Partnership Type
                         </label>
-                        <select className="w-full px-4 py-2 bg-[#111111] border border-[#4F73D6]/30 rounded-lg text-[#E6E6E6]">
+                        <select name="partnership-type" className="w-full px-4 py-2 bg-[#111111]" border border-[#4F73D6]/30 rounded-lg text-[#E6E6E6]">
                           <option>Supplier</option>
                           <option>Contractor</option>
                           <option>Distributor</option>
