@@ -212,13 +212,13 @@ export default function App() {
     {
       icon: Trophy,
       title: 'Baseball & Softball Fields',
-      desc: 'Professional-grade diamonds feature permanent or movable pitching mounds and bases, with a poured-in-place rubber composite layer beneath the turf for consistent fielding and sliding performance.',
+      desc: 'Professional-grade diamonds feature permanent or movable pitching mounds and bases, with a poured-in-place composite layer beneath the turf for consistent fielding and sliding performance.',
       completed: true
     },
     {
       icon: Trophy,
       title: 'Soccer & Lacrosse Fields',
-      desc: 'Engineered to reduce heat index, deliver consistent bounce and playability, and eliminate granular rubber infill from shoes and equipment.',
+      desc: 'Engineered to reduce heat index, deliver consistent bounce and playability, and eliminate granular infill from shoes and equipment.',
       completed: false
     },
     {
@@ -350,7 +350,7 @@ export default function App() {
   const faqs = [
     {
       q: 'What makes PES Field Systems different from other turf companies?',
-      a: 'Our U.S. patented technology regulates granular rubber infill placement beneath the turf, delivering superior fall impact safety, Controlled Heat Index °F, and enhanced playability that traditional systems simply cannot match.',
+      a: 'Our U.S. patented technology regulates granular infill placement beneath the turf, delivering superior fall impact safety, Controlled Heat Index °F, and enhanced playability that traditional systems simply cannot match.',
     },
     {
       q: 'How quickly can you complete a project?',
@@ -839,7 +839,7 @@ export default function App() {
                     Baseball & Softball Fields
                   </h3>
                   <p className="text-[#B7C6CF]" style={{ fontSize: '15px', lineHeight: '1.6' }}>
-                    Professional-grade diamonds feature permanent or movable pitching mounds and bases, with a poured-in-place rubber composite layer beneath the turf for consistent fielding and sliding performance.
+                    Professional-grade diamonds feature permanent or movable pitching mounds and bases, with a poured-in-place composite layer beneath the turf for consistent fielding and sliding performance.
                   </p>
                 </motion.div>
 
@@ -870,7 +870,7 @@ export default function App() {
                     Soccer & Lacrosse Fields
                   </h3>
                   <p className="text-[#B7C6CF]" style={{ fontSize: '15px', lineHeight: '1.6' }}>
-                    Engineered to reduce heat index, deliver consistent bounce and playability, and eliminate granular rubber infill from shoes and equipment.
+                    Engineered to reduce heat index, deliver consistent bounce and playability, and eliminate granular infill from shoes and equipment.
                   </p>
                 </motion.div>
 
@@ -1211,7 +1211,7 @@ export default function App() {
                   maxWidth: '520px'
                 }}
               >
-                The only synthetic turf system with a U.S. patent on rubber infill placement delivering uncompromised fall impact safety, cooler surface temperatures, and significantly lower maintenance costs for athletes of all abilities nationwide.
+                The only synthetic turf system with a U.S. patent on infill placement delivering uncompromised fall impact safety, cooler surface temperatures, and significantly lower maintenance costs for athletes of all abilities nationwide.
                </motion.p>
               <div className="flex flex-wrap gap-4 justify-center">
                 <motion.button 
@@ -1516,7 +1516,7 @@ export default function App() {
                   {/* Body Paragraphs */}
                   <div className="space-y-4 mb-10">
                     <p className="text-[#B7C6CF]" style={{ fontSize: '16px', lineHeight: '1.6' }}>
-                      Our patented technology regulates granular rubber infill placement beneath synthetic turf surfaces.
+                      Our patented technology regulates granular infill placement beneath synthetic turf surfaces.
                       Unlike traditional systems where infill sits loose on top, our regulated approach ensures consistent
                       fall protection across the entire field.
                     </p>
@@ -1636,7 +1636,7 @@ export default function App() {
                           }}
                         >
                           <p className="text-[#1E3FD8]" style={{ fontSize: '13px', fontWeight: '700', marginBottom: '4px' }}>
-                            Regulated Rubber Infill ★
+                            Regulated Infill ★
                           </p>
                           <p className="text-[#B7C6CF]" style={{ fontSize: '11px' }}>
                             Patented placement technology
@@ -2910,7 +2910,7 @@ export default function App() {
                   lineHeight: '1.6'
                 }}
               >
-                The only patented system in North America that regulates granular rubber infill <em>beneath</em> synthetic turf surfaces—not on top.
+                The only patented system in North America that regulates granular infill <em>beneath</em> synthetic turf surfaces—not on top.
               </motion.p>
 
               {/* Key Stats */}
@@ -2966,13 +2966,13 @@ export default function App() {
 
               <div className="space-y-6 text-[#B7C6CF]" style={{ fontSize: '17px', lineHeight: '1.7' }}>
                 <p>
-                  Traditional synthetic turf systems rely on loose rubber infill sitting <em>on top</em> of the playing surface.
+                  Traditional synthetic turf systems rely on loose infill sitting <em>on top</em> of the playing surface.
                   This approach creates significant problems: inconsistent fall protection, extreme heat buildup, constant infill
                   migration into shoes and equipment, and expensive ongoing maintenance.
                 </p>
                 <p>
-                  PES Field Systems engineered a fundamentally different solution. Our patented technology regulates granular
-                  rubber infill <em>beneath</em> the turf surface, where it's contained and controlled. This breakthrough delivers
+                  PES Field Systems engineered a fundamentally different solution. Our patented technology regulates granular infill 
+                  <em>beneath</em> the turf surface, where it's contained and controlled. This breakthrough delivers
                   consistent fall impact safety across the entire field, dramatically reduces surface temperatures, and completely
                   eliminates infill scatter.
                 </p>
@@ -3773,7 +3773,7 @@ export default function App() {
                         <div className="bg-[#111111] border border-[#4F73D6]/30 rounded-lg p-6">
                           <h3 className="text-[#4F73D6] text-xl font-bold mb-3 tracking-wide">After the Build</h3>
                           <p className="text-[#B7C6CF] leading-relaxed">
-                            The finished field features a custom rubberized turf surface designed for accessibility, safety, and all-weather play. Our team completed the surfacing and detail work to meet Miracle League standards, ensuring smooth mobility for wheelchairs and walkers while maintaining a professional look and feel. Today, the field is more than just a place to play its a space where inclusion thrives and every player gets their moment at bat.
+                            The finished field features a custom turf surface designed for accessibility, safety, and all-weather play. Our team completed the surfacing and detail work to meet Miracle League standards, ensuring smooth mobility for wheelchairs and walkers while maintaining a professional look and feel. Today, the field is more than just a place to play its a space where inclusion thrives and every player gets their moment at bat.
                           </p>
                         </div>
                       </div>
@@ -4140,7 +4140,7 @@ export default function App() {
                     <>
                       <div className="flex items-start gap-3 bg-[#0A0F2C] border border-[#4F73D6]/30 rounded-lg p-4">
                         <CheckCircle className="w-5 h-5 text-[#4F73D6] flex-shrink-0 mt-0.5" />
-                        <p className="text-[#B7C6CF]">Custom rubberized turf surface for accessibility</p>
+                        <p className="text-[#B7C6CF]">Custom turf surface for accessibility</p>
                       </div>
                       <div className="flex items-start gap-3 bg-[#0A0F2C] border border-[#4F73D6]/30 rounded-lg p-4">
                         <CheckCircle className="w-5 h-5 text-[#4F73D6] flex-shrink-0 mt-0.5" />
