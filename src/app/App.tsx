@@ -1211,7 +1211,7 @@ export default function App() {
                   maxWidth: '520px'
                 }}
               >
-                The only synthetic turf system with a U.S. patent on infill placement delivering uncompromised fall impact safety, cooler surface temperatures, and significantly lower maintenance costs for athletes of all abilities nationwide.
+                The only synthetic turf system with a U.S. patent delivering uncompromised fall impact safety, cooler surface temperatures, and significantly lower maintenance costs for athletes of all abilities nationwide
                </motion.p>
               <div className="flex flex-wrap gap-4 justify-center">
                 <motion.button 
