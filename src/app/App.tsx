@@ -1149,7 +1149,7 @@ export default function App() {
               }}
             >
               <img
-                src={montanaFieldImg}
+                src="/MercerCounty1.JPG"
                 alt="Athletic Field Background"
                 className="w-full h-full"
                 style={{
