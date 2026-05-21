@@ -2898,7 +2898,7 @@ export default function App() {
                   letterSpacing: '-0.02em'
                 }}
               >
-                Revolutionary Infill Technology
+                Revolutionary Technology
               </motion.h1>
 
               <motion.p
@@ -3166,8 +3166,8 @@ export default function App() {
                   {[
                     { icon: Award, label: 'U.S. Patent Certified' },
                     { icon: Shield, label: 'ASTM Safety Approved' },
-                    { icon: CheckCircle2, label: 'IPEMA Certified' },
-                    { icon: Leaf, label: 'LEED Compliant' },
+                    { icon: CheckCircle2, label: 'ASTM F-1292 Compliant' },
+                    { icon: Leaf, label: 'ASTM F-1951 Compliant' },
                   ].map((cert, idx) => {
                     const Icon = cert.icon;
                     return (
