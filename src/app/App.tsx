@@ -2911,7 +2911,7 @@ export default function App() {
                   lineHeight: '1.6'
                 }}
               >
-                The only patented system in North America that regulates granular infill <em>beneath</em> synthetic turf surfaces—not on top.
+                 The only patented system in North America that regulates granular infill beneath synthetic turf surfaces—not on top.
               </motion.p>
 
               {/* Key Stats */}
@@ -2972,14 +2972,10 @@ export default function App() {
                   migration into shoes and equipment, and expensive ongoing maintenance.
                 </p>
                 <p>
-                  PES Field Systems engineered a fundamentally different solution. Our patented technology regulates granular infill 
-                  <em>beneath</em> the turf surface, where it's contained and controlled. This breakthrough delivers
-                  consistent fall impact safety across the entire field, dramatically reduces surface temperatures, and completely
-                  eliminates infill scatter.
+                  PES Field Systems engineered a fundamentally different solution. Our patented technology creates a bonded head immpact criteria surface beneath the turf, where it's contained and controlled. This breakthrough delivers consistent fall impact safety across the entire field, dramatically reduces surface temperatures, and completely eliminates infill scatter.
                 </p>
                 <p>
-                  The result is a self-sustainable field system that maintains professional-grade performance year after year,
-                  with minimal maintenance and maximum athlete safety.
+                  The result is a field system that maintains professional-grade performance year after year, with minimal maintenance and maximum athlete safety.
                 </p>
               </div>
             </div>
