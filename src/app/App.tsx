@@ -1151,7 +1151,7 @@ export default function App() {
               <img
                 src="/MercerCounty1.JPG"
                 alt="Athletic Field Background"
-                className="w-full h-full"
+                className="w-full h-full" style={{ filter: "brightness(1.4)" }}
                 style={{
                   objectFit: 'cover',
                   objectPosition: 'center'
