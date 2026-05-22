@@ -771,7 +771,7 @@ export default function App() {
           }}
         >
           <div className="container mx-auto px-6">
-            <div className="max-w-4xl mx-auto text-center">
+            <div className="max-w-4xl mx-auto text-center" style={{ background: "rgba(0,0,0,0.55)", borderRadius: "12px", padding: "48px 40px", backdropFilter: "blur(2px)" }}>
               <p
                 className="uppercase mb-6 text-[#1E3FD8]"
                 style={{
