@@ -2786,7 +2786,6 @@ export default function App() {
                         <option>Lacrosse Field</option>
                         <option>Putting Green</option>
                         <option>Adaptive / Miracle League Field</option>
-                        <option>Daycare or Playground</option>
                         <option>Contractor Partnership</option>
                         <option>Get on Bidder List</option>
                       </select>
@@ -4305,7 +4304,6 @@ export default function App() {
                           <option>Soccer / Lacrosse</option>
                           <option>Football</option>
                           <option>Adaptive Field</option>
-                          <option>Daycare Center</option>
                           <option>Other</option>
                         </select>
                       </div>
