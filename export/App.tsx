@@ -47,7 +47,6 @@ export default function App() {
     { icon: Trophy, title: 'Football Fields', desc: 'High-performance playing surfaces' },
     { icon: Trophy, title: 'Golf Putting Greens', desc: 'Custom residential and commercial greens' },
     { icon: Users, title: 'Adaptive Fields', desc: 'Miracle League and special needs facilities' },
-    { icon: Users, title: 'Daycare Play Areas', desc: 'Safe, colorful, and engaging spaces' },
     { icon: Users, title: 'Parks & Recreation', desc: 'Community spaces for all ages' },
     { icon: Trophy, title: 'Custom Projects', desc: 'Tailored solutions for unique needs' },
   ];
@@ -489,16 +488,12 @@ export default function App() {
                         </div>
                         <h3 className="text-5xl font-black text-white mb-4">Parks & Recreation</h3>
                         <p className="text-xl text-white/90 mb-8 leading-relaxed">
-                          Safe, durable surfaces for daycare facilities, playgrounds, parks, and community recreation spaces. Creating environments where families and communities thrive together.
+                          Safe, durable surfaces for playgrounds, parks, and community recreation spaces. Creating environments where families and communities thrive together.
                         </p>
                         <div className="grid grid-cols-2 gap-4 mb-8">
                           <div className="flex items-center gap-2 text-white">
                             <div className="w-2 h-2 rounded-full bg-emerald-400" />
                             <span>Playground Surfaces</span>
-                          </div>
-                          <div className="flex items-center gap-2 text-white">
-                            <div className="w-2 h-2 rounded-full bg-emerald-400" />
-                            <span>Daycare Facilities</span>
                           </div>
                           <div className="flex items-center gap-2 text-white">
                             <div className="w-2 h-2 rounded-full bg-emerald-400" />
@@ -1095,7 +1090,6 @@ export default function App() {
                       <option>Football</option>
                       <option>Golf Putting Green</option>
                       <option>Adaptive / Miracle League Field</option>
-                      <option>Daycare Play Area</option>
                       <option>Parks & Recreation</option>
                       <option>Custom Project</option>
                     </select>
