@@ -2839,6 +2839,24 @@ export default function App() {
           </div>
         </section>
 
+        {/* Back to Top Button */}
+        {scrollY > 400 && (
+          <motion.button
+            onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
+            initial={{ opacity: 0, scale: 0.8 }}
+            animate={{ opacity: 1, scale: 1 }}
+            exit={{ opacity: 0, scale: 0.8 }}
+            className="fixed bottom-8 right-8 z-50 bg-[#1E3FD8] text-white hover:bg-[#4F73D6] transition-colors duration-200 flex items-center justify-center"
+            style={{ width: '48px', height: '48px', borderRadius: '50%', boxShadow: '0 4px 20px rgba(30, 63, 216, 0.4)' }}
+            whileHover={{ scale: 1.1 }}
+            whileTap={{ scale: 0.95 }}
+            aria-label="Back to top"
+          >
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
+              <polyline points="18 15 12 9 6 15"></polyline>
+            </svg>
+          </motion.button>
+        )}
         <Footer />
       </div>
     );
