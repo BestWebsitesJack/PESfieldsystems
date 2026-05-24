@@ -380,7 +380,7 @@ export default function App() {
       <nav
         className={`fixed top-0 left-0 right-0 z-50 transition-all duration-200`}
         style={{
-          background: '#000000',
+          background: '#0A0F1E',
           borderBottom: '1px solid rgba(30, 63, 216, 0.4)'
         }}
       >
@@ -547,7 +547,7 @@ export default function App() {
         className={`md:hidden fixed inset-0 z-40 flex items-center justify-center transition-transform duration-300 ${
           mobileMenuOpen ? 'translate-y-0' : '-translate-y-full'
         }`}
-        style={{ background: '#000000' }}
+        style={{ background: '#0A0F1E' }}
       >
         <div className="flex flex-col items-center gap-6 pt-48 pb-12 overflow-y-auto h-full w-full">
           <button
@@ -636,7 +636,7 @@ export default function App() {
     <footer 
       className="text-[#E6E6E6]"
       style={{
-        background: '#000000',
+        background: '#0A0F1E',
         borderTop: '1px solid rgba(30, 63, 216, 0.3)'
       }}
     >
@@ -651,7 +651,7 @@ export default function App() {
               style={{ objectFit: 'contain', objectPosition: 'left center' }}
             />
             <p 
-              className="text-[#D0DCE4] mb-4"
+              className="text-[#E2EBF0] mb-4"
               style={{ 
                 fontSize: '13px', 
                 lineHeight: '1.6',
@@ -661,7 +661,7 @@ export default function App() {
               Safer Fields. Superior Play. Self-Sustainable.
             </p>
             <p 
-              className="text-[#D0DCE4]"
+              className="text-[#E2EBF0]"
               style={{ 
                 fontSize: '13px', 
                 lineHeight: '1.6'
@@ -677,42 +677,42 @@ export default function App() {
             <div className="space-y-2">
               <button
                 onClick={() => setCurrentPage('services')}
-                className="block text-[#D0DCE4] hover:text-[#E6E6E6] transition-colors duration-200"
+                className="block text-[#E2EBF0] hover:text-[#E6E6E6] transition-colors duration-200"
                 style={{ fontSize: '13px' }}
               >
                 Services
               </button>
               <a 
                 href="#projects"
-                className="block text-[#D0DCE4] hover:text-[#E6E6E6] transition-colors duration-200"
+                className="block text-[#E2EBF0] hover:text-[#E6E6E6] transition-colors duration-200"
                 style={{ fontSize: '13px' }}
               >
                 Projects
               </a>
               <button
                 onClick={() => setCurrentPage('technology')}
-                className="block text-[#D0DCE4] hover:text-[#E6E6E6] transition-colors duration-200"
+                className="block text-[#E2EBF0] hover:text-[#E6E6E6] transition-colors duration-200"
                 style={{ fontSize: '13px' }}
               >
                 Technology
               </button>
               <button
                 onClick={() => setCurrentPage('team')}
-                className="block text-[#D0DCE4] hover:text-[#E6E6E6] transition-colors duration-200"
+                className="block text-[#E2EBF0] hover:text-[#E6E6E6] transition-colors duration-200"
                 style={{ fontSize: '13px' }}
               >
                 Team
               </button>
               <button
                 onClick={() => setCurrentPage('partners')}
-                className="block text-[#D0DCE4] hover:text-[#E6E6E6] transition-colors duration-200"
+                className="block text-[#E2EBF0] hover:text-[#E6E6E6] transition-colors duration-200"
                 style={{ fontSize: '13px' }}
               >
                 Partners
               </button>
               <a 
                 href="#contact"
-                className="block text-[#D0DCE4] hover:text-[#E6E6E6] transition-colors duration-200"
+                className="block text-[#E2EBF0] hover:text-[#E6E6E6] transition-colors duration-200"
                 style={{ fontSize: '13px' }}
               >
                 Contact
@@ -756,11 +756,11 @@ export default function App() {
             borderTop: '1px solid rgba(183, 198, 207, 0.15)'
           }}
         >
-          <p className="text-[#D0DCE4]" style={{ fontSize: '12px' }}>
+          <p className="text-[#E2EBF0]" style={{ fontSize: '12px' }}>
             Copyright 2026 PES Field Systems
           </p>
-          <p className="text-[#D0DCE4]" style={{ fontSize: '12px' }}>
-            <a href="https://bestwebsites.tech" target="_blank" rel="noopener noreferrer" style={{ color: "#D0DCE4", textDecoration: "underline" }}>Built by Best Websites LLC</a>
+          <p className="text-[#E2EBF0]" style={{ fontSize: '12px' }}>
+            <a href="https://bestwebsites.tech" target="_blank" rel="noopener noreferrer" style={{ color: "#E2EBF0", textDecoration: "underline" }}>Built by Best Websites LLC</a>
           </p>
         </div>
       </div>
@@ -770,7 +770,7 @@ export default function App() {
   // SERVICES PAGE
   if (currentPage === 'services') {
     return (
-      <div className="min-h-screen" style={{ background: '#0A1428' }}>
+      <div className="min-h-screen" style={{ background: '#132040' }}>
         <Navigation />
 
         {/* Hero Section */}
@@ -806,7 +806,7 @@ export default function App() {
               </h1>
               <div className="w-24 h-1 bg-[#1E3FD8] mx-auto mb-10"></div>
               <p
-                className="text-[#D0DCE4] max-w-3xl mx-auto"
+                className="text-[#E2EBF0] max-w-3xl mx-auto"
                 style={{
                   fontSize: '18px',
                   lineHeight: '1.7'
@@ -818,7 +818,7 @@ export default function App() {
         </section>
 
         {/* Services Grid */}
-        <section className="py-32" style={{ background: '#0A1428' }}>
+        <section className="py-32" style={{ background: '#132040' }}>
           <div className="container mx-auto px-6">
             <div className="max-w-7xl mx-auto">
               <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
@@ -830,7 +830,7 @@ export default function App() {
                   transition={{ duration: 0.5 }}
                   className="group"
                   style={{
-                    background: 'rgba(30, 63, 216, 0.12)',
+                    background: 'rgba(30, 63, 216, 0.18)',
                     border: '2px solid rgba(30, 63, 216, 0.2)',
                     borderRadius: '12px',
                     padding: '32px',
@@ -848,7 +848,7 @@ export default function App() {
                   >
                     Baseball & Softball Fields
                   </h3>
-                  <p className="text-[#D0DCE4]" style={{ fontSize: '15px', lineHeight: '1.6' }}>
+                  <p className="text-[#E2EBF0]" style={{ fontSize: '15px', lineHeight: '1.6' }}>
                     Professional-grade diamonds feature permanent or movable pitching mounds and bases, with a poured-in-place composite layer beneath the turf for consistent fielding and sliding performance.
                   </p>
                 </motion.div>
@@ -861,7 +861,7 @@ export default function App() {
                   transition={{ duration: 0.5, delay: 0.1 }}
                   className="group"
                   style={{
-                    background: 'rgba(30, 63, 216, 0.12)',
+                    background: 'rgba(30, 63, 216, 0.18)',
                     border: '2px solid rgba(30, 63, 216, 0.2)',
                     borderRadius: '12px',
                     padding: '32px',
@@ -879,7 +879,7 @@ export default function App() {
                   >
                     Soccer & Lacrosse Fields
                   </h3>
-                  <p className="text-[#D0DCE4]" style={{ fontSize: '15px', lineHeight: '1.6' }}>
+                  <p className="text-[#E2EBF0]" style={{ fontSize: '15px', lineHeight: '1.6' }}>
                     Engineered to reduce heat index, deliver consistent bounce and playability, and eliminate granular infill from shoes and equipment.
                   </p>
                 </motion.div>
@@ -892,7 +892,7 @@ export default function App() {
                   transition={{ duration: 0.5, delay: 0.2 }}
                   className="group"
                   style={{
-                    background: 'rgba(30, 63, 216, 0.12)',
+                    background: 'rgba(30, 63, 216, 0.18)',
                     border: '2px solid rgba(30, 63, 216, 0.2)',
                     borderRadius: '12px',
                     padding: '32px',
@@ -910,7 +910,7 @@ export default function App() {
                   >
                     Football Fields
                   </h3>
-                  <p className="text-[#D0DCE4]" style={{ fontSize: '15px', lineHeight: '1.6' }}>
+                  <p className="text-[#E2EBF0]" style={{ fontSize: '15px', lineHeight: '1.6' }}>
                     Regulation fields built for safety, performance, and long-term durability, while maintaining cControlled Heat Index °F and cleaner play.
                   </p>
                 </motion.div>
@@ -923,7 +923,7 @@ export default function App() {
                   transition={{ duration: 0.5, delay: 0.3 }}
                   className="group"
                   style={{
-                    background: 'rgba(30, 63, 216, 0.12)',
+                    background: 'rgba(30, 63, 216, 0.18)',
                     border: '2px solid rgba(30, 63, 216, 0.2)',
                     borderRadius: '12px',
                     padding: '32px',
@@ -941,7 +941,7 @@ export default function App() {
                   >
                     Golf Putting Greens
                   </h3>
-                  <p className="text-[#D0DCE4]" style={{ fontSize: '15px', lineHeight: '1.6' }}>
+                  <p className="text-[#E2EBF0]" style={{ fontSize: '15px', lineHeight: '1.6' }}>
                     Custom-built putting greens delivering precision surfaces and true roll consistency.
                   </p>
                 </motion.div>
@@ -954,7 +954,7 @@ export default function App() {
                   transition={{ duration: 0.5, delay: 0.4 }}
                   className="group"
                   style={{
-                    background: 'rgba(30, 63, 216, 0.12)',
+                    background: 'rgba(30, 63, 216, 0.18)',
                     border: '2px solid rgba(30, 63, 216, 0.2)',
                     borderRadius: '12px',
                     padding: '32px',
@@ -972,7 +972,7 @@ export default function App() {
                   >
                     Adaptive Fields
                   </h3>
-                  <p className="text-[#D0DCE4]" style={{ fontSize: '15px', lineHeight: '1.6' }}>
+                  <p className="text-[#E2EBF0]" style={{ fontSize: '15px', lineHeight: '1.6' }}>
                     Inclusive field designs that support athletes of all abilities and accessibility needs.
                   </p>
                 </motion.div>
@@ -985,7 +985,7 @@ export default function App() {
                   transition={{ duration: 0.5, delay: 0.5 }}
                   className="group"
                   style={{
-                    background: 'rgba(30, 63, 216, 0.12)',
+                    background: 'rgba(30, 63, 216, 0.18)',
                     border: '2px solid rgba(30, 63, 216, 0.2)',
                     borderRadius: '12px',
                     padding: '32px',
@@ -1003,7 +1003,7 @@ export default function App() {
                   >
                     Playground & Play Areas
                   </h3>
-                  <p className="text-[#D0DCE4]" style={{ fontSize: '15px', lineHeight: '1.6' }}>
+                  <p className="text-[#E2EBF0]" style={{ fontSize: '15px', lineHeight: '1.6' }}>
                     Safe, age-appropriate outdoor spaces designed for learning, movement, and play.
                   </p>
                 </motion.div>
@@ -1016,7 +1016,7 @@ export default function App() {
                   transition={{ duration: 0.5, delay: 0.6 }}
                   className="group"
                   style={{
-                    background: 'rgba(30, 63, 216, 0.12)',
+                    background: 'rgba(30, 63, 216, 0.18)',
                     border: '2px solid rgba(30, 63, 216, 0.2)',
                     borderRadius: '12px',
                     padding: '32px',
@@ -1034,7 +1034,7 @@ export default function App() {
                   >
                     Parks & Recreation
                   </h3>
-                  <p className="text-[#D0DCE4]" style={{ fontSize: '15px', lineHeight: '1.6' }}>
+                  <p className="text-[#E2EBF0]" style={{ fontSize: '15px', lineHeight: '1.6' }}>
                     Community-focused spaces including trails, playgrounds, and gathering areas.
                   </p>
                 </motion.div>
@@ -1047,7 +1047,7 @@ export default function App() {
                   transition={{ duration: 0.5, delay: 0.7 }}
                   className="group"
                   style={{
-                    background: 'rgba(30, 63, 216, 0.12)',
+                    background: 'rgba(30, 63, 216, 0.18)',
                     border: '2px solid rgba(30, 63, 216, 0.2)',
                     borderRadius: '12px',
                     padding: '32px',
@@ -1065,7 +1065,7 @@ export default function App() {
                   >
                     Custom Projects
                   </h3>
-                  <p className="text-[#D0DCE4]" style={{ fontSize: '15px', lineHeight: '1.6' }}>
+                  <p className="text-[#E2EBF0]" style={{ fontSize: '15px', lineHeight: '1.6' }}>
                     Unique outdoor environments tailored to your vision, site conditions, and goals.
                   </p>
                 </motion.div>
@@ -1139,7 +1139,7 @@ export default function App() {
   // HOME PAGE
   if (currentPage === 'home') {
     return (
-      <div className="min-h-screen" style={{ background: '#0A1428' }}>
+      <div className="min-h-screen" style={{ background: '#132040' }}>
         <Navigation />
 
         {/* Hero Section */}
@@ -1211,7 +1211,7 @@ export default function App() {
               </motion.h1>
               
               <motion.p 
-                className="text-[#D0DCE4] mb-10 hero-subheadline-animate mx-auto"
+                className="text-[#E2EBF0] mb-10 hero-subheadline-animate mx-auto"
                 initial={{ opacity: 0, y: 20 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ delay: 0.3, duration: 0.6 }}
@@ -1317,7 +1317,7 @@ export default function App() {
           className="w-full flex items-center"
           style={{ 
             height: '140px',
-            background: 'linear-gradient(135deg, #E6E6E6 0%, #D0DCE4 100%)'
+            background: 'linear-gradient(135deg, #E6E6E6 0%, #E2EBF0 100%)'
           }}
         >
           <div className="container mx-auto px-6">
@@ -1525,12 +1525,12 @@ export default function App() {
 
                   {/* Body Paragraphs */}
                   <div className="space-y-4 mb-10">
-                    <p className="text-[#D0DCE4]" style={{ fontSize: '16px', lineHeight: '1.6' }}>
+                    <p className="text-[#E2EBF0]" style={{ fontSize: '16px', lineHeight: '1.6' }}>
                       Our patented technology regulates granular infill placement beneath synthetic turf surfaces.
                       Unlike traditional systems where infill sits loose on top, our regulated approach ensures consistent
                       fall protection across the entire field.
                     </p>
-                    <p className="text-[#D0DCE4]" style={{ fontSize: '16px', lineHeight: '1.6' }}>
+                    <p className="text-[#E2EBF0]" style={{ fontSize: '16px', lineHeight: '1.6' }}>
                       This innovation delivers significantly cooler surface temperatures, eliminates infill migration into
                       shoes and equipment, and maintains optimal performance standards year after year.
                     </p>
@@ -1579,7 +1579,7 @@ export default function App() {
                   {/* CTA Link */}
                   <button
                     onClick={() => setCurrentPage('technology')}
-                    className="text-white inline-flex items-center gap-2 hover:text-[#D0DCE4] transition-colors"
+                    className="text-white inline-flex items-center gap-2 hover:text-[#E2EBF0] transition-colors"
                     style={{
                       fontSize: '16px',
                       fontWeight: '600'
@@ -1594,7 +1594,7 @@ export default function App() {
                 <div className="lg:col-span-5">
                   <div
                     style={{
-                      background: '#0A0F2C',
+                      background: '#141929',
                       borderRadius: '8px',
                       padding: '40px 32px',
                       border: '2px solid #1E3FD8'
@@ -1620,7 +1620,7 @@ export default function App() {
                         {/* Layer 1 */}
                         <div
                           style={{
-                            background: 'rgba(30, 63, 216, 0.15)',
+                            background: 'rgba(30, 63, 216, 0.20)',
                             border: '1px solid #1E3FD8',
                             borderRadius: '4px',
                             padding: '16px',
@@ -1630,7 +1630,7 @@ export default function App() {
                           <p className="text-[#E6E6E6]" style={{ fontSize: '13px', fontWeight: '700', marginBottom: '4px' }}>
                             Synthetic Turf Surface
                           </p>
-                          <p className="text-[#D0DCE4]" style={{ fontSize: '11px' }}>
+                          <p className="text-[#E2EBF0]" style={{ fontSize: '11px' }}>
                             Professional-grade playing surface
                           </p>
                         </div>
@@ -1638,7 +1638,7 @@ export default function App() {
                         {/* Layer 2 - Patent Layer */}
                         <div
                           style={{
-                            background: 'rgba(30, 63, 216, 0.15)',
+                            background: 'rgba(30, 63, 216, 0.20)',
                             border: '2px solid #1E3FD8',
                             borderRadius: '4px',
                             padding: '16px',
@@ -1648,7 +1648,7 @@ export default function App() {
                           <p className="text-[#1E3FD8]" style={{ fontSize: '13px', fontWeight: '700', marginBottom: '4px' }}>
                             Regulated Infill ★
                           </p>
-                          <p className="text-[#D0DCE4]" style={{ fontSize: '11px' }}>
+                          <p className="text-[#E2EBF0]" style={{ fontSize: '11px' }}>
                             Patented placement technology
                           </p>
                         </div>
@@ -1656,7 +1656,7 @@ export default function App() {
                         {/* Layer 3 */}
                         <div
                           style={{
-                            background: 'rgba(30, 63, 216, 0.15)',
+                            background: 'rgba(30, 63, 216, 0.20)',
                             border: '1px solid #1E3FD8',
                             borderRadius: '4px',
                             padding: '16px',
@@ -1666,7 +1666,7 @@ export default function App() {
                           <p className="text-[#E6E6E6]" style={{ fontSize: '13px', fontWeight: '700', marginBottom: '4px' }}>
                             Shock Absorption Layer
                           </p>
-                          <p className="text-[#D0DCE4]" style={{ fontSize: '11px' }}>
+                          <p className="text-[#E2EBF0]" style={{ fontSize: '11px' }}>
                             Fall impact protection system
                           </p>
                         </div>
@@ -1674,7 +1674,7 @@ export default function App() {
                         {/* Layer 4 */}
                         <div
                           style={{
-                            background: 'rgba(30, 63, 216, 0.15)',
+                            background: 'rgba(30, 63, 216, 0.20)',
                             border: '1px solid #1E3FD8',
                             borderRadius: '4px',
                             padding: '16px',
@@ -1684,7 +1684,7 @@ export default function App() {
                           <p className="text-[#E6E6E6]" style={{ fontSize: '13px', fontWeight: '700', marginBottom: '4px' }}>
                             Base & Drainage
                           </p>
-                          <p className="text-[#D0DCE4]" style={{ fontSize: '11px' }}>
+                          <p className="text-[#E2EBF0]" style={{ fontSize: '11px' }}>
                             Engineered foundation
                           </p>
                         </div>
@@ -1704,7 +1704,7 @@ export default function App() {
         </section>
 
         {/* Brand Pillars Section */}
-        <section className="py-40" style={{ background: '#0A1428' }}>
+        <section className="py-40" style={{ background: '#132040' }}>
           <div className="container mx-auto px-4">
             <div className="max-w-6xl mx-auto">
               <div className="text-center mb-20">
@@ -1721,7 +1721,7 @@ export default function App() {
                     THREE CORE PILLARS
                   </h2>
                   <div className="w-24 h-1 bg-[#1E3FD8] mx-auto mb-6"></div>
-                  <p className="text-xl text-[#D0DCE4] max-w-2xl mx-auto">
+                  <p className="text-xl text-[#E2EBF0] max-w-2xl mx-auto">
                     Every PES Field Systems installation is built on these fundamental principles
                   </p>
                 </motion.div>
@@ -1738,13 +1738,13 @@ export default function App() {
                   >
                     <Card className="bg-[#111111] border-[#4F73D6]/30 hover:border-[#4F73D6] transition-all hover:shadow-2xl hover:shadow-[#1E3FD8]/20 group h-full">
                       <CardContent className="p-10 text-center">
-                        <div className="w-24 h-24 mx-auto mb-8 bg-gradient-to-r from-[#1E3FD8] via-[#4F73D6] to-[#D0DCE4] rounded-2xl flex items-center justify-center group-hover:scale-110 transition-transform">
+                        <div className="w-24 h-24 mx-auto mb-8 bg-gradient-to-r from-[#1E3FD8] via-[#4F73D6] to-[#E2EBF0] rounded-2xl flex items-center justify-center group-hover:scale-110 transition-transform">
                           <pillar.icon className="w-12 h-12 text-white" />
                         </div>
                         <h3 className="text-2xl font-black text-[#E6E6E6] mb-4 tracking-wide">
                           {pillar.title}
                         </h3>
-                        <p className="text-[#D0DCE4] leading-relaxed">
+                        <p className="text-[#E2EBF0] leading-relaxed">
                           {pillar.description}
                         </p>
                       </CardContent>
@@ -1828,7 +1828,7 @@ export default function App() {
                     25+
                   </div>
                   <div
-                    className="text-[#D0DCE4]"
+                    className="text-[#E2EBF0]"
                     style={{
                       fontSize: '14px',
                       letterSpacing: '0.05em',
@@ -1856,7 +1856,7 @@ export default function App() {
                     Controlled
                   </div>
                   <div
-                    className="text-[#D0DCE4]"
+                    className="text-[#E2EBF0]"
                     style={{
                       fontSize: '14px',
                       letterSpacing: '0.05em',
@@ -1884,7 +1884,7 @@ export default function App() {
                     Zero
                   </div>
                   <div
-                    className="text-[#D0DCE4]"
+                    className="text-[#E2EBF0]"
                     style={{
                       fontSize: '14px',
                       letterSpacing: '0.05em',
@@ -1912,7 +1912,7 @@ export default function App() {
                     10+
                   </div>
                   <div
-                    className="text-[#D0DCE4]"
+                    className="text-[#E2EBF0]"
                     style={{
                       fontSize: '14px',
                       letterSpacing: '0.05em',
@@ -2063,7 +2063,7 @@ export default function App() {
         </section>
 
         {/* Featured Projects Section */}
-        <section id="featured-projects" className="py-40" style={{ background: '#0A1428' }}>
+        <section id="featured-projects" className="py-40" style={{ background: '#132040' }}>
           <div className="container mx-auto px-6">
             <div className="max-w-6xl mx-auto">
               {/* Section Header */}
@@ -2099,7 +2099,7 @@ export default function App() {
                     <div
                       className="overflow-hidden h-full"
                       style={{
-                        background: 'rgba(30, 63, 216, 0.15)',
+                        background: 'rgba(30, 63, 216, 0.20)',
                         border: '2px solid rgba(30, 63, 216, 0.3)',
                         borderRadius: '8px'
                       }}
@@ -2126,7 +2126,7 @@ export default function App() {
                           >
                             {project.name}
                           </h3>
-                          <p className="text-[#D0DCE4] mb-1" style={{ fontSize: '12px' }}>
+                          <p className="text-[#E2EBF0] mb-1" style={{ fontSize: '12px' }}>
                             {project.location}
                           </p>
                           <p
@@ -2162,7 +2162,7 @@ export default function App() {
         </section>
 
         {/* What They Say Section */}
-        <section className="py-40" style={{ background: '#D0DCE4' }}>
+        <section className="py-40" style={{ background: '#E2EBF0' }}>
           <div className="container mx-auto px-6">
             <div className="max-w-6xl mx-auto">
               {/* Section Header */}
@@ -2296,7 +2296,7 @@ export default function App() {
         </section>
 
         {/* Work With PES Section */}
-        <section className="py-40" style={{ background: '#0A1428' }}>
+        <section className="py-40" style={{ background: '#132040' }}>
           <div className="container mx-auto px-6">
             <div className="max-w-6xl mx-auto">
               {/* Section Header */}
@@ -2343,7 +2343,7 @@ export default function App() {
                   transition={{ duration: 0.6, delay: 0.1 }}
                   className="group"
                   style={{
-                    background: 'rgba(30, 63, 216, 0.15)',
+                    background: 'rgba(30, 63, 216, 0.20)',
                     border: '2px solid rgba(30, 63, 216, 0.3)',
                     borderRadius: '12px',
                     padding: '40px 32px',
@@ -2363,7 +2363,7 @@ export default function App() {
                     Build Your Field
                   </h3>
                   <p
-                    className="text-[#D0DCE4] mb-8"
+                    className="text-[#E2EBF0] mb-8"
                     style={{
                       fontSize: '15px',
                       lineHeight: '1.6'
@@ -2396,7 +2396,7 @@ export default function App() {
                   transition={{ duration: 0.6, delay: 0.2 }}
                   className="group"
                   style={{
-                    background: 'rgba(30, 63, 216, 0.15)',
+                    background: 'rgba(30, 63, 216, 0.20)',
                     border: '2px solid rgba(30, 63, 216, 0.3)',
                     borderRadius: '12px',
                     padding: '40px 32px',
@@ -2416,7 +2416,7 @@ export default function App() {
                     Partner With Us
                   </h3>
                   <p
-                    className="text-[#D0DCE4] mb-8"
+                    className="text-[#E2EBF0] mb-8"
                     style={{
                       fontSize: '15px',
                       lineHeight: '1.6'
@@ -2449,7 +2449,7 @@ export default function App() {
                   transition={{ duration: 0.6, delay: 0.3 }}
                   className="group"
                   style={{
-                    background: 'rgba(30, 63, 216, 0.15)',
+                    background: 'rgba(30, 63, 216, 0.20)',
                     border: '2px solid rgba(30, 63, 216, 0.3)',
                     borderRadius: '12px',
                     padding: '40px 32px',
@@ -2469,7 +2469,7 @@ export default function App() {
                     Download Specs
                   </h3>
                   <p
-                    className="text-[#D0DCE4] mb-8"
+                    className="text-[#E2EBF0] mb-8"
                     style={{
                       fontSize: '15px',
                       lineHeight: '1.6'
@@ -2528,7 +2528,7 @@ export default function App() {
                     <AccordionTrigger className="text-left font-black text-lg text-[#E6E6E6] hover:text-[#4F73D6] hover:no-underline">
                       {faq.q}
                     </AccordionTrigger>
-                    <AccordionContent className="text-[#D0DCE4] leading-relaxed pb-6">
+                    <AccordionContent className="text-[#E2EBF0] leading-relaxed pb-6">
                       {faq.a}
                     </AccordionContent>
                   </AccordionItem>
@@ -2539,7 +2539,7 @@ export default function App() {
         </section>
 
         {/* Architect Specs Section */}
-        <section className="py-32 bg-gradient-to-r from-[#1E3FD8] via-[#4F73D6] to-[#D0DCE4] text-white">
+        <section className="py-32 bg-gradient-to-r from-[#1E3FD8] via-[#4F73D6] to-[#E2EBF0] text-white">
           <div className="container mx-auto px-4">
             <div className="max-w-4xl mx-auto text-center">
               <motion.div
@@ -2600,7 +2600,7 @@ export default function App() {
                     >
                       Contractor and Trade Partners
                     </h3>
-                    <p className="text-[#D0DCE4] mb-4" style={{ fontSize: '15px', lineHeight: '1.6' }}>
+                    <p className="text-[#E2EBF0] mb-4" style={{ fontSize: '15px', lineHeight: '1.6' }}>
                       We collaborate with general contractors, site work specialists, and trades nationwide to deliver 
                       field installations on time and to spec. If you're building the next great athletic facility, 
                       let's work together.
@@ -2636,7 +2636,7 @@ export default function App() {
                     >
                       Get on Our Bidder List
                     </h3>
-                    <p className="text-[#D0DCE4] mb-4" style={{ fontSize: '15px', lineHeight: '1.6' }}>
+                    <p className="text-[#E2EBF0] mb-4" style={{ fontSize: '15px', lineHeight: '1.6' }}>
                       Join our vetted bidder list for upcoming projects. We're always looking for qualified contractors 
                       who meet our standards for safety, precision, and client service.
                     </p>
@@ -2670,7 +2670,7 @@ export default function App() {
                     >
                       Our Materials and Suppliers
                     </h3>
-                    <p className="text-[#D0DCE4] mb-6" style={{ fontSize: '15px', lineHeight: '1.6' }}>
+                    <p className="text-[#E2EBF0] mb-6" style={{ fontSize: '15px', lineHeight: '1.6' }}>
                       Every component we install comes from tested, reputable suppliers that meet or exceed industry 
                       safety and performance standards. We don't cut corners on materials because your athletes 
                       deserve better.
@@ -2742,7 +2742,7 @@ export default function App() {
                     {/* Phone Field (Optional) */}
                     <div>
                       <label className="text-[#E6E6E6] block mb-2" style={{ fontSize: '14px', fontWeight: '600' }}>
-                        Phone <span className="text-[#D0DCE4]"></span>
+                        Phone <span className="text-[#E2EBF0]"></span>
                       </label>
                       <input 
                         type="tel"
@@ -2864,7 +2864,7 @@ export default function App() {
   // TECHNOLOGY PAGE
   if (currentPage === 'technology') {
     return (
-      <div className="min-h-screen" style={{ background: '#0A1428' }}>
+      <div className="min-h-screen" style={{ background: '#132040' }}>
         <Navigation />
 
         {/* Hero Section - Patent Showcase */}
@@ -2893,7 +2893,7 @@ export default function App() {
                 transition={{ duration: 0.6 }}
                 className="inline-flex items-center gap-3 mb-8 px-6 py-3"
                 style={{
-                  background: 'rgba(30, 63, 216, 0.15)',
+                  background: 'rgba(30, 63, 216, 0.20)',
                   border: '2px solid #1E3FD8',
                   borderRadius: '50px'
                 }}
@@ -2932,7 +2932,7 @@ export default function App() {
                 initial={{ opacity: 0, y: 20 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.6, delay: 0.2 }}
-                className="text-[#D0DCE4] mb-12 max-w-3xl mx-auto"
+                className="text-[#E2EBF0] mb-12 max-w-3xl mx-auto"
                 style={{
                   fontSize: '20px',
                   lineHeight: '1.6'
@@ -2966,7 +2966,7 @@ export default function App() {
         </section>
 
         {/* Innovation Story */}
-        <section className="py-32" style={{ background: '#0A1428' }}>
+        <section className="py-32" style={{ background: '#132040' }}>
           <div className="container mx-auto px-6">
             <div className="max-w-4xl mx-auto">
               <p
@@ -2992,7 +2992,7 @@ export default function App() {
               </h2>
               <div className="w-24 h-1 bg-[#1E3FD8] mb-10"></div>
 
-              <div className="space-y-6 text-[#D0DCE4]" style={{ fontSize: '17px', lineHeight: '1.7' }}>
+              <div className="space-y-6 text-[#E2EBF0]" style={{ fontSize: '17px', lineHeight: '1.7' }}>
                 <p>
                   Traditional synthetic turf systems rely on loose infill sitting <em>on top</em> of the playing surface.
                   This approach creates significant problems: inconsistent fall protection, extreme heat buildup, constant infill
@@ -3113,7 +3113,7 @@ export default function App() {
                       >
                         {advantage.title}
                       </h3>
-                      <p className="text-[#D0DCE4]" style={{ fontSize: '15px', lineHeight: '1.6' }}>
+                      <p className="text-[#E2EBF0]" style={{ fontSize: '15px', lineHeight: '1.6' }}>
                         {advantage.description}
                       </p>
                     </motion.div>
@@ -3125,7 +3125,7 @@ export default function App() {
         </section>
 
         {/* Technical Specifications Section */}
-        <section className="py-32" style={{ background: '#0A1428' }}>
+        <section className="py-32" style={{ background: '#132040' }}>
           <div className="container mx-auto px-6">
             <div className="max-w-6xl mx-auto">
               <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
@@ -3154,29 +3154,29 @@ export default function App() {
                   </h2>
                   <div className="w-24 h-1 bg-[#1E3FD8] mb-8"></div>
 
-                  <p className="text-[#D0DCE4] mb-10" style={{ fontSize: '17px', lineHeight: '1.7' }}>
+                  <p className="text-[#E2EBF0] mb-10" style={{ fontSize: '17px', lineHeight: '1.7' }}>
                     Access comprehensive patent and architect specifications for planning and bidding purposes.
                   </p>
 
                   {/* Download Links */}
                   <div className="space-y-4">
-                   <a href="/architect-specs.pdf" download className="flex items-center justify-between p-5 group" style={{ background: 'rgba(30, 63, 216, 0.15)', border: '2px solid rgba(30, 63, 216, 0.3)', borderRadius: '8px', transition: 'all 0.3s ease' }} onMouseEnter={(e) => { e.currentTarget.style.borderColor = '#1E3FD8'; e.currentTarget.style.background = 'rgba(30, 63, 216, 0.15)'; }} onMouseLeave={(e) => { e.currentTarget.style.borderColor = 'rgba(30, 63, 216, 0.3)'; e.currentTarget.style.background = 'rgba(30, 63, 216, 0.15)'; }}>
+                   <a href="/architect-specs.pdf" download className="flex items-center justify-between p-5 group" style={{ background: 'rgba(30, 63, 216, 0.20)', border: '2px solid rgba(30, 63, 216, 0.3)', borderRadius: '8px', transition: 'all 0.3s ease' }} onMouseEnter={(e) => { e.currentTarget.style.borderColor = '#1E3FD8'; e.currentTarget.style.background = 'rgba(30, 63, 216, 0.20)'; }} onMouseLeave={(e) => { e.currentTarget.style.borderColor = 'rgba(30, 63, 216, 0.3)'; e.currentTarget.style.background = 'rgba(30, 63, 216, 0.20)'; }}>
                       <div className="flex items-center gap-4">
                         <FileText className="w-6 h-6 text-[#1E3FD8]" />
                         <div>
                           <div className="text-[#E6E6E6]" style={{ fontSize: '16px', fontWeight: '600' }}>Architect Specifications</div>
-                          <div className="text-[#D0DCE4]" style={{ fontSize: '13px' }}>Complete technical specs (PDF)</div>
+                          <div className="text-[#E2EBF0]" style={{ fontSize: '13px' }}>Complete technical specs (PDF)</div>
                         </div>
                       </div>
                       <Download className="w-5 h-5 text-[#1E3FD8]" />
                     </a>
 
-                    <a href="/pes-patent.pdf" download className="flex items-center justify-between p-5 group" style={{ background: 'rgba(30, 63, 216, 0.15)', border: '2px solid rgba(30, 63, 216, 0.3)', borderRadius: '8px', transition: 'all 0.3s ease' }} onMouseEnter={(e) => { e.currentTarget.style.borderColor = '#1E3FD8'; e.currentTarget.style.background = 'rgba(30, 63, 216, 0.15)'; }} onMouseLeave={(e) => { e.currentTarget.style.borderColor = 'rgba(30, 63, 216, 0.3)'; e.currentTarget.style.background = 'rgba(30, 63, 216, 0.15)'; }}>
+                    <a href="/pes-patent.pdf" download className="flex items-center justify-between p-5 group" style={{ background: 'rgba(30, 63, 216, 0.20)', border: '2px solid rgba(30, 63, 216, 0.3)', borderRadius: '8px', transition: 'all 0.3s ease' }} onMouseEnter={(e) => { e.currentTarget.style.borderColor = '#1E3FD8'; e.currentTarget.style.background = 'rgba(30, 63, 216, 0.20)'; }} onMouseLeave={(e) => { e.currentTarget.style.borderColor = 'rgba(30, 63, 216, 0.3)'; e.currentTarget.style.background = 'rgba(30, 63, 216, 0.20)'; }}>
                       <div className="flex items-center gap-4">
                         <FileText className="w-6 h-6 text-[#1E3FD8]" />
                         <div>
                           <div className="text-[#E6E6E6]" style={{ fontSize: '16px', fontWeight: '600' }}>U.S. Patent #11,268,265</div>
-                          <div className="text-[#D0DCE4]" style={{ fontSize: '13px' }}>View or download the full patent document (PDF)</div>
+                          <div className="text-[#E2EBF0]" style={{ fontSize: '13px' }}>View or download the full patent document (PDF)</div>
                         </div>
                       </div>
                       <Download className="w-5 h-5 text-[#1E3FD8]" />
@@ -3198,7 +3198,7 @@ export default function App() {
                         key={idx}
                         className="text-center p-8"
                         style={{
-                          background: 'rgba(30, 63, 216, 0.12)',
+                          background: 'rgba(30, 63, 216, 0.18)',
                           border: '2px solid rgba(30, 63, 216, 0.2)',
                           borderRadius: '12px'
                         }}
@@ -3281,7 +3281,7 @@ export default function App() {
   // TEAM PAGE
   if (currentPage === 'team') {
     return (
-      <div className="min-h-screen" style={{ background: '#0A1428' }}>
+      <div className="min-h-screen" style={{ background: '#132040' }}>
         <Navigation />
 
         {/* Hero Section */}
@@ -3310,7 +3310,7 @@ export default function App() {
               </h1>
               <div className="w-24 h-1 bg-[#1E3FD8] mx-auto mb-6"></div>
               <p
-                className="text-[#D0DCE4] max-w-3xl mx-auto"
+                className="text-[#E2EBF0] max-w-3xl mx-auto"
                 style={{
                   fontSize: '18px',
                   lineHeight: '1.7'
@@ -3323,7 +3323,7 @@ export default function App() {
         </section>
 
         {/* Board Members */}
-        <section className="py-16" style={{ background: '#0A1428' }}>
+        <section className="py-16" style={{ background: '#132040' }}>
           <div className="container mx-auto px-6">
             <div className="max-w-6xl mx-auto">
               <div className="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto">
@@ -3348,7 +3348,7 @@ export default function App() {
                         <p className="text-[#4F73D6] font-bold mb-3 tracking-wide">
                           {member.role}
                         </p>
-                        <p className="text-[#D0DCE4] text-sm leading-relaxed mb-3">
+                        <p className="text-[#E2EBF0] text-sm leading-relaxed mb-3">
                           {member.bio}
                         </p>
                         {member.email && (
@@ -3376,7 +3376,7 @@ export default function App() {
   // GALLERY PAGE
   if (currentPage === 'gallery') {
     return (
-      <div className="min-h-screen" style={{ background: '#0A1428' }}>
+      <div className="min-h-screen" style={{ background: '#132040' }}>
         <Navigation />
 
         <div className="pt-48 pb-24 bg-black">
@@ -3386,7 +3386,7 @@ export default function App() {
                 <h1 className="text-6xl md:text-7xl font-black text-[#E6E6E6] mb-4 tracking-tight">
                   PROJECT GALLERY
                 </h1>
-                <p className="text-xl text-[#D0DCE4]">
+                <p className="text-xl text-[#E2EBF0]">
                   Explore our completed synthetic turf field installations for schools, Miracle League organizations, municipalities, and athletic programs nationwide
                 </p>
               </div>
@@ -3417,7 +3417,7 @@ export default function App() {
                           <h3 className="text-xl font-black text-[#E6E6E6] mb-2 tracking-tight">
                             {project.name}
                           </h3>
-                          <p className="text-[#D0DCE4] flex items-center gap-2 text-sm mb-4">
+                          <p className="text-[#E2EBF0] flex items-center gap-2 text-sm mb-4">
                             <MapPin className="w-4 h-4" />
                             {project.location}
                           </p>
@@ -3462,7 +3462,7 @@ export default function App() {
                           <h3 className="text-xl font-black text-[#E6E6E6] mb-2 tracking-tight">
                             {project.name}
                           </h3>
-                          <p className="text-[#D0DCE4] flex items-center gap-2 text-sm mb-4">
+                          <p className="text-[#E2EBF0] flex items-center gap-2 text-sm mb-4">
                             <MapPin className="w-4 h-4" />
                             {project.location}
                           </p>
@@ -3507,7 +3507,7 @@ export default function App() {
                           <h3 className="text-xl font-black text-[#E6E6E6] mb-2 tracking-tight">
                             {project.name}
                           </h3>
-                          <p className="text-[#D0DCE4] flex items-center gap-2 text-sm mb-4">
+                          <p className="text-[#E2EBF0] flex items-center gap-2 text-sm mb-4">
                             <MapPin className="w-4 h-4" />
                             {project.location}
                           </p>
@@ -3545,7 +3545,7 @@ export default function App() {
   // PARTNERS PAGE
   if (currentPage === 'partners') {
     return (
-      <div className="min-h-screen" style={{ background: '#0A1428' }}>
+      <div className="min-h-screen" style={{ background: '#132040' }}>
         <Navigation />
 
         <div className="pt-48 pb-24 bg-black">
@@ -3555,7 +3555,7 @@ export default function App() {
                 <h1 className="text-6xl md:text-7xl font-black text-[#E6E6E6] mb-4 tracking-tight">
                   PARTNER WITH US
                 </h1>
-                <p className="text-xl text-[#D0DCE4]">
+                <p className="text-xl text-[#E2EBF0]">
                   Join our nationwide network of synthetic turf contractors, suppliers, and bidders. We partner with general contractors, site work specialists, and trades to deliver field installations for schools, municipalities, Miracle League organizations, and athletic programs across the country.
                 </p>
               </div>
@@ -3574,19 +3574,19 @@ export default function App() {
                         <label className="font-bold text-sm text-[#E6E6E6] mb-2 block tracking-wider">
                           Company Name
                         </label>
-                        <Input name="company" placeholder="Your company" className="bg-[#111111] border-[#4F73D6]/30 text-[#E6E6E6] placeholder:text-[#D0DCE4]" />
+                        <Input name="company" placeholder="Your company" className="bg-[#111111] border-[#4F73D6]/30 text-[#E6E6E6] placeholder:text-[#E2EBF0]" />
                       </div>
                       <div>
                         <label className="font-bold text-sm text-[#E6E6E6] mb-2 block tracking-wider">
                           Contact Person
                         </label>
-                        <Input name="name" placeholder="Full name" className="bg-[#111111] border-[#4F73D6]/30 text-[#E6E6E6] placeholder:text-[#D0DCE4]" />
+                        <Input name="name" placeholder="Full name" className="bg-[#111111] border-[#4F73D6]/30 text-[#E6E6E6] placeholder:text-[#E2EBF0]" />
                       </div>
                       <div>
                         <label className="font-bold text-sm text-[#E6E6E6] mb-2 block tracking-wider">
                           Email
                         </label>
-                        <Input type="email" name="email" placeholder="email@company.com" className="bg-[#111111] border-[#4F73D6]/30 text-[#E6E6E6] placeholder:text-[#D0DCE4]" />
+                        <Input type="email" name="email" placeholder="email@company.com" className="bg-[#111111] border-[#4F73D6]/30 text-[#E6E6E6] placeholder:text-[#E2EBF0]" />
                       </div>
                       <div>
                         <label className="font-bold text-sm text-[#E6E6E6] mb-2 block tracking-wider">
@@ -3606,7 +3606,7 @@ export default function App() {
                         <Textarea 
                           placeholder="Tell us about your company and partnership interest..."
                           rows={4}
-                          className="bg-[#111111] border-[#4F73D6]/30 text-[#E6E6E6] placeholder:text-[#D0DCE4]"
+                          className="bg-[#111111] border-[#4F73D6]/30 text-[#E6E6E6] placeholder:text-[#E2EBF0]"
                         />
                       </div>
                       <button type="submit" className="w-full bg-[#1E3FD8] text-white font-black hover:bg-[#4F73D6] tracking-wider py-3 rounded-md transition-colors flex items-center justify-center gap-2">
@@ -3623,7 +3623,7 @@ export default function App() {
                     <h2 className="text-3xl font-black text-[#E6E6E6] mb-8 tracking-tight">
                       JOIN BIDDER LIST
                     </h2>
-                    <p className="text-[#D0DCE4] mb-6 leading-relaxed">
+                    <p className="text-[#E2EBF0] mb-6 leading-relaxed">
                       Get notified of upcoming project opportunities and RFPs. Join our contractor network to receive exclusive bidding invitations.
                     </p>
                     <form action="https://api.web3forms.com/submit" method="POST" className="space-y-4">
@@ -3631,23 +3631,23 @@ export default function App() {
                       <input type="hidden" name="subject" value="Bidder List Request - PES Field Systems Website" />
                       <div>
                         <label className="font-bold text-sm text-[#E6E6E6] mb-2 block tracking-wider">Company Name</label>
-                        <Input name="company" placeholder="Your company" className="bg-[#111111] border-[#4F73D6]/30 text-[#E6E6E6] placeholder:text-[#D0DCE4]" />
+                        <Input name="company" placeholder="Your company" className="bg-[#111111] border-[#4F73D6]/30 text-[#E6E6E6] placeholder:text-[#E2EBF0]" />
                       </div>
                       <div>
                         <label className="font-bold text-sm text-[#E6E6E6] mb-2 block tracking-wider">Primary Contact</label>
-                        <Input name="name" placeholder="Full name" className="bg-[#111111] border-[#4F73D6]/30 text-[#E6E6E6] placeholder:text-[#D0DCE4]" />
+                        <Input name="name" placeholder="Full name" className="bg-[#111111] border-[#4F73D6]/30 text-[#E6E6E6] placeholder:text-[#E2EBF0]" />
                       </div>
                       <div>
                         <label className="font-bold text-sm text-[#E6E6E6] mb-2 block tracking-wider">Email</label>
-                        <Input type="email" name="email" placeholder="email@company.com" className="bg-[#111111] border-[#4F73D6]/30 text-[#E6E6E6] placeholder:text-[#D0DCE4]" />
+                        <Input type="email" name="email" placeholder="email@company.com" className="bg-[#111111] border-[#4F73D6]/30 text-[#E6E6E6] placeholder:text-[#E2EBF0]" />
                       </div>
                       <div>
                         <label className="font-bold text-sm text-[#E6E6E6] mb-2 block tracking-wider">Service Area</label>
-                        <Input name="service-area" placeholder="States/regions you serve" className="bg-[#111111] border-[#4F73D6]/30 text-[#E6E6E6] placeholder:text-[#D0DCE4]" />
+                        <Input name="service-area" placeholder="States/regions you serve" className="bg-[#111111] border-[#4F73D6]/30 text-[#E6E6E6] placeholder:text-[#E2EBF0]" />
                       </div>
                       <div>
                         <label className="font-bold text-sm text-[#E6E6E6] mb-2 block tracking-wider">Specialties</label>
-                        <Textarea name="specialties" placeholder="List your construction specialties..." rows={3} className="bg-[#111111] border-[#4F73D6]/30 text-[#E6E6E6] placeholder:text-[#D0DCE4]" />
+                        <Textarea name="specialties" placeholder="List your construction specialties..." rows={3} className="bg-[#111111] border-[#4F73D6]/30 text-[#E6E6E6] placeholder:text-[#E2EBF0]" />
                       </div>
                       <button type="submit" className="w-full bg-[#1E3FD8] text-white font-black hover:bg-[#4F73D6] tracking-wider py-3 rounded-md transition-colors">
                         JOIN BIDDER LIST
@@ -3674,7 +3674,7 @@ export default function App() {
     }
 
     return (
-      <div className="min-h-screen" style={{ background: '#0A1428' }}>
+      <div className="min-h-screen" style={{ background: '#132040' }}>
         <Navigation />
 
         <section className="pt-48 pb-24 bg-black">
@@ -3709,7 +3709,7 @@ export default function App() {
                     ? 'Miracle League of Central Florida'
                     : project.name}
                 </h1>
-                <p className="text-xl text-[#D0DCE4] flex items-center gap-2">
+                <p className="text-xl text-[#E2EBF0] flex items-center gap-2">
                   <MapPin className="w-5 h-5" />
                   {project.location}
                 </p>
@@ -3760,46 +3760,46 @@ export default function App() {
                 <div className="bg-[#0A0F2C] border border-[#4F73D6]/30 rounded-lg p-8">
                   {project.slug === 'mid-america-ballyard' ? (
                     <>
-                      <p className="text-[#D0DCE4] text-lg leading-relaxed mb-4 font-semibold">
+                      <p className="text-[#E2EBF0] text-lg leading-relaxed mb-4 font-semibold">
                         A start-to-finish field build focused on safety, performance, and long-term quality.
                       </p>
-                      <p className="text-[#D0DCE4] text-lg leading-relaxed">
+                      <p className="text-[#E2EBF0] text-lg leading-relaxed">
                         This project involved the complete transformation of an athletic field that required significant upgrades to improve safety, playability, and long-term performance. From initial planning through final installation, PES Field Systems delivered a professionally managed, start-to-finish field solution designed to serve athletes, programs, and the surrounding community.
                       </p>
                     </>
                   ) : project.slug === 'lasalle-high-school' ? (
                     <>
-                      <p className="text-[#D0DCE4] text-lg leading-relaxed mb-4">
+                      <p className="text-[#E2EBF0] text-lg leading-relaxed mb-4">
                         La Salle High School required a comprehensive baseball field upgrade to meet the expectations of elite student-athletes while improving safety, consistency, and long-term performance. PES Field Systems partnered closely with school leadership to refresh the existing field, addressing surface wear, drainage challenges, and playability issues that had developed over time.
                       </p>
-                      <p className="text-[#D0DCE4] text-lg leading-relaxed">
+                      <p className="text-[#E2EBF0] text-lg leading-relaxed">
                         The project focused on precision grading, improved drainage systems, and durable, environmentally responsible materials to create a high-performing baseball field capable of supporting competitive play, daily practices, and community use. The result is a refreshed athletic surface that reflects La Salle's commitment to excellence providing athletes with a safe, reliable field designed to perform at the highest level.
                       </p>
                     </>
                   ) : project.slug === 'miracle-league-nw-montana' ? (
                     <>
-                      <p className="text-[#D0DCE4] text-lg leading-relaxed mb-4">
+                      <p className="text-[#E2EBF0] text-lg leading-relaxed mb-4">
                         This project involved the design and construction of several baseball fields built to support safe play, long-term durability, and high performance for athletes of all ages. PES Field Systems engineered each field with precision grading, advanced drainage solutions, and environmentally responsible materials to ensure consistent playability and reduced maintenance over time.
                       </p>
-                      <p className="text-[#D0DCE4] text-lg leading-relaxed">
+                      <p className="text-[#E2EBF0] text-lg leading-relaxed">
                         From initial site preparation through final installation, our team delivered a complete, start-to-finish baseball field solution that meets the demands of competitive programs while serving the broader community with reliable, professionally built athletic surfaces.
                       </p>
                     </>
                   ) : project.slug === 'miracle-league-plymouth' ? (
                     <>
-                      <p className="text-[#D0DCE4] text-lg leading-relaxed mb-4 font-semibold">
+                      <p className="text-[#E2EBF0] text-lg leading-relaxed mb-4 font-semibold">
                         The Miracle League of Plymouth enriches the community by offering inclusive recreation especially baseball for individuals with special needs and their families. Through player and "buddy" partnerships, the league promotes friendship, social development, and lasting connections.
                       </p>
                       <div className="grid md:grid-cols-2 gap-8 mt-8">
                         <div className="bg-[#111111] border border-[#4F73D6]/30 rounded-lg p-6">
                           <h3 className="text-[#4F73D6] text-xl font-bold mb-3 tracking-wide">Before the Build</h3>
-                          <p className="text-[#D0DCE4] leading-relaxed">
+                          <p className="text-[#E2EBF0] leading-relaxed">
                             Before construction began, Plymouth lacked an adaptive baseball field that could safely support athletes with special needs. The community envisioned a space where every child regardless of ability could experience the game in a safe, inclusive environment. Working alongside the Miracle League of Plymouth, we prepared for a field that would remove physical barriers and create a welcoming space for connection, confidence, and fun.
                           </p>
                         </div>
                         <div className="bg-[#111111] border border-[#4F73D6]/30 rounded-lg p-6">
                           <h3 className="text-[#4F73D6] text-xl font-bold mb-3 tracking-wide">After the Build</h3>
-                          <p className="text-[#D0DCE4] leading-relaxed">
+                          <p className="text-[#E2EBF0] leading-relaxed">
                             The finished field features a custom turf surface designed for accessibility, safety, and all-weather play. Our team completed the surfacing and detail work to meet Miracle League standards, ensuring smooth mobility for wheelchairs and walkers while maintaining a professional look and feel. Today, the field is more than just a place to play its a space where inclusion thrives and every player gets their moment at bat.
                           </p>
                         </div>
@@ -3807,19 +3807,19 @@ export default function App() {
                     </>
                   ) : project.slug === 'miracle-league-central-florida' ? (
                     <>
-                      <p className="text-[#D0DCE4] text-lg leading-relaxed mb-4 font-semibold">
+                      <p className="text-[#E2EBF0] text-lg leading-relaxed mb-4 font-semibold">
                         Restoring Playability and Safety.
                       </p>
-                      <p className="text-[#D0DCE4] text-lg leading-relaxed">
+                      <p className="text-[#E2EBF0] text-lg leading-relaxed">
                         The Miracle League of Central Florida baseball field project addressed significant surface deterioration, drainage issues, and inconsistent playability that impacted both safety and performance. PES Field Systems completed a comprehensive field renovation that included site preparation, regrading, improved drainage solutions, and the installation of durable, environmentally responsible materials designed for Florida's climate. The upgraded baseball field now delivers reliable play conditions, reduced maintenance demands, and a professional-quality surface that supports daily use, competitive play, and long-term community investment.
                       </p>
                     </>
                   ) : (
                     <>
-                      <p className="text-[#D0DCE4] text-lg leading-relaxed mb-4">
+                      <p className="text-[#E2EBF0] text-lg leading-relaxed mb-4">
                         [Placeholder: Project description and overview will be added here. This section will detail the scope of work, challenges overcome, and key features of the installation.]
                       </p>
-                      <p className="text-[#D0DCE4] text-lg leading-relaxed">
+                      <p className="text-[#E2EBF0] text-lg leading-relaxed">
                         [Placeholder: Additional details about the project timeline, client collaboration, and outcomes will be included in this section.]
                       </p>
                     </>
@@ -3846,7 +3846,7 @@ export default function App() {
                           <h3 className="text-xl font-black text-[#E6E6E6] mb-3">
                             Planning & Site Preparation
                           </h3>
-                          <p className="text-[#D0DCE4] leading-relaxed">
+                          <p className="text-[#E2EBF0] leading-relaxed">
                             PES Field Systems began with a detailed evaluation of site conditions, field usage, and long-term goals. Careful planning and site preparation ensured proper grading, efficient drainage, and a strong foundation for a durable, high-performing athletic surface.
                           </p>
                         </div>
@@ -3865,7 +3865,7 @@ export default function App() {
                           <h3 className="text-xl font-black text-[#E6E6E6] mb-3">
                             Field Construction & Materials
                           </h3>
-                          <p className="text-[#D0DCE4] leading-relaxed">
+                          <p className="text-[#E2EBF0] leading-relaxed">
                             Using high-quality, environmentally responsible materials, our team constructed the field to support consistent play and heavy use. Precision installation techniques were applied to create a safe, reliable surface that meets the demands of competitive athletic programs.
                           </p>
                         </div>
@@ -3884,7 +3884,7 @@ export default function App() {
                           <h3 className="text-xl font-black text-[#E6E6E6] mb-3">
                             Safety & Performance Enhancements
                           </h3>
-                          <p className="text-[#D0DCE4] leading-relaxed">
+                          <p className="text-[#E2EBF0] leading-relaxed">
                             Safety was a primary focus throughout the project. PES Field Systems incorporated design features and construction methods that enhance athlete safety, improve surface stability, and promote consistent ball response and footing across the entire field.
                           </p>
                         </div>
@@ -3903,7 +3903,7 @@ export default function App() {
                           <h3 className="text-xl font-black text-[#E6E6E6] mb-3">
                             Finished Field & Community Impact
                           </h3>
-                          <p className="text-[#D0DCE4] leading-relaxed">
+                          <p className="text-[#E2EBF0] leading-relaxed">
                             The completed field delivers a professional-quality playing environment built for long-term performance and reduced maintenance. The upgraded facility now supports regular practices, competitive events, and community use providing a reliable athletic space designed to last.
                           </p>
                         </div>
@@ -4110,114 +4110,114 @@ export default function App() {
                     <>
                       <div className="flex items-start gap-3 bg-[#0A0F2C] border border-[#4F73D6]/30 rounded-lg p-4">
                         <CheckCircle className="w-5 h-5 text-[#4F73D6] flex-shrink-0 mt-0.5" />
-                        <p className="text-[#D0DCE4]">Professional-grade baseball and softball field surface</p>
+                        <p className="text-[#E2EBF0]">Professional-grade baseball and softball field surface</p>
                       </div>
                       <div className="flex items-start gap-3 bg-[#0A0F2C] border border-[#4F73D6]/30 rounded-lg p-4">
                         <CheckCircle className="w-5 h-5 text-[#4F73D6] flex-shrink-0 mt-0.5" />
-                        <p className="text-[#D0DCE4]">Enhanced athlete safety with optimized fall protection</p>
+                        <p className="text-[#E2EBF0]">Enhanced athlete safety with optimized fall protection</p>
                       </div>
                       <div className="flex items-start gap-3 bg-[#0A0F2C] border border-[#4F73D6]/30 rounded-lg p-4">
                         <CheckCircle className="w-5 h-5 text-[#4F73D6] flex-shrink-0 mt-0.5" />
-                        <p className="text-[#D0DCE4]">Engineered drainage system for all-weather performance</p>
+                        <p className="text-[#E2EBF0]">Engineered drainage system for all-weather performance</p>
                       </div>
                       <div className="flex items-start gap-3 bg-[#0A0F2C] border border-[#4F73D6]/30 rounded-lg p-4">
                         <CheckCircle className="w-5 h-5 text-[#4F73D6] flex-shrink-0 mt-0.5" />
-                        <p className="text-[#D0DCE4]">Low-maintenance design for long-term durability</p>
+                        <p className="text-[#E2EBF0]">Low-maintenance design for long-term durability</p>
                       </div>
                     </>
                   ) : project.slug === 'lasalle-high-school' ? (
                     <>
                       <div className="flex items-start gap-3 bg-[#0A0F2C] border border-[#4F73D6]/30 rounded-lg p-4">
                         <CheckCircle className="w-5 h-5 text-[#4F73D6] flex-shrink-0 mt-0.5" />
-                        <p className="text-[#D0DCE4]">Elite-level baseball field for competitive play</p>
+                        <p className="text-[#E2EBF0]">Elite-level baseball field for competitive play</p>
                       </div>
                       <div className="flex items-start gap-3 bg-[#0A0F2C] border border-[#4F73D6]/30 rounded-lg p-4">
                         <CheckCircle className="w-5 h-5 text-[#4F73D6] flex-shrink-0 mt-0.5" />
-                        <p className="text-[#D0DCE4]">Improved drainage system for all-weather performance</p>
+                        <p className="text-[#E2EBF0]">Improved drainage system for all-weather performance</p>
                       </div>
                       <div className="flex items-start gap-3 bg-[#0A0F2C] border border-[#4F73D6]/30 rounded-lg p-4">
                         <CheckCircle className="w-5 h-5 text-[#4F73D6] flex-shrink-0 mt-0.5" />
-                        <p className="text-[#D0DCE4]">Precision grading for consistent playability</p>
+                        <p className="text-[#E2EBF0]">Precision grading for consistent playability</p>
                       </div>
                       <div className="flex items-start gap-3 bg-[#0A0F2C] border border-[#4F73D6]/30 rounded-lg p-4">
                         <CheckCircle className="w-5 h-5 text-[#4F73D6] flex-shrink-0 mt-0.5" />
-                        <p className="text-[#D0DCE4]">Environmentally responsible materials and construction</p>
+                        <p className="text-[#E2EBF0]">Environmentally responsible materials and construction</p>
                       </div>
                     </>
                   ) : project.slug === 'miracle-league-nw-montana' ? (
                     <>
                       <div className="flex items-start gap-3 bg-[#0A0F2C] border border-[#4F73D6]/30 rounded-lg p-4">
                         <CheckCircle className="w-5 h-5 text-[#4F73D6] flex-shrink-0 mt-0.5" />
-                        <p className="text-[#D0DCE4]">Multiple baseball fields for athletes of all ages</p>
+                        <p className="text-[#E2EBF0]">Multiple baseball fields for athletes of all ages</p>
                       </div>
                       <div className="flex items-start gap-3 bg-[#0A0F2C] border border-[#4F73D6]/30 rounded-lg p-4">
                         <CheckCircle className="w-5 h-5 text-[#4F73D6] flex-shrink-0 mt-0.5" />
-                        <p className="text-[#D0DCE4]">Advanced drainage solutions for year-round use</p>
+                        <p className="text-[#E2EBF0]">Advanced drainage solutions for year-round use</p>
                       </div>
                       <div className="flex items-start gap-3 bg-[#0A0F2C] border border-[#4F73D6]/30 rounded-lg p-4">
                         <CheckCircle className="w-5 h-5 text-[#4F73D6] flex-shrink-0 mt-0.5" />
-                        <p className="text-[#D0DCE4]">Precision-engineered grading for consistent performance</p>
+                        <p className="text-[#E2EBF0]">Precision-engineered grading for consistent performance</p>
                       </div>
                       <div className="flex items-start gap-3 bg-[#0A0F2C] border border-[#4F73D6]/30 rounded-lg p-4">
                         <CheckCircle className="w-5 h-5 text-[#4F73D6] flex-shrink-0 mt-0.5" />
-                        <p className="text-[#D0DCE4]">Low-maintenance, environmentally responsible design</p>
+                        <p className="text-[#E2EBF0]">Low-maintenance, environmentally responsible design</p>
                       </div>
                     </>
                   ) : project.slug === 'miracle-league-plymouth' ? (
                     <>
                       <div className="flex items-start gap-3 bg-[#0A0F2C] border border-[#4F73D6]/30 rounded-lg p-4">
                         <CheckCircle className="w-5 h-5 text-[#4F73D6] flex-shrink-0 mt-0.5" />
-                        <p className="text-[#D0DCE4]">Custom turf surface for accessibility</p>
+                        <p className="text-[#E2EBF0]">Custom turf surface for accessibility</p>
                       </div>
                       <div className="flex items-start gap-3 bg-[#0A0F2C] border border-[#4F73D6]/30 rounded-lg p-4">
                         <CheckCircle className="w-5 h-5 text-[#4F73D6] flex-shrink-0 mt-0.5" />
-                        <p className="text-[#D0DCE4]">Wheelchair and walker-friendly surface design</p>
+                        <p className="text-[#E2EBF0]">Wheelchair and walker-friendly surface design</p>
                       </div>
                       <div className="flex items-start gap-3 bg-[#0A0F2C] border border-[#4F73D6]/30 rounded-lg p-4">
                         <CheckCircle className="w-5 h-5 text-[#4F73D6] flex-shrink-0 mt-0.5" />
-                        <p className="text-[#D0DCE4]">All-weather play capability for year-round use</p>
+                        <p className="text-[#E2EBF0]">All-weather play capability for year-round use</p>
                       </div>
                       <div className="flex items-start gap-3 bg-[#0A0F2C] border border-[#4F73D6]/30 rounded-lg p-4">
                         <CheckCircle className="w-5 h-5 text-[#4F73D6] flex-shrink-0 mt-0.5" />
-                        <p className="text-[#D0DCE4]">Meets Miracle League safety and accessibility standards</p>
+                        <p className="text-[#E2EBF0]">Meets Miracle League safety and accessibility standards</p>
                       </div>
                     </>
                   ) : project.slug === 'miracle-league-central-florida' ? (
                     <>
                       <div className="flex items-start gap-3 bg-[#0A0F2C] border border-[#4F73D6]/30 rounded-lg p-4">
                         <CheckCircle className="w-5 h-5 text-[#4F73D6] flex-shrink-0 mt-0.5" />
-                        <p className="text-[#D0DCE4]">Comprehensive field renovation and surface restoration</p>
+                        <p className="text-[#E2EBF0]">Comprehensive field renovation and surface restoration</p>
                       </div>
                       <div className="flex items-start gap-3 bg-[#0A0F2C] border border-[#4F73D6]/30 rounded-lg p-4">
                         <CheckCircle className="w-5 h-5 text-[#4F73D6] flex-shrink-0 mt-0.5" />
-                        <p className="text-[#D0DCE4]">Improved drainage solutions for Florida's climate</p>
+                        <p className="text-[#E2EBF0]">Improved drainage solutions for Florida's climate</p>
                       </div>
                       <div className="flex items-start gap-3 bg-[#0A0F2C] border border-[#4F73D6]/30 rounded-lg p-4">
                         <CheckCircle className="w-5 h-5 text-[#4F73D6] flex-shrink-0 mt-0.5" />
-                        <p className="text-[#D0DCE4]">Durable, environmentally responsible materials</p>
+                        <p className="text-[#E2EBF0]">Durable, environmentally responsible materials</p>
                       </div>
                       <div className="flex items-start gap-3 bg-[#0A0F2C] border border-[#4F73D6]/30 rounded-lg p-4">
                         <CheckCircle className="w-5 h-5 text-[#4F73D6] flex-shrink-0 mt-0.5" />
-                        <p className="text-[#D0DCE4]">Reduced maintenance with professional-quality surface</p>
+                        <p className="text-[#E2EBF0]">Reduced maintenance with professional-quality surface</p>
                       </div>
                     </>
                   ) : (
                     <>
                       <div className="flex items-start gap-3 bg-[#0A0F2C] border border-[#4F73D6]/30 rounded-lg p-4">
                         <CheckCircle className="w-5 h-5 text-[#4F73D6] flex-shrink-0 mt-0.5" />
-                        <p className="text-[#D0DCE4]">[Placeholder: Feature 1 description]</p>
+                        <p className="text-[#E2EBF0]">[Placeholder: Feature 1 description]</p>
                       </div>
                       <div className="flex items-start gap-3 bg-[#0A0F2C] border border-[#4F73D6]/30 rounded-lg p-4">
                         <CheckCircle className="w-5 h-5 text-[#4F73D6] flex-shrink-0 mt-0.5" />
-                        <p className="text-[#D0DCE4]">[Placeholder: Feature 2 description]</p>
+                        <p className="text-[#E2EBF0]">[Placeholder: Feature 2 description]</p>
                       </div>
                       <div className="flex items-start gap-3 bg-[#0A0F2C] border border-[#4F73D6]/30 rounded-lg p-4">
                         <CheckCircle className="w-5 h-5 text-[#4F73D6] flex-shrink-0 mt-0.5" />
-                        <p className="text-[#D0DCE4]">[Placeholder: Feature 3 description]</p>
+                        <p className="text-[#E2EBF0]">[Placeholder: Feature 3 description]</p>
                       </div>
                       <div className="flex items-start gap-3 bg-[#0A0F2C] border border-[#4F73D6]/30 rounded-lg p-4">
                         <CheckCircle className="w-5 h-5 text-[#4F73D6] flex-shrink-0 mt-0.5" />
-                        <p className="text-[#D0DCE4]">[Placeholder: Feature 4 description]</p>
+                        <p className="text-[#E2EBF0]">[Placeholder: Feature 4 description]</p>
                       </div>
                     </>
                   )}
@@ -4259,7 +4259,7 @@ export default function App() {
   // CONTACT PAGE
   if (currentPage === 'contact') {
     return (
-      <div className="min-h-screen" style={{ background: '#0A1428' }}>
+      <div className="min-h-screen" style={{ background: '#132040' }}>
         <Navigation />
         <section className="pt-48 pb-24 bg-black">
           <div className="container mx-auto px-4">
@@ -4268,7 +4268,7 @@ export default function App() {
                 <h1 className="text-6xl md:text-7xl font-black text-[#E6E6E6] mb-4 tracking-tight">
                   LET&apos;S BUILD TOGETHER
                 </h1>
-                <p className="text-xl text-[#D0DCE4]">
+                <p className="text-xl text-[#E2EBF0]">
                   Ready to build your synthetic turf field? Contact PES Field Systems to discuss your project.
                 </p>
               </div>
@@ -4282,20 +4282,20 @@ export default function App() {
                       <div className="grid grid-cols-2 gap-4">
                         <div>
                           <label className="font-bold text-sm text-[#E6E6E6] mb-2 block tracking-wider">First Name</label>
-                          <Input name="first-name" placeholder="John" className="bg-[#111111] border-[#4F73D6]/30 text-[#E6E6E6] placeholder:text-[#D0DCE4]" />
+                          <Input name="first-name" placeholder="John" className="bg-[#111111] border-[#4F73D6]/30 text-[#E6E6E6] placeholder:text-[#E2EBF0]" />
                         </div>
                         <div>
                           <label className="font-bold text-sm text-[#E6E6E6] mb-2 block tracking-wider">Last Name</label>
-                          <Input name="last-name" placeholder="Doe" className="bg-[#111111] border-[#4F73D6]/30 text-[#E6E6E6] placeholder:text-[#D0DCE4]" />
+                          <Input name="last-name" placeholder="Doe" className="bg-[#111111] border-[#4F73D6]/30 text-[#E6E6E6] placeholder:text-[#E2EBF0]" />
                         </div>
                       </div>
                       <div>
                         <label className="font-bold text-sm text-[#E6E6E6] mb-2 block tracking-wider">Email</label>
-                        <Input type="email" name="email" placeholder="john@example.com" className="bg-[#111111] border-[#4F73D6]/30 text-[#E6E6E6] placeholder:text-[#D0DCE4]" />
+                        <Input type="email" name="email" placeholder="john@example.com" className="bg-[#111111] border-[#4F73D6]/30 text-[#E6E6E6] placeholder:text-[#E2EBF0]" />
                       </div>
                       <div>
-                        <label className="font-bold text-sm text-[#E6E6E6] mb-2 block tracking-wider">Phone <span className="text-[#D0DCE4] font-normal">(optional)</span></label>
-                        <Input type="tel" name="phone" placeholder="Your phone number" className="bg-[#111111] border-[#4F73D6]/30 text-[#E6E6E6] placeholder:text-[#D0DCE4]" />
+                        <label className="font-bold text-sm text-[#E6E6E6] mb-2 block tracking-wider">Phone <span className="text-[#E2EBF0] font-normal">(optional)</span></label>
+                        <Input type="tel" name="phone" placeholder="Your phone number" className="bg-[#111111] border-[#4F73D6]/30 text-[#E6E6E6] placeholder:text-[#E2EBF0]" />
                       </div>
                       <div>
                         <label className="font-bold text-sm text-[#E6E6E6] mb-2 block tracking-wider">Project Type</label>
@@ -4309,7 +4309,7 @@ export default function App() {
                       </div>
                       <div>
                         <label className="font-bold text-sm text-[#E6E6E6] mb-2 block tracking-wider">Message</label>
-                        <Textarea name="message" placeholder="Tell us about your project..." rows={5} className="bg-[#111111] border-[#4F73D6]/30 text-[#E6E6E6] placeholder:text-[#D0DCE4]" />
+                        <Textarea name="message" placeholder="Tell us about your project..." rows={5} className="bg-[#111111] border-[#4F73D6]/30 text-[#E6E6E6] placeholder:text-[#E2EBF0]" />
                       </div>
                       <button type="submit" className="w-full bg-[#1E3FD8] text-white font-black text-lg hover:bg-[#4F73D6] py-4 tracking-wider rounded-md transition-colors flex items-center justify-center gap-2">
                         <Send className="w-5 h-5" />
@@ -4322,31 +4322,31 @@ export default function App() {
                   <Card className="bg-[#0A0F2C] border-[#4F73D6]/30">
                     <CardContent className="p-8">
                       <div className="flex items-start gap-4 mb-8">
-                        <div className="w-12 h-12 bg-gradient-to-r from-[#1E3FD8] via-[#4F73D6] to-[#D0DCE4] rounded-lg flex items-center justify-center flex-shrink-0">
+                        <div className="w-12 h-12 bg-gradient-to-r from-[#1E3FD8] via-[#4F73D6] to-[#E2EBF0] rounded-lg flex items-center justify-center flex-shrink-0">
                           <Mail className="w-6 h-6 text-white" />
                         </div>
                         <div>
                           <h3 className="font-black text-lg mb-1 text-[#E6E6E6] tracking-wider">EMAIL</h3>
-                          <p className="text-[#D0DCE4]">triffon@pesfieldsystems.com</p>
-                          <p className="text-sm text-[#D0DCE4]">We respond within 24 hours</p>
+                          <p className="text-[#E2EBF0]">triffon@pesfieldsystems.com</p>
+                          <p className="text-sm text-[#E2EBF0]">We respond within 24 hours</p>
                         </div>
                       </div>
                       <div className="flex items-start gap-4 mb-8">
-                        <div className="w-12 h-12 bg-gradient-to-r from-[#1E3FD8] via-[#4F73D6] to-[#D0DCE4] rounded-lg flex items-center justify-center flex-shrink-0">
+                        <div className="w-12 h-12 bg-gradient-to-r from-[#1E3FD8] via-[#4F73D6] to-[#E2EBF0] rounded-lg flex items-center justify-center flex-shrink-0">
                           <MapPin className="w-6 h-6 text-white" />
                         </div>
                         <div>
                           <h3 className="font-black text-lg mb-1 text-[#E6E6E6] tracking-wider">ADDRESS</h3>
-                          <p className="text-[#D0DCE4]">3460 Oakmeadow Lane<br/>Cincinnati, Ohio 45239</p>
+                          <p className="text-[#E2EBF0]">3460 Oakmeadow Lane<br/>Cincinnati, Ohio 45239</p>
                         </div>
                       </div>
                       <div className="flex items-start gap-4">
-                        <div className="w-12 h-12 bg-gradient-to-r from-[#1E3FD8] via-[#4F73D6] to-[#D0DCE4] rounded-lg flex items-center justify-center flex-shrink-0">
+                        <div className="w-12 h-12 bg-gradient-to-r from-[#1E3FD8] via-[#4F73D6] to-[#E2EBF0] rounded-lg flex items-center justify-center flex-shrink-0">
                           <Clock className="w-6 h-6 text-white" />
                         </div>
                         <div>
                           <h3 className="font-black text-lg mb-1 text-[#E6E6E6] tracking-wider">BUSINESS HOURS</h3>
-                          <p className="text-[#D0DCE4]">Monday - Friday: 8:00 AM - 6:00 PM EST<br/>Saturday: 9:00 AM - 3:00 PM EST<br/>Sunday: Closed</p>
+                          <p className="text-[#E2EBF0]">Monday - Friday: 8:00 AM - 6:00 PM EST<br/>Saturday: 9:00 AM - 3:00 PM EST<br/>Sunday: Closed</p>
                         </div>
                       </div>
                     </CardContent>
@@ -4356,7 +4356,7 @@ export default function App() {
             </div>
           </div>
         </section>
-        <section className="h-96 bg-[#0A0F2C] border-t border-[#D0DCE4]/30">
+        <section className="h-96 bg-[#0A0F2C] border-t border-[#E2EBF0]/30">
           <iframe
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3090.9384706863935!2d-84.56486892346795!3d39.23856997167895!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8841b2f8a8a8a8a9%3A0x1234567890abcdef!2s3460%20Oakmeadow%20Ln%2C%20Cincinnati%2C%20OH%2045239!5e0!3m2!1sen!2sus!4v1234567890123!5m2!1sen!2sus"
             width="100%"
