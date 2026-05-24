@@ -380,7 +380,7 @@ export default function App() {
       <nav
         className={`fixed top-0 left-0 right-0 z-50 transition-all duration-200`}
         style={{
-          background: '#0A0F1E',
+          background: '#000000',
           borderBottom: '1px solid rgba(30, 63, 216, 0.4)'
         }}
       >
@@ -547,7 +547,7 @@ export default function App() {
         className={`md:hidden fixed inset-0 z-40 flex items-center justify-center transition-transform duration-300 ${
           mobileMenuOpen ? 'translate-y-0' : '-translate-y-full'
         }`}
-        style={{ background: '#0A0F1E' }}
+        style={{ background: '#000000' }}
       >
         <div className="flex flex-col items-center gap-6 pt-48 pb-12 overflow-y-auto h-full w-full">
           <button
