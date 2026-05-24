@@ -241,8 +241,8 @@ export default function App() {
     },
     {
       icon: Users,
-      title: 'Day Care Play Areas',
-      desc: 'Safe, age-appropriate outdoor spaces designed for learning, movement, and play.',
+      title: 'Playground & Play Areas',
+      desc: 'Safe, impact-absorbing synthetic turf surfaces for playgrounds, parks, and outdoor recreation spaces designed for kids of all ages.',
       completed: false
     },
     {
@@ -977,7 +977,7 @@ export default function App() {
                   </p>
                 </motion.div>
 
-                {/* Day Care Play Areas */}
+                {/* Playground & Play Areas */}
                 <motion.div
                   initial={{ opacity: 0, y: 20 }}
                   whileInView={{ opacity: 1, y: 0 }}
@@ -1001,7 +1001,7 @@ export default function App() {
                       fontWeight: '700'
                     }}
                   >
-                    Day Care Play Areas
+                    Playground & Play Areas
                   </h3>
                   <p className="text-[#B7C6CF]" style={{ fontSize: '15px', lineHeight: '1.6' }}>
                     Safe, age-appropriate outdoor spaces designed for learning, movement, and play.
