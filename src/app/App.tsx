@@ -812,7 +812,7 @@ export default function App() {
                   lineHeight: '1.7'
                 }}
               >
-              PES Field Systems partners closely with schools, municipalities, Miracle League organizations, daycares, and athletic programs nationwide to design and build synthetic turf fields that meet your budget, permitting, and schedule requirements. Using in-house construction resources or licensed subcontractors under our direct supervision, we deliver custom athletic fields and outdoor recreation spaces with industry-standard performance warranties.              </p>
+              PES Field Systems partners closely with schools, municipalities, Miracle League organizations, and athletic programs nationwide to design and build synthetic turf fields that meet your budget, permitting, and schedule requirements. Using in-house construction resources or licensed subcontractors under our direct supervision, we deliver custom athletic fields and outdoor recreation spaces with industry-standard performance warranties.              </p>
             </div>
           </div>
         </section>
