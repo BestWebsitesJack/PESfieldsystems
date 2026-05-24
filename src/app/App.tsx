@@ -409,17 +409,17 @@ export default function App() {
                 className="text-[#E6E6E6] hover:text-[#1E3FD8] transition-colors duration-200 no-underline relative pb-1"
                 style={{
                   fontSize: '16px',
+              <button
+                onClick={() => setCurrentPage('home')}
+                onMouseEnter={() => setHoveredNavItem('home')}
+                onMouseLeave={() => setHoveredNavItem(null)}
+                className="text-[#E6E6E6] hover:text-[#1E3FD8] transition-colors duration-200 no-underline relative pb-1"
+                style={{ fontSize: '16px', letterSpacing: '0.08em', textDecoration: 'none' }}
+              >
+                HOME
+                <span className="absolute bottom-0 left-0 h-0.5 bg-[#1E3FD8] transition-all duration-300" style={{ width: hoveredNavItem === 'home' ? '100%' : '0%' }}></span>
+              </button>
                   letterSpacing: '0.08em',
-<button
-onClick={() => setCurrentPage('home')}
-onMouseEnter={() => setHoveredNavItem('home')}
-onMouseLeave={() => setHoveredNavItem(null)}
-className="text-[#E6E6E6] hover:text-[#1E3FD8] transition-colors duration-200 no-underline relative pb-1"
-style={{ fontSize: '16px', letterSpacing: '0.08em', textDecoration: 'none' }}
->
-HOME
-<span className="absolute bottom-0 left-0 h-0.5 bg-[#1E3FD8] transition-all duration-300" style={{ width: hoveredNavItem === 'home' ? '100%' : '0%' }}></span>
-</button>
                   textDecoration: 'none'
                 }}
               >
