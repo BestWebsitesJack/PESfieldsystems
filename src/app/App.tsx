@@ -2498,46 +2498,6 @@ export default function App() {
           </div>
         </section>
 
-        {/* FAQs Section */}
-        <section className="py-32 bg-[#111111]">
-          <div className="container mx-auto px-4">
-            <div className="max-w-4xl mx-auto">
-              <div className="text-center mb-20">
-                <motion.div
-                  initial={{ opacity: 0, y: 20 }}
-                  whileInView={{ opacity: 1, y: 0 }}
-                  viewport={{ once: true }}
-                  transition={{ duration: 0.6 }}
-                >
-                  <Badge className="bg-[#4F73D6]/20 text-[#4F73D6] border border-[#4F73D6]/30 mb-6 font-bold tracking-wider">
-                    GOT QUESTIONS?
-                  </Badge>
-                  <h2 className="text-5xl md:text-6xl font-black text-[#E6E6E6] mb-6 tracking-tight">
-                    FREQUENTLY ASKED QUESTIONS
-                  </h2>
-                </motion.div>
-              </div>
-
-              <Accordion type="single" collapsible className="w-full space-y-4">
-                {faqs.map((faq, index) => (
-                  <AccordionItem 
-                    key={index} 
-                    value={`item-${index}`}
-                    className="bg-[#0A0F2C] border border-[#4F73D6]/30 rounded-lg px-6"
-                  >
-                    <AccordionTrigger className="text-left font-black text-lg text-[#E6E6E6] hover:text-[#4F73D6] hover:no-underline">
-                      {faq.q}
-                    </AccordionTrigger>
-                    <AccordionContent className="text-[#E2EBF0] leading-relaxed pb-6">
-                      {faq.a}
-                    </AccordionContent>
-                  </AccordionItem>
-                ))}
-              </Accordion>
-            </div>
-          </div>
-        </section>
-
         {/* Architect Specs Section */}
         <section className="py-32 bg-gradient-to-r from-[#1E3FD8] via-[#4F73D6] to-[#E2EBF0] text-white">
           <div className="container mx-auto px-4">
