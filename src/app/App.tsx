@@ -3308,9 +3308,26 @@ export default function App() {
                         <p className="text-[#4F73D6] font-bold mb-3 tracking-wide">
                           {member.role}
                         </p>
-                        <p className="text-[#E2EBF0] text-sm leading-relaxed mb-3">
-                          {member.bio}
-                        </p>
+                        {member.name === 'Triffon Callos' ? (
+                          <div>
+                            <p className="text-[#E2EBF0] text-sm leading-relaxed mb-3">
+                              Triffon Callos serves as Vice President of PES Field Systems, working with municipalities, schools, parks departments, sports organizations, and private developers nationwide. With more than 20 years of leadership experience, he brings a unique perspective to every project.
+                            </p>
+                            <details>
+                              <summary className="text-[#1E3FD8] text-sm font-semibold cursor-pointer hover:text-[#4F73D6] transition-colors mb-3 list-none">Read More +</summary>
+                              <p className="text-[#E2EBF0] text-sm leading-relaxed mb-3 mt-2">
+                                His background includes extensive work with public entities, capital improvement planning, budgeting, and strategic growth. Triffon has served as an elected Green Township Trustee since 2014, elected four times. In March 2025, he was appointed by the Governor of Ohio as a Commissioner for the Ohio Casino Control Commission.
+                              </p>
+                              <p className="text-[#E2EBF0] text-sm leading-relaxed mb-3">
+                                He previously served as Head Varsity Baseball Coach at Summit Country Day, leading the program to multiple regional appearances and a State Championship game appearance. A lifelong Cincinnati west side resident, Triffon is the proud father of three children.
+                              </p>
+                            </details>
+                          </div>
+                        ) : (
+                          <p className="text-[#E2EBF0] text-sm leading-relaxed mb-3">
+                            {member.bio}
+                          </p>
+                        )}
                         {member.email && (
                           <a
                             href={`mailto:${member.email}`}
