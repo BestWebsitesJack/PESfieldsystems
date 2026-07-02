@@ -13,6 +13,12 @@ import midAmericaImg1 from '../imports/IMG_3389.JPG';
 import midAmericaImg2 from '../imports/IMG_3392-1.JPG';
 const midAmericaImg3 = '/MAB - Fields 1 & 2 - New Photos for Website/DJI_0673.JPG';
 const madisonvilleImg1 = '/Madisonville - April 2025/DJI_0688.JPG';
+const unionCountyImg1 = '/Union County Email 3_3/DJI_0497.JPG';
+const unionCountyImg2 = '/Union County Email 3_3/DJI_0501.JPG';
+const unionCountyImg3 = '/Union County Email 3_3/DJI_0540.JPG';
+const unionCountyImg4 = '/Union County Email 3_3/DJI_0543.JPG';
+const unionCountyImg5 = '/Union County Email 3_3/DJI_0548.JPG';
+const unionCountyImg6 = '/Union County Email 3_3/DJI_0552.JPG';
 const madisonvilleImg2 = '/Madisonville - April 2025/DJI_0692.JPG';
 const madisonvilleImg3 = '/Madisonville - April 2025/IMG_3478.JPG';
 const midAmericaImg4 = '/MAB - Fields 1 & 2 - New Photos for Website/DJI_0686 (1).JPG';
@@ -167,6 +173,14 @@ export default function App() {
       location: 'Plymouth, MI',
       type: 'Adaptive Field',
       image: plymouthImg1,
+      completed: true,
+    },
+    {
+      slug: 'union-county',
+      name: 'Union County',
+      location: 'Ohio',
+      type: 'Baseball / Softball',
+      image: unionCountyImg1,
       completed: true,
     },
     {
