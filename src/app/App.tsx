@@ -3925,18 +3925,16 @@ export default function App() {
                   {project.slug === 'mid-america-ballyard' ? (
                     <>
                       <div className="bg-[#0A0F2C] border border-[#4F73D6]/30 rounded-lg overflow-hidden h-80">
-                        <img
-                          src={midAmericaImg1}
-                          alt="Mid-America Ballyard - Image 1"
-                          className="w-full h-full object-cover"
-                        />
+                        <img src={midAmericaImg1} alt="Mid-America Ballyard synthetic baseball field Cincinnati - Image 1" className="w-full h-full object-cover" />
                       </div>
                       <div className="bg-[#0A0F2C] border border-[#4F73D6]/30 rounded-lg overflow-hidden h-80">
-                        <img
-                          src={midAmericaImg2}
-                          alt="Mid-America Ballyard - Image 2"
-                          className="w-full h-full object-cover"
-                        />
+                        <img src={midAmericaImg2} alt="Mid-America Ballyard synthetic baseball field Cincinnati - Image 2" className="w-full h-full object-cover" />
+                      </div>
+                      <div className="bg-[#0A0F2C] border border-[#4F73D6]/30 rounded-lg overflow-hidden h-80">
+                        <img src={midAmericaImg3} alt="Mid-America Ballyard aerial view Cincinnati - Image 3" className="w-full h-full object-cover" />
+                      </div>
+                      <div className="bg-[#0A0F2C] border border-[#4F73D6]/30 rounded-lg overflow-hidden h-80">
+                        <img src={midAmericaImg4} alt="Mid-America Ballyard aerial view Cincinnati - Image 4" className="w-full h-full object-cover" />
                       </div>
                     </>
                   ) : project.slug === 'lasalle-high-school' ? (
