@@ -3974,6 +3974,9 @@ export default function App() {
                           className="w-full h-full object-cover"
                         />
                       </div>
+                      <div className="md:col-span-2 bg-[#0A0F2C] border border-[#4F73D6]/30 rounded-lg overflow-hidden h-96">
+                        <img src="/LaSalle4.jpg" alt="LaSalle High School baseball field synthetic turf Cincinnati Ohio" className="w-full h-full object-cover" />
+                      </div>
                     </>
                   ) : project.slug === 'miracle-league-nw-montana' ? (
                     <>
