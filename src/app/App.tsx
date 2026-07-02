@@ -3831,14 +3831,21 @@ export default function App() {
                         The Miracle League of Central Florida baseball field project addressed significant surface deterioration, drainage issues, and inconsistent playability that impacted both safety and performance. PES Field Systems completed a comprehensive field renovation that included site preparation, regrading, improved drainage solutions, and the installation of durable, environmentally responsible materials designed for Florida's climate. The upgraded baseball field now delivers reliable play conditions, reduced maintenance demands, and a professional-quality surface that supports daily use, competitive play, and long-term community investment.
                       </p>
                     </>
+                  ) : project.slug === 'madisonville' ? (
+                    <>
+                      <p className="text-[#E2EBF0] text-lg leading-relaxed mb-4 font-semibold">A full synthetic turf installation bringing professional-grade performance to a Cincinnati community athletic program.</p>
+                      <p className="text-[#E2EBF0] text-lg leading-relaxed">PES Field Systems completed a baseball and softball field installation in Madisonville, Ohio, delivering a high-performance synthetic turf surface built for competitive play, athlete safety, and long-term durability. The project involved full site preparation, precision grading, engineered drainage, and installation of a professional-grade synthetic turf system utilizing our U.S. patented infill technology.</p>
+                      <p className="text-[#E2EBF0] text-lg leading-relaxed mt-4">The completed field provides consistent playability across all weather conditions, significantly lower maintenance requirements than natural grass, and a fall impact safety surface that protects athletes of all ages.</p>
+                    </>
+                  ) : project.slug === 'union-county' ? (
+                    <>
+                      <p className="text-[#E2EBF0] text-lg leading-relaxed mb-4 font-semibold">A professional synthetic turf field installation built for competitive play and lasting community impact.</p>
+                      <p className="text-[#E2EBF0] text-lg leading-relaxed">PES Field Systems completed a full synthetic turf installation for Union County, Ohio, delivering a high-performance athletic surface engineered for safety, durability, and year-round play. Utilizing our U.S. patented infill technology, the field provides uncompromised fall impact protection, cooler surface temperatures, and zero infill migration.</p>
+                      <p className="text-[#E2EBF0] text-lg leading-relaxed mt-4">From initial site work through final installation, PES managed every phase of the project in close collaboration with local stakeholders, delivering on time and to spec.</p>
+                    </>
                   ) : (
                     <>
-                      <p className="text-[#E2EBF0] text-lg leading-relaxed mb-4">
-                        [Placeholder: Project description and overview will be added here. This section will detail the scope of work, challenges overcome, and key features of the installation.]
-                      </p>
-                      <p className="text-[#E2EBF0] text-lg leading-relaxed">
-                        [Placeholder: Additional details about the project timeline, client collaboration, and outcomes will be included in this section.]
-                      </p>
+                      <p className="text-[#E2EBF0] text-lg leading-relaxed mb-4">Project details coming soon.</p>
                     </>
                   )}
                 </div>
