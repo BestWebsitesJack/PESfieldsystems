@@ -4221,19 +4221,19 @@ export default function App() {
                     <>
                       <div className="flex items-start gap-3 bg-[#0A0F2C] border border-[#4F73D6]/30 rounded-lg p-4">
                         <CheckCircle className="w-5 h-5 text-[#4F73D6] flex-shrink-0 mt-0.5" />
-                        <p className="text-[#E2EBF0]">[Placeholder: Feature 1 description]</p>
+                        <p className="text-[#E2EBF0]">Professional-grade synthetic turf baseball and softball field</p>
                       </div>
                       <div className="flex items-start gap-3 bg-[#0A0F2C] border border-[#4F73D6]/30 rounded-lg p-4">
                         <CheckCircle className="w-5 h-5 text-[#4F73D6] flex-shrink-0 mt-0.5" />
-                        <p className="text-[#E2EBF0]">[Placeholder: Feature 2 description]</p>
+                        <p className="text-[#E2EBF0]">U.S. patented infill technology for superior fall impact safety</p>
                       </div>
                       <div className="flex items-start gap-3 bg-[#0A0F2C] border border-[#4F73D6]/30 rounded-lg p-4">
                         <CheckCircle className="w-5 h-5 text-[#4F73D6] flex-shrink-0 mt-0.5" />
-                        <p className="text-[#E2EBF0]">[Placeholder: Feature 3 description]</p>
+                        <p className="text-[#E2EBF0]">Engineered drainage system for all-weather year-round play</p>
                       </div>
                       <div className="flex items-start gap-3 bg-[#0A0F2C] border border-[#4F73D6]/30 rounded-lg p-4">
                         <CheckCircle className="w-5 h-5 text-[#4F73D6] flex-shrink-0 mt-0.5" />
-                        <p className="text-[#E2EBF0]">[Placeholder: Feature 4 description]</p>
+                        <p className="text-[#E2EBF0]">Significantly lower maintenance costs than natural grass</p>
                       </div>
                     </>
                   )}
