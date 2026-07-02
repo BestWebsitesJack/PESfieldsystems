@@ -4086,17 +4086,11 @@ export default function App() {
                     </>
                   ) : (
                     <>
-                      <div className="bg-[#0A0F2C] border border-[#4F73D6]/30 rounded-lg overflow-hidden h-64 flex items-center justify-center">
-                        <p className="text-[#4F73D6] font-bold">[Placeholder Image 1]</p>
+                      <div className="bg-[#0A0F2C] border border-[#4F73D6]/30 rounded-lg overflow-hidden h-80">
+                        <img src={madisonvilleImg2} alt="Madisonville synthetic turf field aerial view" className="w-full h-full object-cover" />
                       </div>
-                      <div className="bg-[#0A0F2C] border border-[#4F73D6]/30 rounded-lg overflow-hidden h-64 flex items-center justify-center">
-                        <p className="text-[#4F73D6] font-bold">[Placeholder Image 2]</p>
-                      </div>
-                      <div className="bg-[#0A0F2C] border border-[#4F73D6]/30 rounded-lg overflow-hidden h-64 flex items-center justify-center">
-                        <p className="text-[#4F73D6] font-bold">[Placeholder Image 3]</p>
-                      </div>
-                      <div className="bg-[#0A0F2C] border border-[#4F73D6]/30 rounded-lg overflow-hidden h-64 flex items-center justify-center">
-                        <p className="text-[#4F73D6] font-bold">[Placeholder Image 4]</p>
+                      <div className="bg-[#0A0F2C] border border-[#4F73D6]/30 rounded-lg overflow-hidden h-80">
+                        <img src={madisonvilleImg3} alt="Madisonville athletic field construction Cincinnati Ohio" className="w-full h-full object-cover" />
                       </div>
                     </>
                   )}
