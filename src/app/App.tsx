@@ -4120,7 +4120,8 @@ export default function App() {
               </div>
 
               {/* Key Features */}
-              {project.slug !== 'madisonville' && project.slug !== 'union-county' && <div className="mb-16">
+              {project.slug !== 'madisonville' && project.slug !== 'union-county' && (
+              <div className="mb-16">
                 <h2 className="text-3xl font-black text-[#E6E6E6] mb-6 tracking-tight">
                   Key Features
                 </h2>
@@ -4241,8 +4242,9 @@ export default function App() {
                     </>
                   )}
                 </div>
-              </div>
+              </div> : null}
 
+              )}
               {/* CTA Section */}
               <div className="bg-gradient-to-r from-[#1E3FD8] to-[#4F73D6] rounded-xl p-12 text-center">
                 <h2 className="text-3xl font-black text-white mb-4 tracking-tight">
