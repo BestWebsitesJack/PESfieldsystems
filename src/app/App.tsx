@@ -9,8 +9,8 @@ import ericSchmidtImg from '../imports/Screen_Shot_2026-04-11_at_1.44.45_PM.png'
 import montanaFieldImg from '../imports/Montana_Field.jpg';
 import midAmericaBallyardImg from '../imports/IMG_3392-1.JPG';
 import lasalleImg from '../imports/Screen_Shot_2026-04-11_at_12.05.08_PM.png';
-import midAmericaImg1 from '../imports/IMG_3389.JPG';
-import midAmericaImg2 from '../imports/IMG_3392-1.JPG';
+const midAmericaImg1 = '/MAB - Fields 1 & 2 - New Photos for Website/DJI_0673.JPG';
+const midAmericaImg2 = '/MAB - Fields 1 & 2 - New Photos for Website/DJI_0686 (1).JPG';
 import lasalleImg1 from '../imports/Screen_Shot_2026-04-16_at_2.08.42_PM.png';
 import lasalleImg2 from '../imports/Screen_Shot_2026-04-16_at_2.08.51_PM.png';
 import miracleLeagueMontanaImg from '../imports/MiracleLeagueofNWMontana2.jpg';
