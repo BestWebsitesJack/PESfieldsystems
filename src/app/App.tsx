@@ -4117,7 +4117,7 @@ export default function App() {
               </div>
 
               {/* Key Features */}
-              <div className="mb-16">
+              {project.slug !== 'madisonville' && project.slug !== 'union-county' && <div className="mb-16">
                 <h2 className="text-3xl font-black text-[#E6E6E6] mb-6 tracking-tight">
                   Key Features
                 </h2>
