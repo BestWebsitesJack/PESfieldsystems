@@ -12,6 +12,9 @@ import lasalleImg from '../imports/Screen_Shot_2026-04-11_at_12.05.08_PM.png';
 import midAmericaImg1 from '../imports/IMG_3389.JPG';
 import midAmericaImg2 from '../imports/IMG_3392-1.JPG';
 const midAmericaImg3 = '/MAB - Fields 1 & 2 - New Photos for Website/DJI_0673.JPG';
+const madisonvilleImg1 = '/Madisonville - April 2025/DJI_0688.JPG';
+const madisonvilleImg2 = '/Madisonville - April 2025/DJI_0692.JPG';
+const madisonvilleImg3 = '/Madisonville - April 2025/IMG_3478.JPG';
 const midAmericaImg4 = '/MAB - Fields 1 & 2 - New Photos for Website/DJI_0686 (1).JPG';
 import lasalleImg1 from '../imports/Screen_Shot_2026-04-16_at_2.08.42_PM.png';
 import lasalleImg2 from '../imports/Screen_Shot_2026-04-16_at_2.08.51_PM.png';
@@ -164,6 +167,14 @@ export default function App() {
       location: 'Plymouth, MI',
       type: 'Adaptive Field',
       image: plymouthImg1,
+      completed: true,
+    },
+    {
+      slug: 'madisonville',
+      name: 'Madisonville',
+      location: 'Madisonville, OH',
+      type: 'Baseball / Softball',
+      image: madisonvilleImg1,
       completed: true,
     },
     {
