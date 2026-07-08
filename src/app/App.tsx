@@ -4242,7 +4242,6 @@ export default function App() {
                   )}
                 </div>
 
-              )}
               {/* CTA Section */}
               <div className="bg-gradient-to-r from-[#1E3FD8] to-[#4F73D6] rounded-xl p-12 text-center">
                 <h2 className="text-3xl font-black text-white mb-4 tracking-tight">
