@@ -2895,7 +2895,7 @@ export default function App() {
                     letterSpacing: '0.1em'
                   }}
                 >
-                  U.S. PATENT #11,268,265
+                  U.S. PATENT #11,946,206
                 </span>
               </motion.div>
 
@@ -3163,7 +3163,7 @@ export default function App() {
                       <div className="flex items-center gap-4">
                         <FileText className="w-6 h-6 text-[#1E3FD8]" />
                         <div>
-                          <div className="text-[#E6E6E6]" style={{ fontSize: '16px', fontWeight: '600' }}>U.S. Patent #11,268,265</div>
+                          <div className="text-[#E6E6E6]" style={{ fontSize: '16px', fontWeight: '600' }}>U.S. Patent #11,946,206</div>
                           <div className="text-[#E2EBF0]" style={{ fontSize: '13px' }}>View or download the full patent document (PDF)</div>
                         </div>
                       </div>
