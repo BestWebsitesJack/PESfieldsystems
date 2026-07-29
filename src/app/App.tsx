@@ -178,7 +178,7 @@ export default function App() {
     {
       slug: 'union-county',
       name: 'Union County',
-      location: 'Ohio',
+      location: 'South Carolina',
       type: 'Baseball / Softball',
       image: unionCountyImg1,
       completed: true,
@@ -3840,7 +3840,7 @@ export default function App() {
                   ) : project.slug === 'union-county' ? (
                     <>
                       <p className="text-[#E2EBF0] text-lg leading-relaxed mb-4 font-semibold">A professional synthetic turf field installation built for competitive play and lasting community impact.</p>
-                      <p className="text-[#E2EBF0] text-lg leading-relaxed">PES Field Systems completed a full synthetic turf installation for Union County, Ohio, delivering a high-performance athletic surface engineered for safety, durability, and year-round play. Utilizing our U.S. patented infill technology, the field provides uncompromised fall impact protection, cooler surface temperatures, and zero infill migration.</p>
+                      <p className="text-[#E2EBF0] text-lg leading-relaxed">PES Field Systems completed a full synthetic turf installation for Union County, South Carolina, delivering a high-performance athletic surface engineered for safety, durability, and year-round play. Utilizing our U.S. patented infill technology, the field provides uncompromised fall impact protection, cooler surface temperatures, and zero infill migration.</p>
                       <p className="text-[#E2EBF0] text-lg leading-relaxed mt-4">From initial site work through final installation, PES managed every phase of the project in close collaboration with local stakeholders, delivering on time and to spec.</p>
                     </>
                   ) : (
