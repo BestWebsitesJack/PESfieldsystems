@@ -4106,6 +4106,24 @@ export default function App() {
                         />
                       </div>
                     </>
+                  ) : project.slug === 'union-county' ? (
+                    <>
+                      <div className="bg-[#0A0F2C] border border-[#4F73D6]/30 rounded-lg overflow-hidden h-80">
+                        <img src={unionCountyImg4} alt="Union County synthetic turf field Ohio" className="w-full h-full object-cover" />
+                      </div>
+                      <div className="bg-[#0A0F2C] border border-[#4F73D6]/30 rounded-lg overflow-hidden h-80">
+                        <img src={unionCountyImg6} alt="Union County athletic field Cincinnati Ohio" className="w-full h-full object-cover" />
+                      </div>
+                    </>
+                  ) : project.slug === 'union-county' ? (
+                    <>
+                      <div className="bg-[#0A0F2C] border border-[#4F73D6]/30 rounded-lg overflow-hidden h-80">
+                        <img src={unionCountyImg4} alt="Union County synthetic turf field Ohio" className="w-full h-full object-cover" />
+                      </div>
+                      <div className="bg-[#0A0F2C] border border-[#4F73D6]/30 rounded-lg overflow-hidden h-80">
+                        <img src={unionCountyImg6} alt="Union County athletic field Cincinnati Ohio" className="w-full h-full object-cover" />
+                      </div>
+                    </>
                   ) : (
                     <>
                       <div className="bg-[#0A0F2C] border border-[#4F73D6]/30 rounded-lg overflow-hidden h-80">
