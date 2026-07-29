@@ -4108,11 +4108,41 @@ export default function App() {
                     </>
                   ) : project.slug === 'union-county' ? (
                     <>
-                      <div className="bg-[#0A0F2C] border border-[#4F73D6]/30 rounded-lg overflow-hidden h-[520px]">
-                        <img src={unionCountyImg5} alt="Union County synthetic turf field Ohio" className="w-full h-full object-cover" />
+                      {/* Before Section */}
+                      <div className="md:col-span-2 flex items-center gap-4 mt-2 mb-1">
+                        <div className="h-px flex-1 bg-[#4F73D6]/30"></div>
+                        <span className="text-xs font-bold tracking-widest text-[#6B8FA8] uppercase px-3 py-1 border border-[#4F73D6]/30 rounded-full">Before</span>
+                        <div className="h-px flex-1 bg-[#4F73D6]/30"></div>
                       </div>
-                      <div className="bg-[#0A0F2C] border border-[#4F73D6]/30 rounded-lg overflow-hidden h-[520px]">
-                        <img src={unionCountyImg6} alt="Union County athletic field Cincinnati Ohio" className="w-full h-full object-cover" />
+                      <div className="relative bg-[#0A0F2C] border border-[#4F73D6]/30 rounded-lg overflow-hidden h-[420px]">
+                        <img src={unionCountyImg1} alt="Union County field before synthetic turf installation" className="w-full h-full object-cover opacity-80" />
+                        <div className="absolute top-3 left-3 bg-black/60 text-white text-xs font-bold px-2 py-1 rounded uppercase tracking-wider">Before</div>
+                      </div>
+                      <div className="relative bg-[#0A0F2C] border border-[#4F73D6]/30 rounded-lg overflow-hidden h-[420px]">
+                        <img src={unionCountyImg2} alt="Union County field before synthetic turf installation" className="w-full h-full object-cover opacity-80" />
+                        <div className="absolute top-3 left-3 bg-black/60 text-white text-xs font-bold px-2 py-1 rounded uppercase tracking-wider">Before</div>
+                      </div>
+                      {/* After Section */}
+                      <div className="md:col-span-2 flex items-center gap-4 mt-4 mb-1">
+                        <div className="h-px flex-1 bg-[#1E3FD8]/50"></div>
+                        <span className="text-xs font-bold tracking-widest text-white uppercase px-3 py-1 bg-[#1E3FD8] rounded-full">After</span>
+                        <div className="h-px flex-1 bg-[#1E3FD8]/50"></div>
+                      </div>
+                      <div className="relative bg-[#0A0F2C] border border-[#4F73D6]/30 rounded-lg overflow-hidden h-[420px]">
+                        <img src={unionCountyImg3} alt="Union County completed synthetic turf field Ohio" className="w-full h-full object-cover" />
+                        <div className="absolute top-3 left-3 bg-[#1E3FD8]/80 text-white text-xs font-bold px-2 py-1 rounded uppercase tracking-wider">After</div>
+                      </div>
+                      <div className="relative bg-[#0A0F2C] border border-[#4F73D6]/30 rounded-lg overflow-hidden h-[420px]">
+                        <img src={unionCountyImg4} alt="Union County completed synthetic turf field Ohio" className="w-full h-full object-cover" />
+                        <div className="absolute top-3 left-3 bg-[#1E3FD8]/80 text-white text-xs font-bold px-2 py-1 rounded uppercase tracking-wider">After</div>
+                      </div>
+                      <div className="relative bg-[#0A0F2C] border border-[#4F73D6]/30 rounded-lg overflow-hidden h-[420px]">
+                        <img src={unionCountyImg5} alt="Union County completed synthetic turf field Ohio" className="w-full h-full object-cover" />
+                        <div className="absolute top-3 left-3 bg-[#1E3FD8]/80 text-white text-xs font-bold px-2 py-1 rounded uppercase tracking-wider">After</div>
+                      </div>
+                      <div className="relative bg-[#0A0F2C] border border-[#4F73D6]/30 rounded-lg overflow-hidden h-[420px]">
+                        <img src={unionCountyImg6} alt="Union County completed synthetic turf field Ohio" className="w-full h-full object-cover" />
+                        <div className="absolute top-3 left-3 bg-[#1E3FD8]/80 text-white text-xs font-bold px-2 py-1 rounded uppercase tracking-wider">After</div>
                       </div>
                     </>
                   ) : (
