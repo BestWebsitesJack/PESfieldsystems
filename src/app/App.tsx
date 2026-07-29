@@ -35,7 +35,7 @@ import montanaImg7 from '../imports/MiracleLeagueofNWMontana2-1.jpg';
 import plymouthImg1 from '../imports/PlymouthAfter1.JPG';
 import plymouthImg2 from '../imports/PlymouthBefore.JPG';
 import plymouthImg3 from '../imports/Plymouthflag.JPG';
-import plymouthImg4 from '../imports/Plymouthguys.jpeg';
+const plymouthImg4 = '/Team.png';
 import centralFloridaImg from '../imports/MLCentralFlorida2.jpg';
 import floridaImg1 from '../imports/MLCentralFlorida1.jpg';
 import floridaImg2 from '../imports/MLCentralFlorida2-1.jpg';
