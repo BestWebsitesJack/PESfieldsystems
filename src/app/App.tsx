@@ -101,13 +101,70 @@ import {
 type Page = 'home' | 'services' | 'technology' | 'team' | 'gallery' | 'contact' | 'partners' | 'project-detail';
 
 export default function App() {
-  const [currentPage, setCurrentPage] = useState<Page>('home');
+  const getInitialPage = (): { page: Page; slug: string | null } => {
+    const path = window.location.pathname;
+    if (path.startsWith('/projects/')) return { page: 'project-detail', slug: path.replace('/projects/', '') };
+    if (path === '/projects') return { page: 'gallery', slug: null };
+    if (path === '/services') return { page: 'services', slug: null };
+    if (path === '/technology') return { page: 'technology', slug: null };
+    if (path === '/team') return { page: 'team', slug: null };
+    if (path === '/partners') return { page: 'partners', slug: null };
+    if (path === '/contact') return { page: 'contact', slug: null };
+    return { page: 'home', slug: null };
+  };
+
+  const initial = getInitialPage();
+  const [currentPage, setCurrentPage] = useState<Page>(initial.page);
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   const [isScrolled, setIsScrolled] = useState(false);
   const [projectIndex, setProjectIndex] = useState(0);
   const [hoveredNavItem, setHoveredNavItem] = useState<string | null>(null);
   const [scrollY, setScrollY] = useState(0);
-  const [currentProjectSlug, setCurrentProjectSlug] = useState<string | null>(null);
+  const [currentProjectSlug, setCurrentProjectSlug] = useState<string | null>(getInitialPage().slug);
+
+  // Navigate with URL update
+  const navigateTo = (page: Page, slug?: string) => {
+    setCurrentPage(page);
+    if (page === 'project-detail' && slug) {
+      setCurrentProjectSlug(slug);
+      window.history.pushState({ page, slug }, '', `/projects/${slug}`);
+    } else if (page === 'gallery') {
+      window.history.pushState({ page }, '', '/projects');
+    } else if (page === 'home') {
+      window.history.pushState({ page }, '', '/');
+    } else {
+      window.history.pushState({ page }, '', `/${page}`);
+    }
+  };
+
+  // Handle browser back/forward buttons
+  useEffect(() => {
+    const handlePop = (e: PopStateEvent) => {
+      const path = window.location.pathname;
+      if (path.startsWith('/projects/')) {
+        const slug = path.replace('/projects/', '');
+        setCurrentPage('project-detail');
+        setCurrentProjectSlug(slug);
+      } else if (path === '/projects') {
+        setCurrentPage('gallery');
+      } else if (path === '/services') {
+        setCurrentPage('services');
+      } else if (path === '/technology') {
+        setCurrentPage('technology');
+      } else if (path === '/team') {
+        setCurrentPage('team');
+      } else if (path === '/partners') {
+        setCurrentPage('partners');
+      } else if (path === '/contact') {
+        setCurrentPage('contact');
+      } else {
+        setCurrentPage('home');
+        setCurrentProjectSlug(null);
+      }
+    };
+    window.addEventListener('popstate', handlePop);
+    return () => window.removeEventListener('popstate', handlePop);
+  }, []);
   const [triffonExpanded, setTriffonExpanded] = useState(false);
 
   // Scroll detection for nav background and parallax
@@ -431,7 +488,7 @@ export default function App() {
             {/* Desktop Navigation */}
             <div className="hidden md:flex items-center gap-8">
               <button
-                onClick={() => setCurrentPage('home')}
+                onClick={() => navigateTo('home')}
                 onMouseEnter={() => setHoveredNavItem('home')}
                 onMouseLeave={() => setHoveredNavItem(null)}
                 className="text-[#E6E6E6] hover:text-[#1E3FD8] transition-colors duration-200 no-underline relative pb-1"
@@ -441,7 +498,7 @@ export default function App() {
                 <span className="absolute bottom-0 left-0 h-0.5 bg-[#1E3FD8] transition-all duration-300" style={{ width: hoveredNavItem === 'home' ? '100%' : '0%' }}></span>
               </button>
               <button
-                onClick={() => setCurrentPage('services')}
+                onClick={() => navigateTo('services')}
                 onMouseEnter={() => setHoveredNavItem('services')}
                 onMouseLeave={() => setHoveredNavItem(null)}
                 className="text-[#E6E6E6] hover:text-[#1E3FD8] transition-colors duration-200 no-underline relative pb-1"
@@ -458,7 +515,7 @@ export default function App() {
                 ></span>
               </button>
               <button
-                onClick={() => setCurrentPage('gallery')}
+                onClick={() => navigateTo('gallery')}
                 onMouseEnter={() => setHoveredNavItem('projects')}
                 onMouseLeave={() => setHoveredNavItem(null)}
                 className="text-[#E6E6E6] hover:text-[#1E3FD8] transition-colors duration-200 no-underline relative pb-1"
@@ -475,7 +532,7 @@ export default function App() {
                 ></span>
               </button>
               <button
-                onClick={() => setCurrentPage('technology')}
+                onClick={() => navigateTo('technology')}
                 onMouseEnter={() => setHoveredNavItem('technology')}
                 onMouseLeave={() => setHoveredNavItem(null)}
                 className="text-[#E6E6E6] hover:text-[#1E3FD8] transition-colors duration-200 no-underline relative pb-1"
@@ -492,7 +549,7 @@ export default function App() {
                 ></span>
               </button>
               <button
-                onClick={() => setCurrentPage('team')}
+                onClick={() => navigateTo('team')}
                 onMouseEnter={() => setHoveredNavItem('team')}
                 onMouseLeave={() => setHoveredNavItem(null)}
                 className="text-[#E6E6E6] hover:text-[#1E3FD8] transition-colors duration-200 no-underline relative pb-1"
@@ -509,7 +566,7 @@ export default function App() {
                 ></span>
               </button>
               <button
-                onClick={() => setCurrentPage('partners')}
+                onClick={() => navigateTo('partners')}
                 onMouseEnter={() => setHoveredNavItem('partners')}
                 onMouseLeave={() => setHoveredNavItem(null)}
                 className="text-[#E6E6E6] hover:text-[#1E3FD8] transition-colors duration-200 no-underline relative pb-1"
@@ -526,7 +583,7 @@ export default function App() {
                 ></span>
               </button>
               <button
-                onClick={() => setCurrentPage('contact')}
+                onClick={() => navigateTo('contact')}
                 onMouseEnter={() => setHoveredNavItem('contact')}
                 onMouseLeave={() => setHoveredNavItem(null)}
                 className="text-[#E6E6E6] hover:text-[#1E3FD8] transition-colors duration-200 no-underline relative pb-1"
@@ -544,7 +601,7 @@ export default function App() {
               </button>
               <motion.button 
                 className="bg-[#1E3FD8] text-white hover:bg-[#4F73D6] transition-colors duration-200"
-                onClick={() => setCurrentPage('contact')}
+                onClick={() => navigateTo('contact')}
                 whileHover={{ scale: 1.05, boxShadow: '0 10px 30px rgba(30, 63, 216, 0.4)' }}
                 whileTap={{ scale: 0.95 }}
                 style={{
@@ -704,7 +761,7 @@ export default function App() {
           <div>
             <div className="space-y-2">
               <button
-                onClick={() => setCurrentPage('services')}
+                onClick={() => navigateTo('services')}
                 className="block text-[#E2EBF0] hover:text-[#E6E6E6] transition-colors duration-200"
                 style={{ fontSize: '13px' }}
               >
@@ -718,21 +775,21 @@ export default function App() {
                 Projects
               </a>
               <button
-                onClick={() => setCurrentPage('technology')}
+                onClick={() => navigateTo('technology')}
                 className="block text-[#E2EBF0] hover:text-[#E6E6E6] transition-colors duration-200"
                 style={{ fontSize: '13px' }}
               >
                 Technology
               </button>
               <button
-                onClick={() => setCurrentPage('team')}
+                onClick={() => navigateTo('team')}
                 className="block text-[#E2EBF0] hover:text-[#E6E6E6] transition-colors duration-200"
                 style={{ fontSize: '13px' }}
               >
                 Team
               </button>
               <button
-                onClick={() => setCurrentPage('partners')}
+                onClick={() => navigateTo('partners')}
                 className="block text-[#E2EBF0] hover:text-[#E6E6E6] transition-colors duration-200"
                 style={{ fontSize: '13px' }}
               >
@@ -1127,7 +1184,7 @@ export default function App() {
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
                 <motion.button
-                  onClick={() => setCurrentPage('contact')}
+                  onClick={() => navigateTo('contact')}
                   className="px-10 py-4 bg-white text-[#1E3FD8] hover:bg-[#E6E6E6] transition-all duration-200"
                   style={{
                     fontSize: '16px',
@@ -1141,7 +1198,7 @@ export default function App() {
                   Get Started
                 </motion.button>
                 <motion.button
-                  onClick={() => setCurrentPage('technology')}
+                  onClick={() => navigateTo('technology')}
                   className="px-10 py-4 bg-transparent text-white border-2 border-white hover:bg-white hover:text-[#1E3FD8] transition-all duration-200"
                   style={{
                     fontSize: '16px',
@@ -1254,7 +1311,7 @@ export default function App() {
               <div className="flex flex-wrap gap-4 justify-center">
                 <motion.button 
                   className="bg-[#1E3FD8] text-white hover:bg-[#4F73D6] transition-colors duration-200"
-                  onClick={() => setCurrentPage('contact')}
+                  onClick={() => navigateTo('contact')}
                   whileHover={{ 
                     scale: 1.05,
                     boxShadow: '0 10px 30px rgba(30, 63, 216, 0.4)'
@@ -1275,7 +1332,7 @@ export default function App() {
                 
                 <motion.button 
                  className="bg-transparent text-white border-2 border-white hover:bg-white/10 transition-colors duration-200"
-                  onClick={() => setCurrentPage('gallery')}
+                  onClick={() => navigateTo('gallery')}
                   whileHover={{ 
                     scale: 1.05,
                     borderColor: '#4F73D6'
@@ -1606,7 +1663,7 @@ export default function App() {
 
                   {/* CTA Link */}
                   <button
-                    onClick={() => setCurrentPage('technology')}
+                    onClick={() => navigateTo('technology')}
                     className="text-white inline-flex items-center gap-2 hover:text-[#E2EBF0] transition-colors"
                     style={{
                       fontSize: '16px',
@@ -1961,7 +2018,7 @@ export default function App() {
                 className="text-center"
               >
                 <motion.button
-                  onClick={() => setCurrentPage('gallery')}
+                  onClick={() => navigateTo('gallery')}
                   className="bg-[#1E3FD8] text-white hover:bg-[#4F73D6] transition-colors duration-200"
                   whileHover={{
                     scale: 1.05,
@@ -2166,8 +2223,7 @@ export default function App() {
                         </div>
                         <button
                           onClick={() => {
-                            setCurrentProjectSlug(project.slug);
-                            setCurrentPage('project-detail');
+                            navigateTo('project-detail', project.slug);
                           }}
                           className="bg-[#1E3FD8] text-white hover:bg-[#4F73D6] transition-colors duration-200 w-full"
                           style={{
@@ -2400,7 +2456,7 @@ export default function App() {
                     Start a conversation about your next project. We'll guide you through specs, timelines, and budgets.
                   </p>
                   <motion.button
-                    onClick={() => setCurrentPage('contact')}
+                    onClick={() => navigateTo('contact')}
                     className="bg-[#1E3FD8] text-white hover:bg-[#4F73D6] transition-colors duration-200 w-full"
                     whileHover={{ scale: 1.05 }}
                     whileTap={{ scale: 0.95 }}
@@ -2453,7 +2509,7 @@ export default function App() {
                     Contractors, architects, and trade partners—let's collaborate on your next athletic facility.
                   </p>
                   <motion.button
-                    onClick={() => setCurrentPage('partners')}
+                    onClick={() => navigateTo('partners')}
                     className="bg-[#1E3FD8] text-white hover:bg-[#4F73D6] transition-colors duration-200 w-full"
                     whileHover={{ scale: 1.05 }}
                     whileTap={{ scale: 0.95 }}
@@ -2506,7 +2562,7 @@ export default function App() {
                     Get detailed technical specifications, installation guides, and planning resources.
                   </p>
                   <motion.button
-                    onClick={() => setCurrentPage('technology')}
+                    onClick={() => navigateTo('technology')}
                     className="bg-[#1E3FD8] text-white hover:bg-[#4F73D6] transition-colors duration-200 w-full"
                     whileHover={{ scale: 1.05 }}
                     whileTap={{ scale: 0.95 }}
@@ -3229,7 +3285,7 @@ export default function App() {
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
                 <motion.button
-                  onClick={() => setCurrentPage('contact')}
+                  onClick={() => navigateTo('contact')}
                   className="px-10 py-4 bg-white text-[#1E3FD8] hover:bg-[#E6E6E6] transition-all duration-200"
                   style={{
                     fontSize: '16px',
@@ -3243,7 +3299,7 @@ export default function App() {
                   Get Started
                 </motion.button>
                 <motion.button
-                  onClick={() => setCurrentPage('gallery')}
+                  onClick={() => navigateTo('gallery')}
                   className="px-10 py-4 bg-transparent text-white border-2 border-white hover:bg-white hover:text-[#1E3FD8] transition-all duration-200"
                   style={{
                     fontSize: '16px',
@@ -3440,8 +3496,7 @@ export default function App() {
                           </p>
                           <button
                             onClick={() => {
-                              setCurrentProjectSlug(project.slug);
-                              setCurrentPage('project-detail');
+                              navigateTo('project-detail', project.slug);
                             }}
                             className="bg-[#1E3FD8] text-white hover:bg-[#4F73D6] transition-colors duration-200 w-full"
                             style={{
@@ -3485,8 +3540,7 @@ export default function App() {
                           </p>
                           <button
                             onClick={() => {
-                              setCurrentProjectSlug(project.slug);
-                              setCurrentPage('project-detail');
+                              navigateTo('project-detail', project.slug);
                             }}
                             className="bg-[#1E3FD8] text-white hover:bg-[#4F73D6] transition-colors duration-200 w-full"
                             style={{
@@ -3530,8 +3584,7 @@ export default function App() {
                           </p>
                           <button
                             onClick={() => {
-                              setCurrentProjectSlug(project.slug);
-                              setCurrentPage('project-detail');
+                              navigateTo('project-detail', project.slug);
                             }}
                             className="bg-[#1E3FD8] text-white hover:bg-[#4F73D6] transition-colors duration-200 w-full"
                             style={{
@@ -3699,7 +3752,7 @@ export default function App() {
             <div className="max-w-6xl mx-auto">
               {/* Back Button */}
               <button
-                onClick={() => setCurrentPage('gallery')}
+                onClick={() => navigateTo('gallery')}
                 className="text-[#4F73D6] hover:text-[#1E3FD8] transition-colors mb-8 inline-flex items-center gap-2"
                 style={{
                   fontSize: '14px',
@@ -4291,7 +4344,7 @@ export default function App() {
                   Let's discuss how we can bring the same quality and innovation to your project.
                 </p>
                 <button
-                  onClick={() => setCurrentPage('contact')}
+                  onClick={() => navigateTo('contact')}
                   className="bg-white text-[#1E3FD8] hover:bg-[#E6E6E6] transition-colors duration-200"
                   style={{
                     borderRadius: '8px',
