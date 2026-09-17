@@ -465,7 +465,7 @@ export default function App() {
       <nav
         className={`fixed top-0 left-0 right-0 z-50 transition-all duration-200`}
         style={{
-          background: '#000000',
+          background: '#FFFFFF',
           borderBottom: '1px solid rgba(30, 63, 216, 0.4)'
         }}
       >
@@ -632,7 +632,7 @@ export default function App() {
         className={`md:hidden fixed inset-0 z-40 flex items-center justify-center transition-transform duration-300 ${
           mobileMenuOpen ? 'translate-y-0' : '-translate-y-full'
         }`}
-        style={{ background: '#000000' }}
+        style={{ background: '#FFFFFF' }}
       >
         <div className="flex flex-col items-center gap-6 pt-48 pb-12 overflow-y-auto h-full w-full">
           <button
@@ -640,7 +640,7 @@ export default function App() {
               setCurrentPage('services');
               setMobileMenuOpen(false);
             }}
-            className="text-white hover:text-[#1565C0] transition-colors duration-200 text-2xl"
+            className="text-[#0D47A1] hover:text-[#1565C0] transition-colors duration-200 text-2xl"
             style={{ letterSpacing: '0.08em' }}
           >
             SERVICES
@@ -650,7 +650,7 @@ export default function App() {
               setCurrentPage('gallery');
               setMobileMenuOpen(false);
             }}
-            className="text-white hover:text-[#1565C0] transition-colors duration-200 text-2xl"
+            className="text-[#0D47A1] hover:text-[#1565C0] transition-colors duration-200 text-2xl"
             style={{ letterSpacing: '0.08em' }}
           >
             PROJECTS
@@ -660,7 +660,7 @@ export default function App() {
               setCurrentPage('technology');
               setMobileMenuOpen(false);
             }}
-            className="text-white hover:text-[#1565C0] transition-colors duration-200 text-2xl"
+            className="text-[#0D47A1] hover:text-[#1565C0] transition-colors duration-200 text-2xl"
             style={{ letterSpacing: '0.08em' }}
           >
             OUR TECHNOLOGY
@@ -670,7 +670,7 @@ export default function App() {
               setCurrentPage('team');
               setMobileMenuOpen(false);
             }}
-            className="text-white hover:text-[#1565C0] transition-colors duration-200 text-2xl"
+            className="text-[#0D47A1] hover:text-[#1565C0] transition-colors duration-200 text-2xl"
             style={{ letterSpacing: '0.08em' }}
           >
             TEAM
@@ -680,7 +680,7 @@ export default function App() {
               setCurrentPage('partners');
               setMobileMenuOpen(false);
             }}
-            className="text-white hover:text-[#1565C0] transition-colors duration-200 text-2xl"
+            className="text-[#0D47A1] hover:text-[#1565C0] transition-colors duration-200 text-2xl"
             style={{ letterSpacing: '0.08em' }}
           >
             PARTNERS
@@ -690,7 +690,7 @@ export default function App() {
               setCurrentPage('contact');
               setMobileMenuOpen(false);
             }}
-            className="text-white hover:text-[#1565C0] transition-colors duration-200 text-2xl"
+            className="text-[#0D47A1] hover:text-[#1565C0] transition-colors duration-200 text-2xl"
             style={{ letterSpacing: '0.08em' }}
           >
             CONTACT
@@ -719,7 +719,7 @@ export default function App() {
   // Footer Component
   const Footer = () => (
     <footer 
-      className="text-white"
+      className="text-[#0D47A1]"
       style={{
         background: '#0A0F1E',
         borderTop: '1px solid rgba(30, 63, 216, 0.3)'
@@ -736,7 +736,7 @@ export default function App() {
               style={{ objectFit: 'contain', objectPosition: 'left center' }}
             />
             <p 
-              className="text-white mb-4"
+              className="text-[#0D47A1] mb-4"
               style={{ 
                 fontSize: '13px', 
                 lineHeight: '1.6',
@@ -746,7 +746,7 @@ export default function App() {
               Safer Fields. Superior Play. Self-Sustainable.
             </p>
             <p 
-              className="text-white"
+              className="text-[#0D47A1]"
               style={{ 
                 fontSize: '13px', 
                 lineHeight: '1.6'
@@ -762,42 +762,42 @@ export default function App() {
             <div className="space-y-2">
               <button
                 onClick={() => navigateTo('services')}
-                className="block text-white hover:text-white transition-colors duration-200"
+                className="block text-[#0D47A1] hover:text-[#0D47A1] transition-colors duration-200"
                 style={{ fontSize: '13px' }}
               >
                 Services
               </button>
               <a 
                 href="#projects"
-                className="block text-white hover:text-white transition-colors duration-200"
+                className="block text-[#0D47A1] hover:text-[#0D47A1] transition-colors duration-200"
                 style={{ fontSize: '13px' }}
               >
                 Projects
               </a>
               <button
                 onClick={() => navigateTo('technology')}
-                className="block text-white hover:text-white transition-colors duration-200"
+                className="block text-[#0D47A1] hover:text-[#0D47A1] transition-colors duration-200"
                 style={{ fontSize: '13px' }}
               >
                 Technology
               </button>
               <button
                 onClick={() => navigateTo('team')}
-                className="block text-white hover:text-white transition-colors duration-200"
+                className="block text-[#0D47A1] hover:text-[#0D47A1] transition-colors duration-200"
                 style={{ fontSize: '13px' }}
               >
                 Team
               </button>
               <button
                 onClick={() => navigateTo('partners')}
-                className="block text-white hover:text-white transition-colors duration-200"
+                className="block text-[#0D47A1] hover:text-[#0D47A1] transition-colors duration-200"
                 style={{ fontSize: '13px' }}
               >
                 Partners
               </button>
               <a 
                 href="#contact"
-                className="block text-white hover:text-white transition-colors duration-200"
+                className="block text-[#0D47A1] hover:text-[#0D47A1] transition-colors duration-200"
                 style={{ fontSize: '13px' }}
               >
                 Contact
@@ -808,7 +808,7 @@ export default function App() {
           {/* Right Column - CTA */}
           <div>
             <p 
-              className="text-white mb-4"
+              className="text-[#0D47A1] mb-4"
               style={{
                 fontFamily: 'Inter, sans-serif',
                 fontWeight: '700',
@@ -819,7 +819,7 @@ export default function App() {
             </p>
             <a 
               href="#contact-form"
-              className="inline-block text-white px-6 py-3 transition-colors duration-200"
+              className="inline-block text-[#0D47A1] px-6 py-3 transition-colors duration-200"
               style={{
                 background: '#1565C0',
                 borderRadius: '4px',
@@ -841,10 +841,10 @@ export default function App() {
             borderTop: '1px solid rgba(183, 198, 207, 0.15)'
           }}
         >
-          <p className="text-white" style={{ fontSize: '12px' }}>
+          <p className="text-[#0D47A1]" style={{ fontSize: '12px' }}>
             Copyright 2026 PES Field Systems
           </p>
-          <p className="text-white" style={{ fontSize: '12px' }}>
+          <p className="text-[#0D47A1]" style={{ fontSize: '12px' }}>
             <a href="https://bestwebsites.tech" target="_blank" rel="noopener noreferrer" style={{ color: "#BBDEFB", textDecoration: "underline" }}>Built by Best Websites LLC</a>
           </p>
         </div>
@@ -2609,7 +2609,7 @@ export default function App() {
         </section>
 
         {/* Work With Us Section */}
-        <section className="py-32 bg-[#000000]" id="contact">
+        <section className="py-32 bg-white" id="contact">
           <div className="container mx-auto px-6">
             <div className="max-w-6xl mx-auto">
               <div className="grid grid-cols-1 lg:grid-cols-2 gap-16">
@@ -3452,7 +3452,7 @@ export default function App() {
       <div className="min-h-screen" style={{ background: '#FFFFFF' }}>
         <Navigation />
 
-        <div className="pt-48 pb-24 bg-black">
+        <div className="pt-48 pb-24 bg-white">
           <div className="container mx-auto px-4">
             <div className="max-w-6xl mx-auto">
               <div className="text-center mb-16">
@@ -3618,7 +3618,7 @@ export default function App() {
       <div className="min-h-screen" style={{ background: '#FFFFFF' }}>
         <Navigation />
 
-        <div className="pt-48 pb-24 bg-black">
+        <div className="pt-48 pb-24 bg-white">
           <div className="container mx-auto px-4">
             <div className="max-w-6xl mx-auto">
               <div className="text-center mb-16">
@@ -3747,7 +3747,7 @@ export default function App() {
       <div className="min-h-screen" style={{ background: '#FFFFFF' }}>
         <Navigation />
 
-        <section className="pt-48 pb-24 bg-black">
+        <section className="pt-48 pb-24 bg-white">
           <div className="container mx-auto px-4">
             <div className="max-w-6xl mx-auto">
               {/* Back Button */}
@@ -4169,11 +4169,11 @@ export default function App() {
                       </div>
                       <div className="relative bg-[#E3F2FD] border border-[#BBDEFB] rounded-lg overflow-hidden h-[420px]">
                         <img src={unionCountyImg1} alt="Union County field before synthetic turf installation" className="w-full h-full object-cover opacity-80" />
-                        <div className="absolute top-3 left-3 bg-black/60 text-white text-xs font-bold px-2 py-1 rounded uppercase tracking-wider">Before</div>
+                        <div className="absolute top-3 left-3 bg-white/60 text-white text-xs font-bold px-2 py-1 rounded uppercase tracking-wider">Before</div>
                       </div>
                       <div className="relative bg-[#E3F2FD] border border-[#BBDEFB] rounded-lg overflow-hidden h-[420px]">
                         <img src={unionCountyImg2} alt="Union County field before synthetic turf installation" className="w-full h-full object-cover opacity-80" />
-                        <div className="absolute top-3 left-3 bg-black/60 text-white text-xs font-bold px-2 py-1 rounded uppercase tracking-wider">Before</div>
+                        <div className="absolute top-3 left-3 bg-white/60 text-white text-xs font-bold px-2 py-1 rounded uppercase tracking-wider">Before</div>
                       </div>
                       {/* After Section */}
                       <div className="md:col-span-2 flex items-center gap-4 mt-4 mb-1">
@@ -4372,7 +4372,7 @@ export default function App() {
     return (
       <div className="min-h-screen" style={{ background: '#FFFFFF' }}>
         <Navigation />
-        <section className="pt-48 pb-24 bg-black">
+        <section className="pt-48 pb-24 bg-white">
           <div className="container mx-auto px-4">
             <div className="max-w-6xl mx-auto">
               <div className="text-center mb-16">
