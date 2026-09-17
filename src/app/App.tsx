@@ -721,7 +721,7 @@ export default function App() {
     <footer 
       className="text-[#0D47A1]"
       style={{
-        background: '#0A0F1E',
+        background: '#FFFFFF',
         borderTop: '1px solid rgba(30, 63, 216, 0.3)'
       }}
     >
@@ -1432,7 +1432,7 @@ export default function App() {
               {/* Divider */}
               <div 
                 className="h-16 w-px"
-                style={{ background: 'rgba(10, 20, 40, 0.2)' }}
+                style={{ background: 'rgba(10, 20, 40, 0.08)' }}
               />
 
               {/* Item 2: Superior Play */}
@@ -1460,7 +1460,7 @@ export default function App() {
               {/* Divider */}
               <div 
                 className="h-16 w-px"
-                style={{ background: 'rgba(10, 20, 40, 0.2)' }}
+                style={{ background: 'rgba(10, 20, 40, 0.08)' }}
               />
 
               {/* Item 3: Self-Sustainable */}
@@ -1679,7 +1679,7 @@ export default function App() {
                 <div className="lg:col-span-5">
                   <div
                     style={{
-                      background: '#141929',
+                      background: '#FFFFFF',
                       borderRadius: '8px',
                       padding: '40px 32px',
                       border: '2px solid #1565C0'
@@ -1821,12 +1821,12 @@ export default function App() {
                     viewport={{ once: true }}
                     transition={{ duration: 0.6, delay: index * 0.2 }}
                   >
-                    <Card className="bg-[#111111] border-[#BBDEFB] hover:border-[#1976D2] transition-all hover:shadow-2xl hover:shadow-[#1565C0]/20 group h-full">
+                    <Card className="bg-[#E3F2FD] border-[#BBDEFB] hover:border-[#1976D2] transition-all hover:shadow-2xl hover:shadow-[#1565C0]/20 group h-full">
                       <CardContent className="p-10 text-center">
                         <div className="w-24 h-24 mx-auto mb-8 bg-gradient-to-r from-[#1565C0] via-[#1976D2] to-[#BBDEFB] rounded-2xl flex items-center justify-center group-hover:scale-110 transition-transform">
-                          <pillar.icon className="w-12 h-12 text-white" />
+                          <pillar.icon className="w-12 h-12 text-[#1565C0]" />
                         </div>
-                        <h3 className="text-2xl font-black text-white mb-4 tracking-wide">
+                        <h3 className="text-2xl font-black text-[#0D47A1] mb-4 tracking-wide">
                           {pillar.title}
                         </h3>
                         <p className="text-white leading-relaxed">
@@ -2915,7 +2915,7 @@ export default function App() {
         <section
           className="pt-48 pb-32 relative overflow-hidden"
           style={{
-            background: 'linear-gradient(180deg, #000000 0%, #0A1428 50%, #1565C0 100%)'
+            background: 'linear-gradient(180deg, #0D47A1 0%, #1565C0 100%)'
           }}
         >
           {/* Background Pattern */}
@@ -3119,7 +3119,7 @@ export default function App() {
                       transition={{ duration: 0.5, delay: idx * 0.1 }}
                       className="group"
                       style={{
-                        background: 'rgba(10, 20, 40, 0.5)',
+                        background: 'rgba(10, 20, 40, 0.15)',
                         border: '2px solid rgba(30, 63, 216, 0.3)',
                         borderRadius: '12px',
                         padding: '32px',
@@ -3483,7 +3483,7 @@ export default function App() {
                           />
                           <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent"></div>
                         </div>
-                        <CardContent className="p-6 bg-[#111111]">
+                        <CardContent className="p-6 bg-[#E3F2FD]">
                           <Badge className="bg-[#1976D2]/20 text-[#1976D2] border border-[#BBDEFB] mb-3 font-bold">
                             {project.type}
                           </Badge>
@@ -3527,7 +3527,7 @@ export default function App() {
                           />
                           <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent"></div>
                         </div>
-                        <CardContent className="p-6 bg-[#111111]">
+                        <CardContent className="p-6 bg-[#E3F2FD]">
                           <Badge className="bg-[#1976D2]/20 text-[#1976D2] border border-[#BBDEFB] mb-3 font-bold">
                             {project.type}
                           </Badge>
@@ -3571,7 +3571,7 @@ export default function App() {
                           />
                           <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent"></div>
                         </div>
-                        <CardContent className="p-6 bg-[#111111]">
+                        <CardContent className="p-6 bg-[#E3F2FD]">
                           <Badge className="bg-[#1976D2]/20 text-[#1976D2] border border-[#BBDEFB] mb-3 font-bold">
                             {project.type}
                           </Badge>
@@ -3644,25 +3644,25 @@ export default function App() {
                         <label className="font-bold text-sm text-[#1A202C] mb-2 block tracking-wider">
                           Company Name
                         </label>
-                        <Input name="company" placeholder="Your company" className="bg-[#111111] border-[#BBDEFB] text-[#1A202C] placeholder:text-[#2D3748]" />
+                        <Input name="company" placeholder="Your company" className="bg-[#E3F2FD] border-[#BBDEFB] text-[#1A202C] placeholder:text-[#2D3748]" />
                       </div>
                       <div>
                         <label className="font-bold text-sm text-[#1A202C] mb-2 block tracking-wider">
                           Contact Person
                         </label>
-                        <Input name="name" placeholder="Full name" className="bg-[#111111] border-[#BBDEFB] text-[#1A202C] placeholder:text-[#2D3748]" />
+                        <Input name="name" placeholder="Full name" className="bg-[#E3F2FD] border-[#BBDEFB] text-[#1A202C] placeholder:text-[#2D3748]" />
                       </div>
                       <div>
                         <label className="font-bold text-sm text-[#1A202C] mb-2 block tracking-wider">
                           Email
                         </label>
-                        <Input type="email" name="email" placeholder="email@company.com" className="bg-[#111111] border-[#BBDEFB] text-[#1A202C] placeholder:text-[#2D3748]" />
+                        <Input type="email" name="email" placeholder="email@company.com" className="bg-[#E3F2FD] border-[#BBDEFB] text-[#1A202C] placeholder:text-[#2D3748]" />
                       </div>
                       <div>
                         <label className="font-bold text-sm text-[#1A202C] mb-2 block tracking-wider">
                           Partnership Type
                         </label>
-                          <select name="partnership-type" className="w-full px-4 py-2 bg-[#111111] border border-[#BBDEFB] rounded-lg text-[#1A202C]">
+                          <select name="partnership-type" className="w-full px-4 py-2 bg-[#E3F2FD] border border-[#BBDEFB] rounded-lg text-[#1A202C]">
                           <option>Supplier</option>
                           <option>Contractor</option>
                           <option>Distributor</option>
@@ -3676,7 +3676,7 @@ export default function App() {
                         <Textarea 
                           placeholder="Tell us about your company and partnership interest..."
                           rows={4}
-                          className="bg-[#111111] border-[#BBDEFB] text-[#1A202C] placeholder:text-[#2D3748]"
+                          className="bg-[#E3F2FD] border-[#BBDEFB] text-[#1A202C] placeholder:text-[#2D3748]"
                         />
                       </div>
                       <button type="submit" className="w-full bg-[#1565C0] text-white font-black hover:bg-[#1976D2] tracking-wider py-3 rounded-md transition-colors flex items-center justify-center gap-2">
@@ -3701,23 +3701,23 @@ export default function App() {
                       <input type="hidden" name="subject" value="Bidder List Request - PES Field Systems Website" />
                       <div>
                         <label className="font-bold text-sm text-[#1A202C] mb-2 block tracking-wider">Company Name</label>
-                        <Input name="company" placeholder="Your company" className="bg-[#111111] border-[#BBDEFB] text-[#1A202C] placeholder:text-[#2D3748]" />
+                        <Input name="company" placeholder="Your company" className="bg-[#E3F2FD] border-[#BBDEFB] text-[#1A202C] placeholder:text-[#2D3748]" />
                       </div>
                       <div>
                         <label className="font-bold text-sm text-[#1A202C] mb-2 block tracking-wider">Primary Contact</label>
-                        <Input name="name" placeholder="Full name" className="bg-[#111111] border-[#BBDEFB] text-[#1A202C] placeholder:text-[#2D3748]" />
+                        <Input name="name" placeholder="Full name" className="bg-[#E3F2FD] border-[#BBDEFB] text-[#1A202C] placeholder:text-[#2D3748]" />
                       </div>
                       <div>
                         <label className="font-bold text-sm text-[#1A202C] mb-2 block tracking-wider">Email</label>
-                        <Input type="email" name="email" placeholder="email@company.com" className="bg-[#111111] border-[#BBDEFB] text-[#1A202C] placeholder:text-[#2D3748]" />
+                        <Input type="email" name="email" placeholder="email@company.com" className="bg-[#E3F2FD] border-[#BBDEFB] text-[#1A202C] placeholder:text-[#2D3748]" />
                       </div>
                       <div>
                         <label className="font-bold text-sm text-[#1A202C] mb-2 block tracking-wider">Service Area</label>
-                        <Input name="service-area" placeholder="States/regions you serve" className="bg-[#111111] border-[#BBDEFB] text-[#1A202C] placeholder:text-[#2D3748]" />
+                        <Input name="service-area" placeholder="States/regions you serve" className="bg-[#E3F2FD] border-[#BBDEFB] text-[#1A202C] placeholder:text-[#2D3748]" />
                       </div>
                       <div>
                         <label className="font-bold text-sm text-[#1A202C] mb-2 block tracking-wider">Specialties</label>
-                        <Textarea name="specialties" placeholder="List your construction specialties..." rows={3} className="bg-[#111111] border-[#BBDEFB] text-[#1A202C] placeholder:text-[#2D3748]" />
+                        <Textarea name="specialties" placeholder="List your construction specialties..." rows={3} className="bg-[#E3F2FD] border-[#BBDEFB] text-[#1A202C] placeholder:text-[#2D3748]" />
                       </div>
                       <button type="submit" className="w-full bg-[#1565C0] text-white font-black hover:bg-[#1976D2] tracking-wider py-3 rounded-md transition-colors">
                         JOIN BIDDER LIST
@@ -3861,13 +3861,13 @@ export default function App() {
                         The Miracle League of Plymouth enriches the community by offering inclusive recreation especially baseball for individuals with special needs and their families. Through player and "buddy" partnerships, the league promotes friendship, social development, and lasting connections.
                       </p>
                       <div className="grid md:grid-cols-2 gap-8 mt-8">
-                        <div className="bg-[#111111] border border-[#BBDEFB] rounded-lg p-6">
+                        <div className="bg-[#E3F2FD] border border-[#BBDEFB] rounded-lg p-6">
                           <h3 className="text-[#1976D2] text-xl font-bold mb-3 tracking-wide">Before the Build</h3>
                           <p className="text-[#2D3748] leading-relaxed">
                             Before construction began, Plymouth lacked an adaptive baseball field that could safely support athletes with special needs. The community envisioned a space where every child regardless of ability could experience the game in a safe, inclusive environment. Working alongside the Miracle League of Plymouth, we prepared for a field that would remove physical barriers and create a welcoming space for connection, confidence, and fun.
                           </p>
                         </div>
-                        <div className="bg-[#111111] border border-[#BBDEFB] rounded-lg p-6">
+                        <div className="bg-[#E3F2FD] border border-[#BBDEFB] rounded-lg p-6">
                           <h3 className="text-[#1976D2] text-xl font-bold mb-3 tracking-wide">After the Build</h3>
                           <p className="text-[#2D3748] leading-relaxed">
                             The finished field features a custom turf surface designed for accessibility, safety, and all-weather play. Our team completed the surfacing and detail work to meet Miracle League standards, ensuring smooth mobility for wheelchairs and walkers while maintaining a professional look and feel. Today, the field is more than just a place to play its a space where inclusion thrives and every player gets their moment at bat.
@@ -4393,24 +4393,24 @@ export default function App() {
                       <div className="grid grid-cols-2 gap-4">
                         <div>
                           <label className="font-bold text-sm text-[#1A202C] mb-2 block tracking-wider">First Name</label>
-                          <Input name="first-name" placeholder="John" className="bg-[#111111] border-[#BBDEFB] text-[#1A202C] placeholder:text-[#2D3748]" />
+                          <Input name="first-name" placeholder="John" className="bg-[#E3F2FD] border-[#BBDEFB] text-[#1A202C] placeholder:text-[#2D3748]" />
                         </div>
                         <div>
                           <label className="font-bold text-sm text-[#1A202C] mb-2 block tracking-wider">Last Name</label>
-                          <Input name="last-name" placeholder="Doe" className="bg-[#111111] border-[#BBDEFB] text-[#1A202C] placeholder:text-[#2D3748]" />
+                          <Input name="last-name" placeholder="Doe" className="bg-[#E3F2FD] border-[#BBDEFB] text-[#1A202C] placeholder:text-[#2D3748]" />
                         </div>
                       </div>
                       <div>
                         <label className="font-bold text-sm text-[#1A202C] mb-2 block tracking-wider">Email</label>
-                        <Input type="email" name="email" placeholder="john@example.com" className="bg-[#111111] border-[#BBDEFB] text-[#1A202C] placeholder:text-[#2D3748]" />
+                        <Input type="email" name="email" placeholder="john@example.com" className="bg-[#E3F2FD] border-[#BBDEFB] text-[#1A202C] placeholder:text-[#2D3748]" />
                       </div>
                       <div>
                         <label className="font-bold text-sm text-[#1A202C] mb-2 block tracking-wider">Phone <span className="text-[#2D3748] font-normal">(optional)</span></label>
-                        <Input type="tel" name="phone" placeholder="Your phone number" className="bg-[#111111] border-[#BBDEFB] text-[#1A202C] placeholder:text-[#2D3748]" />
+                        <Input type="tel" name="phone" placeholder="Your phone number" className="bg-[#E3F2FD] border-[#BBDEFB] text-[#1A202C] placeholder:text-[#2D3748]" />
                       </div>
                       <div>
                         <label className="font-bold text-sm text-[#1A202C] mb-2 block tracking-wider">Project Type</label>
-                        <select name="project-type" className="w-full px-4 py-2 bg-[#111111] border border-[#BBDEFB] rounded-lg text-[#1A202C]">
+                        <select name="project-type" className="w-full px-4 py-2 bg-[#E3F2FD] border border-[#BBDEFB] rounded-lg text-[#1A202C]">
                           <option>Baseball / Softball</option>
                           <option>Soccer / Lacrosse</option>
                           <option>Football</option>
@@ -4420,7 +4420,7 @@ export default function App() {
                       </div>
                       <div>
                         <label className="font-bold text-sm text-[#1A202C] mb-2 block tracking-wider">Message</label>
-                        <Textarea name="message" placeholder="Tell us about your project..." rows={5} className="bg-[#111111] border-[#BBDEFB] text-[#1A202C] placeholder:text-[#2D3748]" />
+                        <Textarea name="message" placeholder="Tell us about your project..." rows={5} className="bg-[#E3F2FD] border-[#BBDEFB] text-[#1A202C] placeholder:text-[#2D3748]" />
                       </div>
                       <button type="submit" className="w-full bg-[#1565C0] text-white font-black text-lg hover:bg-[#1976D2] py-4 tracking-wider rounded-md transition-colors flex items-center justify-center gap-2">
                         <Send className="w-5 h-5" />
