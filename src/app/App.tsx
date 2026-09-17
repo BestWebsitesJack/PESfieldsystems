@@ -491,17 +491,17 @@ export default function App() {
                 onClick={() => navigateTo('home')}
                 onMouseEnter={() => setHoveredNavItem('home')}
                 onMouseLeave={() => setHoveredNavItem(null)}
-                className="text-[#E6E6E6] hover:text-[#1E3FD8] transition-colors duration-200 no-underline relative pb-1"
+                className="text-[#1A202C] hover:text-[#1565C0] transition-colors duration-200 no-underline relative pb-1"
                 style={{ fontSize: '16px', letterSpacing: '0.08em', textDecoration: 'none' }}
               >
                 HOME
-                <span className="absolute bottom-0 left-0 h-0.5 bg-[#1E3FD8] transition-all duration-300" style={{ width: hoveredNavItem === 'home' ? '100%' : '0%' }}></span>
+                <span className="absolute bottom-0 left-0 h-0.5 bg-[#1565C0] transition-all duration-300" style={{ width: hoveredNavItem === 'home' ? '100%' : '0%' }}></span>
               </button>
               <button
                 onClick={() => navigateTo('services')}
                 onMouseEnter={() => setHoveredNavItem('services')}
                 onMouseLeave={() => setHoveredNavItem(null)}
-                className="text-[#E6E6E6] hover:text-[#1E3FD8] transition-colors duration-200 no-underline relative pb-1"
+                className="text-[#1A202C] hover:text-[#1565C0] transition-colors duration-200 no-underline relative pb-1"
                 style={{
                   fontSize: '16px',
                   letterSpacing: '0.08em',
@@ -510,7 +510,7 @@ export default function App() {
               >
                 SERVICES
                 <span 
-                  className="absolute bottom-0 left-0 h-0.5 bg-[#1E3FD8] transition-all duration-300"
+                  className="absolute bottom-0 left-0 h-0.5 bg-[#1565C0] transition-all duration-300"
                   style={{ width: hoveredNavItem === 'services' ? '100%' : '0%' }}
                 ></span>
               </button>
@@ -518,7 +518,7 @@ export default function App() {
                 onClick={() => navigateTo('gallery')}
                 onMouseEnter={() => setHoveredNavItem('projects')}
                 onMouseLeave={() => setHoveredNavItem(null)}
-                className="text-[#E6E6E6] hover:text-[#1E3FD8] transition-colors duration-200 no-underline relative pb-1"
+                className="text-[#1A202C] hover:text-[#1565C0] transition-colors duration-200 no-underline relative pb-1"
                 style={{ 
                   fontSize: '14px', 
                   letterSpacing: '0.08em',
@@ -527,7 +527,7 @@ export default function App() {
               >
                 PROJECTS
                 <span 
-                  className="absolute bottom-0 left-0 h-0.5 bg-[#1E3FD8] transition-all duration-300"
+                  className="absolute bottom-0 left-0 h-0.5 bg-[#1565C0] transition-all duration-300"
                   style={{ width: hoveredNavItem === 'projects' ? '100%' : '0%' }}
                 ></span>
               </button>
@@ -535,7 +535,7 @@ export default function App() {
                 onClick={() => navigateTo('technology')}
                 onMouseEnter={() => setHoveredNavItem('technology')}
                 onMouseLeave={() => setHoveredNavItem(null)}
-                className="text-[#E6E6E6] hover:text-[#1E3FD8] transition-colors duration-200 no-underline relative pb-1"
+                className="text-[#1A202C] hover:text-[#1565C0] transition-colors duration-200 no-underline relative pb-1"
                 style={{
                   fontSize: '14px',
                   letterSpacing: '0.08em',
@@ -544,7 +544,7 @@ export default function App() {
               >
                 OUR TECHNOLOGY
                 <span
-                  className="absolute bottom-0 left-0 h-0.5 bg-[#1E3FD8] transition-all duration-300"
+                  className="absolute bottom-0 left-0 h-0.5 bg-[#1565C0] transition-all duration-300"
                   style={{ width: hoveredNavItem === 'technology' ? '100%' : '0%' }}
                 ></span>
               </button>
@@ -552,7 +552,7 @@ export default function App() {
                 onClick={() => navigateTo('team')}
                 onMouseEnter={() => setHoveredNavItem('team')}
                 onMouseLeave={() => setHoveredNavItem(null)}
-                className="text-[#E6E6E6] hover:text-[#1E3FD8] transition-colors duration-200 no-underline relative pb-1"
+                className="text-[#1A202C] hover:text-[#1565C0] transition-colors duration-200 no-underline relative pb-1"
                 style={{
                   fontSize: '16px',
                   letterSpacing: '0.08em',
@@ -561,7 +561,7 @@ export default function App() {
               >
                 TEAM
                 <span
-                  className="absolute bottom-0 left-0 h-0.5 bg-[#1E3FD8] transition-all duration-300"
+                  className="absolute bottom-0 left-0 h-0.5 bg-[#1565C0] transition-all duration-300"
                   style={{ width: hoveredNavItem === 'team' ? '100%' : '0%' }}
                 ></span>
               </button>
@@ -569,7 +569,7 @@ export default function App() {
                 onClick={() => navigateTo('partners')}
                 onMouseEnter={() => setHoveredNavItem('partners')}
                 onMouseLeave={() => setHoveredNavItem(null)}
-                className="text-[#E6E6E6] hover:text-[#1E3FD8] transition-colors duration-200 no-underline relative pb-1"
+                className="text-[#1A202C] hover:text-[#1565C0] transition-colors duration-200 no-underline relative pb-1"
                 style={{
                   fontSize: '16px',
                   letterSpacing: '0.08em',
@@ -578,7 +578,7 @@ export default function App() {
               >
                 PARTNERS
                 <span 
-                  className="absolute bottom-0 left-0 h-0.5 bg-[#1E3FD8] transition-all duration-300"
+                  className="absolute bottom-0 left-0 h-0.5 bg-[#1565C0] transition-all duration-300"
                   style={{ width: hoveredNavItem === 'partners' ? '100%' : '0%' }}
                 ></span>
               </button>
@@ -586,7 +586,7 @@ export default function App() {
                 onClick={() => navigateTo('contact')}
                 onMouseEnter={() => setHoveredNavItem('contact')}
                 onMouseLeave={() => setHoveredNavItem(null)}
-                className="text-[#E6E6E6] hover:text-[#1E3FD8] transition-colors duration-200 no-underline relative pb-1"
+                className="text-[#1A202C] hover:text-[#1565C0] transition-colors duration-200 no-underline relative pb-1"
                 style={{
                   fontSize: '16px',
                   letterSpacing: '0.08em',
@@ -595,12 +595,12 @@ export default function App() {
               >
                 CONTACT
                 <span 
-                  className="absolute bottom-0 left-0 h-0.5 bg-[#1E3FD8] transition-all duration-300"
+                  className="absolute bottom-0 left-0 h-0.5 bg-[#1565C0] transition-all duration-300"
                   style={{ width: hoveredNavItem === 'contact' ? '100%' : '0%' }}
                 ></span>
               </button>
               <motion.button 
-                className="bg-[#1E3FD8] text-white hover:bg-[#4F73D6] transition-colors duration-200"
+                className="bg-[#1565C0] text-white hover:bg-[#1976D2] transition-colors duration-200"
                 onClick={() => navigateTo('contact')}
                 whileHover={{ scale: 1.05, boxShadow: '0 10px 30px rgba(30, 63, 216, 0.4)' }}
                 whileTap={{ scale: 0.95 }}
@@ -618,7 +618,7 @@ export default function App() {
 
             {/* Mobile Menu Button */}
             <button
-              className="md:hidden text-[#E6E6E6] z-50"
+              className="md:hidden text-[#1A202C] z-50"
               onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
             >
               {mobileMenuOpen ? <X className="w-6 h-6" /> : <Menu className="w-6 h-6" />}
@@ -640,7 +640,7 @@ export default function App() {
               setCurrentPage('services');
               setMobileMenuOpen(false);
             }}
-            className="text-[#E6E6E6] hover:text-[#1E3FD8] transition-colors duration-200 text-2xl"
+            className="text-[#1A202C] hover:text-[#1565C0] transition-colors duration-200 text-2xl"
             style={{ letterSpacing: '0.08em' }}
           >
             SERVICES
@@ -650,7 +650,7 @@ export default function App() {
               setCurrentPage('gallery');
               setMobileMenuOpen(false);
             }}
-            className="text-[#E6E6E6] hover:text-[#1E3FD8] transition-colors duration-200 text-2xl"
+            className="text-[#1A202C] hover:text-[#1565C0] transition-colors duration-200 text-2xl"
             style={{ letterSpacing: '0.08em' }}
           >
             PROJECTS
@@ -660,7 +660,7 @@ export default function App() {
               setCurrentPage('technology');
               setMobileMenuOpen(false);
             }}
-            className="text-[#E6E6E6] hover:text-[#1E3FD8] transition-colors duration-200 text-2xl"
+            className="text-[#1A202C] hover:text-[#1565C0] transition-colors duration-200 text-2xl"
             style={{ letterSpacing: '0.08em' }}
           >
             OUR TECHNOLOGY
@@ -670,7 +670,7 @@ export default function App() {
               setCurrentPage('team');
               setMobileMenuOpen(false);
             }}
-            className="text-[#E6E6E6] hover:text-[#1E3FD8] transition-colors duration-200 text-2xl"
+            className="text-[#1A202C] hover:text-[#1565C0] transition-colors duration-200 text-2xl"
             style={{ letterSpacing: '0.08em' }}
           >
             TEAM
@@ -680,7 +680,7 @@ export default function App() {
               setCurrentPage('partners');
               setMobileMenuOpen(false);
             }}
-            className="text-[#E6E6E6] hover:text-[#1E3FD8] transition-colors duration-200 text-2xl"
+            className="text-[#1A202C] hover:text-[#1565C0] transition-colors duration-200 text-2xl"
             style={{ letterSpacing: '0.08em' }}
           >
             PARTNERS
@@ -690,13 +690,13 @@ export default function App() {
               setCurrentPage('contact');
               setMobileMenuOpen(false);
             }}
-            className="text-[#E6E6E6] hover:text-[#1E3FD8] transition-colors duration-200 text-2xl"
+            className="text-[#1A202C] hover:text-[#1565C0] transition-colors duration-200 text-2xl"
             style={{ letterSpacing: '0.08em' }}
           >
             CONTACT
           </button>
           <button 
-            className="bg-[#1E3FD8] text-white hover:bg-[#4F73D6] transition-colors duration-200 mt-4"
+            className="bg-[#1565C0] text-white hover:bg-[#1976D2] transition-colors duration-200 mt-4"
             onClick={() => {
               setCurrentPage('contact');
               setMobileMenuOpen(false);
@@ -719,7 +719,7 @@ export default function App() {
   // Footer Component
   const Footer = () => (
     <footer 
-      className="text-[#E6E6E6]"
+      className="text-[#1A202C]"
       style={{
         background: '#0A0F1E',
         borderTop: '1px solid rgba(30, 63, 216, 0.3)'
@@ -736,7 +736,7 @@ export default function App() {
               style={{ objectFit: 'contain', objectPosition: 'left center' }}
             />
             <p 
-              className="text-[#E2EBF0] mb-4"
+              className="text-[#2D3748] mb-4"
               style={{ 
                 fontSize: '13px', 
                 lineHeight: '1.6',
@@ -746,7 +746,7 @@ export default function App() {
               Safer Fields. Superior Play. Self-Sustainable.
             </p>
             <p 
-              className="text-[#E2EBF0]"
+              className="text-[#2D3748]"
               style={{ 
                 fontSize: '13px', 
                 lineHeight: '1.6'
@@ -762,42 +762,42 @@ export default function App() {
             <div className="space-y-2">
               <button
                 onClick={() => navigateTo('services')}
-                className="block text-[#E2EBF0] hover:text-[#E6E6E6] transition-colors duration-200"
+                className="block text-[#2D3748] hover:text-[#1A202C] transition-colors duration-200"
                 style={{ fontSize: '13px' }}
               >
                 Services
               </button>
               <a 
                 href="#projects"
-                className="block text-[#E2EBF0] hover:text-[#E6E6E6] transition-colors duration-200"
+                className="block text-[#2D3748] hover:text-[#1A202C] transition-colors duration-200"
                 style={{ fontSize: '13px' }}
               >
                 Projects
               </a>
               <button
                 onClick={() => navigateTo('technology')}
-                className="block text-[#E2EBF0] hover:text-[#E6E6E6] transition-colors duration-200"
+                className="block text-[#2D3748] hover:text-[#1A202C] transition-colors duration-200"
                 style={{ fontSize: '13px' }}
               >
                 Technology
               </button>
               <button
                 onClick={() => navigateTo('team')}
-                className="block text-[#E2EBF0] hover:text-[#E6E6E6] transition-colors duration-200"
+                className="block text-[#2D3748] hover:text-[#1A202C] transition-colors duration-200"
                 style={{ fontSize: '13px' }}
               >
                 Team
               </button>
               <button
                 onClick={() => navigateTo('partners')}
-                className="block text-[#E2EBF0] hover:text-[#E6E6E6] transition-colors duration-200"
+                className="block text-[#2D3748] hover:text-[#1A202C] transition-colors duration-200"
                 style={{ fontSize: '13px' }}
               >
                 Partners
               </button>
               <a 
                 href="#contact"
-                className="block text-[#E2EBF0] hover:text-[#E6E6E6] transition-colors duration-200"
+                className="block text-[#2D3748] hover:text-[#1A202C] transition-colors duration-200"
                 style={{ fontSize: '13px' }}
               >
                 Contact
@@ -808,7 +808,7 @@ export default function App() {
           {/* Right Column - CTA */}
           <div>
             <p 
-              className="text-[#E6E6E6] mb-4"
+              className="text-[#1A202C] mb-4"
               style={{
                 fontFamily: 'Inter, sans-serif',
                 fontWeight: '700',
@@ -821,13 +821,13 @@ export default function App() {
               href="#contact-form"
               className="inline-block text-white px-6 py-3 transition-colors duration-200"
               style={{
-                background: '#1E3FD8',
+                background: '#1565C0',
                 borderRadius: '4px',
                 fontSize: '14px',
                 fontWeight: '700'
               }}
-              onMouseEnter={(e) => e.currentTarget.style.background = '#4F73D6'}
-              onMouseLeave={(e) => e.currentTarget.style.background = '#1E3FD8'}
+              onMouseEnter={(e) => e.currentTarget.style.background = '#1976D2'}
+              onMouseLeave={(e) => e.currentTarget.style.background = '#1565C0'}
             >
               Get a Quote
             </a>
@@ -841,11 +841,11 @@ export default function App() {
             borderTop: '1px solid rgba(183, 198, 207, 0.15)'
           }}
         >
-          <p className="text-[#E2EBF0]" style={{ fontSize: '12px' }}>
+          <p className="text-[#2D3748]" style={{ fontSize: '12px' }}>
             Copyright 2026 PES Field Systems
           </p>
-          <p className="text-[#E2EBF0]" style={{ fontSize: '12px' }}>
-            <a href="https://bestwebsites.tech" target="_blank" rel="noopener noreferrer" style={{ color: "#E2EBF0", textDecoration: "underline" }}>Built by Best Websites LLC</a>
+          <p className="text-[#2D3748]" style={{ fontSize: '12px' }}>
+            <a href="https://bestwebsites.tech" target="_blank" rel="noopener noreferrer" style={{ color: "#BBDEFB", textDecoration: "underline" }}>Built by Best Websites LLC</a>
           </p>
         </div>
       </div>
@@ -855,20 +855,20 @@ export default function App() {
   // SERVICES PAGE
   if (currentPage === 'services') {
     return (
-      <div className="min-h-screen" style={{ background: '#132040' }}>
+      <div className="min-h-screen" style={{ background: '#FFFFFF' }}>
         <Navigation />
 
         {/* Hero Section */}
         <section
           className="pt-48 pb-32"
           style={{
-            background: 'linear-gradient(180deg, #000000 0%, #0A1428 100%)'
+            background: 'linear-gradient(180deg, #0D47A1 0%, #1565C0 100%)'
           }}
         >
           <div className="container mx-auto px-6">
             <div className="max-w-4xl mx-auto text-center" style={{ background: "rgba(0,0,0,0.55)", borderRadius: "12px", padding: "48px 40px", backdropFilter: "blur(2px)" }}>
               <p
-                className="uppercase mb-6 text-[#1E3FD8]"
+                className="uppercase mb-6 text-[#1565C0]"
                 style={{
                   fontSize: '12px',
                   letterSpacing: '0.14em',
@@ -889,9 +889,9 @@ export default function App() {
               >
                 Our Services
               </h1>
-              <div className="w-24 h-1 bg-[#1E3FD8] mx-auto mb-10"></div>
+              <div className="w-24 h-1 bg-[#1565C0] mx-auto mb-10"></div>
               <p
-                className="text-[#E2EBF0] max-w-3xl mx-auto"
+                className="text-[#2D3748] max-w-3xl mx-auto"
                 style={{
                   fontSize: '18px',
                   lineHeight: '1.7'
@@ -903,7 +903,7 @@ export default function App() {
         </section>
 
         {/* Services Grid */}
-        <section className="py-32" style={{ background: '#132040' }}>
+        <section className="py-32" style={{ background: '#FFFFFF' }}>
           <div className="container mx-auto px-6">
             <div className="max-w-7xl mx-auto">
               <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
@@ -923,7 +923,7 @@ export default function App() {
                   }}
                   whileHover={{ scale: 1.03 }}
                 >
-                  <Trophy className="w-10 h-10 text-[#1E3FD8] mb-4" />
+                  <Trophy className="w-10 h-10 text-[#1565C0] mb-4" />
                   <h3
                     className="text-white mb-3"
                     style={{
@@ -933,7 +933,7 @@ export default function App() {
                   >
                     Baseball & Softball Fields
                   </h3>
-                  <p className="text-[#E2EBF0]" style={{ fontSize: '15px', lineHeight: '1.6' }}>
+                  <p className="text-[#2D3748]" style={{ fontSize: '15px', lineHeight: '1.6' }}>
                     Professional-grade diamonds feature permanent or movable pitching mounds and bases, with a poured-in-place composite layer beneath the turf for consistent fielding and sliding performance.
                   </p>
                 </motion.div>
@@ -954,7 +954,7 @@ export default function App() {
                   }}
                   whileHover={{ scale: 1.03 }}
                 >
-                  <Zap className="w-10 h-10 text-[#1E3FD8] mb-4" />
+                  <Zap className="w-10 h-10 text-[#1565C0] mb-4" />
                   <h3
                     className="text-white mb-3"
                     style={{
@@ -964,7 +964,7 @@ export default function App() {
                   >
                     Soccer & Lacrosse Fields
                   </h3>
-                  <p className="text-[#E2EBF0]" style={{ fontSize: '15px', lineHeight: '1.6' }}>
+                  <p className="text-[#2D3748]" style={{ fontSize: '15px', lineHeight: '1.6' }}>
                     Engineered to reduce heat index, deliver consistent bounce and playability, and eliminate granular infill from shoes and equipment.
                   </p>
                 </motion.div>
@@ -985,7 +985,7 @@ export default function App() {
                   }}
                   whileHover={{ scale: 1.03 }}
                 >
-                  <Shield className="w-10 h-10 text-[#1E3FD8] mb-4" />
+                  <Shield className="w-10 h-10 text-[#1565C0] mb-4" />
                   <h3
                     className="text-white mb-3"
                     style={{
@@ -995,7 +995,7 @@ export default function App() {
                   >
                     Football Fields
                   </h3>
-                  <p className="text-[#E2EBF0]" style={{ fontSize: '15px', lineHeight: '1.6' }}>
+                  <p className="text-[#2D3748]" style={{ fontSize: '15px', lineHeight: '1.6' }}>
                     Regulation fields built for safety, performance, and long-term durability, while maintaining cControlled Heat Index °F and cleaner play.
                   </p>
                 </motion.div>
@@ -1016,7 +1016,7 @@ export default function App() {
                   }}
                   whileHover={{ scale: 1.03 }}
                 >
-                  <Gauge className="w-10 h-10 text-[#1E3FD8] mb-4" />
+                  <Gauge className="w-10 h-10 text-[#1565C0] mb-4" />
                   <h3
                     className="text-white mb-3"
                     style={{
@@ -1026,7 +1026,7 @@ export default function App() {
                   >
                     Golf Putting Greens
                   </h3>
-                  <p className="text-[#E2EBF0]" style={{ fontSize: '15px', lineHeight: '1.6' }}>
+                  <p className="text-[#2D3748]" style={{ fontSize: '15px', lineHeight: '1.6' }}>
                     Custom-built putting greens delivering precision surfaces and true roll consistency.
                   </p>
                 </motion.div>
@@ -1047,7 +1047,7 @@ export default function App() {
                   }}
                   whileHover={{ scale: 1.03 }}
                 >
-                  <Heart className="w-10 h-10 text-[#1E3FD8] mb-4" />
+                  <Heart className="w-10 h-10 text-[#1565C0] mb-4" />
                   <h3
                     className="text-white mb-3"
                     style={{
@@ -1057,7 +1057,7 @@ export default function App() {
                   >
                     Adaptive Fields
                   </h3>
-                  <p className="text-[#E2EBF0]" style={{ fontSize: '15px', lineHeight: '1.6' }}>
+                  <p className="text-[#2D3748]" style={{ fontSize: '15px', lineHeight: '1.6' }}>
                     Inclusive field designs that support athletes of all abilities and accessibility needs.
                   </p>
                 </motion.div>
@@ -1078,7 +1078,7 @@ export default function App() {
                   }}
                   whileHover={{ scale: 1.03 }}
                 >
-                  <Users className="w-10 h-10 text-[#1E3FD8] mb-4" />
+                  <Users className="w-10 h-10 text-[#1565C0] mb-4" />
                   <h3
                     className="text-white mb-3"
                     style={{
@@ -1088,7 +1088,7 @@ export default function App() {
                   >
                     Playground & Play Areas
                   </h3>
-                  <p className="text-[#E2EBF0]" style={{ fontSize: '15px', lineHeight: '1.6' }}>
+                  <p className="text-[#2D3748]" style={{ fontSize: '15px', lineHeight: '1.6' }}>
                     Safe, age-appropriate outdoor spaces designed for learning, movement, and play.
                   </p>
                 </motion.div>
@@ -1109,7 +1109,7 @@ export default function App() {
                   }}
                   whileHover={{ scale: 1.03 }}
                 >
-                  <Leaf className="w-10 h-10 text-[#1E3FD8] mb-4" />
+                  <Leaf className="w-10 h-10 text-[#1565C0] mb-4" />
                   <h3
                     className="text-white mb-3"
                     style={{
@@ -1119,7 +1119,7 @@ export default function App() {
                   >
                     Parks & Recreation
                   </h3>
-                  <p className="text-[#E2EBF0]" style={{ fontSize: '15px', lineHeight: '1.6' }}>
+                  <p className="text-[#2D3748]" style={{ fontSize: '15px', lineHeight: '1.6' }}>
                     Community-focused spaces including trails, playgrounds, and gathering areas.
                   </p>
                 </motion.div>
@@ -1140,7 +1140,7 @@ export default function App() {
                   }}
                   whileHover={{ scale: 1.03 }}
                 >
-                  <Sparkles className="w-10 h-10 text-[#1E3FD8] mb-4" />
+                  <Sparkles className="w-10 h-10 text-[#1565C0] mb-4" />
                   <h3
                     className="text-white mb-3"
                     style={{
@@ -1150,7 +1150,7 @@ export default function App() {
                   >
                     Custom Projects
                   </h3>
-                  <p className="text-[#E2EBF0]" style={{ fontSize: '15px', lineHeight: '1.6' }}>
+                  <p className="text-[#2D3748]" style={{ fontSize: '15px', lineHeight: '1.6' }}>
                     Unique outdoor environments tailored to your vision, site conditions, and goals.
                   </p>
                 </motion.div>
@@ -1163,7 +1163,7 @@ export default function App() {
         <section
           className="py-32"
           style={{
-            background: 'linear-gradient(135deg, #1E3FD8 0%, #4F73D6 100%)'
+            background: 'linear-gradient(135deg, #1565C0 0%, #1976D2 100%)'
           }}
         >
           <div className="container mx-auto px-6">
@@ -1185,7 +1185,7 @@ export default function App() {
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
                 <motion.button
                   onClick={() => navigateTo('contact')}
-                  className="px-10 py-4 bg-white text-[#1E3FD8] hover:bg-[#E6E6E6] transition-all duration-200"
+                  className="px-10 py-4 bg-white text-[#1565C0] hover:bg-[#E6E6E6] transition-all duration-200"
                   style={{
                     fontSize: '16px',
                     fontWeight: '700',
@@ -1199,7 +1199,7 @@ export default function App() {
                 </motion.button>
                 <motion.button
                   onClick={() => navigateTo('technology')}
-                  className="px-10 py-4 bg-transparent text-white border-2 border-white hover:bg-white hover:text-[#1E3FD8] transition-all duration-200"
+                  className="px-10 py-4 bg-transparent text-white border-2 border-white hover:bg-white hover:text-[#1565C0] transition-all duration-200"
                   style={{
                     fontSize: '16px',
                     fontWeight: '700',
@@ -1224,7 +1224,7 @@ export default function App() {
   // HOME PAGE
   if (currentPage === 'home') {
     return (
-      <div className="min-h-screen" style={{ background: '#132040' }}>
+      <div className="min-h-screen" style={{ background: '#FFFFFF' }}>
         <Navigation />
 
         {/* Hero Section */}
@@ -1244,7 +1244,7 @@ export default function App() {
               }}
             >
               <img
-                src="/MercerCounty1.JPG"
+                src="/HomepageHero_Montana.png"
                 alt="Athletic Field Background"
                 className="w-full h-full" style={{ filter: "brightness(1.4)" }}
                 style={{
@@ -1280,7 +1280,7 @@ export default function App() {
               </motion.p>
               
               <motion.h1 
-                className="text-[#E6E6E6] mb-8 hero-h1-animate"
+                className="text-[#1A202C] mb-8 hero-h1-animate"
                 initial={{ opacity: 0, y: 30 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ delay: 0.2, duration: 0.8 }}
@@ -1296,7 +1296,7 @@ export default function App() {
               </motion.h1>
               
               <motion.p 
-                className="text-[#E2EBF0] mb-10 hero-subheadline-animate mx-auto"
+                className="text-[#2D3748] mb-10 hero-subheadline-animate mx-auto"
                 initial={{ opacity: 0, y: 20 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ delay: 0.3, duration: 0.6 }}
@@ -1310,7 +1310,7 @@ export default function App() {
                </motion.p>
               <div className="flex flex-wrap gap-4 justify-center">
                 <motion.button 
-                  className="bg-[#1E3FD8] text-white hover:bg-[#4F73D6] transition-colors duration-200"
+                  className="bg-[#1565C0] text-white hover:bg-[#1976D2] transition-colors duration-200"
                   onClick={() => navigateTo('contact')}
                   whileHover={{ 
                     scale: 1.05,
@@ -1335,7 +1335,7 @@ export default function App() {
                   onClick={() => navigateTo('gallery')}
                   whileHover={{ 
                     scale: 1.05,
-                    borderColor: '#4F73D6'
+                    borderColor: '#1976D2'
                   }}
                   whileTap={{ scale: 0.95 }}
                   initial={{ opacity: 0, y: 20 }}
@@ -1402,14 +1402,14 @@ export default function App() {
           className="w-full flex items-center"
           style={{ 
             height: '140px',
-            background: 'linear-gradient(135deg, #E6E6E6 0%, #E2EBF0 100%)'
+            background: 'linear-gradient(135deg, #E3F2FD 0%, #BBDEFB 100%)'
           }}
         >
           <div className="container mx-auto px-6">
             <div className="flex items-center justify-between max-w-5xl mx-auto">
               {/* Item 1: Safer Fields */}
               <div className="flex items-center gap-3">
-                <Shield className="w-10 h-10 text-[#1E3FD8]" strokeWidth={2} />
+                <Shield className="w-10 h-10 text-[#1565C0]" strokeWidth={2} />
                 <div>
                   <div 
                     style={{ 
@@ -1437,7 +1437,7 @@ export default function App() {
 
               {/* Item 2: Superior Play */}
               <div className="flex items-center gap-3">
-                <Gauge className="w-10 h-10 text-[#1E3FD8]" strokeWidth={2} />
+                <Gauge className="w-10 h-10 text-[#1565C0]" strokeWidth={2} />
                 <div>
                   <div 
                     style={{ 
@@ -1465,7 +1465,7 @@ export default function App() {
 
               {/* Item 3: Self-Sustainable */}
               <div className="flex items-center gap-3">
-                <Leaf className="w-10 h-10 text-[#1E3FD8]" strokeWidth={2} />
+                <Leaf className="w-10 h-10 text-[#1565C0]" strokeWidth={2} />
                 <div>
                   <div 
                     style={{ 
@@ -1573,7 +1573,7 @@ export default function App() {
         <section
           className="py-40"
           style={{
-            background: 'linear-gradient(135deg, #0A1428 0%, #1E3FD8 100%)'
+            background: 'linear-gradient(135deg, #0D47A1 0%, #1565C0 100%)'
           }}
         >
           <div className="container mx-auto px-6">
@@ -1610,12 +1610,12 @@ export default function App() {
 
                   {/* Body Paragraphs */}
                   <div className="space-y-4 mb-10">
-                    <p className="text-[#E2EBF0]" style={{ fontSize: '16px', lineHeight: '1.6' }}>
+                    <p className="text-[#2D3748]" style={{ fontSize: '16px', lineHeight: '1.6' }}>
                       Our patented technology regulates granular infill placement beneath synthetic turf surfaces.
                       Unlike traditional systems where infill sits loose on top, our regulated approach ensures consistent
                       fall protection across the entire field.
                     </p>
-                    <p className="text-[#E2EBF0]" style={{ fontSize: '16px', lineHeight: '1.6' }}>
+                    <p className="text-[#2D3748]" style={{ fontSize: '16px', lineHeight: '1.6' }}>
                       This innovation delivers significantly cooler surface temperatures, eliminates infill migration into
                       shoes and equipment, and maintains optimal performance standards year after year.
                     </p>
@@ -1623,9 +1623,9 @@ export default function App() {
 
                   {/* Three Stat Callouts */}
                   <div className="grid grid-cols-3 gap-6 mb-10">
-                    <div style={{ borderTop: '2px solid #1E3FD8', paddingTop: '12px' }}>
+                    <div style={{ borderTop: '2px solid #1565C0', paddingTop: '12px' }}>
                       <p
-                        className="text-[#E6E6E6]"
+                        className="text-[#1A202C]"
                         style={{
                           fontSize: '14px',
                           fontWeight: '700',
@@ -1635,9 +1635,9 @@ export default function App() {
                         Uncompromised Fall Safety
                       </p>
                     </div>
-                    <div style={{ borderTop: '2px solid #1E3FD8', paddingTop: '12px' }}>
+                    <div style={{ borderTop: '2px solid #1565C0', paddingTop: '12px' }}>
                       <p
-                        className="text-[#E6E6E6]"
+                        className="text-[#1A202C]"
                         style={{
                           fontSize: '14px',
                           fontWeight: '700',
@@ -1647,9 +1647,9 @@ export default function App() {
                         Cooler Surface Temps
                       </p>
                     </div>
-                    <div style={{ borderTop: '2px solid #1E3FD8', paddingTop: '12px' }}>
+                    <div style={{ borderTop: '2px solid #1565C0', paddingTop: '12px' }}>
                       <p
-                        className="text-[#E6E6E6]"
+                        className="text-[#1A202C]"
                         style={{
                           fontSize: '14px',
                           fontWeight: '700',
@@ -1664,7 +1664,7 @@ export default function App() {
                   {/* CTA Link */}
                   <button
                     onClick={() => navigateTo('technology')}
-                    className="text-white inline-flex items-center gap-2 hover:text-[#E2EBF0] transition-colors"
+                    className="text-white inline-flex items-center gap-2 hover:text-[#2D3748] transition-colors"
                     style={{
                       fontSize: '16px',
                       fontWeight: '600'
@@ -1682,14 +1682,14 @@ export default function App() {
                       background: '#141929',
                       borderRadius: '8px',
                       padding: '40px 32px',
-                      border: '2px solid #1E3FD8'
+                      border: '2px solid #1565C0'
                     }}
                   >
                     {/* Cross-section diagram */}
                     <div className="space-y-6">
                       <div className="text-center mb-6">
                         <p
-                          className="text-[#E6E6E6]"
+                          className="text-[#1A202C]"
                           style={{
                             fontSize: '14px',
                             fontWeight: '700',
@@ -1706,16 +1706,16 @@ export default function App() {
                         <div
                           style={{
                             background: 'rgba(30, 63, 216, 0.20)',
-                            border: '1px solid #1E3FD8',
+                            border: '1px solid #1565C0',
                             borderRadius: '4px',
                             padding: '16px',
-                            borderLeft: '4px solid #1E3FD8'
+                            borderLeft: '4px solid #1565C0'
                           }}
                         >
-                          <p className="text-[#E6E6E6]" style={{ fontSize: '13px', fontWeight: '700', marginBottom: '4px' }}>
+                          <p className="text-[#1A202C]" style={{ fontSize: '13px', fontWeight: '700', marginBottom: '4px' }}>
                             Synthetic Turf Surface
                           </p>
-                          <p className="text-[#E2EBF0]" style={{ fontSize: '11px' }}>
+                          <p className="text-[#2D3748]" style={{ fontSize: '11px' }}>
                             Professional-grade playing surface
                           </p>
                         </div>
@@ -1724,16 +1724,16 @@ export default function App() {
                         <div
                           style={{
                             background: 'rgba(30, 63, 216, 0.20)',
-                            border: '2px solid #1E3FD8',
+                            border: '2px solid #1565C0',
                             borderRadius: '4px',
                             padding: '16px',
-                            borderLeft: '4px solid #1E3FD8'
+                            borderLeft: '4px solid #1565C0'
                           }}
                         >
-                          <p className="text-[#1E3FD8]" style={{ fontSize: '13px', fontWeight: '700', marginBottom: '4px' }}>
+                          <p className="text-[#1565C0]" style={{ fontSize: '13px', fontWeight: '700', marginBottom: '4px' }}>
                             Regulated Infill ★
                           </p>
-                          <p className="text-[#E2EBF0]" style={{ fontSize: '11px' }}>
+                          <p className="text-[#2D3748]" style={{ fontSize: '11px' }}>
                             Patented placement technology
                           </p>
                         </div>
@@ -1742,16 +1742,16 @@ export default function App() {
                         <div
                           style={{
                             background: 'rgba(30, 63, 216, 0.20)',
-                            border: '1px solid #1E3FD8',
+                            border: '1px solid #1565C0',
                             borderRadius: '4px',
                             padding: '16px',
-                            borderLeft: '4px solid #1E3FD8'
+                            borderLeft: '4px solid #1565C0'
                           }}
                         >
-                          <p className="text-[#E6E6E6]" style={{ fontSize: '13px', fontWeight: '700', marginBottom: '4px' }}>
+                          <p className="text-[#1A202C]" style={{ fontSize: '13px', fontWeight: '700', marginBottom: '4px' }}>
                             Shock Absorption Layer
                           </p>
-                          <p className="text-[#E2EBF0]" style={{ fontSize: '11px' }}>
+                          <p className="text-[#2D3748]" style={{ fontSize: '11px' }}>
                             Fall impact protection system
                           </p>
                         </div>
@@ -1760,23 +1760,23 @@ export default function App() {
                         <div
                           style={{
                             background: 'rgba(30, 63, 216, 0.20)',
-                            border: '1px solid #1E3FD8',
+                            border: '1px solid #1565C0',
                             borderRadius: '4px',
                             padding: '16px',
-                            borderLeft: '4px solid #1E3FD8'
+                            borderLeft: '4px solid #1565C0'
                           }}
                         >
-                          <p className="text-[#E6E6E6]" style={{ fontSize: '13px', fontWeight: '700', marginBottom: '4px' }}>
+                          <p className="text-[#1A202C]" style={{ fontSize: '13px', fontWeight: '700', marginBottom: '4px' }}>
                             Base & Drainage
                           </p>
-                          <p className="text-[#E2EBF0]" style={{ fontSize: '11px' }}>
+                          <p className="text-[#2D3748]" style={{ fontSize: '11px' }}>
                             Engineered foundation
                           </p>
                         </div>
                       </div>
 
-                      <div className="mt-6 pt-4 border-t border-[#1E3FD8]/30">
-                        <p className="text-[#4F73D6]" style={{ fontSize: '11px', fontWeight: '600' }}>
+                      <div className="mt-6 pt-4 border-t border-[#1565C0]/30">
+                        <p className="text-[#1976D2]" style={{ fontSize: '11px', fontWeight: '600' }}>
                           ★ U.S. Patent Protected Technology
                         </p>
                       </div>
@@ -1789,7 +1789,7 @@ export default function App() {
         </section>
 
         {/* Brand Pillars Section */}
-        <section className="py-40" style={{ background: '#132040' }}>
+        <section className="py-40" style={{ background: '#FFFFFF' }}>
           <div className="container mx-auto px-4">
             <div className="max-w-6xl mx-auto">
               <div className="text-center mb-20">
@@ -1799,14 +1799,14 @@ export default function App() {
                   viewport={{ once: true }}
                   transition={{ duration: 0.6 }}
                 >
-                  <Badge className="bg-[#4F73D6]/20 text-[#4F73D6] border border-[#4F73D6]/30 mb-6 font-bold tracking-wider">
+                  <Badge className="bg-[#1976D2]/20 text-[#1976D2] border border-[#BBDEFB] mb-6 font-bold tracking-wider">
                     OUR FOUNDATION
                   </Badge>
-                  <h2 className="text-6xl md:text-7xl font-black text-[#E6E6E6] mb-6 tracking-tight">
+                  <h2 className="text-6xl md:text-7xl font-black text-[#1A202C] mb-6 tracking-tight">
                     THREE CORE PILLARS
                   </h2>
-                  <div className="w-24 h-1 bg-[#1E3FD8] mx-auto mb-6"></div>
-                  <p className="text-xl text-[#E2EBF0] max-w-2xl mx-auto">
+                  <div className="w-24 h-1 bg-[#1565C0] mx-auto mb-6"></div>
+                  <p className="text-xl text-[#2D3748] max-w-2xl mx-auto">
                     Every PES Field Systems installation is built on these fundamental principles
                   </p>
                 </motion.div>
@@ -1821,15 +1821,15 @@ export default function App() {
                     viewport={{ once: true }}
                     transition={{ duration: 0.6, delay: index * 0.2 }}
                   >
-                    <Card className="bg-[#111111] border-[#4F73D6]/30 hover:border-[#4F73D6] transition-all hover:shadow-2xl hover:shadow-[#1E3FD8]/20 group h-full">
+                    <Card className="bg-[#111111] border-[#BBDEFB] hover:border-[#1976D2] transition-all hover:shadow-2xl hover:shadow-[#1565C0]/20 group h-full">
                       <CardContent className="p-10 text-center">
-                        <div className="w-24 h-24 mx-auto mb-8 bg-gradient-to-r from-[#1E3FD8] via-[#4F73D6] to-[#E2EBF0] rounded-2xl flex items-center justify-center group-hover:scale-110 transition-transform">
+                        <div className="w-24 h-24 mx-auto mb-8 bg-gradient-to-r from-[#1565C0] via-[#1976D2] to-[#BBDEFB] rounded-2xl flex items-center justify-center group-hover:scale-110 transition-transform">
                           <pillar.icon className="w-12 h-12 text-white" />
                         </div>
-                        <h3 className="text-2xl font-black text-[#E6E6E6] mb-4 tracking-wide">
+                        <h3 className="text-2xl font-black text-[#1A202C] mb-4 tracking-wide">
                           {pillar.title}
                         </h3>
-                        <p className="text-[#E2EBF0] leading-relaxed">
+                        <p className="text-[#2D3748] leading-relaxed">
                           {pillar.description}
                         </p>
                       </CardContent>
@@ -1845,7 +1845,7 @@ export default function App() {
         <section
           className="py-40 relative overflow-hidden"
           style={{
-            background: 'linear-gradient(180deg, #000000 0%, #0A1428 100%)'
+            background: 'linear-gradient(180deg, #0D47A1 0%, #1565C0 100%)'
           }}
         >
           <div className="container mx-auto px-6">
@@ -1903,7 +1903,7 @@ export default function App() {
               >
                 <div className="text-center">
                   <div
-                    className="text-[#4F73D6]"
+                    className="text-[#1976D2]"
                     style={{
                       fontFamily: 'Inter, sans-serif',
                       fontWeight: '700',
@@ -1913,7 +1913,7 @@ export default function App() {
                     25+
                   </div>
                   <div
-                    className="text-[#E2EBF0]"
+                    className="text-[#2D3748]"
                     style={{
                       fontSize: '14px',
                       letterSpacing: '0.05em',
@@ -1931,7 +1931,7 @@ export default function App() {
 
                 <div className="text-center">
                   <div
-                    className="text-[#4F73D6]"
+                    className="text-[#1976D2]"
                     style={{
                       fontFamily: 'Inter, sans-serif',
                       fontWeight: '700',
@@ -1941,7 +1941,7 @@ export default function App() {
                     Controlled
                   </div>
                   <div
-                    className="text-[#E2EBF0]"
+                    className="text-[#2D3748]"
                     style={{
                       fontSize: '14px',
                       letterSpacing: '0.05em',
@@ -1959,7 +1959,7 @@ export default function App() {
 
                 <div className="text-center">
                   <div
-                    className="text-[#4F73D6]"
+                    className="text-[#1976D2]"
                     style={{
                       fontFamily: 'Inter, sans-serif',
                       fontWeight: '700',
@@ -1969,7 +1969,7 @@ export default function App() {
                     Zero
                   </div>
                   <div
-                    className="text-[#E2EBF0]"
+                    className="text-[#2D3748]"
                     style={{
                       fontSize: '14px',
                       letterSpacing: '0.05em',
@@ -1987,7 +1987,7 @@ export default function App() {
 
                 <div className="text-center">
                   <div
-                    className="text-[#4F73D6]"
+                    className="text-[#1976D2]"
                     style={{
                       fontFamily: 'Inter, sans-serif',
                       fontWeight: '700',
@@ -1997,7 +1997,7 @@ export default function App() {
                     10+
                   </div>
                   <div
-                    className="text-[#E2EBF0]"
+                    className="text-[#2D3748]"
                     style={{
                       fontSize: '14px',
                       letterSpacing: '0.05em',
@@ -2019,7 +2019,7 @@ export default function App() {
               >
                 <motion.button
                   onClick={() => navigateTo('gallery')}
-                  className="bg-[#1E3FD8] text-white hover:bg-[#4F73D6] transition-colors duration-200"
+                  className="bg-[#1565C0] text-white hover:bg-[#1976D2] transition-colors duration-200"
                   whileHover={{
                     scale: 1.05,
                     boxShadow: '0 10px 30px rgba(30, 63, 216, 0.4)'
@@ -2041,7 +2041,7 @@ export default function App() {
         </section>
 
         {/* What We Build Section */}
-        <section className="py-40" style={{ background: '#4F73D6' }}>
+        <section className="py-40" style={{ background: '#1976D2' }}>
           <div className="container mx-auto px-6">
             <div className="max-w-6xl mx-auto">
               {/* Section Header */}
@@ -2148,13 +2148,13 @@ export default function App() {
         </section>
 
         {/* Featured Projects Section */}
-        <section id="featured-projects" className="py-40" style={{ background: '#132040' }}>
+        <section id="featured-projects" className="py-40" style={{ background: '#FFFFFF' }}>
           <div className="container mx-auto px-6">
             <div className="max-w-6xl mx-auto">
               {/* Section Header */}
               <div className="mb-16">
                 <p 
-                  className="text-[#4F73D6] uppercase mb-6"
+                  className="text-[#1976D2] uppercase mb-6"
                   style={{
                     fontSize: '12px',
                     letterSpacing: '0.14em',
@@ -2164,7 +2164,7 @@ export default function App() {
                   Our Work
                 </p>
                 <h2 
-                  className="text-[#E6E6E6] mb-4"
+                  className="text-[#1A202C] mb-4"
                   style={{
                     fontFamily: 'Inter, sans-serif',
                     fontWeight: '700',
@@ -2174,7 +2174,7 @@ export default function App() {
                 >
                   Built. Proven. Trusted.
                 </h2>
-                <div className="w-24 h-1 bg-[#1E3FD8]"></div>
+                <div className="w-24 h-1 bg-[#1565C0]"></div>
               </div>
 
               {/* Projects Grid - Tighter Horizontal Layout */}
@@ -2201,7 +2201,7 @@ export default function App() {
                       <div style={{ padding: '16px', display: 'flex', flexDirection: 'column', justifyContent: 'space-between', minHeight: '140px' }}>
                         <div>
                           <h3
-                            className="text-[#E6E6E6] mb-1"
+                            className="text-[#1A202C] mb-1"
                             style={{
                               fontFamily: 'Inter, sans-serif',
                               fontWeight: '700',
@@ -2211,11 +2211,11 @@ export default function App() {
                           >
                             {project.name}
                           </h3>
-                          <p className="text-[#E2EBF0] mb-1" style={{ fontSize: '12px' }}>
+                          <p className="text-[#2D3748] mb-1" style={{ fontSize: '12px' }}>
                             {project.location}
                           </p>
                           <p
-                            className="text-[#4F73D6] mb-3"
+                            className="text-[#1976D2] mb-3"
                             style={{ fontSize: '12px', fontWeight: '600' }}
                           >
                             {project.type}
@@ -2225,7 +2225,7 @@ export default function App() {
                           onClick={() => {
                             navigateTo('project-detail', project.slug);
                           }}
-                          className="bg-[#1E3FD8] text-white hover:bg-[#4F73D6] transition-colors duration-200 w-full"
+                          className="bg-[#1565C0] text-white hover:bg-[#1976D2] transition-colors duration-200 w-full"
                           style={{
                             borderRadius: '4px',
                             padding: '8px 12px',
@@ -2246,7 +2246,7 @@ export default function App() {
         </section>
 
         {/* What They Say Section */}
-        <section className="py-40" style={{ background: '#E2EBF0' }}>
+        <section className="py-40" style={{ background: '#E3F2FD' }}>
           <div className="container mx-auto px-6">
             <div className="max-w-6xl mx-auto">
               {/* Section Header */}
@@ -2256,7 +2256,7 @@ export default function App() {
                   style={{
                     fontSize: '12px',
                     letterSpacing: '0.14em',
-                    color: '#4F73D6',
+                    color: '#1976D2',
                     fontWeight: '600'
                   }}
                 >
@@ -2274,7 +2274,7 @@ export default function App() {
                 >
                   Trusted by leaders who know what elite looks like.
                 </h2>
-                <div className="w-24 h-1 mx-auto" style={{ background: '#1E3FD8' }}></div>
+                <div className="w-24 h-1 mx-auto" style={{ background: '#1565C0' }}></div>
               </div>
 
               {/* Testimonials Grid - Static, No Carousel */}
@@ -2303,7 +2303,7 @@ export default function App() {
                           width: '200px',
                           height: '200px',
                           borderRadius: '50%',
-                          border: '4px solid #1E3FD8',
+                          border: '4px solid #1565C0',
                           objectFit: 'cover',
                           marginBottom: '24px'
                         }}
@@ -2314,7 +2314,7 @@ export default function App() {
                           width: '200px',
                           height: '200px',
                           borderRadius: '50%',
-                          border: '4px solid #1E3FD8',
+                          border: '4px solid #1565C0',
                           background: '#E6E6E6',
                           marginBottom: '24px'
                         }}
@@ -2326,7 +2326,7 @@ export default function App() {
                       style={{
                         fontSize: '60px',
                         lineHeight: '1',
-                        color: '#1E3FD8',
+                        color: '#1565C0',
                         opacity: '0.2',
                         fontFamily: 'Georgia, serif',
                         fontWeight: '700',
@@ -2366,7 +2366,7 @@ export default function App() {
                         style={{
                           fontSize: '15px',
                           lineHeight: '1.5',
-                          color: '#4F73D6'
+                          color: '#1976D2'
                         }}
                       >
                         {testimonial.role}
@@ -2380,7 +2380,7 @@ export default function App() {
         </section>
 
         {/* Work With PES Section */}
-        <section className="py-40" style={{ background: '#132040' }}>
+        <section className="py-40" style={{ background: '#FFFFFF' }}>
           <div className="container mx-auto px-6">
             <div className="max-w-6xl mx-auto">
               {/* Section Header */}
@@ -2396,14 +2396,14 @@ export default function App() {
                     style={{
                       fontSize: '12px',
                       letterSpacing: '0.14em',
-                      color: '#4F73D6',
+                      color: '#1976D2',
                       fontWeight: '600'
                     }}
                   >
                     Get Started
                   </p>
                   <h2
-                    className="text-[#E6E6E6] mb-4"
+                    className="text-[#1A202C] mb-4"
                     style={{
                       fontFamily: 'Inter, sans-serif',
                       fontWeight: '700',
@@ -2413,7 +2413,7 @@ export default function App() {
                   >
                     Ready to transform your field?
                   </h2>
-                  <div className="w-24 h-1 bg-[#1E3FD8] mx-auto"></div>
+                  <div className="w-24 h-1 bg-[#1565C0] mx-auto"></div>
                 </motion.div>
               </div>
 
@@ -2435,9 +2435,9 @@ export default function App() {
                     transition: 'all 0.3s ease'
                   }}
                 >
-                  <Building className="w-16 h-16 text-[#4F73D6] mx-auto mb-6" />
+                  <Building className="w-16 h-16 text-[#1976D2] mx-auto mb-6" />
                   <h3
-                    className="text-[#E6E6E6] mb-4"
+                    className="text-[#1A202C] mb-4"
                     style={{
                       fontFamily: 'Inter, sans-serif',
                       fontWeight: '700',
@@ -2447,7 +2447,7 @@ export default function App() {
                     Build Your Field
                   </h3>
                   <p
-                    className="text-[#E2EBF0] mb-8"
+                    className="text-[#2D3748] mb-8"
                     style={{
                       fontSize: '15px',
                       lineHeight: '1.6'
@@ -2457,7 +2457,7 @@ export default function App() {
                   </p>
                   <motion.button
                     onClick={() => navigateTo('contact')}
-                    className="bg-[#1E3FD8] text-white hover:bg-[#4F73D6] transition-colors duration-200 w-full"
+                    className="bg-[#1565C0] text-white hover:bg-[#1976D2] transition-colors duration-200 w-full"
                     whileHover={{ scale: 1.05 }}
                     whileTap={{ scale: 0.95 }}
                     style={{
@@ -2488,9 +2488,9 @@ export default function App() {
                     transition: 'all 0.3s ease'
                   }}
                 >
-                  <Users className="w-16 h-16 text-[#4F73D6] mx-auto mb-6" />
+                  <Users className="w-16 h-16 text-[#1976D2] mx-auto mb-6" />
                   <h3
-                    className="text-[#E6E6E6] mb-4"
+                    className="text-[#1A202C] mb-4"
                     style={{
                       fontFamily: 'Inter, sans-serif',
                       fontWeight: '700',
@@ -2500,7 +2500,7 @@ export default function App() {
                     Partner With Us
                   </h3>
                   <p
-                    className="text-[#E2EBF0] mb-8"
+                    className="text-[#2D3748] mb-8"
                     style={{
                       fontSize: '15px',
                       lineHeight: '1.6'
@@ -2510,7 +2510,7 @@ export default function App() {
                   </p>
                   <motion.button
                     onClick={() => navigateTo('partners')}
-                    className="bg-[#1E3FD8] text-white hover:bg-[#4F73D6] transition-colors duration-200 w-full"
+                    className="bg-[#1565C0] text-white hover:bg-[#1976D2] transition-colors duration-200 w-full"
                     whileHover={{ scale: 1.05 }}
                     whileTap={{ scale: 0.95 }}
                     style={{
@@ -2541,9 +2541,9 @@ export default function App() {
                     transition: 'all 0.3s ease'
                   }}
                 >
-                  <FileText className="w-16 h-16 text-[#4F73D6] mx-auto mb-6" />
+                  <FileText className="w-16 h-16 text-[#1976D2] mx-auto mb-6" />
                   <h3
-                    className="text-[#E6E6E6] mb-4"
+                    className="text-[#1A202C] mb-4"
                     style={{
                       fontFamily: 'Inter, sans-serif',
                       fontWeight: '700',
@@ -2553,7 +2553,7 @@ export default function App() {
                     Download Specs
                   </h3>
                   <p
-                    className="text-[#E2EBF0] mb-8"
+                    className="text-[#2D3748] mb-8"
                     style={{
                       fontSize: '15px',
                       lineHeight: '1.6'
@@ -2563,7 +2563,7 @@ export default function App() {
                   </p>
                   <motion.button
                     onClick={() => navigateTo('technology')}
-                    className="bg-[#1E3FD8] text-white hover:bg-[#4F73D6] transition-colors duration-200 w-full"
+                    className="bg-[#1565C0] text-white hover:bg-[#1976D2] transition-colors duration-200 w-full"
                     whileHover={{ scale: 1.05 }}
                     whileTap={{ scale: 0.95 }}
                     style={{
@@ -2583,7 +2583,7 @@ export default function App() {
         </section>
 
         {/* Architect Specs Section */}
-        <section className="py-32 bg-gradient-to-r from-[#1E3FD8] via-[#4F73D6] to-[#E2EBF0] text-white">
+        <section className="py-32 bg-gradient-to-r from-[#1565C0] via-[#1976D2] to-[#BBDEFB] text-white">
           <div className="container mx-auto px-4">
             <div className="max-w-4xl mx-auto text-center">
               <motion.div
@@ -2599,7 +2599,7 @@ export default function App() {
                 <p className="text-xl text-white/90 mb-10">
                   Download detailed technical specifications for planning and bidding purposes
                 </p>
-                <a href="/architect-specs.pdf" download className="inline-flex items-center bg-white text-[#1E3FD8] hover:bg-[#E6E6E6] font-black text-base px-8 py-6 tracking-wider rounded-md transition-colors">
+                <a href="/architect-specs.pdf" download className="inline-flex items-center bg-white text-[#1565C0] hover:bg-[#E6E6E6] font-black text-base px-8 py-6 tracking-wider rounded-md transition-colors">
                   <Download className="mr-2 w-5 h-5" />
                   DOWNLOAD SPECS (PDF)
                 </a>
@@ -2616,7 +2616,7 @@ export default function App() {
                 {/* Left Column - Partners and Bidder List */}
                 <div>
                   <h2 
-                    className="text-[#E6E6E6] mb-10"
+                    className="text-[#1A202C] mb-10"
                     style={{
                       fontFamily: 'Inter, sans-serif',
                       fontWeight: '700',
@@ -2630,12 +2630,12 @@ export default function App() {
                   <div 
                     className="mb-8"
                     style={{
-                      borderLeft: '2px solid #1E3FD8',
+                      borderLeft: '2px solid #1565C0',
                       paddingLeft: '16px'
                     }}
                   >
                     <h3 
-                      className="text-[#E6E6E6] mb-3"
+                      className="text-[#1A202C] mb-3"
                       style={{
                         fontFamily: 'Inter, sans-serif',
                         fontWeight: '700',
@@ -2644,14 +2644,14 @@ export default function App() {
                     >
                       Contractor and Trade Partners
                     </h3>
-                    <p className="text-[#E2EBF0] mb-4" style={{ fontSize: '15px', lineHeight: '1.6' }}>
+                    <p className="text-[#2D3748] mb-4" style={{ fontSize: '15px', lineHeight: '1.6' }}>
                       We collaborate with general contractors, site work specialists, and trades nationwide to deliver 
                       field installations on time and to spec. If you're building the next great athletic facility, 
                       let's work together.
                     </p>
                     <a 
                       href="#contact-form"
-                      className="text-[#1E3FD8] inline-flex items-center gap-2 hover:text-[#4F73D6] transition-colors"
+                      className="text-[#1565C0] inline-flex items-center gap-2 hover:text-[#1976D2] transition-colors"
                       style={{
                         fontSize: '15px',
                         fontWeight: '600'
@@ -2666,12 +2666,12 @@ export default function App() {
                   <div 
                     className="mb-8"
                     style={{
-                      borderLeft: '2px solid #1E3FD8',
+                      borderLeft: '2px solid #1565C0',
                       paddingLeft: '16px'
                     }}
                   >
                     <h3 
-                      className="text-[#E6E6E6] mb-3"
+                      className="text-[#1A202C] mb-3"
                       style={{
                         fontFamily: 'Inter, sans-serif',
                         fontWeight: '700',
@@ -2680,13 +2680,13 @@ export default function App() {
                     >
                       Get on Our Bidder List
                     </h3>
-                    <p className="text-[#E2EBF0] mb-4" style={{ fontSize: '15px', lineHeight: '1.6' }}>
+                    <p className="text-[#2D3748] mb-4" style={{ fontSize: '15px', lineHeight: '1.6' }}>
                       Join our vetted bidder list for upcoming projects. We're always looking for qualified contractors 
                       who meet our standards for safety, precision, and client service.
                     </p>
                     <a 
                       href="#contact-form"
-                      className="text-[#1E3FD8] inline-flex items-center gap-2 hover:text-[#4F73D6] transition-colors"
+                      className="text-[#1565C0] inline-flex items-center gap-2 hover:text-[#1976D2] transition-colors"
                       style={{
                         fontSize: '15px',
                         fontWeight: '600'
@@ -2700,12 +2700,12 @@ export default function App() {
                   {/* Subsection 3 - Our Materials and Suppliers */}
                   <div 
                     style={{
-                      borderLeft: '2px solid #1E3FD8',
+                      borderLeft: '2px solid #1565C0',
                       paddingLeft: '16px'
                     }}
                   >
                     <h3 
-                      className="text-[#E6E6E6] mb-3"
+                      className="text-[#1A202C] mb-3"
                       style={{
                         fontFamily: 'Inter, sans-serif',
                         fontWeight: '700',
@@ -2714,7 +2714,7 @@ export default function App() {
                     >
                       Our Materials and Suppliers
                     </h3>
-                    <p className="text-[#E2EBF0] mb-6" style={{ fontSize: '15px', lineHeight: '1.6' }}>
+                    <p className="text-[#2D3748] mb-6" style={{ fontSize: '15px', lineHeight: '1.6' }}>
                       Every component we install comes from tested, reputable suppliers that meet or exceed industry 
                       safety and performance standards. We don't cut corners on materials because your athletes 
                       deserve better.
@@ -2726,7 +2726,7 @@ export default function App() {
                 {/* Right Column - Contact Form */}
                 <div id="contact-form">
                   <h2 
-                    className="text-[#E6E6E6] mb-6"
+                    className="text-[#1A202C] mb-6"
                     style={{
                       fontFamily: 'Inter, sans-serif',
                       fontWeight: '700',
@@ -2741,7 +2741,7 @@ export default function App() {
                       <input type="hidden" name="subject" value="New Project Inquiry - PES Field Systems Website" />
                     {/* Name Field */}
                     <div>
-                      <label className="text-[#E6E6E6] block mb-2" style={{ fontSize: '14px', fontWeight: '600' }}>
+                      <label className="text-[#1A202C] block mb-2" style={{ fontSize: '14px', fontWeight: '600' }}>
                         Name
                       </label>
                       <input 
@@ -2749,21 +2749,21 @@ export default function App() {
                         name="name"
                         required
                         placeholder="Your name"
-                        className="w-full text-[#E6E6E6] bg-[#0A0F2C] outline-none transition-all duration-200"
+                        className="w-full text-[#1A202C] bg-[#E3F2FD] outline-none transition-all duration-200"
                         style={{ 
                           border: '1px solid rgba(183, 198, 207, 0.4)',
                           borderRadius: '4px',
                           padding: '14px 16px',
                           fontSize: '14px'
                         }}
-                        onFocus={(e) => e.currentTarget.style.borderColor = '#1E3FD8'}
+                        onFocus={(e) => e.currentTarget.style.borderColor = '#1565C0'}
                         onBlur={(e) => e.currentTarget.style.borderColor = 'rgba(183, 198, 207, 0.4)'}
                       />
                     </div>
 
                     {/* Email Field */}
                     <div>
-                      <label className="text-[#E6E6E6] block mb-2" style={{ fontSize: '14px', fontWeight: '600' }}>
+                      <label className="text-[#1A202C] block mb-2" style={{ fontSize: '14px', fontWeight: '600' }}>
                         Email
                       </label>
                       <input 
@@ -2771,55 +2771,55 @@ export default function App() {
                         name="email"
                         required
                         placeholder="your@email.com"
-                        className="w-full text-[#E6E6E6] bg-[#0A0F2C] outline-none transition-all duration-200"
+                        className="w-full text-[#1A202C] bg-[#E3F2FD] outline-none transition-all duration-200"
                         style={{ 
                           border: '1px solid rgba(183, 198, 207, 0.4)',
                           borderRadius: '4px',
                           padding: '14px 16px',
                           fontSize: '14px'
                         }}
-                        onFocus={(e) => e.currentTarget.style.borderColor = '#1E3FD8'}
+                        onFocus={(e) => e.currentTarget.style.borderColor = '#1565C0'}
                         onBlur={(e) => e.currentTarget.style.borderColor = 'rgba(183, 198, 207, 0.4)'}
                       />
                     </div>
 
                     {/* Phone Field (Optional) */}
                     <div>
-                      <label className="text-[#E6E6E6] block mb-2" style={{ fontSize: '14px', fontWeight: '600' }}>
-                        Phone <span className="text-[#E2EBF0]"></span>
+                      <label className="text-[#1A202C] block mb-2" style={{ fontSize: '14px', fontWeight: '600' }}>
+                        Phone <span className="text-[#2D3748]"></span>
                       </label>
                       <input 
                         type="tel"
                         name="phone"
                         placeholder="(555) 123-4567"
-                        className="w-full text-[#E6E6E6] bg-[#0A0F2C] outline-none transition-all duration-200"
+                        className="w-full text-[#1A202C] bg-[#E3F2FD] outline-none transition-all duration-200"
                         style={{ 
                           border: '1px solid rgba(183, 198, 207, 0.4)',
                           borderRadius: '4px',
                           padding: '14px 16px',
                           fontSize: '14px'
                         }}
-                        onFocus={(e) => e.currentTarget.style.borderColor = '#1E3FD8'}
+                        onFocus={(e) => e.currentTarget.style.borderColor = '#1565C0'}
                         onBlur={(e) => e.currentTarget.style.borderColor = 'rgba(183, 198, 207, 0.4)'}
                       />
                     </div>
 
                     {/* Inquiry Type Dropdown */}
                     <div>
-                      <label className="text-[#E6E6E6] block mb-2" style={{ fontSize: '14px', fontWeight: '600' }}>
+                      <label className="text-[#1A202C] block mb-2" style={{ fontSize: '14px', fontWeight: '600' }}>
                         Inquiry Type
                       </label>
                       <select 
                         name="inquiry-type"
                         required
-                        className="w-full text-[#E6E6E6] bg-[#0A0F2C] outline-none transition-all duration-200"
+                        className="w-full text-[#1A202C] bg-[#E3F2FD] outline-none transition-all duration-200"
                         style={{ 
                           border: '1px solid rgba(183, 198, 207, 0.4)',
                           borderRadius: '4px',
                           padding: '14px 16px',
                           fontSize: '14px'
                         }}
-                        onFocus={(e) => e.currentTarget.style.borderColor = '#1E3FD8'}
+                        onFocus={(e) => e.currentTarget.style.borderColor = '#1565C0'}
                         onBlur={(e) => e.currentTarget.style.borderColor = 'rgba(183, 198, 207, 0.4)'}
                       >
                         <option>General Inquiry</option>
@@ -2837,7 +2837,7 @@ export default function App() {
 
                     {/* Message Textarea */}
                     <div>
-                      <label className="text-[#E6E6E6] block mb-2" style={{ fontSize: '14px', fontWeight: '600' }}>
+                      <label className="text-[#1A202C] block mb-2" style={{ fontSize: '14px', fontWeight: '600' }}>
                         Message
                       </label>
                       <textarea 
@@ -2845,7 +2845,7 @@ export default function App() {
                         required
                         rows={5}
                         placeholder="Tell us about your project..."
-                        className="w-full text-[#E6E6E6] bg-[#0A0F2C] outline-none transition-all duration-200 resize-none"
+                        className="w-full text-[#1A202C] bg-[#E3F2FD] outline-none transition-all duration-200 resize-none"
                         style={{ 
                           border: '1px solid rgba(183, 198, 207, 0.4)',
                           borderRadius: '4px',
@@ -2853,7 +2853,7 @@ export default function App() {
                           fontSize: '14px',
                           lineHeight: '1.5'
                         }}
-                        onFocus={(e) => e.currentTarget.style.borderColor = '#1E3FD8'}
+                        onFocus={(e) => e.currentTarget.style.borderColor = '#1565C0'}
                         onBlur={(e) => e.currentTarget.style.borderColor = 'rgba(183, 198, 207, 0.4)'}
                       />
                     </div>
@@ -2863,15 +2863,15 @@ export default function App() {
                       type="submit"
                       className="w-full text-white transition-all duration-200"
                       style={{
-                        background: '#1E3FD8',
+                        background: '#1565C0',
                         borderRadius: '4px',
                         padding: '14px 24px',
                         fontFamily: 'Inter, sans-serif',
                         fontSize: '16px',
                         fontWeight: '700'
                       }}
-                      onMouseEnter={(e) => e.currentTarget.style.background = '#4F73D6'}
-                      onMouseLeave={(e) => e.currentTarget.style.background = '#1E3FD8'}
+                      onMouseEnter={(e) => e.currentTarget.style.background = '#1976D2'}
+                      onMouseLeave={(e) => e.currentTarget.style.background = '#1565C0'}
                     >
                       Send Message
                     </button>
@@ -2889,7 +2889,7 @@ export default function App() {
             initial={{ opacity: 0, scale: 0.8 }}
             animate={{ opacity: 1, scale: 1 }}
             exit={{ opacity: 0, scale: 0.8 }}
-            className="fixed bottom-8 right-8 z-50 bg-[#1E3FD8] text-white hover:bg-[#4F73D6] transition-colors duration-200 flex items-center justify-center"
+            className="fixed bottom-8 right-8 z-50 bg-[#1565C0] text-white hover:bg-[#1976D2] transition-colors duration-200 flex items-center justify-center"
             style={{ width: '48px', height: '48px', borderRadius: '50%', boxShadow: '0 4px 20px rgba(30, 63, 216, 0.4)' }}
             whileHover={{ scale: 1.1 }}
             whileTap={{ scale: 0.95 }}
@@ -2908,14 +2908,14 @@ export default function App() {
   // TECHNOLOGY PAGE
   if (currentPage === 'technology') {
     return (
-      <div className="min-h-screen" style={{ background: '#132040' }}>
+      <div className="min-h-screen" style={{ background: '#FFFFFF' }}>
         <Navigation />
 
         {/* Hero Section - Patent Showcase */}
         <section
           className="pt-48 pb-32 relative overflow-hidden"
           style={{
-            background: 'linear-gradient(180deg, #000000 0%, #0A1428 50%, #1E3FD8 100%)'
+            background: 'linear-gradient(180deg, #000000 0%, #0A1428 50%, #1565C0 100%)'
           }}
         >
           {/* Background Pattern */}
@@ -2938,13 +2938,13 @@ export default function App() {
                 className="inline-flex items-center gap-3 mb-8 px-6 py-3"
                 style={{
                   background: 'rgba(30, 63, 216, 0.20)',
-                  border: '2px solid #1E3FD8',
+                  border: '2px solid #1565C0',
                   borderRadius: '50px'
                 }}
               >
-                <Award className="w-5 h-5 text-[#1E3FD8]" />
+                <Award className="w-5 h-5 text-[#1565C0]" />
                 <span
-                  className="text-[#E6E6E6]"
+                  className="text-[#1A202C]"
                   style={{
                     fontSize: '13px',
                     fontWeight: '700',
@@ -2976,7 +2976,7 @@ export default function App() {
                 initial={{ opacity: 0, y: 20 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.6, delay: 0.2 }}
-                className="text-[#E2EBF0] mb-12 max-w-3xl mx-auto"
+                className="text-[#2D3748] mb-12 max-w-3xl mx-auto"
                 style={{
                   fontSize: '20px',
                   lineHeight: '1.6'
@@ -2993,16 +2993,16 @@ export default function App() {
                 className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-4xl mx-auto"
               >
                 <div className="text-center">
-                  <div className="text-[#1E3FD8] mb-2" style={{ fontSize: '48px', fontWeight: '700' }}>Controlled</div>
-                  <div className="text-[#E6E6E6]" style={{ fontSize: '14px', fontWeight: '600' }}>Heat Index</div>
+                  <div className="text-[#1565C0] mb-2" style={{ fontSize: '48px', fontWeight: '700' }}>Controlled</div>
+                  <div className="text-[#1A202C]" style={{ fontSize: '14px', fontWeight: '600' }}>Heat Index</div>
                 </div>
                 <div className="text-center">
-                  <div className="text-[#1E3FD8] mb-2" style={{ fontSize: '48px', fontWeight: '700' }}>100%</div>
-                  <div className="text-[#E6E6E6]" style={{ fontSize: '14px', fontWeight: '600' }}>Infill Migration Eliminated</div>
+                  <div className="text-[#1565C0] mb-2" style={{ fontSize: '48px', fontWeight: '700' }}>100%</div>
+                  <div className="text-[#1A202C]" style={{ fontSize: '14px', fontWeight: '600' }}>Infill Migration Eliminated</div>
                 </div>
                 <div className="text-center">
-                  <div className="text-[#1E3FD8] mb-2" style={{ fontSize: '48px', fontWeight: '700' }}>1st</div>
-                  <div className="text-[#E6E6E6]" style={{ fontSize: '14px', fontWeight: '600' }}>Patented System in NA</div>
+                  <div className="text-[#1565C0] mb-2" style={{ fontSize: '48px', fontWeight: '700' }}>1st</div>
+                  <div className="text-[#1A202C]" style={{ fontSize: '14px', fontWeight: '600' }}>Patented System in NA</div>
                 </div>
               </motion.div>
             </div>
@@ -3010,11 +3010,11 @@ export default function App() {
         </section>
 
         {/* Innovation Story */}
-        <section className="py-32" style={{ background: '#132040' }}>
+        <section className="py-32" style={{ background: '#FFFFFF' }}>
           <div className="container mx-auto px-6">
             <div className="max-w-4xl mx-auto">
               <p
-                className="uppercase mb-4 text-[#1E3FD8]"
+                className="uppercase mb-4 text-[#1565C0]"
                 style={{
                   fontSize: '12px',
                   letterSpacing: '0.14em',
@@ -3034,9 +3034,9 @@ export default function App() {
               >
                 The science behind safer fields.
               </h2>
-              <div className="w-24 h-1 bg-[#1E3FD8] mb-10"></div>
+              <div className="w-24 h-1 bg-[#1565C0] mb-10"></div>
 
-              <div className="space-y-6 text-[#E2EBF0]" style={{ fontSize: '17px', lineHeight: '1.7' }}>
+              <div className="space-y-6 text-[#2D3748]" style={{ fontSize: '17px', lineHeight: '1.7' }}>
                 <p>
                   Traditional synthetic turf systems rely on loose infill sitting <em>on top</em> of the playing surface.
                   This approach creates significant problems: inconsistent fall protection, extreme heat buildup, constant infill
@@ -3057,7 +3057,7 @@ export default function App() {
         <section
           className="py-32"
           style={{
-            background: 'linear-gradient(180deg, #0A1428 0%, #1E3FD8 100%)'
+            background: 'linear-gradient(180deg, #0A1428 0%, #1565C0 100%)'
           }}
         >
           <div className="container mx-auto px-6">
@@ -3126,7 +3126,7 @@ export default function App() {
                         transition: 'all 0.3s ease'
                       }}
                       onMouseEnter={(e) => {
-                        e.currentTarget.style.borderColor = '#1E3FD8';
+                        e.currentTarget.style.borderColor = '#1565C0';
                         e.currentTarget.style.transform = 'translateY(-4px)';
                       }}
                       onMouseLeave={(e) => {
@@ -3146,7 +3146,7 @@ export default function App() {
                           justifyContent: 'center'
                         }}
                       >
-                        <Icon className="w-7 h-7 text-[#1E3FD8]" />
+                        <Icon className="w-7 h-7 text-[#1565C0]" />
                       </div>
                       <h3
                         className="text-white mb-3"
@@ -3157,7 +3157,7 @@ export default function App() {
                       >
                         {advantage.title}
                       </h3>
-                      <p className="text-[#E2EBF0]" style={{ fontSize: '15px', lineHeight: '1.6' }}>
+                      <p className="text-[#2D3748]" style={{ fontSize: '15px', lineHeight: '1.6' }}>
                         {advantage.description}
                       </p>
                     </motion.div>
@@ -3169,14 +3169,14 @@ export default function App() {
         </section>
 
         {/* Technical Specifications Section */}
-        <section className="py-32" style={{ background: '#132040' }}>
+        <section className="py-32" style={{ background: '#FFFFFF' }}>
           <div className="container mx-auto px-6">
             <div className="max-w-6xl mx-auto">
               <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
                 {/* Left - Content */}
                 <div>
                   <p
-                    className="uppercase mb-4 text-[#1E3FD8]"
+                    className="uppercase mb-4 text-[#1565C0]"
                     style={{
                       fontSize: '12px',
                       letterSpacing: '0.14em',
@@ -3196,34 +3196,34 @@ export default function App() {
                   >
                     Technical Specifications
                   </h2>
-                  <div className="w-24 h-1 bg-[#1E3FD8] mb-8"></div>
+                  <div className="w-24 h-1 bg-[#1565C0] mb-8"></div>
 
-                  <p className="text-[#E2EBF0] mb-10" style={{ fontSize: '17px', lineHeight: '1.7' }}>
+                  <p className="text-[#2D3748] mb-10" style={{ fontSize: '17px', lineHeight: '1.7' }}>
                     Access comprehensive patent and architect specifications for planning and bidding purposes.
                   </p>
 
                   {/* Download Links */}
                   <div className="space-y-4">
-                   <a href="/architect-specs.pdf" download className="flex items-center justify-between p-5 group" style={{ background: 'rgba(30, 63, 216, 0.20)', border: '2px solid rgba(30, 63, 216, 0.3)', borderRadius: '8px', transition: 'all 0.3s ease' }} onMouseEnter={(e) => { e.currentTarget.style.borderColor = '#1E3FD8'; e.currentTarget.style.background = 'rgba(30, 63, 216, 0.20)'; }} onMouseLeave={(e) => { e.currentTarget.style.borderColor = 'rgba(30, 63, 216, 0.3)'; e.currentTarget.style.background = 'rgba(30, 63, 216, 0.20)'; }}>
+                   <a href="/architect-specs.pdf" download className="flex items-center justify-between p-5 group" style={{ background: 'rgba(30, 63, 216, 0.20)', border: '2px solid rgba(30, 63, 216, 0.3)', borderRadius: '8px', transition: 'all 0.3s ease' }} onMouseEnter={(e) => { e.currentTarget.style.borderColor = '#1565C0'; e.currentTarget.style.background = 'rgba(30, 63, 216, 0.20)'; }} onMouseLeave={(e) => { e.currentTarget.style.borderColor = 'rgba(30, 63, 216, 0.3)'; e.currentTarget.style.background = 'rgba(30, 63, 216, 0.20)'; }}>
                       <div className="flex items-center gap-4">
-                        <FileText className="w-6 h-6 text-[#1E3FD8]" />
+                        <FileText className="w-6 h-6 text-[#1565C0]" />
                         <div>
-                          <div className="text-[#E6E6E6]" style={{ fontSize: '16px', fontWeight: '600' }}>Architect Specifications</div>
-                          <div className="text-[#E2EBF0]" style={{ fontSize: '13px' }}>Complete technical specs (PDF)</div>
+                          <div className="text-[#1A202C]" style={{ fontSize: '16px', fontWeight: '600' }}>Architect Specifications</div>
+                          <div className="text-[#2D3748]" style={{ fontSize: '13px' }}>Complete technical specs (PDF)</div>
                         </div>
                       </div>
-                      <Download className="w-5 h-5 text-[#1E3FD8]" />
+                      <Download className="w-5 h-5 text-[#1565C0]" />
                     </a>
 
-                    <a href="/pes-patent.pdf" download className="flex items-center justify-between p-5 group" style={{ background: 'rgba(30, 63, 216, 0.20)', border: '2px solid rgba(30, 63, 216, 0.3)', borderRadius: '8px', transition: 'all 0.3s ease' }} onMouseEnter={(e) => { e.currentTarget.style.borderColor = '#1E3FD8'; e.currentTarget.style.background = 'rgba(30, 63, 216, 0.20)'; }} onMouseLeave={(e) => { e.currentTarget.style.borderColor = 'rgba(30, 63, 216, 0.3)'; e.currentTarget.style.background = 'rgba(30, 63, 216, 0.20)'; }}>
+                    <a href="/pes-patent.pdf" download className="flex items-center justify-between p-5 group" style={{ background: 'rgba(30, 63, 216, 0.20)', border: '2px solid rgba(30, 63, 216, 0.3)', borderRadius: '8px', transition: 'all 0.3s ease' }} onMouseEnter={(e) => { e.currentTarget.style.borderColor = '#1565C0'; e.currentTarget.style.background = 'rgba(30, 63, 216, 0.20)'; }} onMouseLeave={(e) => { e.currentTarget.style.borderColor = 'rgba(30, 63, 216, 0.3)'; e.currentTarget.style.background = 'rgba(30, 63, 216, 0.20)'; }}>
                       <div className="flex items-center gap-4">
-                        <FileText className="w-6 h-6 text-[#1E3FD8]" />
+                        <FileText className="w-6 h-6 text-[#1565C0]" />
                         <div>
-                          <div className="text-[#E6E6E6]" style={{ fontSize: '16px', fontWeight: '600' }}>U.S. Patent #11,946,206</div>
-                          <div className="text-[#E2EBF0]" style={{ fontSize: '13px' }}>View or download the full patent document (PDF)</div>
+                          <div className="text-[#1A202C]" style={{ fontSize: '16px', fontWeight: '600' }}>U.S. Patent #11,946,206</div>
+                          <div className="text-[#2D3748]" style={{ fontSize: '13px' }}>View or download the full patent document (PDF)</div>
                         </div>
                       </div>
-                      <Download className="w-5 h-5 text-[#1E3FD8]" />
+                      <Download className="w-5 h-5 text-[#1565C0]" />
                     </a>
                   </div>
                 </div>
@@ -3247,8 +3247,8 @@ export default function App() {
                           borderRadius: '12px'
                         }}
                       >
-                        <Icon className="w-12 h-12 text-[#1E3FD8] mx-auto mb-4" />
-                        <p className="text-[#E6E6E6]" style={{ fontSize: '14px', fontWeight: '600' }}>
+                        <Icon className="w-12 h-12 text-[#1565C0] mx-auto mb-4" />
+                        <p className="text-[#1A202C]" style={{ fontSize: '14px', fontWeight: '600' }}>
                           {cert.label}
                         </p>
                       </div>
@@ -3264,7 +3264,7 @@ export default function App() {
         <section
           className="py-32"
           style={{
-            background: 'linear-gradient(135deg, #1E3FD8 0%, #4F73D6 100%)'
+            background: 'linear-gradient(135deg, #1565C0 0%, #1976D2 100%)'
           }}
         >
           <div className="container mx-auto px-6">
@@ -3286,7 +3286,7 @@ export default function App() {
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
                 <motion.button
                   onClick={() => navigateTo('contact')}
-                  className="px-10 py-4 bg-white text-[#1E3FD8] hover:bg-[#E6E6E6] transition-all duration-200"
+                  className="px-10 py-4 bg-white text-[#1565C0] hover:bg-[#E6E6E6] transition-all duration-200"
                   style={{
                     fontSize: '16px',
                     fontWeight: '700',
@@ -3300,7 +3300,7 @@ export default function App() {
                 </motion.button>
                 <motion.button
                   onClick={() => navigateTo('gallery')}
-                  className="px-10 py-4 bg-transparent text-white border-2 border-white hover:bg-white hover:text-[#1E3FD8] transition-all duration-200"
+                  className="px-10 py-4 bg-transparent text-white border-2 border-white hover:bg-white hover:text-[#1565C0] transition-all duration-200"
                   style={{
                     fontSize: '16px',
                     fontWeight: '700',
@@ -3325,19 +3325,19 @@ export default function App() {
   // TEAM PAGE
   if (currentPage === 'team') {
     return (
-      <div className="min-h-screen" style={{ background: '#132040' }}>
+      <div className="min-h-screen" style={{ background: '#FFFFFF' }}>
         <Navigation />
 
         {/* Hero Section */}
         <section
           className="pt-48 pb-16 relative overflow-hidden"
           style={{
-            background: 'linear-gradient(180deg, #000000 0%, #0A1428 100%)'
+            background: 'linear-gradient(180deg, #0D47A1 0%, #1565C0 100%)'
           }}
         >
           <div className="container mx-auto px-6">
             <div className="max-w-4xl mx-auto text-center">
-              <Badge className="bg-[#4F73D6]/20 text-[#4F73D6] border border-[#4F73D6]/30 mb-4 font-bold tracking-wider">
+              <Badge className="bg-[#1976D2]/20 text-[#1976D2] border border-[#BBDEFB] mb-4 font-bold tracking-wider">
                 LEADERSHIP TEAM
               </Badge>
               <h1
@@ -3352,9 +3352,9 @@ export default function App() {
               >
                 Meet the Team
               </h1>
-              <div className="w-24 h-1 bg-[#1E3FD8] mx-auto mb-6"></div>
+              <div className="w-24 h-1 bg-[#1565C0] mx-auto mb-6"></div>
               <p
-                className="text-[#E2EBF0] max-w-3xl mx-auto"
+                className="text-[#2D3748] max-w-3xl mx-auto"
                 style={{
                   fontSize: '18px',
                   lineHeight: '1.7'
@@ -3367,7 +3367,7 @@ export default function App() {
         </section>
 
         {/* Board Members */}
-        <section className="py-16" style={{ background: '#132040' }}>
+        <section className="py-16" style={{ background: '#FFFFFF' }}>
           <div className="container mx-auto px-6">
             <div className="max-w-6xl mx-auto">
               <div className="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto">
@@ -3379,33 +3379,33 @@ export default function App() {
                     viewport={{ once: true }}
                     transition={{ duration: 0.6, delay: index * 0.2 }}
                   >
-                    <Card className="bg-[#0A0F2C] border-[#4F73D6]/30 hover:border-[#4F73D6] transition-all hover:shadow-xl hover:shadow-[#1E3FD8]/20">
+                    <Card className="bg-[#E3F2FD] border-[#BBDEFB] hover:border-[#1976D2] transition-all hover:shadow-xl hover:shadow-[#1565C0]/20">
                       <CardContent className="p-6">
                         <img
                           src={member.image}
                           alt={member.name}
-                          className="w-full h-96 object-contain rounded-lg mb-4 bg-[#0A1428]"
+                          className="w-full h-96 object-contain rounded-lg mb-4 bg-[#FFFFFF]"
                         />
-                        <h3 className="text-2xl font-black text-[#E6E6E6] mb-1 tracking-tight">
+                        <h3 className="text-2xl font-black text-[#1A202C] mb-1 tracking-tight">
                           {member.name}
                         </h3>
-                        <p className="text-[#4F73D6] font-bold mb-3 tracking-wide">
+                        <p className="text-[#1976D2] font-bold mb-3 tracking-wide">
                           {member.role}
                         </p>
                         {member.name === 'Triffon Callos' ? (
                           <div>
-                            <p className="text-[#E2EBF0] text-sm leading-relaxed mb-3">
+                            <p className="text-[#2D3748] text-sm leading-relaxed mb-3">
                               Triffon Callos serves as Vice President of PES Field Systems, working with municipalities, schools, parks departments, sports organizations, and private developers nationwide. With more than 20 years of leadership experience, he brings a unique perspective to every project.
                             </p>
                             {triffonExpanded && (
                               <>
-                                <p className="text-[#E2EBF0] text-sm leading-relaxed mb-3">
+                                <p className="text-[#2D3748] text-sm leading-relaxed mb-3">
                                   His background includes extensive work with public entities, capital improvement planning, budgeting, and strategic growth. Triffon has served as an elected Green Township Trustee since 2014, elected four times. In March 2025, he was appointed by the Governor of Ohio as a Commissioner for the Ohio Casino Control Commission.
                                 </p>
-                                <p className="text-[#E2EBF0] text-sm leading-relaxed mb-3">
+                                <p className="text-[#2D3748] text-sm leading-relaxed mb-3">
                                   He previously served as Head Varsity Baseball Coach at Summit Country Day, leading the program to multiple regional appearances and a State Championship game appearance.
                                 </p>
-                                <p className="text-[#E2EBF0] text-sm leading-relaxed mb-3">
+                                <p className="text-[#2D3748] text-sm leading-relaxed mb-3">
                                   A lifelong Cincinnati west side resident, Triffon is the proud father of three children and remains actively involved in his community through youth sports, civic leadership, and volunteer service.
                                 </p>
                               </>
@@ -3413,21 +3413,21 @@ export default function App() {
                             {!triffonExpanded && (
                               <button
                                 onClick={() => setTriffonExpanded(true)}
-                                className="text-[#1E3FD8] text-sm font-semibold cursor-pointer hover:text-[#4F73D6] transition-colors mb-3"
+                                className="text-[#1565C0] text-sm font-semibold cursor-pointer hover:text-[#1976D2] transition-colors mb-3"
                               >
                                 Read More +
                               </button>
                             )}
                           </div>
                         ) : (
-                          <p className="text-[#E2EBF0] text-sm leading-relaxed mb-3">
+                          <p className="text-[#2D3748] text-sm leading-relaxed mb-3">
                             {member.bio}
                           </p>
                         )}
                         {member.email && (
                           <a
                             href={`mailto:${member.email}`}
-                            className="text-[#1E3FD8] hover:text-[#4F73D6] font-semibold text-sm transition-colors"
+                            className="text-[#1565C0] hover:text-[#1976D2] font-semibold text-sm transition-colors"
                           >
                             {member.email}
                           </a>
@@ -3449,32 +3449,32 @@ export default function App() {
   // GALLERY PAGE
   if (currentPage === 'gallery') {
     return (
-      <div className="min-h-screen" style={{ background: '#132040' }}>
+      <div className="min-h-screen" style={{ background: '#FFFFFF' }}>
         <Navigation />
 
         <div className="pt-48 pb-24 bg-black">
           <div className="container mx-auto px-4">
             <div className="max-w-6xl mx-auto">
               <div className="text-center mb-16">
-                <h1 className="text-6xl md:text-7xl font-black text-[#E6E6E6] mb-4 tracking-tight">
+                <h1 className="text-6xl md:text-7xl font-black text-[#1A202C] mb-4 tracking-tight">
                   PROJECT GALLERY
                 </h1>
-                <p className="text-xl text-[#E2EBF0]">
+                <p className="text-xl text-[#2D3748]">
                   Explore our completed synthetic turf field installations for schools, Miracle League organizations, municipalities, and athletic programs nationwide
                 </p>
               </div>
 
               <Tabs defaultValue="all" className="w-full">
-                <TabsList className="grid w-full max-w-2xl mx-auto grid-cols-3 mb-12 bg-[#0A0F2C] border border-[#4F73D6]/30">
-                  <TabsTrigger value="all" className="font-bold tracking-wider data-[state=active]:bg-[#1E3FD8] data-[state=active]:text-white">ALL PROJECTS</TabsTrigger>
-                  <TabsTrigger value="athletic" className="font-bold tracking-wider data-[state=active]:bg-[#1E3FD8] data-[state=active]:text-white">ATHLETIC FIELDS</TabsTrigger>
-                  <TabsTrigger value="adaptive" className="font-bold tracking-wider data-[state=active]:bg-[#1E3FD8] data-[state=active]:text-white">ADAPTIVE FIELDS</TabsTrigger>
+                <TabsList className="grid w-full max-w-2xl mx-auto grid-cols-3 mb-12 bg-[#E3F2FD] border border-[#BBDEFB]">
+                  <TabsTrigger value="all" className="font-bold tracking-wider data-[state=active]:bg-[#1565C0] data-[state=active]:text-white">ALL PROJECTS</TabsTrigger>
+                  <TabsTrigger value="athletic" className="font-bold tracking-wider data-[state=active]:bg-[#1565C0] data-[state=active]:text-white">ATHLETIC FIELDS</TabsTrigger>
+                  <TabsTrigger value="adaptive" className="font-bold tracking-wider data-[state=active]:bg-[#1565C0] data-[state=active]:text-white">ADAPTIVE FIELDS</TabsTrigger>
                 </TabsList>
 
                 <TabsContent value="all">
                   <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
                     {featuredProjects.map((project, index) => (
-                      <Card key={index} className="bg-[#0A0F2C] border-[#4F73D6]/30 hover:border-[#4F73D6] transition-all hover:shadow-2xl hover:shadow-[#1E3FD8]/20 group overflow-hidden">
+                      <Card key={index} className="bg-[#E3F2FD] border-[#BBDEFB] hover:border-[#1976D2] transition-all hover:shadow-2xl hover:shadow-[#1565C0]/20 group overflow-hidden">
                         <div className="relative overflow-hidden h-64">
                           <img
                             src={project.image}
@@ -3484,13 +3484,13 @@ export default function App() {
                           <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent"></div>
                         </div>
                         <CardContent className="p-6 bg-[#111111]">
-                          <Badge className="bg-[#4F73D6]/20 text-[#4F73D6] border border-[#4F73D6]/30 mb-3 font-bold">
+                          <Badge className="bg-[#1976D2]/20 text-[#1976D2] border border-[#BBDEFB] mb-3 font-bold">
                             {project.type}
                           </Badge>
-                          <h3 className="text-xl font-black text-[#E6E6E6] mb-2 tracking-tight">
+                          <h3 className="text-xl font-black text-[#1A202C] mb-2 tracking-tight">
                             {project.name}
                           </h3>
-                          <p className="text-[#E2EBF0] flex items-center gap-2 text-sm mb-4">
+                          <p className="text-[#2D3748] flex items-center gap-2 text-sm mb-4">
                             <MapPin className="w-4 h-4" />
                             {project.location}
                           </p>
@@ -3498,7 +3498,7 @@ export default function App() {
                             onClick={() => {
                               navigateTo('project-detail', project.slug);
                             }}
-                            className="bg-[#1E3FD8] text-white hover:bg-[#4F73D6] transition-colors duration-200 w-full"
+                            className="bg-[#1565C0] text-white hover:bg-[#1976D2] transition-colors duration-200 w-full"
                             style={{
                               borderRadius: '6px',
                               padding: '10px 16px',
@@ -3518,7 +3518,7 @@ export default function App() {
                 <TabsContent value="athletic">
                   <div className="grid md:grid-cols-2 gap-8">
                     {featuredProjects.filter(p => p.type === 'Baseball / Softball').map((project, index) => (
-                      <Card key={index} className="bg-[#0A0F2C] border-[#4F73D6]/30 hover:border-[#4F73D6] transition-all hover:shadow-2xl hover:shadow-[#1E3FD8]/20 group overflow-hidden">
+                      <Card key={index} className="bg-[#E3F2FD] border-[#BBDEFB] hover:border-[#1976D2] transition-all hover:shadow-2xl hover:shadow-[#1565C0]/20 group overflow-hidden">
                         <div className="relative overflow-hidden h-64">
                           <img
                             src={project.image}
@@ -3528,13 +3528,13 @@ export default function App() {
                           <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent"></div>
                         </div>
                         <CardContent className="p-6 bg-[#111111]">
-                          <Badge className="bg-[#4F73D6]/20 text-[#4F73D6] border border-[#4F73D6]/30 mb-3 font-bold">
+                          <Badge className="bg-[#1976D2]/20 text-[#1976D2] border border-[#BBDEFB] mb-3 font-bold">
                             {project.type}
                           </Badge>
-                          <h3 className="text-xl font-black text-[#E6E6E6] mb-2 tracking-tight">
+                          <h3 className="text-xl font-black text-[#1A202C] mb-2 tracking-tight">
                             {project.name}
                           </h3>
-                          <p className="text-[#E2EBF0] flex items-center gap-2 text-sm mb-4">
+                          <p className="text-[#2D3748] flex items-center gap-2 text-sm mb-4">
                             <MapPin className="w-4 h-4" />
                             {project.location}
                           </p>
@@ -3542,7 +3542,7 @@ export default function App() {
                             onClick={() => {
                               navigateTo('project-detail', project.slug);
                             }}
-                            className="bg-[#1E3FD8] text-white hover:bg-[#4F73D6] transition-colors duration-200 w-full"
+                            className="bg-[#1565C0] text-white hover:bg-[#1976D2] transition-colors duration-200 w-full"
                             style={{
                               borderRadius: '6px',
                               padding: '10px 16px',
@@ -3562,7 +3562,7 @@ export default function App() {
                 <TabsContent value="adaptive">
                   <div className="grid md:grid-cols-3 gap-8">
                     {featuredProjects.filter(p => p.type === 'Adaptive Field').map((project, index) => (
-                      <Card key={index} className="bg-[#0A0F2C] border-[#4F73D6]/30 hover:border-[#4F73D6] transition-all hover:shadow-2xl hover:shadow-[#1E3FD8]/20 group overflow-hidden">
+                      <Card key={index} className="bg-[#E3F2FD] border-[#BBDEFB] hover:border-[#1976D2] transition-all hover:shadow-2xl hover:shadow-[#1565C0]/20 group overflow-hidden">
                         <div className="relative overflow-hidden h-64">
                           <img
                             src={project.image}
@@ -3572,13 +3572,13 @@ export default function App() {
                           <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent"></div>
                         </div>
                         <CardContent className="p-6 bg-[#111111]">
-                          <Badge className="bg-[#4F73D6]/20 text-[#4F73D6] border border-[#4F73D6]/30 mb-3 font-bold">
+                          <Badge className="bg-[#1976D2]/20 text-[#1976D2] border border-[#BBDEFB] mb-3 font-bold">
                             {project.type}
                           </Badge>
-                          <h3 className="text-xl font-black text-[#E6E6E6] mb-2 tracking-tight">
+                          <h3 className="text-xl font-black text-[#1A202C] mb-2 tracking-tight">
                             {project.name}
                           </h3>
-                          <p className="text-[#E2EBF0] flex items-center gap-2 text-sm mb-4">
+                          <p className="text-[#2D3748] flex items-center gap-2 text-sm mb-4">
                             <MapPin className="w-4 h-4" />
                             {project.location}
                           </p>
@@ -3586,7 +3586,7 @@ export default function App() {
                             onClick={() => {
                               navigateTo('project-detail', project.slug);
                             }}
-                            className="bg-[#1E3FD8] text-white hover:bg-[#4F73D6] transition-colors duration-200 w-full"
+                            className="bg-[#1565C0] text-white hover:bg-[#1976D2] transition-colors duration-200 w-full"
                             style={{
                               borderRadius: '6px',
                               padding: '10px 16px',
@@ -3615,54 +3615,54 @@ export default function App() {
   // PARTNERS PAGE
   if (currentPage === 'partners') {
     return (
-      <div className="min-h-screen" style={{ background: '#132040' }}>
+      <div className="min-h-screen" style={{ background: '#FFFFFF' }}>
         <Navigation />
 
         <div className="pt-48 pb-24 bg-black">
           <div className="container mx-auto px-4">
             <div className="max-w-6xl mx-auto">
               <div className="text-center mb-16">
-                <h1 className="text-6xl md:text-7xl font-black text-[#E6E6E6] mb-4 tracking-tight">
+                <h1 className="text-6xl md:text-7xl font-black text-[#1A202C] mb-4 tracking-tight">
                   PARTNER WITH US
                 </h1>
-                <p className="text-xl text-[#E2EBF0]">
+                <p className="text-xl text-[#2D3748]">
                   Join our nationwide network of synthetic turf contractors, suppliers, and bidders. We partner with general contractors, site work specialists, and trades to deliver field installations for schools, municipalities, Miracle League organizations, and athletic programs across the country.
                 </p>
               </div>
 
               <div className="grid md:grid-cols-2 gap-8 mb-16">
                 {/* Partnership Inquiry Form */}
-                <Card className="bg-[#0A0F2C] border-[#4F73D6]/30">
+                <Card className="bg-[#E3F2FD] border-[#BBDEFB]">
                   <CardContent className="p-8">
-                    <h2 className="text-3xl font-black text-[#E6E6E6] mb-8 tracking-tight">
+                    <h2 className="text-3xl font-black text-[#1A202C] mb-8 tracking-tight">
                       PARTNERSHIP INQUIRY
                     </h2>
                     <form action="https://api.web3forms.com/submit" method="POST" className="space-y-4">
                       <input type="hidden" name="access_key" value="77400af3-9113-4b92-b903-07e1f50df9a4" />
                       <input type="hidden" name="subject" value="Partnership Inquiry - PES Field Systems Website" />
                       <div>
-                        <label className="font-bold text-sm text-[#E6E6E6] mb-2 block tracking-wider">
+                        <label className="font-bold text-sm text-[#1A202C] mb-2 block tracking-wider">
                           Company Name
                         </label>
-                        <Input name="company" placeholder="Your company" className="bg-[#111111] border-[#4F73D6]/30 text-[#E6E6E6] placeholder:text-[#E2EBF0]" />
+                        <Input name="company" placeholder="Your company" className="bg-[#111111] border-[#BBDEFB] text-[#1A202C] placeholder:text-[#2D3748]" />
                       </div>
                       <div>
-                        <label className="font-bold text-sm text-[#E6E6E6] mb-2 block tracking-wider">
+                        <label className="font-bold text-sm text-[#1A202C] mb-2 block tracking-wider">
                           Contact Person
                         </label>
-                        <Input name="name" placeholder="Full name" className="bg-[#111111] border-[#4F73D6]/30 text-[#E6E6E6] placeholder:text-[#E2EBF0]" />
+                        <Input name="name" placeholder="Full name" className="bg-[#111111] border-[#BBDEFB] text-[#1A202C] placeholder:text-[#2D3748]" />
                       </div>
                       <div>
-                        <label className="font-bold text-sm text-[#E6E6E6] mb-2 block tracking-wider">
+                        <label className="font-bold text-sm text-[#1A202C] mb-2 block tracking-wider">
                           Email
                         </label>
-                        <Input type="email" name="email" placeholder="email@company.com" className="bg-[#111111] border-[#4F73D6]/30 text-[#E6E6E6] placeholder:text-[#E2EBF0]" />
+                        <Input type="email" name="email" placeholder="email@company.com" className="bg-[#111111] border-[#BBDEFB] text-[#1A202C] placeholder:text-[#2D3748]" />
                       </div>
                       <div>
-                        <label className="font-bold text-sm text-[#E6E6E6] mb-2 block tracking-wider">
+                        <label className="font-bold text-sm text-[#1A202C] mb-2 block tracking-wider">
                           Partnership Type
                         </label>
-                          <select name="partnership-type" className="w-full px-4 py-2 bg-[#111111] border border-[#4F73D6]/30 rounded-lg text-[#E6E6E6]">
+                          <select name="partnership-type" className="w-full px-4 py-2 bg-[#111111] border border-[#BBDEFB] rounded-lg text-[#1A202C]">
                           <option>Supplier</option>
                           <option>Contractor</option>
                           <option>Distributor</option>
@@ -3670,16 +3670,16 @@ export default function App() {
                         </select>
                       </div>
                       <div>
-                        <label className="font-bold text-sm text-[#E6E6E6] mb-2 block tracking-wider">
+                        <label className="font-bold text-sm text-[#1A202C] mb-2 block tracking-wider">
                           Message
                         </label>
                         <Textarea 
                           placeholder="Tell us about your company and partnership interest..."
                           rows={4}
-                          className="bg-[#111111] border-[#4F73D6]/30 text-[#E6E6E6] placeholder:text-[#E2EBF0]"
+                          className="bg-[#111111] border-[#BBDEFB] text-[#1A202C] placeholder:text-[#2D3748]"
                         />
                       </div>
-                      <button type="submit" className="w-full bg-[#1E3FD8] text-white font-black hover:bg-[#4F73D6] tracking-wider py-3 rounded-md transition-colors flex items-center justify-center gap-2">
+                      <button type="submit" className="w-full bg-[#1565C0] text-white font-black hover:bg-[#1976D2] tracking-wider py-3 rounded-md transition-colors flex items-center justify-center gap-2">
                         <Send className="mr-2 w-4 h-4" />
                         SUBMIT INQUIRY
                       </button>
@@ -3688,38 +3688,38 @@ export default function App() {
                 </Card>
 
                 {/* Bidder List */}
-                <Card className="bg-[#0A0F2C] border-[#4F73D6]/30">
+                <Card className="bg-[#E3F2FD] border-[#BBDEFB]">
                   <CardContent className="p-8">
-                    <h2 className="text-3xl font-black text-[#E6E6E6] mb-8 tracking-tight">
+                    <h2 className="text-3xl font-black text-[#1A202C] mb-8 tracking-tight">
                       JOIN BIDDER LIST
                     </h2>
-                    <p className="text-[#E2EBF0] mb-6 leading-relaxed">
+                    <p className="text-[#2D3748] mb-6 leading-relaxed">
                       Get notified of upcoming project opportunities and RFPs. Join our contractor network to receive exclusive bidding invitations.
                     </p>
                     <form action="https://api.web3forms.com/submit" method="POST" className="space-y-4">
                       <input type="hidden" name="access_key" value="77400af3-9113-4b92-b903-07e1f50df9a4" />
                       <input type="hidden" name="subject" value="Bidder List Request - PES Field Systems Website" />
                       <div>
-                        <label className="font-bold text-sm text-[#E6E6E6] mb-2 block tracking-wider">Company Name</label>
-                        <Input name="company" placeholder="Your company" className="bg-[#111111] border-[#4F73D6]/30 text-[#E6E6E6] placeholder:text-[#E2EBF0]" />
+                        <label className="font-bold text-sm text-[#1A202C] mb-2 block tracking-wider">Company Name</label>
+                        <Input name="company" placeholder="Your company" className="bg-[#111111] border-[#BBDEFB] text-[#1A202C] placeholder:text-[#2D3748]" />
                       </div>
                       <div>
-                        <label className="font-bold text-sm text-[#E6E6E6] mb-2 block tracking-wider">Primary Contact</label>
-                        <Input name="name" placeholder="Full name" className="bg-[#111111] border-[#4F73D6]/30 text-[#E6E6E6] placeholder:text-[#E2EBF0]" />
+                        <label className="font-bold text-sm text-[#1A202C] mb-2 block tracking-wider">Primary Contact</label>
+                        <Input name="name" placeholder="Full name" className="bg-[#111111] border-[#BBDEFB] text-[#1A202C] placeholder:text-[#2D3748]" />
                       </div>
                       <div>
-                        <label className="font-bold text-sm text-[#E6E6E6] mb-2 block tracking-wider">Email</label>
-                        <Input type="email" name="email" placeholder="email@company.com" className="bg-[#111111] border-[#4F73D6]/30 text-[#E6E6E6] placeholder:text-[#E2EBF0]" />
+                        <label className="font-bold text-sm text-[#1A202C] mb-2 block tracking-wider">Email</label>
+                        <Input type="email" name="email" placeholder="email@company.com" className="bg-[#111111] border-[#BBDEFB] text-[#1A202C] placeholder:text-[#2D3748]" />
                       </div>
                       <div>
-                        <label className="font-bold text-sm text-[#E6E6E6] mb-2 block tracking-wider">Service Area</label>
-                        <Input name="service-area" placeholder="States/regions you serve" className="bg-[#111111] border-[#4F73D6]/30 text-[#E6E6E6] placeholder:text-[#E2EBF0]" />
+                        <label className="font-bold text-sm text-[#1A202C] mb-2 block tracking-wider">Service Area</label>
+                        <Input name="service-area" placeholder="States/regions you serve" className="bg-[#111111] border-[#BBDEFB] text-[#1A202C] placeholder:text-[#2D3748]" />
                       </div>
                       <div>
-                        <label className="font-bold text-sm text-[#E6E6E6] mb-2 block tracking-wider">Specialties</label>
-                        <Textarea name="specialties" placeholder="List your construction specialties..." rows={3} className="bg-[#111111] border-[#4F73D6]/30 text-[#E6E6E6] placeholder:text-[#E2EBF0]" />
+                        <label className="font-bold text-sm text-[#1A202C] mb-2 block tracking-wider">Specialties</label>
+                        <Textarea name="specialties" placeholder="List your construction specialties..." rows={3} className="bg-[#111111] border-[#BBDEFB] text-[#1A202C] placeholder:text-[#2D3748]" />
                       </div>
-                      <button type="submit" className="w-full bg-[#1E3FD8] text-white font-black hover:bg-[#4F73D6] tracking-wider py-3 rounded-md transition-colors">
+                      <button type="submit" className="w-full bg-[#1565C0] text-white font-black hover:bg-[#1976D2] tracking-wider py-3 rounded-md transition-colors">
                         JOIN BIDDER LIST
                       </button>
                     </form>
@@ -3744,7 +3744,7 @@ export default function App() {
     }
 
     return (
-      <div className="min-h-screen" style={{ background: '#132040' }}>
+      <div className="min-h-screen" style={{ background: '#FFFFFF' }}>
         <Navigation />
 
         <section className="pt-48 pb-24 bg-black">
@@ -3753,7 +3753,7 @@ export default function App() {
               {/* Back Button */}
               <button
                 onClick={() => navigateTo('gallery')}
-                className="text-[#4F73D6] hover:text-[#1E3FD8] transition-colors mb-8 inline-flex items-center gap-2"
+                className="text-[#1976D2] hover:text-[#1565C0] transition-colors mb-8 inline-flex items-center gap-2"
                 style={{
                   fontSize: '14px',
                   fontWeight: '600'
@@ -3765,10 +3765,10 @@ export default function App() {
 
               {/* Hero Section */}
               <div className="mb-16">
-                <Badge className="bg-[#4F73D6]/20 text-[#4F73D6] border border-[#4F73D6]/30 mb-4 font-bold tracking-wider">
+                <Badge className="bg-[#1976D2]/20 text-[#1976D2] border border-[#BBDEFB] mb-4 font-bold tracking-wider">
                   {project.type}
                 </Badge>
-                <h1 className="text-5xl md:text-6xl font-black text-[#E6E6E6] mb-4 tracking-tight">
+                <h1 className="text-5xl md:text-6xl font-black text-[#1A202C] mb-4 tracking-tight">
                   {project.slug === 'mid-america-ballyard'
                     ? 'Mid-America Ballyard Baseball & Softball Facility'
                     : project.slug === 'lasalle-high-school'
@@ -3779,7 +3779,7 @@ export default function App() {
                     ? 'Miracle League of Central Florida'
                     : project.name}
                 </h1>
-                <p className="text-xl text-[#E2EBF0] flex items-center gap-2">
+                <p className="text-xl text-[#2D3748] flex items-center gap-2">
                   <MapPin className="w-5 h-5" />
                   {project.location}
                 </p>
@@ -3796,27 +3796,27 @@ export default function App() {
 
               {/* Project Overview */}
               <div className="grid md:grid-cols-3 gap-8 mb-16">
-                <div className="bg-[#0A0F2C] border border-[#4F73D6]/30 rounded-lg p-6">
-                  <h3 className="text-[#4F73D6] text-sm font-bold tracking-wider mb-2">
+                <div className="bg-[#E3F2FD] border border-[#BBDEFB] rounded-lg p-6">
+                  <h3 className="text-[#1976D2] text-sm font-bold tracking-wider mb-2">
                     PROJECT TYPE
                   </h3>
-                  <p className="text-[#E6E6E6] text-lg font-bold">
+                  <p className="text-[#1A202C] text-lg font-bold">
                     {project.type}
                   </p>
                 </div>
-                <div className="bg-[#0A0F2C] border border-[#4F73D6]/30 rounded-lg p-6">
-                  <h3 className="text-[#4F73D6] text-sm font-bold tracking-wider mb-2">
+                <div className="bg-[#E3F2FD] border border-[#BBDEFB] rounded-lg p-6">
+                  <h3 className="text-[#1976D2] text-sm font-bold tracking-wider mb-2">
                     LOCATION
                   </h3>
-                  <p className="text-[#E6E6E6] text-lg font-bold">
+                  <p className="text-[#1A202C] text-lg font-bold">
                     {project.location}
                   </p>
                 </div>
-                <div className="bg-[#0A0F2C] border border-[#4F73D6]/30 rounded-lg p-6">
-                  <h3 className="text-[#4F73D6] text-sm font-bold tracking-wider mb-2">
+                <div className="bg-[#E3F2FD] border border-[#BBDEFB] rounded-lg p-6">
+                  <h3 className="text-[#1976D2] text-sm font-bold tracking-wider mb-2">
                     STATUS
                   </h3>
-                  <p className="text-[#E6E6E6] text-lg font-bold">
+                  <p className="text-[#1A202C] text-lg font-bold">
                     Completed
                   </p>
                 </div>
@@ -3824,52 +3824,52 @@ export default function App() {
 
               {/* Project Description */}
               <div className="mb-16">
-                <h2 className="text-3xl font-black text-[#E6E6E6] mb-6 tracking-tight">
+                <h2 className="text-3xl font-black text-[#1A202C] mb-6 tracking-tight">
                   About This Project
                 </h2>
-                <div className="bg-[#0A0F2C] border border-[#4F73D6]/30 rounded-lg p-8">
+                <div className="bg-[#E3F2FD] border border-[#BBDEFB] rounded-lg p-8">
                   {project.slug === 'mid-america-ballyard' ? (
                     <>
-                      <p className="text-[#E2EBF0] text-lg leading-relaxed mb-4 font-semibold">
+                      <p className="text-[#2D3748] text-lg leading-relaxed mb-4 font-semibold">
                         A start-to-finish field build focused on safety, performance, and long-term quality.
                       </p>
-                      <p className="text-[#E2EBF0] text-lg leading-relaxed">
+                      <p className="text-[#2D3748] text-lg leading-relaxed">
                         This project involved the complete transformation of an athletic field that required significant upgrades to improve safety, playability, and long-term performance. From initial planning through final installation, PES Field Systems delivered a professionally managed, start-to-finish field solution designed to serve athletes, programs, and the surrounding community.
                       </p>
                     </>
                   ) : project.slug === 'lasalle-high-school' ? (
                     <>
-                      <p className="text-[#E2EBF0] text-lg leading-relaxed mb-4">
+                      <p className="text-[#2D3748] text-lg leading-relaxed mb-4">
                         La Salle High School required a comprehensive baseball field upgrade to meet the expectations of elite student-athletes while improving safety, consistency, and long-term performance. PES Field Systems partnered closely with school leadership to refresh the existing field, addressing surface wear, drainage challenges, and playability issues that had developed over time.
                       </p>
-                      <p className="text-[#E2EBF0] text-lg leading-relaxed">
+                      <p className="text-[#2D3748] text-lg leading-relaxed">
                         The project focused on precision grading, improved drainage systems, and durable, environmentally responsible materials to create a high-performing baseball field capable of supporting competitive play, daily practices, and community use. The result is a refreshed athletic surface that reflects La Salle's commitment to excellence providing athletes with a safe, reliable field designed to perform at the highest level.
                       </p>
                     </>
                   ) : project.slug === 'miracle-league-nw-montana' ? (
                     <>
-                      <p className="text-[#E2EBF0] text-lg leading-relaxed mb-4">
+                      <p className="text-[#2D3748] text-lg leading-relaxed mb-4">
                         This project involved the design and construction of several baseball fields built to support safe play, long-term durability, and high performance for athletes of all ages. PES Field Systems engineered each field with precision grading, advanced drainage solutions, and environmentally responsible materials to ensure consistent playability and reduced maintenance over time.
                       </p>
-                      <p className="text-[#E2EBF0] text-lg leading-relaxed">
+                      <p className="text-[#2D3748] text-lg leading-relaxed">
                         From initial site preparation through final installation, our team delivered a complete, start-to-finish baseball field solution that meets the demands of competitive programs while serving the broader community with reliable, professionally built athletic surfaces.
                       </p>
                     </>
                   ) : project.slug === 'miracle-league-plymouth' ? (
                     <>
-                      <p className="text-[#E2EBF0] text-lg leading-relaxed mb-4 font-semibold">
+                      <p className="text-[#2D3748] text-lg leading-relaxed mb-4 font-semibold">
                         The Miracle League of Plymouth enriches the community by offering inclusive recreation especially baseball for individuals with special needs and their families. Through player and "buddy" partnerships, the league promotes friendship, social development, and lasting connections.
                       </p>
                       <div className="grid md:grid-cols-2 gap-8 mt-8">
-                        <div className="bg-[#111111] border border-[#4F73D6]/30 rounded-lg p-6">
-                          <h3 className="text-[#4F73D6] text-xl font-bold mb-3 tracking-wide">Before the Build</h3>
-                          <p className="text-[#E2EBF0] leading-relaxed">
+                        <div className="bg-[#111111] border border-[#BBDEFB] rounded-lg p-6">
+                          <h3 className="text-[#1976D2] text-xl font-bold mb-3 tracking-wide">Before the Build</h3>
+                          <p className="text-[#2D3748] leading-relaxed">
                             Before construction began, Plymouth lacked an adaptive baseball field that could safely support athletes with special needs. The community envisioned a space where every child regardless of ability could experience the game in a safe, inclusive environment. Working alongside the Miracle League of Plymouth, we prepared for a field that would remove physical barriers and create a welcoming space for connection, confidence, and fun.
                           </p>
                         </div>
-                        <div className="bg-[#111111] border border-[#4F73D6]/30 rounded-lg p-6">
-                          <h3 className="text-[#4F73D6] text-xl font-bold mb-3 tracking-wide">After the Build</h3>
-                          <p className="text-[#E2EBF0] leading-relaxed">
+                        <div className="bg-[#111111] border border-[#BBDEFB] rounded-lg p-6">
+                          <h3 className="text-[#1976D2] text-xl font-bold mb-3 tracking-wide">After the Build</h3>
+                          <p className="text-[#2D3748] leading-relaxed">
                             The finished field features a custom turf surface designed for accessibility, safety, and all-weather play. Our team completed the surfacing and detail work to meet Miracle League standards, ensuring smooth mobility for wheelchairs and walkers while maintaining a professional look and feel. Today, the field is more than just a place to play its a space where inclusion thrives and every player gets their moment at bat.
                           </p>
                         </div>
@@ -3877,28 +3877,28 @@ export default function App() {
                     </>
                   ) : project.slug === 'miracle-league-central-florida' ? (
                     <>
-                      <p className="text-[#E2EBF0] text-lg leading-relaxed mb-4 font-semibold">
+                      <p className="text-[#2D3748] text-lg leading-relaxed mb-4 font-semibold">
                         Restoring Playability and Safety.
                       </p>
-                      <p className="text-[#E2EBF0] text-lg leading-relaxed">
+                      <p className="text-[#2D3748] text-lg leading-relaxed">
                         The Miracle League of Central Florida baseball field project addressed significant surface deterioration, drainage issues, and inconsistent playability that impacted both safety and performance. PES Field Systems completed a comprehensive field renovation that included site preparation, regrading, improved drainage solutions, and the installation of durable, environmentally responsible materials designed for Florida's climate. The upgraded baseball field now delivers reliable play conditions, reduced maintenance demands, and a professional-quality surface that supports daily use, competitive play, and long-term community investment.
                       </p>
                     </>
                   ) : project.slug === 'madisonville' ? (
                     <>
-                      <p className="text-[#E2EBF0] text-lg leading-relaxed mb-4 font-semibold">A full synthetic turf installation bringing professional-grade performance to a Cincinnati community athletic program.</p>
-                      <p className="text-[#E2EBF0] text-lg leading-relaxed">PES Field Systems completed a baseball and softball field installation in Madisonville, Ohio, delivering a high-performance synthetic turf surface built for competitive play, athlete safety, and long-term durability. The project involved full site preparation, precision grading, engineered drainage, and installation of a professional-grade synthetic turf system utilizing our U.S. patented infill technology.</p>
-                      <p className="text-[#E2EBF0] text-lg leading-relaxed mt-4">The completed field provides consistent playability across all weather conditions, significantly lower maintenance requirements than natural grass, and a fall impact safety surface that protects athletes of all ages.</p>
+                      <p className="text-[#2D3748] text-lg leading-relaxed mb-4 font-semibold">A full synthetic turf installation bringing professional-grade performance to a Cincinnati community athletic program.</p>
+                      <p className="text-[#2D3748] text-lg leading-relaxed">PES Field Systems completed a baseball and softball field installation in Madisonville, Ohio, delivering a high-performance synthetic turf surface built for competitive play, athlete safety, and long-term durability. The project involved full site preparation, precision grading, engineered drainage, and installation of a professional-grade synthetic turf system utilizing our U.S. patented infill technology.</p>
+                      <p className="text-[#2D3748] text-lg leading-relaxed mt-4">The completed field provides consistent playability across all weather conditions, significantly lower maintenance requirements than natural grass, and a fall impact safety surface that protects athletes of all ages.</p>
                     </>
                   ) : project.slug === 'union-county' ? (
                     <>
-                      <p className="text-[#E2EBF0] text-lg leading-relaxed mb-4 font-semibold">A professional synthetic turf field installation built for competitive play and lasting community impact.</p>
-                      <p className="text-[#E2EBF0] text-lg leading-relaxed">PES Field Systems completed a full synthetic turf installation for Union County, South Carolina, delivering a high-performance athletic surface engineered for safety, durability, and year-round play. Utilizing our U.S. patented infill technology, the field provides uncompromised fall impact protection, cooler surface temperatures, and zero infill migration.</p>
-                      <p className="text-[#E2EBF0] text-lg leading-relaxed mt-4">From initial site work through final installation, PES managed every phase of the project in close collaboration with local stakeholders, delivering on time and to spec.</p>
+                      <p className="text-[#2D3748] text-lg leading-relaxed mb-4 font-semibold">A professional synthetic turf field installation built for competitive play and lasting community impact.</p>
+                      <p className="text-[#2D3748] text-lg leading-relaxed">PES Field Systems completed a full synthetic turf installation for Union County, South Carolina, delivering a high-performance athletic surface engineered for safety, durability, and year-round play. Utilizing our U.S. patented infill technology, the field provides uncompromised fall impact protection, cooler surface temperatures, and zero infill migration.</p>
+                      <p className="text-[#2D3748] text-lg leading-relaxed mt-4">From initial site work through final installation, PES managed every phase of the project in close collaboration with local stakeholders, delivering on time and to spec.</p>
                     </>
                   ) : (
                     <>
-                      <p className="text-[#E2EBF0] text-lg leading-relaxed mb-4">Project details coming soon.</p>
+                      <p className="text-[#2D3748] text-lg leading-relaxed mb-4">Project details coming soon.</p>
                     </>
                   )}
                 </div>
@@ -3907,23 +3907,23 @@ export default function App() {
               {/* Project Phases - Mid-America Ballyard Only */}
               {project.slug === 'mid-america-ballyard' && (
                 <div className="mb-16">
-                  <h2 className="text-3xl font-black text-[#E6E6E6] mb-8 tracking-tight">
+                  <h2 className="text-3xl font-black text-[#1A202C] mb-8 tracking-tight">
                     Project Phases
                   </h2>
                   <div className="space-y-6">
                     {/* Phase 1 */}
-                    <div className="bg-[#0A0F2C] border border-[#4F73D6]/30 rounded-lg p-8">
+                    <div className="bg-[#E3F2FD] border border-[#BBDEFB] rounded-lg p-8">
                       <div className="flex items-start gap-4">
                         <div className="flex-shrink-0">
-                          <div className="w-12 h-12 bg-[#1E3FD8] rounded-lg flex items-center justify-center">
+                          <div className="w-12 h-12 bg-[#1565C0] rounded-lg flex items-center justify-center">
                             <span className="text-white font-black text-lg">1</span>
                           </div>
                         </div>
                         <div>
-                          <h3 className="text-xl font-black text-[#E6E6E6] mb-3">
+                          <h3 className="text-xl font-black text-[#1A202C] mb-3">
                             Planning & Site Preparation
                           </h3>
-                          <p className="text-[#E2EBF0] leading-relaxed">
+                          <p className="text-[#2D3748] leading-relaxed">
                             PES Field Systems began with a detailed evaluation of site conditions, field usage, and long-term goals. Careful planning and site preparation ensured proper grading, efficient drainage, and a strong foundation for a durable, high-performing athletic surface.
                           </p>
                         </div>
@@ -3931,18 +3931,18 @@ export default function App() {
                     </div>
 
                     {/* Phase 2 */}
-                    <div className="bg-[#0A0F2C] border border-[#4F73D6]/30 rounded-lg p-8">
+                    <div className="bg-[#E3F2FD] border border-[#BBDEFB] rounded-lg p-8">
                       <div className="flex items-start gap-4">
                         <div className="flex-shrink-0">
-                          <div className="w-12 h-12 bg-[#1E3FD8] rounded-lg flex items-center justify-center">
+                          <div className="w-12 h-12 bg-[#1565C0] rounded-lg flex items-center justify-center">
                             <span className="text-white font-black text-lg">2</span>
                           </div>
                         </div>
                         <div>
-                          <h3 className="text-xl font-black text-[#E6E6E6] mb-3">
+                          <h3 className="text-xl font-black text-[#1A202C] mb-3">
                             Field Construction & Materials
                           </h3>
-                          <p className="text-[#E2EBF0] leading-relaxed">
+                          <p className="text-[#2D3748] leading-relaxed">
                             Using high-quality, environmentally responsible materials, our team constructed the field to support consistent play and heavy use. Precision installation techniques were applied to create a safe, reliable surface that meets the demands of competitive athletic programs.
                           </p>
                         </div>
@@ -3950,18 +3950,18 @@ export default function App() {
                     </div>
 
                     {/* Phase 3 */}
-                    <div className="bg-[#0A0F2C] border border-[#4F73D6]/30 rounded-lg p-8">
+                    <div className="bg-[#E3F2FD] border border-[#BBDEFB] rounded-lg p-8">
                       <div className="flex items-start gap-4">
                         <div className="flex-shrink-0">
-                          <div className="w-12 h-12 bg-[#1E3FD8] rounded-lg flex items-center justify-center">
+                          <div className="w-12 h-12 bg-[#1565C0] rounded-lg flex items-center justify-center">
                             <span className="text-white font-black text-lg">3</span>
                           </div>
                         </div>
                         <div>
-                          <h3 className="text-xl font-black text-[#E6E6E6] mb-3">
+                          <h3 className="text-xl font-black text-[#1A202C] mb-3">
                             Safety & Performance Enhancements
                           </h3>
-                          <p className="text-[#E2EBF0] leading-relaxed">
+                          <p className="text-[#2D3748] leading-relaxed">
                             Safety was a primary focus throughout the project. PES Field Systems incorporated design features and construction methods that enhance athlete safety, improve surface stability, and promote consistent ball response and footing across the entire field.
                           </p>
                         </div>
@@ -3969,18 +3969,18 @@ export default function App() {
                     </div>
 
                     {/* Phase 4 */}
-                    <div className="bg-[#0A0F2C] border border-[#4F73D6]/30 rounded-lg p-8">
+                    <div className="bg-[#E3F2FD] border border-[#BBDEFB] rounded-lg p-8">
                       <div className="flex items-start gap-4">
                         <div className="flex-shrink-0">
-                          <div className="w-12 h-12 bg-[#1E3FD8] rounded-lg flex items-center justify-center">
+                          <div className="w-12 h-12 bg-[#1565C0] rounded-lg flex items-center justify-center">
                             <span className="text-white font-black text-lg">4</span>
                           </div>
                         </div>
                         <div>
-                          <h3 className="text-xl font-black text-[#E6E6E6] mb-3">
+                          <h3 className="text-xl font-black text-[#1A202C] mb-3">
                             Finished Field & Community Impact
                           </h3>
-                          <p className="text-[#E2EBF0] leading-relaxed">
+                          <p className="text-[#2D3748] leading-relaxed">
                             The completed field delivers a professional-quality playing environment built for long-term performance and reduced maintenance. The upgraded facility now supports regular practices, competitive events, and community use providing a reliable athletic space designed to last.
                           </p>
                         </div>
@@ -3992,49 +3992,49 @@ export default function App() {
 
               {/* Project Gallery */}
               <div className="mb-16">
-                <h2 className="text-3xl font-black text-[#E6E6E6] mb-6 tracking-tight">
+                <h2 className="text-3xl font-black text-[#1A202C] mb-6 tracking-tight">
                   Project Gallery
                 </h2>
                 <div className={project.slug === 'miracle-league-nw-montana' ? 'grid md:grid-cols-3 gap-6' : 'grid md:grid-cols-2 gap-6'}>
                   {project.slug === 'mid-america-ballyard' ? (
                     <>
-                      <div className="bg-[#0A0F2C] border border-[#4F73D6]/30 rounded-lg overflow-hidden h-80">
+                      <div className="bg-[#E3F2FD] border border-[#BBDEFB] rounded-lg overflow-hidden h-80">
                         <img src={midAmericaImg1} alt="Mid-America Ballyard synthetic baseball field Cincinnati - Image 1" className="w-full h-full object-cover" />
                       </div>
-                      <div className="bg-[#0A0F2C] border border-[#4F73D6]/30 rounded-lg overflow-hidden h-80">
+                      <div className="bg-[#E3F2FD] border border-[#BBDEFB] rounded-lg overflow-hidden h-80">
                         <img src={midAmericaImg2} alt="Mid-America Ballyard synthetic baseball field Cincinnati - Image 2" className="w-full h-full object-cover" />
                       </div>
-                      <div className="bg-[#0A0F2C] border border-[#4F73D6]/30 rounded-lg overflow-hidden h-80">
+                      <div className="bg-[#E3F2FD] border border-[#BBDEFB] rounded-lg overflow-hidden h-80">
                         <img src={midAmericaImg3} alt="Mid-America Ballyard aerial view Cincinnati - Image 3" className="w-full h-full object-cover" />
                       </div>
-                      <div className="bg-[#0A0F2C] border border-[#4F73D6]/30 rounded-lg overflow-hidden h-80">
+                      <div className="bg-[#E3F2FD] border border-[#BBDEFB] rounded-lg overflow-hidden h-80">
                         <img src={midAmericaImg4} alt="Mid-America Ballyard aerial view Cincinnati - Image 4" className="w-full h-full object-cover" />
                       </div>
                     </>
                   ) : project.slug === 'lasalle-high-school' ? (
                     <>
-                      <div className="bg-[#0A0F2C] border border-[#4F73D6]/30 rounded-lg overflow-hidden h-80">
+                      <div className="bg-[#E3F2FD] border border-[#BBDEFB] rounded-lg overflow-hidden h-80">
                         <img
                           src={lasalleImg1}
                           alt="LaSalle High School - Image 1"
                           className="w-full h-full object-cover"
                         />
                       </div>
-                      <div className="bg-[#0A0F2C] border border-[#4F73D6]/30 rounded-lg overflow-hidden h-80">
+                      <div className="bg-[#E3F2FD] border border-[#BBDEFB] rounded-lg overflow-hidden h-80">
                         <img
                           src={lasalleImg2}
                           alt="LaSalle High School - Image 2"
                           className="w-full h-full object-cover"
                         />
                       </div>
-                      <div className="md:col-span-2 bg-[#0A0F2C] border border-[#4F73D6]/30 rounded-lg overflow-hidden h-96">
+                      <div className="md:col-span-2 bg-[#E3F2FD] border border-[#BBDEFB] rounded-lg overflow-hidden h-96">
                         <img src="/LaSalle4.jpg" alt="LaSalle High School baseball field synthetic turf Cincinnati Ohio" className="w-full h-full object-cover" />
                       </div>
                     </>
                   ) : project.slug === 'miracle-league-nw-montana' ? (
                     <>
                       {/* Hero image spanning 2 columns */}
-                      <div className="md:col-span-2 bg-[#0A0F2C] border border-[#4F73D6]/30 rounded-lg overflow-hidden h-96">
+                      <div className="md:col-span-2 bg-[#E3F2FD] border border-[#BBDEFB] rounded-lg overflow-hidden h-96">
                         <img
                           src={montanaImg1}
                           alt="Miracle League NW Montana - Hero"
@@ -4042,7 +4042,7 @@ export default function App() {
                         />
                       </div>
                       {/* Right side tall image */}
-                      <div className="bg-[#0A0F2C] border border-[#4F73D6]/30 rounded-lg overflow-hidden h-96">
+                      <div className="bg-[#E3F2FD] border border-[#BBDEFB] rounded-lg overflow-hidden h-96">
                         <img
                           src={montanaImg2}
                           alt="Miracle League NW Montana - Image 2"
@@ -4050,21 +4050,21 @@ export default function App() {
                         />
                       </div>
                       {/* Second row - 3 images */}
-                      <div className="bg-[#0A0F2C] border border-[#4F73D6]/30 rounded-lg overflow-hidden h-72">
+                      <div className="bg-[#E3F2FD] border border-[#BBDEFB] rounded-lg overflow-hidden h-72">
                         <img
                           src={montanaImg3}
                           alt="Miracle League NW Montana - Image 3"
                           className="w-full h-full object-cover"
                         />
                       </div>
-                      <div className="bg-[#0A0F2C] border border-[#4F73D6]/30 rounded-lg overflow-hidden h-72">
+                      <div className="bg-[#E3F2FD] border border-[#BBDEFB] rounded-lg overflow-hidden h-72">
                         <img
                           src={montanaImg4}
                           alt="Miracle League NW Montana - Image 4"
                           className="w-full h-full object-cover"
                         />
                       </div>
-                      <div className="bg-[#0A0F2C] border border-[#4F73D6]/30 rounded-lg overflow-hidden h-72">
+                      <div className="bg-[#E3F2FD] border border-[#BBDEFB] rounded-lg overflow-hidden h-72">
                         <img
                           src={montanaImg5}
                           alt="Miracle League NW Montana - Image 5"
@@ -4072,14 +4072,14 @@ export default function App() {
                         />
                       </div>
                       {/* Third row - 2 images spanning width */}
-                      <div className="md:col-span-2 bg-[#0A0F2C] border border-[#4F73D6]/30 rounded-lg overflow-hidden h-80">
+                      <div className="md:col-span-2 bg-[#E3F2FD] border border-[#BBDEFB] rounded-lg overflow-hidden h-80">
                         <img
                           src={montanaImg6}
                           alt="Miracle League NW Montana - Image 6"
                           className="w-full h-full object-cover"
                         />
                       </div>
-                      <div className="bg-[#0A0F2C] border border-[#4F73D6]/30 rounded-lg overflow-hidden h-80">
+                      <div className="bg-[#E3F2FD] border border-[#BBDEFB] rounded-lg overflow-hidden h-80">
                         <img
                           src={montanaImg7}
                           alt="Miracle League NW Montana - Image 7"
@@ -4089,28 +4089,28 @@ export default function App() {
                     </>
                   ) : project.slug === 'miracle-league-plymouth' ? (
                     <>
-                      <div className="bg-[#0A0F2C] border border-[#4F73D6]/30 rounded-lg overflow-hidden h-80">
+                      <div className="bg-[#E3F2FD] border border-[#BBDEFB] rounded-lg overflow-hidden h-80">
                         <img
                           src={plymouthImg1}
                           alt="Miracle League Plymouth - After"
                           className="w-full h-full object-cover"
                         />
                       </div>
-                      <div className="bg-[#0A0F2C] border border-[#4F73D6]/30 rounded-lg overflow-hidden h-80">
+                      <div className="bg-[#E3F2FD] border border-[#BBDEFB] rounded-lg overflow-hidden h-80">
                         <img
                           src={plymouthImg2}
                           alt="Miracle League Plymouth - Before"
                           className="w-full h-full object-cover"
                         />
                       </div>
-                      <div className="bg-[#0A0F2C] border border-[#4F73D6]/30 rounded-lg overflow-hidden h-80">
+                      <div className="bg-[#E3F2FD] border border-[#BBDEFB] rounded-lg overflow-hidden h-80">
                         <img
                           src={plymouthImg3}
                           alt="Miracle League Plymouth - Flag"
                           className="w-full h-full object-cover"
                         />
                       </div>
-                      <div className="bg-[#0A0F2C] border border-[#4F73D6]/30 rounded-lg overflow-hidden h-80">
+                      <div className="bg-[#E3F2FD] border border-[#BBDEFB] rounded-lg overflow-hidden h-80">
                         <img
                           src={plymouthImg4}
                           alt="Miracle League Plymouth - Team"
@@ -4121,7 +4121,7 @@ export default function App() {
                   ) : project.slug === 'miracle-league-central-florida' ? (
                     <>
                       {/* Hero image spanning full width */}
-                      <div className="md:col-span-2 bg-[#0A0F2C] border border-[#4F73D6]/30 rounded-lg overflow-hidden h-96">
+                      <div className="md:col-span-2 bg-[#E3F2FD] border border-[#BBDEFB] rounded-lg overflow-hidden h-96">
                         <img
                           src={floridaImg1}
                           alt="Miracle League Central Florida - Hero"
@@ -4129,14 +4129,14 @@ export default function App() {
                         />
                       </div>
                       {/* Second row - 2 medium images */}
-                      <div className="bg-[#0A0F2C] border border-[#4F73D6]/30 rounded-lg overflow-hidden h-80">
+                      <div className="bg-[#E3F2FD] border border-[#BBDEFB] rounded-lg overflow-hidden h-80">
                         <img
                           src={floridaImg2}
                           alt="Miracle League Central Florida - Image 2"
                           className="w-full h-full object-cover"
                         />
                       </div>
-                      <div className="bg-[#0A0F2C] border border-[#4F73D6]/30 rounded-lg overflow-hidden h-80">
+                      <div className="bg-[#E3F2FD] border border-[#BBDEFB] rounded-lg overflow-hidden h-80">
                         <img
                           src={floridaImg3}
                           alt="Miracle League Central Florida - Image 3"
@@ -4144,14 +4144,14 @@ export default function App() {
                         />
                       </div>
                       {/* Third row - 2 medium images */}
-                      <div className="bg-[#0A0F2C] border border-[#4F73D6]/30 rounded-lg overflow-hidden h-80">
+                      <div className="bg-[#E3F2FD] border border-[#BBDEFB] rounded-lg overflow-hidden h-80">
                         <img
                           src={floridaImg4}
                           alt="Miracle League Central Florida - Before 1"
                           className="w-full h-full object-cover"
                         />
                       </div>
-                      <div className="bg-[#0A0F2C] border border-[#4F73D6]/30 rounded-lg overflow-hidden h-80">
+                      <div className="bg-[#E3F2FD] border border-[#BBDEFB] rounded-lg overflow-hidden h-80">
                         <img
                           src={floridaImg5}
                           alt="Miracle League Central Florida - Before 2"
@@ -4163,47 +4163,47 @@ export default function App() {
                     <>
                       {/* Before Section */}
                       <div className="md:col-span-2 flex items-center gap-4 mt-2 mb-1">
-                        <div className="h-px flex-1 bg-[#4F73D6]/30"></div>
-                        <span className="text-xs font-bold tracking-widest text-[#6B8FA8] uppercase px-3 py-1 border border-[#4F73D6]/30 rounded-full">Before</span>
-                        <div className="h-px flex-1 bg-[#4F73D6]/30"></div>
+                        <div className="h-px flex-1 bg-[#1976D2]/30"></div>
+                        <span className="text-xs font-bold tracking-widest text-[#6B8FA8] uppercase px-3 py-1 border border-[#BBDEFB] rounded-full">Before</span>
+                        <div className="h-px flex-1 bg-[#1976D2]/30"></div>
                       </div>
-                      <div className="relative bg-[#0A0F2C] border border-[#4F73D6]/30 rounded-lg overflow-hidden h-[420px]">
+                      <div className="relative bg-[#E3F2FD] border border-[#BBDEFB] rounded-lg overflow-hidden h-[420px]">
                         <img src={unionCountyImg1} alt="Union County field before synthetic turf installation" className="w-full h-full object-cover opacity-80" />
                         <div className="absolute top-3 left-3 bg-black/60 text-white text-xs font-bold px-2 py-1 rounded uppercase tracking-wider">Before</div>
                       </div>
-                      <div className="relative bg-[#0A0F2C] border border-[#4F73D6]/30 rounded-lg overflow-hidden h-[420px]">
+                      <div className="relative bg-[#E3F2FD] border border-[#BBDEFB] rounded-lg overflow-hidden h-[420px]">
                         <img src={unionCountyImg2} alt="Union County field before synthetic turf installation" className="w-full h-full object-cover opacity-80" />
                         <div className="absolute top-3 left-3 bg-black/60 text-white text-xs font-bold px-2 py-1 rounded uppercase tracking-wider">Before</div>
                       </div>
                       {/* After Section */}
                       <div className="md:col-span-2 flex items-center gap-4 mt-4 mb-1">
-                        <div className="h-px flex-1 bg-[#1E3FD8]/50"></div>
-                        <span className="text-xs font-bold tracking-widest text-white uppercase px-3 py-1 bg-[#1E3FD8] rounded-full">After</span>
-                        <div className="h-px flex-1 bg-[#1E3FD8]/50"></div>
+                        <div className="h-px flex-1 bg-[#1565C0]/50"></div>
+                        <span className="text-xs font-bold tracking-widest text-white uppercase px-3 py-1 bg-[#1565C0] rounded-full">After</span>
+                        <div className="h-px flex-1 bg-[#1565C0]/50"></div>
                       </div>
-                      <div className="relative bg-[#0A0F2C] border border-[#4F73D6]/30 rounded-lg overflow-hidden h-[420px]">
+                      <div className="relative bg-[#E3F2FD] border border-[#BBDEFB] rounded-lg overflow-hidden h-[420px]">
                         <img src={unionCountyImg3} alt="Union County completed synthetic turf field Ohio" className="w-full h-full object-cover" />
-                        <div className="absolute top-3 left-3 bg-[#1E3FD8]/80 text-white text-xs font-bold px-2 py-1 rounded uppercase tracking-wider">After</div>
+                        <div className="absolute top-3 left-3 bg-[#1565C0]/80 text-white text-xs font-bold px-2 py-1 rounded uppercase tracking-wider">After</div>
                       </div>
-                      <div className="relative bg-[#0A0F2C] border border-[#4F73D6]/30 rounded-lg overflow-hidden h-[420px]">
+                      <div className="relative bg-[#E3F2FD] border border-[#BBDEFB] rounded-lg overflow-hidden h-[420px]">
                         <img src={unionCountyImg4} alt="Union County completed synthetic turf field Ohio" className="w-full h-full object-cover" />
-                        <div className="absolute top-3 left-3 bg-[#1E3FD8]/80 text-white text-xs font-bold px-2 py-1 rounded uppercase tracking-wider">After</div>
+                        <div className="absolute top-3 left-3 bg-[#1565C0]/80 text-white text-xs font-bold px-2 py-1 rounded uppercase tracking-wider">After</div>
                       </div>
-                      <div className="relative bg-[#0A0F2C] border border-[#4F73D6]/30 rounded-lg overflow-hidden h-[420px]">
+                      <div className="relative bg-[#E3F2FD] border border-[#BBDEFB] rounded-lg overflow-hidden h-[420px]">
                         <img src={unionCountyImg5} alt="Union County completed synthetic turf field Ohio" className="w-full h-full object-cover" />
-                        <div className="absolute top-3 left-3 bg-[#1E3FD8]/80 text-white text-xs font-bold px-2 py-1 rounded uppercase tracking-wider">After</div>
+                        <div className="absolute top-3 left-3 bg-[#1565C0]/80 text-white text-xs font-bold px-2 py-1 rounded uppercase tracking-wider">After</div>
                       </div>
-                      <div className="relative bg-[#0A0F2C] border border-[#4F73D6]/30 rounded-lg overflow-hidden h-[420px]">
+                      <div className="relative bg-[#E3F2FD] border border-[#BBDEFB] rounded-lg overflow-hidden h-[420px]">
                         <img src={unionCountyImg6} alt="Union County completed synthetic turf field Ohio" className="w-full h-full object-cover" />
-                        <div className="absolute top-3 left-3 bg-[#1E3FD8]/80 text-white text-xs font-bold px-2 py-1 rounded uppercase tracking-wider">After</div>
+                        <div className="absolute top-3 left-3 bg-[#1565C0]/80 text-white text-xs font-bold px-2 py-1 rounded uppercase tracking-wider">After</div>
                       </div>
                     </>
                   ) : (
                     <>
-                      <div className="bg-[#0A0F2C] border border-[#4F73D6]/30 rounded-lg overflow-hidden h-80">
+                      <div className="bg-[#E3F2FD] border border-[#BBDEFB] rounded-lg overflow-hidden h-80">
                         <img src={madisonvilleImg2} alt="Madisonville synthetic turf field aerial view" className="w-full h-full object-cover" />
                       </div>
-                      <div className="bg-[#0A0F2C] border border-[#4F73D6]/30 rounded-lg overflow-hidden h-80">
+                      <div className="bg-[#E3F2FD] border border-[#BBDEFB] rounded-lg overflow-hidden h-80">
                         <img src={madisonvilleImg3} alt="Madisonville athletic field construction Cincinnati Ohio" className="w-full h-full object-cover" />
                       </div>
                     </>
@@ -4213,122 +4213,122 @@ export default function App() {
 
               {/* Key Features */}
               <div className="mb-16">
-                <h2 className="text-3xl font-black text-[#E6E6E6] mb-6 tracking-tight">
+                <h2 className="text-3xl font-black text-[#1A202C] mb-6 tracking-tight">
                   Key Features
                 </h2>
                 <div className="grid md:grid-cols-2 gap-4">
                   {project.slug === 'mid-america-ballyard' ? (
                     <>
-                      <div className="flex items-start gap-3 bg-[#0A0F2C] border border-[#4F73D6]/30 rounded-lg p-4">
-                        <CheckCircle className="w-5 h-5 text-[#4F73D6] flex-shrink-0 mt-0.5" />
-                        <p className="text-[#E2EBF0]">Professional-grade baseball and softball field surface</p>
+                      <div className="flex items-start gap-3 bg-[#E3F2FD] border border-[#BBDEFB] rounded-lg p-4">
+                        <CheckCircle className="w-5 h-5 text-[#1976D2] flex-shrink-0 mt-0.5" />
+                        <p className="text-[#2D3748]">Professional-grade baseball and softball field surface</p>
                       </div>
-                      <div className="flex items-start gap-3 bg-[#0A0F2C] border border-[#4F73D6]/30 rounded-lg p-4">
-                        <CheckCircle className="w-5 h-5 text-[#4F73D6] flex-shrink-0 mt-0.5" />
-                        <p className="text-[#E2EBF0]">Enhanced athlete safety with optimized fall protection</p>
+                      <div className="flex items-start gap-3 bg-[#E3F2FD] border border-[#BBDEFB] rounded-lg p-4">
+                        <CheckCircle className="w-5 h-5 text-[#1976D2] flex-shrink-0 mt-0.5" />
+                        <p className="text-[#2D3748]">Enhanced athlete safety with optimized fall protection</p>
                       </div>
-                      <div className="flex items-start gap-3 bg-[#0A0F2C] border border-[#4F73D6]/30 rounded-lg p-4">
-                        <CheckCircle className="w-5 h-5 text-[#4F73D6] flex-shrink-0 mt-0.5" />
-                        <p className="text-[#E2EBF0]">Engineered drainage system for all-weather performance</p>
+                      <div className="flex items-start gap-3 bg-[#E3F2FD] border border-[#BBDEFB] rounded-lg p-4">
+                        <CheckCircle className="w-5 h-5 text-[#1976D2] flex-shrink-0 mt-0.5" />
+                        <p className="text-[#2D3748]">Engineered drainage system for all-weather performance</p>
                       </div>
-                      <div className="flex items-start gap-3 bg-[#0A0F2C] border border-[#4F73D6]/30 rounded-lg p-4">
-                        <CheckCircle className="w-5 h-5 text-[#4F73D6] flex-shrink-0 mt-0.5" />
-                        <p className="text-[#E2EBF0]">Low-maintenance design for long-term durability</p>
+                      <div className="flex items-start gap-3 bg-[#E3F2FD] border border-[#BBDEFB] rounded-lg p-4">
+                        <CheckCircle className="w-5 h-5 text-[#1976D2] flex-shrink-0 mt-0.5" />
+                        <p className="text-[#2D3748]">Low-maintenance design for long-term durability</p>
                       </div>
                     </>
                   ) : project.slug === 'lasalle-high-school' ? (
                     <>
-                      <div className="flex items-start gap-3 bg-[#0A0F2C] border border-[#4F73D6]/30 rounded-lg p-4">
-                        <CheckCircle className="w-5 h-5 text-[#4F73D6] flex-shrink-0 mt-0.5" />
-                        <p className="text-[#E2EBF0]">Elite-level baseball field for competitive play</p>
+                      <div className="flex items-start gap-3 bg-[#E3F2FD] border border-[#BBDEFB] rounded-lg p-4">
+                        <CheckCircle className="w-5 h-5 text-[#1976D2] flex-shrink-0 mt-0.5" />
+                        <p className="text-[#2D3748]">Elite-level baseball field for competitive play</p>
                       </div>
-                      <div className="flex items-start gap-3 bg-[#0A0F2C] border border-[#4F73D6]/30 rounded-lg p-4">
-                        <CheckCircle className="w-5 h-5 text-[#4F73D6] flex-shrink-0 mt-0.5" />
-                        <p className="text-[#E2EBF0]">Improved drainage system for all-weather performance</p>
+                      <div className="flex items-start gap-3 bg-[#E3F2FD] border border-[#BBDEFB] rounded-lg p-4">
+                        <CheckCircle className="w-5 h-5 text-[#1976D2] flex-shrink-0 mt-0.5" />
+                        <p className="text-[#2D3748]">Improved drainage system for all-weather performance</p>
                       </div>
-                      <div className="flex items-start gap-3 bg-[#0A0F2C] border border-[#4F73D6]/30 rounded-lg p-4">
-                        <CheckCircle className="w-5 h-5 text-[#4F73D6] flex-shrink-0 mt-0.5" />
-                        <p className="text-[#E2EBF0]">Precision grading for consistent playability</p>
+                      <div className="flex items-start gap-3 bg-[#E3F2FD] border border-[#BBDEFB] rounded-lg p-4">
+                        <CheckCircle className="w-5 h-5 text-[#1976D2] flex-shrink-0 mt-0.5" />
+                        <p className="text-[#2D3748]">Precision grading for consistent playability</p>
                       </div>
-                      <div className="flex items-start gap-3 bg-[#0A0F2C] border border-[#4F73D6]/30 rounded-lg p-4">
-                        <CheckCircle className="w-5 h-5 text-[#4F73D6] flex-shrink-0 mt-0.5" />
-                        <p className="text-[#E2EBF0]">Environmentally responsible materials and construction</p>
+                      <div className="flex items-start gap-3 bg-[#E3F2FD] border border-[#BBDEFB] rounded-lg p-4">
+                        <CheckCircle className="w-5 h-5 text-[#1976D2] flex-shrink-0 mt-0.5" />
+                        <p className="text-[#2D3748]">Environmentally responsible materials and construction</p>
                       </div>
                     </>
                   ) : project.slug === 'miracle-league-nw-montana' ? (
                     <>
-                      <div className="flex items-start gap-3 bg-[#0A0F2C] border border-[#4F73D6]/30 rounded-lg p-4">
-                        <CheckCircle className="w-5 h-5 text-[#4F73D6] flex-shrink-0 mt-0.5" />
-                        <p className="text-[#E2EBF0]">Multiple baseball fields for athletes of all ages</p>
+                      <div className="flex items-start gap-3 bg-[#E3F2FD] border border-[#BBDEFB] rounded-lg p-4">
+                        <CheckCircle className="w-5 h-5 text-[#1976D2] flex-shrink-0 mt-0.5" />
+                        <p className="text-[#2D3748]">Multiple baseball fields for athletes of all ages</p>
                       </div>
-                      <div className="flex items-start gap-3 bg-[#0A0F2C] border border-[#4F73D6]/30 rounded-lg p-4">
-                        <CheckCircle className="w-5 h-5 text-[#4F73D6] flex-shrink-0 mt-0.5" />
-                        <p className="text-[#E2EBF0]">Advanced drainage solutions for year-round use</p>
+                      <div className="flex items-start gap-3 bg-[#E3F2FD] border border-[#BBDEFB] rounded-lg p-4">
+                        <CheckCircle className="w-5 h-5 text-[#1976D2] flex-shrink-0 mt-0.5" />
+                        <p className="text-[#2D3748]">Advanced drainage solutions for year-round use</p>
                       </div>
-                      <div className="flex items-start gap-3 bg-[#0A0F2C] border border-[#4F73D6]/30 rounded-lg p-4">
-                        <CheckCircle className="w-5 h-5 text-[#4F73D6] flex-shrink-0 mt-0.5" />
-                        <p className="text-[#E2EBF0]">Precision-engineered grading for consistent performance</p>
+                      <div className="flex items-start gap-3 bg-[#E3F2FD] border border-[#BBDEFB] rounded-lg p-4">
+                        <CheckCircle className="w-5 h-5 text-[#1976D2] flex-shrink-0 mt-0.5" />
+                        <p className="text-[#2D3748]">Precision-engineered grading for consistent performance</p>
                       </div>
-                      <div className="flex items-start gap-3 bg-[#0A0F2C] border border-[#4F73D6]/30 rounded-lg p-4">
-                        <CheckCircle className="w-5 h-5 text-[#4F73D6] flex-shrink-0 mt-0.5" />
-                        <p className="text-[#E2EBF0]">Low-maintenance, environmentally responsible design</p>
+                      <div className="flex items-start gap-3 bg-[#E3F2FD] border border-[#BBDEFB] rounded-lg p-4">
+                        <CheckCircle className="w-5 h-5 text-[#1976D2] flex-shrink-0 mt-0.5" />
+                        <p className="text-[#2D3748]">Low-maintenance, environmentally responsible design</p>
                       </div>
                     </>
                   ) : project.slug === 'miracle-league-plymouth' ? (
                     <>
-                      <div className="flex items-start gap-3 bg-[#0A0F2C] border border-[#4F73D6]/30 rounded-lg p-4">
-                        <CheckCircle className="w-5 h-5 text-[#4F73D6] flex-shrink-0 mt-0.5" />
-                        <p className="text-[#E2EBF0]">Custom turf surface for accessibility</p>
+                      <div className="flex items-start gap-3 bg-[#E3F2FD] border border-[#BBDEFB] rounded-lg p-4">
+                        <CheckCircle className="w-5 h-5 text-[#1976D2] flex-shrink-0 mt-0.5" />
+                        <p className="text-[#2D3748]">Custom turf surface for accessibility</p>
                       </div>
-                      <div className="flex items-start gap-3 bg-[#0A0F2C] border border-[#4F73D6]/30 rounded-lg p-4">
-                        <CheckCircle className="w-5 h-5 text-[#4F73D6] flex-shrink-0 mt-0.5" />
-                        <p className="text-[#E2EBF0]">Wheelchair and walker-friendly surface design</p>
+                      <div className="flex items-start gap-3 bg-[#E3F2FD] border border-[#BBDEFB] rounded-lg p-4">
+                        <CheckCircle className="w-5 h-5 text-[#1976D2] flex-shrink-0 mt-0.5" />
+                        <p className="text-[#2D3748]">Wheelchair and walker-friendly surface design</p>
                       </div>
-                      <div className="flex items-start gap-3 bg-[#0A0F2C] border border-[#4F73D6]/30 rounded-lg p-4">
-                        <CheckCircle className="w-5 h-5 text-[#4F73D6] flex-shrink-0 mt-0.5" />
-                        <p className="text-[#E2EBF0]">All-weather play capability for year-round use</p>
+                      <div className="flex items-start gap-3 bg-[#E3F2FD] border border-[#BBDEFB] rounded-lg p-4">
+                        <CheckCircle className="w-5 h-5 text-[#1976D2] flex-shrink-0 mt-0.5" />
+                        <p className="text-[#2D3748]">All-weather play capability for year-round use</p>
                       </div>
-                      <div className="flex items-start gap-3 bg-[#0A0F2C] border border-[#4F73D6]/30 rounded-lg p-4">
-                        <CheckCircle className="w-5 h-5 text-[#4F73D6] flex-shrink-0 mt-0.5" />
-                        <p className="text-[#E2EBF0]">Meets Miracle League safety and accessibility standards</p>
+                      <div className="flex items-start gap-3 bg-[#E3F2FD] border border-[#BBDEFB] rounded-lg p-4">
+                        <CheckCircle className="w-5 h-5 text-[#1976D2] flex-shrink-0 mt-0.5" />
+                        <p className="text-[#2D3748]">Meets Miracle League safety and accessibility standards</p>
                       </div>
                     </>
                   ) : project.slug === 'miracle-league-central-florida' ? (
                     <>
-                      <div className="flex items-start gap-3 bg-[#0A0F2C] border border-[#4F73D6]/30 rounded-lg p-4">
-                        <CheckCircle className="w-5 h-5 text-[#4F73D6] flex-shrink-0 mt-0.5" />
-                        <p className="text-[#E2EBF0]">Comprehensive field renovation and surface restoration</p>
+                      <div className="flex items-start gap-3 bg-[#E3F2FD] border border-[#BBDEFB] rounded-lg p-4">
+                        <CheckCircle className="w-5 h-5 text-[#1976D2] flex-shrink-0 mt-0.5" />
+                        <p className="text-[#2D3748]">Comprehensive field renovation and surface restoration</p>
                       </div>
-                      <div className="flex items-start gap-3 bg-[#0A0F2C] border border-[#4F73D6]/30 rounded-lg p-4">
-                        <CheckCircle className="w-5 h-5 text-[#4F73D6] flex-shrink-0 mt-0.5" />
-                        <p className="text-[#E2EBF0]">Improved drainage solutions for Florida's climate</p>
+                      <div className="flex items-start gap-3 bg-[#E3F2FD] border border-[#BBDEFB] rounded-lg p-4">
+                        <CheckCircle className="w-5 h-5 text-[#1976D2] flex-shrink-0 mt-0.5" />
+                        <p className="text-[#2D3748]">Improved drainage solutions for Florida's climate</p>
                       </div>
-                      <div className="flex items-start gap-3 bg-[#0A0F2C] border border-[#4F73D6]/30 rounded-lg p-4">
-                        <CheckCircle className="w-5 h-5 text-[#4F73D6] flex-shrink-0 mt-0.5" />
-                        <p className="text-[#E2EBF0]">Durable, environmentally responsible materials</p>
+                      <div className="flex items-start gap-3 bg-[#E3F2FD] border border-[#BBDEFB] rounded-lg p-4">
+                        <CheckCircle className="w-5 h-5 text-[#1976D2] flex-shrink-0 mt-0.5" />
+                        <p className="text-[#2D3748]">Durable, environmentally responsible materials</p>
                       </div>
-                      <div className="flex items-start gap-3 bg-[#0A0F2C] border border-[#4F73D6]/30 rounded-lg p-4">
-                        <CheckCircle className="w-5 h-5 text-[#4F73D6] flex-shrink-0 mt-0.5" />
-                        <p className="text-[#E2EBF0]">Reduced maintenance with professional-quality surface</p>
+                      <div className="flex items-start gap-3 bg-[#E3F2FD] border border-[#BBDEFB] rounded-lg p-4">
+                        <CheckCircle className="w-5 h-5 text-[#1976D2] flex-shrink-0 mt-0.5" />
+                        <p className="text-[#2D3748]">Reduced maintenance with professional-quality surface</p>
                       </div>
                     </>
                   ) : (
                     <>
-                      <div className="flex items-start gap-3 bg-[#0A0F2C] border border-[#4F73D6]/30 rounded-lg p-4">
-                        <CheckCircle className="w-5 h-5 text-[#4F73D6] flex-shrink-0 mt-0.5" />
-                        <p className="text-[#E2EBF0]">Professional-grade synthetic turf baseball and softball field</p>
+                      <div className="flex items-start gap-3 bg-[#E3F2FD] border border-[#BBDEFB] rounded-lg p-4">
+                        <CheckCircle className="w-5 h-5 text-[#1976D2] flex-shrink-0 mt-0.5" />
+                        <p className="text-[#2D3748]">Professional-grade synthetic turf baseball and softball field</p>
                       </div>
-                      <div className="flex items-start gap-3 bg-[#0A0F2C] border border-[#4F73D6]/30 rounded-lg p-4">
-                        <CheckCircle className="w-5 h-5 text-[#4F73D6] flex-shrink-0 mt-0.5" />
-                        <p className="text-[#E2EBF0]">U.S. patented infill technology for superior fall impact safety</p>
+                      <div className="flex items-start gap-3 bg-[#E3F2FD] border border-[#BBDEFB] rounded-lg p-4">
+                        <CheckCircle className="w-5 h-5 text-[#1976D2] flex-shrink-0 mt-0.5" />
+                        <p className="text-[#2D3748]">U.S. patented infill technology for superior fall impact safety</p>
                       </div>
-                      <div className="flex items-start gap-3 bg-[#0A0F2C] border border-[#4F73D6]/30 rounded-lg p-4">
-                        <CheckCircle className="w-5 h-5 text-[#4F73D6] flex-shrink-0 mt-0.5" />
-                        <p className="text-[#E2EBF0]">Engineered drainage system for all-weather year-round play</p>
+                      <div className="flex items-start gap-3 bg-[#E3F2FD] border border-[#BBDEFB] rounded-lg p-4">
+                        <CheckCircle className="w-5 h-5 text-[#1976D2] flex-shrink-0 mt-0.5" />
+                        <p className="text-[#2D3748]">Engineered drainage system for all-weather year-round play</p>
                       </div>
-                      <div className="flex items-start gap-3 bg-[#0A0F2C] border border-[#4F73D6]/30 rounded-lg p-4">
-                        <CheckCircle className="w-5 h-5 text-[#4F73D6] flex-shrink-0 mt-0.5" />
-                        <p className="text-[#E2EBF0]">Significantly lower maintenance costs than natural grass</p>
+                      <div className="flex items-start gap-3 bg-[#E3F2FD] border border-[#BBDEFB] rounded-lg p-4">
+                        <CheckCircle className="w-5 h-5 text-[#1976D2] flex-shrink-0 mt-0.5" />
+                        <p className="text-[#2D3748]">Significantly lower maintenance costs than natural grass</p>
                       </div>
                     </>
                   )}
@@ -4336,7 +4336,7 @@ export default function App() {
               </div>
 
               {/* CTA Section */}
-              <div className="bg-gradient-to-r from-[#1E3FD8] to-[#4F73D6] rounded-xl p-12 text-center">
+              <div className="bg-gradient-to-r from-[#1565C0] to-[#1976D2] rounded-xl p-12 text-center">
                 <h2 className="text-3xl font-black text-white mb-4 tracking-tight">
                   Ready to Build Your Field?
                 </h2>
@@ -4345,7 +4345,7 @@ export default function App() {
                 </p>
                 <button
                   onClick={() => navigateTo('contact')}
-                  className="bg-white text-[#1E3FD8] hover:bg-[#E6E6E6] transition-colors duration-200"
+                  className="bg-white text-[#1565C0] hover:bg-[#E6E6E6] transition-colors duration-200"
                   style={{
                     borderRadius: '8px',
                     padding: '14px 32px',
@@ -4370,47 +4370,47 @@ export default function App() {
   // CONTACT PAGE
   if (currentPage === 'contact') {
     return (
-      <div className="min-h-screen" style={{ background: '#132040' }}>
+      <div className="min-h-screen" style={{ background: '#FFFFFF' }}>
         <Navigation />
         <section className="pt-48 pb-24 bg-black">
           <div className="container mx-auto px-4">
             <div className="max-w-6xl mx-auto">
               <div className="text-center mb-16">
-                <h1 className="text-6xl md:text-7xl font-black text-[#E6E6E6] mb-4 tracking-tight">
+                <h1 className="text-6xl md:text-7xl font-black text-[#1A202C] mb-4 tracking-tight">
                   LET&apos;S BUILD TOGETHER
                 </h1>
-                <p className="text-xl text-[#E2EBF0]">
+                <p className="text-xl text-[#2D3748]">
                   Ready to build your synthetic turf field? Contact PES Field Systems to discuss your project.
                 </p>
               </div>
               <div className="grid md:grid-cols-2 gap-12">
-                <Card className="bg-[#0A0F2C] border-[#4F73D6]/30">
+                <Card className="bg-[#E3F2FD] border-[#BBDEFB]">
                   <CardContent className="p-8">
-                    <h2 className="text-3xl font-black text-[#E6E6E6] mb-8 tracking-tight">REQUEST A CONSULTATION</h2>
+                    <h2 className="text-3xl font-black text-[#1A202C] mb-8 tracking-tight">REQUEST A CONSULTATION</h2>
                     <form action="https://api.web3forms.com/submit" method="POST" className="space-y-4">
                       <input type="hidden" name="access_key" value="77400af3-9113-4b92-b903-07e1f50df9a4" />
                       <input type="hidden" name="subject" value="Consultation Request - PES Field Systems Website" />
                       <div className="grid grid-cols-2 gap-4">
                         <div>
-                          <label className="font-bold text-sm text-[#E6E6E6] mb-2 block tracking-wider">First Name</label>
-                          <Input name="first-name" placeholder="John" className="bg-[#111111] border-[#4F73D6]/30 text-[#E6E6E6] placeholder:text-[#E2EBF0]" />
+                          <label className="font-bold text-sm text-[#1A202C] mb-2 block tracking-wider">First Name</label>
+                          <Input name="first-name" placeholder="John" className="bg-[#111111] border-[#BBDEFB] text-[#1A202C] placeholder:text-[#2D3748]" />
                         </div>
                         <div>
-                          <label className="font-bold text-sm text-[#E6E6E6] mb-2 block tracking-wider">Last Name</label>
-                          <Input name="last-name" placeholder="Doe" className="bg-[#111111] border-[#4F73D6]/30 text-[#E6E6E6] placeholder:text-[#E2EBF0]" />
+                          <label className="font-bold text-sm text-[#1A202C] mb-2 block tracking-wider">Last Name</label>
+                          <Input name="last-name" placeholder="Doe" className="bg-[#111111] border-[#BBDEFB] text-[#1A202C] placeholder:text-[#2D3748]" />
                         </div>
                       </div>
                       <div>
-                        <label className="font-bold text-sm text-[#E6E6E6] mb-2 block tracking-wider">Email</label>
-                        <Input type="email" name="email" placeholder="john@example.com" className="bg-[#111111] border-[#4F73D6]/30 text-[#E6E6E6] placeholder:text-[#E2EBF0]" />
+                        <label className="font-bold text-sm text-[#1A202C] mb-2 block tracking-wider">Email</label>
+                        <Input type="email" name="email" placeholder="john@example.com" className="bg-[#111111] border-[#BBDEFB] text-[#1A202C] placeholder:text-[#2D3748]" />
                       </div>
                       <div>
-                        <label className="font-bold text-sm text-[#E6E6E6] mb-2 block tracking-wider">Phone <span className="text-[#E2EBF0] font-normal">(optional)</span></label>
-                        <Input type="tel" name="phone" placeholder="Your phone number" className="bg-[#111111] border-[#4F73D6]/30 text-[#E6E6E6] placeholder:text-[#E2EBF0]" />
+                        <label className="font-bold text-sm text-[#1A202C] mb-2 block tracking-wider">Phone <span className="text-[#2D3748] font-normal">(optional)</span></label>
+                        <Input type="tel" name="phone" placeholder="Your phone number" className="bg-[#111111] border-[#BBDEFB] text-[#1A202C] placeholder:text-[#2D3748]" />
                       </div>
                       <div>
-                        <label className="font-bold text-sm text-[#E6E6E6] mb-2 block tracking-wider">Project Type</label>
-                        <select name="project-type" className="w-full px-4 py-2 bg-[#111111] border border-[#4F73D6]/30 rounded-lg text-[#E6E6E6]">
+                        <label className="font-bold text-sm text-[#1A202C] mb-2 block tracking-wider">Project Type</label>
+                        <select name="project-type" className="w-full px-4 py-2 bg-[#111111] border border-[#BBDEFB] rounded-lg text-[#1A202C]">
                           <option>Baseball / Softball</option>
                           <option>Soccer / Lacrosse</option>
                           <option>Football</option>
@@ -4419,10 +4419,10 @@ export default function App() {
                         </select>
                       </div>
                       <div>
-                        <label className="font-bold text-sm text-[#E6E6E6] mb-2 block tracking-wider">Message</label>
-                        <Textarea name="message" placeholder="Tell us about your project..." rows={5} className="bg-[#111111] border-[#4F73D6]/30 text-[#E6E6E6] placeholder:text-[#E2EBF0]" />
+                        <label className="font-bold text-sm text-[#1A202C] mb-2 block tracking-wider">Message</label>
+                        <Textarea name="message" placeholder="Tell us about your project..." rows={5} className="bg-[#111111] border-[#BBDEFB] text-[#1A202C] placeholder:text-[#2D3748]" />
                       </div>
-                      <button type="submit" className="w-full bg-[#1E3FD8] text-white font-black text-lg hover:bg-[#4F73D6] py-4 tracking-wider rounded-md transition-colors flex items-center justify-center gap-2">
+                      <button type="submit" className="w-full bg-[#1565C0] text-white font-black text-lg hover:bg-[#1976D2] py-4 tracking-wider rounded-md transition-colors flex items-center justify-center gap-2">
                         <Send className="w-5 h-5" />
                         SEND MESSAGE
                       </button>
@@ -4430,34 +4430,34 @@ export default function App() {
                   </CardContent>
                 </Card>
                 <div className="space-y-8">
-                  <Card className="bg-[#0A0F2C] border-[#4F73D6]/30">
+                  <Card className="bg-[#E3F2FD] border-[#BBDEFB]">
                     <CardContent className="p-8">
                       <div className="flex items-start gap-4 mb-8">
-                        <div className="w-12 h-12 bg-gradient-to-r from-[#1E3FD8] via-[#4F73D6] to-[#E2EBF0] rounded-lg flex items-center justify-center flex-shrink-0">
+                        <div className="w-12 h-12 bg-gradient-to-r from-[#1565C0] via-[#1976D2] to-[#BBDEFB] rounded-lg flex items-center justify-center flex-shrink-0">
                           <Mail className="w-6 h-6 text-white" />
                         </div>
                         <div>
-                          <h3 className="font-black text-lg mb-1 text-[#E6E6E6] tracking-wider">EMAIL</h3>
-                          <p className="text-[#E2EBF0]">triffon@pesfieldsystems.com</p>
-                          <p className="text-sm text-[#E2EBF0]">We respond within 24 hours</p>
+                          <h3 className="font-black text-lg mb-1 text-[#1A202C] tracking-wider">EMAIL</h3>
+                          <p className="text-[#2D3748]">triffon@pesfieldsystems.com</p>
+                          <p className="text-sm text-[#2D3748]">We respond within 24 hours</p>
                         </div>
                       </div>
                       <div className="flex items-start gap-4 mb-8">
-                        <div className="w-12 h-12 bg-gradient-to-r from-[#1E3FD8] via-[#4F73D6] to-[#E2EBF0] rounded-lg flex items-center justify-center flex-shrink-0">
+                        <div className="w-12 h-12 bg-gradient-to-r from-[#1565C0] via-[#1976D2] to-[#BBDEFB] rounded-lg flex items-center justify-center flex-shrink-0">
                           <MapPin className="w-6 h-6 text-white" />
                         </div>
                         <div>
-                          <h3 className="font-black text-lg mb-1 text-[#E6E6E6] tracking-wider">ADDRESS</h3>
-                          <p className="text-[#E2EBF0]">3460 Oakmeadow Lane<br/>Cincinnati, Ohio 45239</p>
+                          <h3 className="font-black text-lg mb-1 text-[#1A202C] tracking-wider">ADDRESS</h3>
+                          <p className="text-[#2D3748]">3460 Oakmeadow Lane<br/>Cincinnati, Ohio 45239</p>
                         </div>
                       </div>
                       <div className="flex items-start gap-4">
-                        <div className="w-12 h-12 bg-gradient-to-r from-[#1E3FD8] via-[#4F73D6] to-[#E2EBF0] rounded-lg flex items-center justify-center flex-shrink-0">
+                        <div className="w-12 h-12 bg-gradient-to-r from-[#1565C0] via-[#1976D2] to-[#BBDEFB] rounded-lg flex items-center justify-center flex-shrink-0">
                           <Clock className="w-6 h-6 text-white" />
                         </div>
                         <div>
-                          <h3 className="font-black text-lg mb-1 text-[#E6E6E6] tracking-wider">BUSINESS HOURS</h3>
-                          <p className="text-[#E2EBF0]">Monday - Friday: 8:00 AM - 6:00 PM EST<br/>Saturday: 9:00 AM - 3:00 PM EST<br/>Sunday: Closed</p>
+                          <h3 className="font-black text-lg mb-1 text-[#1A202C] tracking-wider">BUSINESS HOURS</h3>
+                          <p className="text-[#2D3748]">Monday - Friday: 8:00 AM - 6:00 PM EST<br/>Saturday: 9:00 AM - 3:00 PM EST<br/>Sunday: Closed</p>
                         </div>
                       </div>
                     </CardContent>
@@ -4467,7 +4467,7 @@ export default function App() {
             </div>
           </div>
         </section>
-        <section className="h-96 bg-[#0A0F2C] border-t border-[#E2EBF0]/30">
+        <section className="h-96 bg-[#E3F2FD] border-t border-[#BBDEFB]">
           <iframe
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3090.9384706863935!2d-84.56486892346795!3d39.23856997167895!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8841b2f8a8a8a8a9%3A0x1234567890abcdef!2s3460%20Oakmeadow%20Ln%2C%20Cincinnati%2C%20OH%2045239!5e0!3m2!1sen!2sus!4v1234567890123!5m2!1sen!2sus"
             width="100%"
