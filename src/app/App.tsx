@@ -491,7 +491,7 @@ export default function App() {
                 onClick={() => navigateTo('home')}
                 onMouseEnter={() => setHoveredNavItem('home')}
                 onMouseLeave={() => setHoveredNavItem(null)}
-                className="text-[#1A202C] hover:text-[#1565C0] transition-colors duration-200 no-underline relative pb-1"
+                className="text-white hover:text-[#1565C0] transition-colors duration-200 no-underline relative pb-1"
                 style={{ fontSize: '16px', letterSpacing: '0.08em', textDecoration: 'none' }}
               >
                 HOME
@@ -501,7 +501,7 @@ export default function App() {
                 onClick={() => navigateTo('services')}
                 onMouseEnter={() => setHoveredNavItem('services')}
                 onMouseLeave={() => setHoveredNavItem(null)}
-                className="text-[#1A202C] hover:text-[#1565C0] transition-colors duration-200 no-underline relative pb-1"
+                className="text-white hover:text-[#1565C0] transition-colors duration-200 no-underline relative pb-1"
                 style={{
                   fontSize: '16px',
                   letterSpacing: '0.08em',
@@ -518,7 +518,7 @@ export default function App() {
                 onClick={() => navigateTo('gallery')}
                 onMouseEnter={() => setHoveredNavItem('projects')}
                 onMouseLeave={() => setHoveredNavItem(null)}
-                className="text-[#1A202C] hover:text-[#1565C0] transition-colors duration-200 no-underline relative pb-1"
+                className="text-white hover:text-[#1565C0] transition-colors duration-200 no-underline relative pb-1"
                 style={{ 
                   fontSize: '14px', 
                   letterSpacing: '0.08em',
@@ -535,7 +535,7 @@ export default function App() {
                 onClick={() => navigateTo('technology')}
                 onMouseEnter={() => setHoveredNavItem('technology')}
                 onMouseLeave={() => setHoveredNavItem(null)}
-                className="text-[#1A202C] hover:text-[#1565C0] transition-colors duration-200 no-underline relative pb-1"
+                className="text-white hover:text-[#1565C0] transition-colors duration-200 no-underline relative pb-1"
                 style={{
                   fontSize: '14px',
                   letterSpacing: '0.08em',
@@ -552,7 +552,7 @@ export default function App() {
                 onClick={() => navigateTo('team')}
                 onMouseEnter={() => setHoveredNavItem('team')}
                 onMouseLeave={() => setHoveredNavItem(null)}
-                className="text-[#1A202C] hover:text-[#1565C0] transition-colors duration-200 no-underline relative pb-1"
+                className="text-white hover:text-[#1565C0] transition-colors duration-200 no-underline relative pb-1"
                 style={{
                   fontSize: '16px',
                   letterSpacing: '0.08em',
@@ -569,7 +569,7 @@ export default function App() {
                 onClick={() => navigateTo('partners')}
                 onMouseEnter={() => setHoveredNavItem('partners')}
                 onMouseLeave={() => setHoveredNavItem(null)}
-                className="text-[#1A202C] hover:text-[#1565C0] transition-colors duration-200 no-underline relative pb-1"
+                className="text-white hover:text-[#1565C0] transition-colors duration-200 no-underline relative pb-1"
                 style={{
                   fontSize: '16px',
                   letterSpacing: '0.08em',
@@ -586,7 +586,7 @@ export default function App() {
                 onClick={() => navigateTo('contact')}
                 onMouseEnter={() => setHoveredNavItem('contact')}
                 onMouseLeave={() => setHoveredNavItem(null)}
-                className="text-[#1A202C] hover:text-[#1565C0] transition-colors duration-200 no-underline relative pb-1"
+                className="text-white hover:text-[#1565C0] transition-colors duration-200 no-underline relative pb-1"
                 style={{
                   fontSize: '16px',
                   letterSpacing: '0.08em',
@@ -618,7 +618,7 @@ export default function App() {
 
             {/* Mobile Menu Button */}
             <button
-              className="md:hidden text-[#1A202C] z-50"
+              className="md:hidden text-white z-50"
               onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
             >
               {mobileMenuOpen ? <X className="w-6 h-6" /> : <Menu className="w-6 h-6" />}
@@ -640,7 +640,7 @@ export default function App() {
               setCurrentPage('services');
               setMobileMenuOpen(false);
             }}
-            className="text-[#1A202C] hover:text-[#1565C0] transition-colors duration-200 text-2xl"
+            className="text-white hover:text-[#1565C0] transition-colors duration-200 text-2xl"
             style={{ letterSpacing: '0.08em' }}
           >
             SERVICES
@@ -650,7 +650,7 @@ export default function App() {
               setCurrentPage('gallery');
               setMobileMenuOpen(false);
             }}
-            className="text-[#1A202C] hover:text-[#1565C0] transition-colors duration-200 text-2xl"
+            className="text-white hover:text-[#1565C0] transition-colors duration-200 text-2xl"
             style={{ letterSpacing: '0.08em' }}
           >
             PROJECTS
@@ -660,7 +660,7 @@ export default function App() {
               setCurrentPage('technology');
               setMobileMenuOpen(false);
             }}
-            className="text-[#1A202C] hover:text-[#1565C0] transition-colors duration-200 text-2xl"
+            className="text-white hover:text-[#1565C0] transition-colors duration-200 text-2xl"
             style={{ letterSpacing: '0.08em' }}
           >
             OUR TECHNOLOGY
@@ -670,7 +670,7 @@ export default function App() {
               setCurrentPage('team');
               setMobileMenuOpen(false);
             }}
-            className="text-[#1A202C] hover:text-[#1565C0] transition-colors duration-200 text-2xl"
+            className="text-white hover:text-[#1565C0] transition-colors duration-200 text-2xl"
             style={{ letterSpacing: '0.08em' }}
           >
             TEAM
@@ -680,7 +680,7 @@ export default function App() {
               setCurrentPage('partners');
               setMobileMenuOpen(false);
             }}
-            className="text-[#1A202C] hover:text-[#1565C0] transition-colors duration-200 text-2xl"
+            className="text-white hover:text-[#1565C0] transition-colors duration-200 text-2xl"
             style={{ letterSpacing: '0.08em' }}
           >
             PARTNERS
@@ -690,7 +690,7 @@ export default function App() {
               setCurrentPage('contact');
               setMobileMenuOpen(false);
             }}
-            className="text-[#1A202C] hover:text-[#1565C0] transition-colors duration-200 text-2xl"
+            className="text-white hover:text-[#1565C0] transition-colors duration-200 text-2xl"
             style={{ letterSpacing: '0.08em' }}
           >
             CONTACT
@@ -719,7 +719,7 @@ export default function App() {
   // Footer Component
   const Footer = () => (
     <footer 
-      className="text-[#1A202C]"
+      className="text-white"
       style={{
         background: '#0A0F1E',
         borderTop: '1px solid rgba(30, 63, 216, 0.3)'
@@ -736,7 +736,7 @@ export default function App() {
               style={{ objectFit: 'contain', objectPosition: 'left center' }}
             />
             <p 
-              className="text-[#2D3748] mb-4"
+              className="text-white mb-4"
               style={{ 
                 fontSize: '13px', 
                 lineHeight: '1.6',
@@ -746,7 +746,7 @@ export default function App() {
               Safer Fields. Superior Play. Self-Sustainable.
             </p>
             <p 
-              className="text-[#2D3748]"
+              className="text-white"
               style={{ 
                 fontSize: '13px', 
                 lineHeight: '1.6'
@@ -762,42 +762,42 @@ export default function App() {
             <div className="space-y-2">
               <button
                 onClick={() => navigateTo('services')}
-                className="block text-[#2D3748] hover:text-[#1A202C] transition-colors duration-200"
+                className="block text-white hover:text-white transition-colors duration-200"
                 style={{ fontSize: '13px' }}
               >
                 Services
               </button>
               <a 
                 href="#projects"
-                className="block text-[#2D3748] hover:text-[#1A202C] transition-colors duration-200"
+                className="block text-white hover:text-white transition-colors duration-200"
                 style={{ fontSize: '13px' }}
               >
                 Projects
               </a>
               <button
                 onClick={() => navigateTo('technology')}
-                className="block text-[#2D3748] hover:text-[#1A202C] transition-colors duration-200"
+                className="block text-white hover:text-white transition-colors duration-200"
                 style={{ fontSize: '13px' }}
               >
                 Technology
               </button>
               <button
                 onClick={() => navigateTo('team')}
-                className="block text-[#2D3748] hover:text-[#1A202C] transition-colors duration-200"
+                className="block text-white hover:text-white transition-colors duration-200"
                 style={{ fontSize: '13px' }}
               >
                 Team
               </button>
               <button
                 onClick={() => navigateTo('partners')}
-                className="block text-[#2D3748] hover:text-[#1A202C] transition-colors duration-200"
+                className="block text-white hover:text-white transition-colors duration-200"
                 style={{ fontSize: '13px' }}
               >
                 Partners
               </button>
               <a 
                 href="#contact"
-                className="block text-[#2D3748] hover:text-[#1A202C] transition-colors duration-200"
+                className="block text-white hover:text-white transition-colors duration-200"
                 style={{ fontSize: '13px' }}
               >
                 Contact
@@ -808,7 +808,7 @@ export default function App() {
           {/* Right Column - CTA */}
           <div>
             <p 
-              className="text-[#1A202C] mb-4"
+              className="text-white mb-4"
               style={{
                 fontFamily: 'Inter, sans-serif',
                 fontWeight: '700',
@@ -841,10 +841,10 @@ export default function App() {
             borderTop: '1px solid rgba(183, 198, 207, 0.15)'
           }}
         >
-          <p className="text-[#2D3748]" style={{ fontSize: '12px' }}>
+          <p className="text-white" style={{ fontSize: '12px' }}>
             Copyright 2026 PES Field Systems
           </p>
-          <p className="text-[#2D3748]" style={{ fontSize: '12px' }}>
+          <p className="text-white" style={{ fontSize: '12px' }}>
             <a href="https://bestwebsites.tech" target="_blank" rel="noopener noreferrer" style={{ color: "#BBDEFB", textDecoration: "underline" }}>Built by Best Websites LLC</a>
           </p>
         </div>
@@ -891,7 +891,7 @@ export default function App() {
               </h1>
               <div className="w-24 h-1 bg-[#1565C0] mx-auto mb-10"></div>
               <p
-                className="text-[#2D3748] max-w-3xl mx-auto"
+                className="text-white max-w-3xl mx-auto"
                 style={{
                   fontSize: '18px',
                   lineHeight: '1.7'
@@ -1826,10 +1826,10 @@ export default function App() {
                         <div className="w-24 h-24 mx-auto mb-8 bg-gradient-to-r from-[#1565C0] via-[#1976D2] to-[#BBDEFB] rounded-2xl flex items-center justify-center group-hover:scale-110 transition-transform">
                           <pillar.icon className="w-12 h-12 text-white" />
                         </div>
-                        <h3 className="text-2xl font-black text-[#1A202C] mb-4 tracking-wide">
+                        <h3 className="text-2xl font-black text-white mb-4 tracking-wide">
                           {pillar.title}
                         </h3>
-                        <p className="text-[#2D3748] leading-relaxed">
+                        <p className="text-white leading-relaxed">
                           {pillar.description}
                         </p>
                       </CardContent>
@@ -1913,7 +1913,7 @@ export default function App() {
                     25+
                   </div>
                   <div
-                    className="text-[#2D3748]"
+                    className="text-white"
                     style={{
                       fontSize: '14px',
                       letterSpacing: '0.05em',
@@ -1941,7 +1941,7 @@ export default function App() {
                     Controlled
                   </div>
                   <div
-                    className="text-[#2D3748]"
+                    className="text-white"
                     style={{
                       fontSize: '14px',
                       letterSpacing: '0.05em',
@@ -1969,7 +1969,7 @@ export default function App() {
                     Zero
                   </div>
                   <div
-                    className="text-[#2D3748]"
+                    className="text-white"
                     style={{
                       fontSize: '14px',
                       letterSpacing: '0.05em',
@@ -1997,7 +1997,7 @@ export default function App() {
                     10+
                   </div>
                   <div
-                    className="text-[#2D3748]"
+                    className="text-white"
                     style={{
                       fontSize: '14px',
                       letterSpacing: '0.05em',
@@ -2616,7 +2616,7 @@ export default function App() {
                 {/* Left Column - Partners and Bidder List */}
                 <div>
                   <h2 
-                    className="text-[#1A202C] mb-10"
+                    className="text-white mb-10"
                     style={{
                       fontFamily: 'Inter, sans-serif',
                       fontWeight: '700',
@@ -2635,7 +2635,7 @@ export default function App() {
                     }}
                   >
                     <h3 
-                      className="text-[#1A202C] mb-3"
+                      className="text-white mb-3"
                       style={{
                         fontFamily: 'Inter, sans-serif',
                         fontWeight: '700',
@@ -2644,7 +2644,7 @@ export default function App() {
                     >
                       Contractor and Trade Partners
                     </h3>
-                    <p className="text-[#2D3748] mb-4" style={{ fontSize: '15px', lineHeight: '1.6' }}>
+                    <p className="text-white mb-4" style={{ fontSize: '15px', lineHeight: '1.6' }}>
                       We collaborate with general contractors, site work specialists, and trades nationwide to deliver 
                       field installations on time and to spec. If you're building the next great athletic facility, 
                       let's work together.
@@ -2671,7 +2671,7 @@ export default function App() {
                     }}
                   >
                     <h3 
-                      className="text-[#1A202C] mb-3"
+                      className="text-white mb-3"
                       style={{
                         fontFamily: 'Inter, sans-serif',
                         fontWeight: '700',
@@ -2680,7 +2680,7 @@ export default function App() {
                     >
                       Get on Our Bidder List
                     </h3>
-                    <p className="text-[#2D3748] mb-4" style={{ fontSize: '15px', lineHeight: '1.6' }}>
+                    <p className="text-white mb-4" style={{ fontSize: '15px', lineHeight: '1.6' }}>
                       Join our vetted bidder list for upcoming projects. We're always looking for qualified contractors 
                       who meet our standards for safety, precision, and client service.
                     </p>
@@ -2705,7 +2705,7 @@ export default function App() {
                     }}
                   >
                     <h3 
-                      className="text-[#1A202C] mb-3"
+                      className="text-white mb-3"
                       style={{
                         fontFamily: 'Inter, sans-serif',
                         fontWeight: '700',
@@ -2714,7 +2714,7 @@ export default function App() {
                     >
                       Our Materials and Suppliers
                     </h3>
-                    <p className="text-[#2D3748] mb-6" style={{ fontSize: '15px', lineHeight: '1.6' }}>
+                    <p className="text-white mb-6" style={{ fontSize: '15px', lineHeight: '1.6' }}>
                       Every component we install comes from tested, reputable suppliers that meet or exceed industry 
                       safety and performance standards. We don't cut corners on materials because your athletes 
                       deserve better.
@@ -2726,7 +2726,7 @@ export default function App() {
                 {/* Right Column - Contact Form */}
                 <div id="contact-form">
                   <h2 
-                    className="text-[#1A202C] mb-6"
+                    className="text-white mb-6"
                     style={{
                       fontFamily: 'Inter, sans-serif',
                       fontWeight: '700',
@@ -2741,7 +2741,7 @@ export default function App() {
                       <input type="hidden" name="subject" value="New Project Inquiry - PES Field Systems Website" />
                     {/* Name Field */}
                     <div>
-                      <label className="text-[#1A202C] block mb-2" style={{ fontSize: '14px', fontWeight: '600' }}>
+                      <label className="text-white block mb-2" style={{ fontSize: '14px', fontWeight: '600' }}>
                         Name
                       </label>
                       <input 
@@ -3354,7 +3354,7 @@ export default function App() {
               </h1>
               <div className="w-24 h-1 bg-[#1565C0] mx-auto mb-6"></div>
               <p
-                className="text-[#2D3748] max-w-3xl mx-auto"
+                className="text-white max-w-3xl mx-auto"
                 style={{
                   fontSize: '18px',
                   lineHeight: '1.7'
@@ -3456,10 +3456,10 @@ export default function App() {
           <div className="container mx-auto px-4">
             <div className="max-w-6xl mx-auto">
               <div className="text-center mb-16">
-                <h1 className="text-6xl md:text-7xl font-black text-[#1A202C] mb-4 tracking-tight">
+                <h1 className="text-6xl md:text-7xl font-black text-white mb-4 tracking-tight">
                   PROJECT GALLERY
                 </h1>
-                <p className="text-xl text-[#2D3748]">
+                <p className="text-xl text-white">
                   Explore our completed synthetic turf field installations for schools, Miracle League organizations, municipalities, and athletic programs nationwide
                 </p>
               </div>
@@ -3622,10 +3622,10 @@ export default function App() {
           <div className="container mx-auto px-4">
             <div className="max-w-6xl mx-auto">
               <div className="text-center mb-16">
-                <h1 className="text-6xl md:text-7xl font-black text-[#1A202C] mb-4 tracking-tight">
+                <h1 className="text-6xl md:text-7xl font-black text-white mb-4 tracking-tight">
                   PARTNER WITH US
                 </h1>
-                <p className="text-xl text-[#2D3748]">
+                <p className="text-xl text-white">
                   Join our nationwide network of synthetic turf contractors, suppliers, and bidders. We partner with general contractors, site work specialists, and trades to deliver field installations for schools, municipalities, Miracle League organizations, and athletic programs across the country.
                 </p>
               </div>
@@ -3768,7 +3768,7 @@ export default function App() {
                 <Badge className="bg-[#1976D2]/20 text-[#1976D2] border border-[#BBDEFB] mb-4 font-bold tracking-wider">
                   {project.type}
                 </Badge>
-                <h1 className="text-5xl md:text-6xl font-black text-[#1A202C] mb-4 tracking-tight">
+                <h1 className="text-5xl md:text-6xl font-black text-white mb-4 tracking-tight">
                   {project.slug === 'mid-america-ballyard'
                     ? 'Mid-America Ballyard Baseball & Softball Facility'
                     : project.slug === 'lasalle-high-school'
@@ -3779,7 +3779,7 @@ export default function App() {
                     ? 'Miracle League of Central Florida'
                     : project.name}
                 </h1>
-                <p className="text-xl text-[#2D3748] flex items-center gap-2">
+                <p className="text-xl text-white flex items-center gap-2">
                   <MapPin className="w-5 h-5" />
                   {project.location}
                 </p>
@@ -4376,10 +4376,10 @@ export default function App() {
           <div className="container mx-auto px-4">
             <div className="max-w-6xl mx-auto">
               <div className="text-center mb-16">
-                <h1 className="text-6xl md:text-7xl font-black text-[#1A202C] mb-4 tracking-tight">
+                <h1 className="text-6xl md:text-7xl font-black text-white mb-4 tracking-tight">
                   LET&apos;S BUILD TOGETHER
                 </h1>
-                <p className="text-xl text-[#2D3748]">
+                <p className="text-xl text-white">
                   Ready to build your synthetic turf field? Contact PES Field Systems to discuss your project.
                 </p>
               </div>
@@ -4437,9 +4437,9 @@ export default function App() {
                           <Mail className="w-6 h-6 text-white" />
                         </div>
                         <div>
-                          <h3 className="font-black text-lg mb-1 text-[#1A202C] tracking-wider">EMAIL</h3>
-                          <p className="text-[#2D3748]">triffon@pesfieldsystems.com</p>
-                          <p className="text-sm text-[#2D3748]">We respond within 24 hours</p>
+                          <h3 className="font-black text-lg mb-1 text-white tracking-wider">EMAIL</h3>
+                          <p className="text-white">triffon@pesfieldsystems.com</p>
+                          <p className="text-sm text-white">We respond within 24 hours</p>
                         </div>
                       </div>
                       <div className="flex items-start gap-4 mb-8">
@@ -4447,8 +4447,8 @@ export default function App() {
                           <MapPin className="w-6 h-6 text-white" />
                         </div>
                         <div>
-                          <h3 className="font-black text-lg mb-1 text-[#1A202C] tracking-wider">ADDRESS</h3>
-                          <p className="text-[#2D3748]">3460 Oakmeadow Lane<br/>Cincinnati, Ohio 45239</p>
+                          <h3 className="font-black text-lg mb-1 text-white tracking-wider">ADDRESS</h3>
+                          <p className="text-white">3460 Oakmeadow Lane<br/>Cincinnati, Ohio 45239</p>
                         </div>
                       </div>
                       <div className="flex items-start gap-4">
@@ -4456,8 +4456,8 @@ export default function App() {
                           <Clock className="w-6 h-6 text-white" />
                         </div>
                         <div>
-                          <h3 className="font-black text-lg mb-1 text-[#1A202C] tracking-wider">BUSINESS HOURS</h3>
-                          <p className="text-[#2D3748]">Monday - Friday: 8:00 AM - 6:00 PM EST<br/>Saturday: 9:00 AM - 3:00 PM EST<br/>Sunday: Closed</p>
+                          <h3 className="font-black text-lg mb-1 text-white tracking-wider">BUSINESS HOURS</h3>
+                          <p className="text-white">Monday - Friday: 8:00 AM - 6:00 PM EST<br/>Saturday: 9:00 AM - 3:00 PM EST<br/>Sunday: Closed</p>
                         </div>
                       </div>
                     </CardContent>
