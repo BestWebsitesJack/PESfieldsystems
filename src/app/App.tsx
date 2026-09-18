@@ -470,7 +470,7 @@ export default function App() {
         }}
       >
         <div className="container mx-auto px-6">
-          <div className="flex items-center justify-between h-32">
+          <div className="flex items-center justify-between h-40">
             {/* Logo */}
             <div className="flex items-center">
               <img
@@ -1252,20 +1252,14 @@ export default function App() {
               <img
                 src="/HomepageHero_Montana.png"
                 alt="Athletic Field Background"
-                className="w-full h-full" style={{ filter: "brightness(1.4)" }}
+                className="w-full h-full"
                 style={{
                   objectFit: 'cover',
                   objectPosition: 'center'
                 }}
               />
             </div>
-            {/* Dark gradient overlay - darker on left for text readability */}
-            <div
-              className="absolute inset-0"
-              style={{
-                background: 'linear-gradient(to right, rgba(0,0,0,0.5), rgba(0,0,0,0.25))'
-              }}
-            />
+
           </div>
 
           {/* Content */}
@@ -1286,7 +1280,7 @@ export default function App() {
               </motion.p>
               
               <motion.h1 
-                className="text-[#1A202C] mb-8 hero-h1-animate"
+                className="text-white mb-8 hero-h1-animate"
                 initial={{ opacity: 0, y: 30 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ delay: 0.2, duration: 0.8 }}
@@ -1295,7 +1289,8 @@ export default function App() {
                   fontWeight: '700',
                   fontSize: 'clamp(40px, 8vw, 72px)',
                   lineHeight: '1.1',
-                  letterSpacing: '-0.03em'
+                  letterSpacing: '-0.03em',
+                  textShadow: '0 2px 20px rgba(0,0,0,0.5), 0 1px 6px rgba(0,0,0,0.4)'
                 }}
               >
                 Safer Fields.  Superior Play.  Self-Sustainable.<br />
@@ -2598,7 +2593,7 @@ export default function App() {
                 viewport={{ once: true }}
                 transition={{ duration: 0.6 }}
               >
-               <FileDown className="w-20 h-32 mx-auto mb-8" />
+               <FileDown className="w-20 h-40 mx-auto mb-8" />
                 <h2 className="text-5xl md:text-6xl font-black mb-8 tracking-tight">
                   ARCHITECT SPECIFICATIONS
                 </h2>
