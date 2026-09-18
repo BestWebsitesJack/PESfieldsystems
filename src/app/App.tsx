@@ -470,13 +470,13 @@ export default function App() {
         }}
       >
         <div className="container mx-auto px-6">
-          <div className="flex items-center justify-between h-20">
+          <div className="flex items-center justify-between h-28">
             {/* Logo */}
             <div className="flex items-center">
               <img
                 src={pesLogo}
                 alt="PES Field Systems"
-                className="h-14 cursor-pointer"
+                className="h-24 cursor-pointer"
                 style={{ objectFit: 'contain', objectPosition: 'left center' }}
                 onClick={() => {
                   setCurrentPage('home');
@@ -2598,7 +2598,7 @@ export default function App() {
                 viewport={{ once: true }}
                 transition={{ duration: 0.6 }}
               >
-               <FileDown className="w-20 h-20 mx-auto mb-8" />
+               <FileDown className="w-20 h-28 mx-auto mb-8" />
                 <h2 className="text-5xl md:text-6xl font-black mb-8 tracking-tight">
                   ARCHITECT SPECIFICATIONS
                 </h2>
