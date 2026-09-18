@@ -1273,7 +1273,8 @@ export default function App() {
                 style={{ 
                   fontSize: '12px', 
                   letterSpacing: '0.12em',
-                  fontWeight: '600'
+                  fontWeight: '600',
+                  textShadow: '0 2px 12px rgba(0,0,0,0.6)'
                 }}
               >
                 U.S. Patented Technology
