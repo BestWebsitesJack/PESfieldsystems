@@ -1832,7 +1832,7 @@ export default function App() {
                         <h3 className="text-2xl font-black text-[#0D47A1] mb-4 tracking-wide">
                           {pillar.title}
                         </h3>
-                        <p className="text-white leading-relaxed">
+                        <p className="text-[#2D3748] leading-relaxed">
                           {pillar.description}
                         </p>
                       </CardContent>
