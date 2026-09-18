@@ -1715,10 +1715,10 @@ export default function App() {
                             borderLeft: '4px solid #1565C0'
                           }}
                         >
-                          <p className="text-white" style={{ fontSize: '13px', fontWeight: '700', marginBottom: '4px' }}>
+                          <p className="text-[#1565C0]" style={{ fontSize: '13px', fontWeight: '700', marginBottom: '4px' }}>
                             Synthetic Turf Surface
                           </p>
-                          <p className="text-white/90" style={{ fontSize: '11px' }}>
+                          <p className="text-[#1565C0]/70" style={{ fontSize: '11px' }}>
                             Professional-grade playing surface
                           </p>
                         </div>
@@ -1736,7 +1736,7 @@ export default function App() {
                           <p className="text-[#1565C0]" style={{ fontSize: '13px', fontWeight: '700', marginBottom: '4px' }}>
                             Regulated Infill ★
                           </p>
-                          <p className="text-white/90" style={{ fontSize: '11px' }}>
+                          <p className="text-[#1565C0]/70" style={{ fontSize: '11px' }}>
                             Patented placement technology
                           </p>
                         </div>
@@ -1751,10 +1751,10 @@ export default function App() {
                             borderLeft: '4px solid #1565C0'
                           }}
                         >
-                          <p className="text-white" style={{ fontSize: '13px', fontWeight: '700', marginBottom: '4px' }}>
+                          <p className="text-[#1565C0]" style={{ fontSize: '13px', fontWeight: '700', marginBottom: '4px' }}>
                             Shock Absorption Layer
                           </p>
-                          <p className="text-white/90" style={{ fontSize: '11px' }}>
+                          <p className="text-[#1565C0]/70" style={{ fontSize: '11px' }}>
                             Fall impact protection system
                           </p>
                         </div>
@@ -1769,10 +1769,10 @@ export default function App() {
                             borderLeft: '4px solid #1565C0'
                           }}
                         >
-                          <p className="text-white" style={{ fontSize: '13px', fontWeight: '700', marginBottom: '4px' }}>
+                          <p className="text-[#1565C0]" style={{ fontSize: '13px', fontWeight: '700', marginBottom: '4px' }}>
                             Base & Drainage
                           </p>
-                          <p className="text-white/90" style={{ fontSize: '11px' }}>
+                          <p className="text-[#1565C0]/70" style={{ fontSize: '11px' }}>
                             Engineered foundation
                           </p>
                         </div>
