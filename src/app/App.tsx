@@ -2043,8 +2043,10 @@ export default function App() {
           </div>
         </section>
 
+        <div style={{ width: '100%', height: '2px', background: '#1565C0' }}></div>
+
         {/* What We Build Section */}
-        <section className="py-40" style={{ background: '#1976D2' }}>
+        <section className="py-40" style={{ background: '#FFFFFF', borderTop: '2px solid #1565C0', borderBottom: '2px solid #1565C0' }}>
           <div className="container mx-auto px-6">
             <div className="max-w-6xl mx-auto">
               {/* Section Header */}
@@ -2149,6 +2151,8 @@ export default function App() {
             </div>
           </div>
         </section>
+
+        <div style={{ width: '100%', height: '2px', background: '#1565C0' }}></div>
 
         {/* Featured Projects Section */}
         <section id="featured-projects" className="py-40" style={{ background: '#FFFFFF' }}>
