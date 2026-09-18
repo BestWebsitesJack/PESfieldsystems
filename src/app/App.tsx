@@ -1610,12 +1610,12 @@ export default function App() {
 
                   {/* Body Paragraphs */}
                   <div className="space-y-4 mb-10">
-                    <p className="text-[#2D3748]" style={{ fontSize: '16px', lineHeight: '1.6' }}>
+                    <p className="text-white/90" style={{ fontSize: '16px', lineHeight: '1.6' }}>
                       Our patented technology regulates granular infill placement beneath synthetic turf surfaces.
                       Unlike traditional systems where infill sits loose on top, our regulated approach ensures consistent
                       fall protection across the entire field.
                     </p>
-                    <p className="text-[#2D3748]" style={{ fontSize: '16px', lineHeight: '1.6' }}>
+                    <p className="text-white/90" style={{ fontSize: '16px', lineHeight: '1.6' }}>
                       This innovation delivers significantly cooler surface temperatures, eliminates infill migration into
                       shoes and equipment, and maintains optimal performance standards year after year.
                     </p>
@@ -1625,7 +1625,7 @@ export default function App() {
                   <div className="grid grid-cols-3 gap-6 mb-10">
                     <div style={{ borderTop: '2px solid #1565C0', paddingTop: '12px' }}>
                       <p
-                        className="text-[#1A202C]"
+                        className="text-white"
                         style={{
                           fontSize: '14px',
                           fontWeight: '700',
@@ -1637,7 +1637,7 @@ export default function App() {
                     </div>
                     <div style={{ borderTop: '2px solid #1565C0', paddingTop: '12px' }}>
                       <p
-                        className="text-[#1A202C]"
+                        className="text-white"
                         style={{
                           fontSize: '14px',
                           fontWeight: '700',
@@ -1649,7 +1649,7 @@ export default function App() {
                     </div>
                     <div style={{ borderTop: '2px solid #1565C0', paddingTop: '12px' }}>
                       <p
-                        className="text-[#1A202C]"
+                        className="text-white"
                         style={{
                           fontSize: '14px',
                           fontWeight: '700',
@@ -1664,7 +1664,7 @@ export default function App() {
                   {/* CTA Link */}
                   <button
                     onClick={() => navigateTo('technology')}
-                    className="text-white inline-flex items-center gap-2 hover:text-[#2D3748] transition-colors"
+                    className="text-white inline-flex items-center gap-2 hover:text-white/90 transition-colors"
                     style={{
                       fontSize: '16px',
                       fontWeight: '600'
@@ -1689,7 +1689,7 @@ export default function App() {
                     <div className="space-y-6">
                       <div className="text-center mb-6">
                         <p
-                          className="text-[#1A202C]"
+                          className="text-white"
                           style={{
                             fontSize: '14px',
                             fontWeight: '700',
@@ -1712,10 +1712,10 @@ export default function App() {
                             borderLeft: '4px solid #1565C0'
                           }}
                         >
-                          <p className="text-[#1A202C]" style={{ fontSize: '13px', fontWeight: '700', marginBottom: '4px' }}>
+                          <p className="text-white" style={{ fontSize: '13px', fontWeight: '700', marginBottom: '4px' }}>
                             Synthetic Turf Surface
                           </p>
-                          <p className="text-[#2D3748]" style={{ fontSize: '11px' }}>
+                          <p className="text-white/90" style={{ fontSize: '11px' }}>
                             Professional-grade playing surface
                           </p>
                         </div>
@@ -1733,7 +1733,7 @@ export default function App() {
                           <p className="text-[#1565C0]" style={{ fontSize: '13px', fontWeight: '700', marginBottom: '4px' }}>
                             Regulated Infill ★
                           </p>
-                          <p className="text-[#2D3748]" style={{ fontSize: '11px' }}>
+                          <p className="text-white/90" style={{ fontSize: '11px' }}>
                             Patented placement technology
                           </p>
                         </div>
@@ -1748,10 +1748,10 @@ export default function App() {
                             borderLeft: '4px solid #1565C0'
                           }}
                         >
-                          <p className="text-[#1A202C]" style={{ fontSize: '13px', fontWeight: '700', marginBottom: '4px' }}>
+                          <p className="text-white" style={{ fontSize: '13px', fontWeight: '700', marginBottom: '4px' }}>
                             Shock Absorption Layer
                           </p>
-                          <p className="text-[#2D3748]" style={{ fontSize: '11px' }}>
+                          <p className="text-white/90" style={{ fontSize: '11px' }}>
                             Fall impact protection system
                           </p>
                         </div>
@@ -1766,10 +1766,10 @@ export default function App() {
                             borderLeft: '4px solid #1565C0'
                           }}
                         >
-                          <p className="text-[#1A202C]" style={{ fontSize: '13px', fontWeight: '700', marginBottom: '4px' }}>
+                          <p className="text-white" style={{ fontSize: '13px', fontWeight: '700', marginBottom: '4px' }}>
                             Base & Drainage
                           </p>
-                          <p className="text-[#2D3748]" style={{ fontSize: '11px' }}>
+                          <p className="text-white/90" style={{ fontSize: '11px' }}>
                             Engineered foundation
                           </p>
                         </div>
@@ -2944,7 +2944,7 @@ export default function App() {
               >
                 <Award className="w-5 h-5 text-[#1565C0]" />
                 <span
-                  className="text-[#1A202C]"
+                  className="text-white"
                   style={{
                     fontSize: '13px',
                     fontWeight: '700',
@@ -2976,7 +2976,7 @@ export default function App() {
                 initial={{ opacity: 0, y: 20 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.6, delay: 0.2 }}
-                className="text-[#2D3748] mb-12 max-w-3xl mx-auto"
+                className="text-white/90 mb-12 max-w-3xl mx-auto"
                 style={{
                   fontSize: '20px',
                   lineHeight: '1.6'
@@ -2994,15 +2994,15 @@ export default function App() {
               >
                 <div className="text-center">
                   <div className="text-[#1565C0] mb-2" style={{ fontSize: '48px', fontWeight: '700' }}>Controlled</div>
-                  <div className="text-[#1A202C]" style={{ fontSize: '14px', fontWeight: '600' }}>Heat Index</div>
+                  <div className="text-white" style={{ fontSize: '14px', fontWeight: '600' }}>Heat Index</div>
                 </div>
                 <div className="text-center">
                   <div className="text-[#1565C0] mb-2" style={{ fontSize: '48px', fontWeight: '700' }}>100%</div>
-                  <div className="text-[#1A202C]" style={{ fontSize: '14px', fontWeight: '600' }}>Infill Migration Eliminated</div>
+                  <div className="text-white" style={{ fontSize: '14px', fontWeight: '600' }}>Infill Migration Eliminated</div>
                 </div>
                 <div className="text-center">
                   <div className="text-[#1565C0] mb-2" style={{ fontSize: '48px', fontWeight: '700' }}>1st</div>
-                  <div className="text-[#1A202C]" style={{ fontSize: '14px', fontWeight: '600' }}>Patented System in NA</div>
+                  <div className="text-white" style={{ fontSize: '14px', fontWeight: '600' }}>Patented System in NA</div>
                 </div>
               </motion.div>
             </div>
