@@ -1298,14 +1298,15 @@ export default function App() {
               </motion.h1>
               
               <motion.p 
-                className="text-[#2D3748] mb-10 hero-subheadline-animate mx-auto"
+                className="text-white mb-10 hero-subheadline-animate mx-auto"
                 initial={{ opacity: 0, y: 20 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ delay: 0.3, duration: 0.6 }}
                 style={{
                   fontSize: '18px',
                   lineHeight: '1.6',
-                  maxWidth: '520px'
+                  maxWidth: '520px',
+                  textShadow: '0 2px 16px rgba(0,0,0,0.6), 0 1px 4px rgba(0,0,0,0.5)'
                 }}
               >
                 The only synthetic turf system with a U.S. patent delivering uncompromised fall impact safety, cooler surface temperatures, and significantly lower maintenance costs for athletes of all abilities nationwide
@@ -1333,7 +1334,7 @@ export default function App() {
                 </motion.button>
                 
                 <motion.button 
-                 className="bg-transparent text-white border-2 border-white hover:bg-white/10 transition-colors duration-200"
+                 className="bg-white text-[#0D47A1] border-2 border-white hover:bg-[#E3F2FD] transition-colors duration-200 font-bold shadow-lg"
                   onClick={() => navigateTo('gallery')}
                   whileHover={{ 
                     scale: 1.05,
