@@ -465,18 +465,18 @@ export default function App() {
       <nav
         className={`fixed top-0 left-0 right-0 z-50 transition-all duration-200`}
         style={{
-          background: '#FFFFFF',
-          borderBottom: '1px solid rgba(30, 63, 216, 0.4)'
+          background: '#000000',
+          borderBottom: 'none'
         }}
       >
         <div className="container mx-auto px-6">
-          <div className="flex items-center justify-between h-40">
+          <div className="flex items-center justify-between h-20">
             {/* Logo */}
             <div className="flex items-center">
               <img
                 src={pesLogo}
                 alt="PES Field Systems"
-                className="h-36 cursor-pointer"
+                className="h-14 cursor-pointer"
                 style={{ objectFit: 'contain', objectPosition: 'left center' }}
                 onClick={() => {
                   setCurrentPage('home');
@@ -491,8 +491,8 @@ export default function App() {
                 onClick={() => navigateTo('home')}
                 onMouseEnter={() => setHoveredNavItem('home')}
                 onMouseLeave={() => setHoveredNavItem(null)}
-                className="text-white hover:text-[#1565C0] transition-colors duration-200 no-underline relative pb-1"
-                style={{ fontSize: '16px', letterSpacing: '0.08em', textDecoration: 'none' }}
+                className="text-white hover:text-[#BBDEFB] transition-colors duration-200 no-underline relative pb-1"
+                style={{ fontSize: '13px', letterSpacing: '0.08em', textDecoration: 'none', fontWeight: '600' }}
               >
                 HOME
                 <span className="absolute bottom-0 left-0 h-0.5 bg-[#1565C0] transition-all duration-300" style={{ width: hoveredNavItem === 'home' ? '100%' : '0%' }}></span>
@@ -501,11 +501,12 @@ export default function App() {
                 onClick={() => navigateTo('services')}
                 onMouseEnter={() => setHoveredNavItem('services')}
                 onMouseLeave={() => setHoveredNavItem(null)}
-                className="text-white hover:text-[#1565C0] transition-colors duration-200 no-underline relative pb-1"
+                className="text-white hover:text-[#BBDEFB] transition-colors duration-200 no-underline relative pb-1"
                 style={{
-                  fontSize: '16px',
+                  fontSize: '13px',
                   letterSpacing: '0.08em',
-                  textDecoration: 'none'
+                  textDecoration: 'none',
+                  fontWeight: '600'
                 }}
               >
                 SERVICES
@@ -518,11 +519,12 @@ export default function App() {
                 onClick={() => navigateTo('gallery')}
                 onMouseEnter={() => setHoveredNavItem('projects')}
                 onMouseLeave={() => setHoveredNavItem(null)}
-                className="text-white hover:text-[#1565C0] transition-colors duration-200 no-underline relative pb-1"
+                className="text-white hover:text-[#BBDEFB] transition-colors duration-200 no-underline relative pb-1"
                 style={{ 
-                  fontSize: '14px', 
+                  fontSize: '13px', 
                   letterSpacing: '0.08em',
-                  textDecoration: 'none'
+                  textDecoration: 'none',
+                  fontWeight: '600'
                 }}
               >
                 PROJECTS
@@ -535,11 +537,12 @@ export default function App() {
                 onClick={() => navigateTo('technology')}
                 onMouseEnter={() => setHoveredNavItem('technology')}
                 onMouseLeave={() => setHoveredNavItem(null)}
-                className="text-white hover:text-[#1565C0] transition-colors duration-200 no-underline relative pb-1"
+                className="text-white hover:text-[#BBDEFB] transition-colors duration-200 no-underline relative pb-1"
                 style={{
-                  fontSize: '14px',
+                  fontSize: '13px',
                   letterSpacing: '0.08em',
-                  textDecoration: 'none'
+                  textDecoration: 'none',
+                  fontWeight: '600'
                 }}
               >
                 OUR TECHNOLOGY
@@ -552,11 +555,12 @@ export default function App() {
                 onClick={() => navigateTo('team')}
                 onMouseEnter={() => setHoveredNavItem('team')}
                 onMouseLeave={() => setHoveredNavItem(null)}
-                className="text-white hover:text-[#1565C0] transition-colors duration-200 no-underline relative pb-1"
+                className="text-white hover:text-[#BBDEFB] transition-colors duration-200 no-underline relative pb-1"
                 style={{
-                  fontSize: '16px',
+                  fontSize: '13px',
                   letterSpacing: '0.08em',
-                  textDecoration: 'none'
+                  textDecoration: 'none',
+                  fontWeight: '600'
                 }}
               >
                 TEAM
@@ -569,11 +573,12 @@ export default function App() {
                 onClick={() => navigateTo('partners')}
                 onMouseEnter={() => setHoveredNavItem('partners')}
                 onMouseLeave={() => setHoveredNavItem(null)}
-                className="text-white hover:text-[#1565C0] transition-colors duration-200 no-underline relative pb-1"
+                className="text-white hover:text-[#BBDEFB] transition-colors duration-200 no-underline relative pb-1"
                 style={{
-                  fontSize: '16px',
+                  fontSize: '13px',
                   letterSpacing: '0.08em',
-                  textDecoration: 'none'
+                  textDecoration: 'none',
+                  fontWeight: '600'
                 }}
               >
                 PARTNERS
@@ -586,11 +591,12 @@ export default function App() {
                 onClick={() => navigateTo('contact')}
                 onMouseEnter={() => setHoveredNavItem('contact')}
                 onMouseLeave={() => setHoveredNavItem(null)}
-                className="text-white hover:text-[#1565C0] transition-colors duration-200 no-underline relative pb-1"
+                className="text-white hover:text-[#BBDEFB] transition-colors duration-200 no-underline relative pb-1"
                 style={{
-                  fontSize: '16px',
+                  fontSize: '13px',
                   letterSpacing: '0.08em',
-                  textDecoration: 'none'
+                  textDecoration: 'none',
+                  fontWeight: '600'
                 }}
               >
                 CONTACT
