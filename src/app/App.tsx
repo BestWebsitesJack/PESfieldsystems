@@ -2063,7 +2063,7 @@ export default function App() {
                   What We Build
                 </p>
                 <h2
-                  className="text-white mb-4"
+                  className="text-[#0D47A1] mb-4"
                   style={{
                     fontFamily: 'Inter, sans-serif',
                     fontWeight: '700',
@@ -2073,7 +2073,7 @@ export default function App() {
                 >
                   Every surface. Every athlete. Every ability.
                 </h2>
-                <div className="w-24 h-1 bg-white"></div>
+                <div className="w-24 h-1 bg-[#1565C0]"></div>
               </div>
 
               {/* Services Grid - 8 cards */}
