@@ -486,13 +486,13 @@ export default function App() {
             </div>
 
             {/* Desktop Navigation */}
-            <div className="hidden md:flex items-center gap-8">
+            <div className="hidden md:flex items-center gap-5">
               <button
                 onClick={() => navigateTo('home')}
                 onMouseEnter={() => setHoveredNavItem('home')}
                 onMouseLeave={() => setHoveredNavItem(null)}
                 className="text-white hover:text-[#BBDEFB] transition-colors duration-200 no-underline relative pb-1"
-                style={{ fontSize: '13px', letterSpacing: '0.08em', textDecoration: 'none', fontWeight: '600' }}
+                style={{ fontSize: '15px', letterSpacing: '0.06em', textDecoration: 'none', fontWeight: '600' }}
               >
                 HOME
                 <span className="absolute bottom-0 left-0 h-0.5 bg-[#1565C0] transition-all duration-300" style={{ width: hoveredNavItem === 'home' ? '100%' : '0%' }}></span>
@@ -503,8 +503,8 @@ export default function App() {
                 onMouseLeave={() => setHoveredNavItem(null)}
                 className="text-white hover:text-[#BBDEFB] transition-colors duration-200 no-underline relative pb-1"
                 style={{
-                  fontSize: '13px',
-                  letterSpacing: '0.08em',
+                  fontSize: '15px',
+                  letterSpacing: '0.06em',
                   textDecoration: 'none',
                   fontWeight: '600'
                 }}
@@ -539,8 +539,8 @@ export default function App() {
                 onMouseLeave={() => setHoveredNavItem(null)}
                 className="text-white hover:text-[#BBDEFB] transition-colors duration-200 no-underline relative pb-1"
                 style={{
-                  fontSize: '13px',
-                  letterSpacing: '0.08em',
+                  fontSize: '15px',
+                  letterSpacing: '0.06em',
                   textDecoration: 'none',
                   fontWeight: '600'
                 }}
@@ -557,8 +557,8 @@ export default function App() {
                 onMouseLeave={() => setHoveredNavItem(null)}
                 className="text-white hover:text-[#BBDEFB] transition-colors duration-200 no-underline relative pb-1"
                 style={{
-                  fontSize: '13px',
-                  letterSpacing: '0.08em',
+                  fontSize: '15px',
+                  letterSpacing: '0.06em',
                   textDecoration: 'none',
                   fontWeight: '600'
                 }}
@@ -575,8 +575,8 @@ export default function App() {
                 onMouseLeave={() => setHoveredNavItem(null)}
                 className="text-white hover:text-[#BBDEFB] transition-colors duration-200 no-underline relative pb-1"
                 style={{
-                  fontSize: '13px',
-                  letterSpacing: '0.08em',
+                  fontSize: '15px',
+                  letterSpacing: '0.06em',
                   textDecoration: 'none',
                   fontWeight: '600'
                 }}
@@ -593,8 +593,8 @@ export default function App() {
                 onMouseLeave={() => setHoveredNavItem(null)}
                 className="text-white hover:text-[#BBDEFB] transition-colors duration-200 no-underline relative pb-1"
                 style={{
-                  fontSize: '13px',
-                  letterSpacing: '0.08em',
+                  fontSize: '15px',
+                  letterSpacing: '0.06em',
                   textDecoration: 'none',
                   fontWeight: '600'
                 }}
@@ -647,7 +647,7 @@ export default function App() {
               setMobileMenuOpen(false);
             }}
             className="text-[#0D47A1] hover:text-[#1565C0] transition-colors duration-200 text-2xl"
-            style={{ letterSpacing: '0.08em' }}
+            style={{ letterSpacing: '0.06em', fontSize: '18px', fontWeight: '600' }}
           >
             SERVICES
           </button>
@@ -657,7 +657,7 @@ export default function App() {
               setMobileMenuOpen(false);
             }}
             className="text-[#0D47A1] hover:text-[#1565C0] transition-colors duration-200 text-2xl"
-            style={{ letterSpacing: '0.08em' }}
+            style={{ letterSpacing: '0.06em', fontSize: '18px', fontWeight: '600' }}
           >
             PROJECTS
           </button>
@@ -667,7 +667,7 @@ export default function App() {
               setMobileMenuOpen(false);
             }}
             className="text-[#0D47A1] hover:text-[#1565C0] transition-colors duration-200 text-2xl"
-            style={{ letterSpacing: '0.08em' }}
+            style={{ letterSpacing: '0.06em', fontSize: '18px', fontWeight: '600' }}
           >
             OUR TECHNOLOGY
           </button>
@@ -677,7 +677,7 @@ export default function App() {
               setMobileMenuOpen(false);
             }}
             className="text-[#0D47A1] hover:text-[#1565C0] transition-colors duration-200 text-2xl"
-            style={{ letterSpacing: '0.08em' }}
+            style={{ letterSpacing: '0.06em', fontSize: '18px', fontWeight: '600' }}
           >
             TEAM
           </button>
@@ -687,7 +687,7 @@ export default function App() {
               setMobileMenuOpen(false);
             }}
             className="text-[#0D47A1] hover:text-[#1565C0] transition-colors duration-200 text-2xl"
-            style={{ letterSpacing: '0.08em' }}
+            style={{ letterSpacing: '0.06em', fontSize: '18px', fontWeight: '600' }}
           >
             PARTNERS
           </button>
@@ -697,7 +697,7 @@ export default function App() {
               setMobileMenuOpen(false);
             }}
             className="text-[#0D47A1] hover:text-[#1565C0] transition-colors duration-200 text-2xl"
-            style={{ letterSpacing: '0.08em' }}
+            style={{ letterSpacing: '0.06em', fontSize: '18px', fontWeight: '600' }}
           >
             CONTACT
           </button>
