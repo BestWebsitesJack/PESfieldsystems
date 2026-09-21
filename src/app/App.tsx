@@ -2623,7 +2623,7 @@ export default function App() {
                 {/* Left Column - Partners and Bidder List */}
                 <div>
                   <h2 
-                    className="text-white mb-10"
+                    className="text-[#0D47A1] mb-10"
                     style={{
                       fontFamily: 'Inter, sans-serif',
                       fontWeight: '700',
@@ -2642,7 +2642,7 @@ export default function App() {
                     }}
                   >
                     <h3 
-                      className="text-white mb-3"
+                      className="text-[#0D47A1] mb-3"
                       style={{
                         fontFamily: 'Inter, sans-serif',
                         fontWeight: '700',
@@ -2651,7 +2651,7 @@ export default function App() {
                     >
                       Contractor and Trade Partners
                     </h3>
-                    <p className="text-white mb-4" style={{ fontSize: '15px', lineHeight: '1.6' }}>
+                    <p className="text-[#2D3748] mb-4" style={{ fontSize: '15px', lineHeight: '1.6' }}>
                       We collaborate with general contractors, site work specialists, and trades nationwide to deliver 
                       field installations on time and to spec. If you're building the next great athletic facility, 
                       let's work together.
@@ -2678,7 +2678,7 @@ export default function App() {
                     }}
                   >
                     <h3 
-                      className="text-white mb-3"
+                      className="text-[#0D47A1] mb-3"
                       style={{
                         fontFamily: 'Inter, sans-serif',
                         fontWeight: '700',
@@ -2687,7 +2687,7 @@ export default function App() {
                     >
                       Get on Our Bidder List
                     </h3>
-                    <p className="text-white mb-4" style={{ fontSize: '15px', lineHeight: '1.6' }}>
+                    <p className="text-[#2D3748] mb-4" style={{ fontSize: '15px', lineHeight: '1.6' }}>
                       Join our vetted bidder list for upcoming projects. We're always looking for qualified contractors 
                       who meet our standards for safety, precision, and client service.
                     </p>
@@ -2712,7 +2712,7 @@ export default function App() {
                     }}
                   >
                     <h3 
-                      className="text-white mb-3"
+                      className="text-[#0D47A1] mb-3"
                       style={{
                         fontFamily: 'Inter, sans-serif',
                         fontWeight: '700',
@@ -2721,7 +2721,7 @@ export default function App() {
                     >
                       Our Materials and Suppliers
                     </h3>
-                    <p className="text-white mb-6" style={{ fontSize: '15px', lineHeight: '1.6' }}>
+                    <p className="text-[#0D47A1] mb-6" style={{ fontSize: '15px', lineHeight: '1.6' }}>
                       Every component we install comes from tested, reputable suppliers that meet or exceed industry 
                       safety and performance standards. We don't cut corners on materials because your athletes 
                       deserve better.
@@ -2733,7 +2733,7 @@ export default function App() {
                 {/* Right Column - Contact Form */}
                 <div id="contact-form">
                   <h2 
-                    className="text-white mb-6"
+                    className="text-[#0D47A1] mb-6"
                     style={{
                       fontFamily: 'Inter, sans-serif',
                       fontWeight: '700',
