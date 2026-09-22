@@ -3629,10 +3629,10 @@ export default function App() {
           <div className="container mx-auto px-4">
             <div className="max-w-6xl mx-auto">
               <div className="text-center mb-16">
-                <h1 className="text-6xl md:text-7xl font-black text-white mb-4 tracking-tight">
+                <h1 className="text-6xl md:text-7xl font-black text-[#0D47A1] mb-4 tracking-tight">
                   PARTNER WITH US
                 </h1>
-                <p className="text-xl text-white">
+                <p className="text-xl text-[#4A5568]">
                   Join our nationwide network of synthetic turf contractors, suppliers, and bidders. We partner with general contractors, site work specialists, and trades to deliver field installations for schools, municipalities, Miracle League organizations, and athletic programs across the country.
                 </p>
               </div>
