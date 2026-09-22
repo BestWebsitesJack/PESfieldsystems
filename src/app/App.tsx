@@ -4383,10 +4383,10 @@ export default function App() {
           <div className="container mx-auto px-4">
             <div className="max-w-6xl mx-auto">
               <div className="text-center mb-16">
-                <h1 className="text-6xl md:text-7xl font-black text-white mb-4 tracking-tight">
+                <h1 className="text-6xl md:text-7xl font-black text-[#0D47A1] mb-4 tracking-tight">
                   LET&apos;S BUILD TOGETHER
                 </h1>
-                <p className="text-xl text-white">
+                <p className="text-xl text-[#4A5568]">
                   Ready to build your synthetic turf field? Contact PES Field Systems to discuss your project.
                 </p>
               </div>
