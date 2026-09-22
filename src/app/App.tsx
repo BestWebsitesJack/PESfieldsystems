@@ -4444,9 +4444,9 @@ export default function App() {
                           <Mail className="w-6 h-6 text-white" />
                         </div>
                         <div>
-                          <h3 className="font-black text-lg mb-1 text-white tracking-wider">EMAIL</h3>
-                          <p className="text-white">triffon@pesfieldsystems.com</p>
-                          <p className="text-sm text-white">We respond within 24 hours</p>
+                          <h3 className="font-black text-lg mb-1 text-[#0D47A1] tracking-wider">EMAIL</h3>
+                          <p className="text-[#1565C0]">triffon@pesfieldsystems.com</p>
+                          <p className="text-sm text-[#4A5568]">We respond within 24 hours</p>
                         </div>
                       </div>
                       <div className="flex items-start gap-4 mb-8">
@@ -4454,8 +4454,8 @@ export default function App() {
                           <MapPin className="w-6 h-6 text-white" />
                         </div>
                         <div>
-                          <h3 className="font-black text-lg mb-1 text-white tracking-wider">ADDRESS</h3>
-                          <p className="text-white">3460 Oakmeadow Lane<br/>Cincinnati, Ohio 45239</p>
+                          <h3 className="font-black text-lg mb-1 text-[#0D47A1] tracking-wider">ADDRESS</h3>
+                          <p className="text-[#2D3748]">3460 Oakmeadow Lane<br/>Cincinnati, Ohio 45239</p>
                         </div>
                       </div>
                       <div className="flex items-start gap-4">
@@ -4463,8 +4463,8 @@ export default function App() {
                           <Clock className="w-6 h-6 text-white" />
                         </div>
                         <div>
-                          <h3 className="font-black text-lg mb-1 text-white tracking-wider">BUSINESS HOURS</h3>
-                          <p className="text-white">Monday - Friday: 8:00 AM - 6:00 PM EST<br/>Saturday: 9:00 AM - 3:00 PM EST<br/>Sunday: Closed</p>
+                          <h3 className="font-black text-lg mb-1 text-[#0D47A1] tracking-wider">BUSINESS HOURS</h3>
+                          <p className="text-[#2D3748]">Monday - Friday: 8:00 AM - 6:00 PM EST<br/>Saturday: 9:00 AM - 3:00 PM EST<br/>Sunday: Closed</p>
                         </div>
                       </div>
                     </CardContent>
