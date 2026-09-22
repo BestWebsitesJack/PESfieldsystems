@@ -3000,15 +3000,15 @@ export default function App() {
                 className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-4xl mx-auto"
               >
                 <div className="text-center">
-                  <div className="text-[#1565C0] mb-2" style={{ fontSize: '48px', fontWeight: '700' }}>Controlled</div>
+                  <div className="text-white mb-2" style={{ fontSize: '48px', fontWeight: '700' }}>Controlled</div>
                   <div className="text-white" style={{ fontSize: '14px', fontWeight: '600' }}>Heat Index</div>
                 </div>
                 <div className="text-center">
-                  <div className="text-[#1565C0] mb-2" style={{ fontSize: '48px', fontWeight: '700' }}>100%</div>
+                  <div className="text-white mb-2" style={{ fontSize: '48px', fontWeight: '700' }}>100%</div>
                   <div className="text-white" style={{ fontSize: '14px', fontWeight: '600' }}>Infill Migration Eliminated</div>
                 </div>
                 <div className="text-center">
-                  <div className="text-[#1565C0] mb-2" style={{ fontSize: '48px', fontWeight: '700' }}>1st</div>
+                  <div className="text-white mb-2" style={{ fontSize: '48px', fontWeight: '700' }}>1st</div>
                   <div className="text-white" style={{ fontSize: '14px', fontWeight: '600' }}>Patented System in NA</div>
                 </div>
               </motion.div>
