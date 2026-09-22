@@ -3350,7 +3350,7 @@ export default function App() {
               <h1
                 className="text-white mb-6"
                 style={{
-                  fontFamily: 'Rajdhani, sans-serif',
+                  fontFamily: 'Inter, sans-serif',
                   fontWeight: '700',
                   fontSize: '72px',
                   lineHeight: '1.1',
@@ -3401,18 +3401,18 @@ export default function App() {
                         </p>
                         {member.name === 'Triffon Callos' ? (
                           <div>
-                            <p className="text-[#E2EBF0] text-sm leading-relaxed mb-3">
-                              Triffon Callos serves as Vice President of PES Field Systems, working with municipalities, schools, parks departments, sports organizations, and private developers nationwide. With more than 20 years of leadership experience, he brings a unique perspective to every project.
+                            <p className="text-[#2D3748] text-sm leading-relaxed mb-3">
+                              Triffon Callos serves as Vice President of PES Field Systems, where he works with municipalities, schools, parks departments, sports organizations, and private developers to design and deliver athletic field projects throughout the United States. With more than 20 years of leadership experience spanning business development, project management, public service, and community engagement, Triffon brings a unique perspective to every project. His background includes extensive work with public entities, capital improvement planning, budgeting, stakeholder coordination, and strategic growth initiatives.
                             </p>
                             {triffonExpanded && (
                               <>
-                                <p className="text-[#E2EBF0] text-sm leading-relaxed mb-3">
+                                <p className="text-[#2D3748] text-sm leading-relaxed mb-3">
                                   His background includes extensive work with public entities, capital improvement planning, budgeting, and strategic growth. Triffon has served as an elected Green Township Trustee since 2014, elected four times. In March 2025, he was appointed by the Governor of Ohio as a Commissioner for the Ohio Casino Control Commission.
                                 </p>
-                                <p className="text-[#E2EBF0] text-sm leading-relaxed mb-3">
+                                <p className="text-[#2D3748] text-sm leading-relaxed mb-3">
                                   He previously served as Head Varsity Baseball Coach at Summit Country Day, leading the program to multiple regional appearances and a State Championship game appearance.
                                 </p>
-                                <p className="text-[#E2EBF0] text-sm leading-relaxed mb-3">
+                                <p className="text-[#2D3748] text-sm leading-relaxed mb-3">
                                   A lifelong Cincinnati west side resident, Triffon is the proud father of three children and remains actively involved in his community through youth sports, civic leadership, and volunteer service.
                                 </p>
                               </>
@@ -3427,7 +3427,7 @@ export default function App() {
                             )}
                           </div>
                         ) : (
-                          <p className="text-[#E2EBF0] text-sm leading-relaxed mb-3">
+                          <p className="text-[#2D3748] text-sm leading-relaxed mb-3">
                             {member.bio}
                           </p>
                         )}
