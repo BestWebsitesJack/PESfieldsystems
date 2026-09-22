@@ -2969,7 +2969,7 @@ export default function App() {
                 transition={{ duration: 0.6, delay: 0.1 }}
                 className="text-white mb-6"
                 style={{
-                  fontFamily: 'Rajdhani, sans-serif',
+                  fontFamily: 'Inter, sans-serif',
                   fontWeight: '700',
                   fontSize: '72px',
                   lineHeight: '1.1',
@@ -3031,9 +3031,9 @@ export default function App() {
                 The Innovation
               </p>
               <h2
-                className="text-white mb-8"
+                className="text-[#0D47A1] mb-8"
                 style={{
-                  fontFamily: 'Rajdhani, sans-serif',
+                  fontFamily: 'Inter, sans-serif',
                   fontWeight: '700',
                   fontSize: '56px',
                   lineHeight: '1.2'
@@ -3126,8 +3126,8 @@ export default function App() {
                       transition={{ duration: 0.5, delay: idx * 0.1 }}
                       className="group"
                       style={{
-                        background: 'rgba(10, 20, 40, 0.15)',
-                        border: '2px solid rgba(30, 63, 216, 0.3)',
+                        background: 'rgba(255, 255, 255, 0.08)',
+                        border: '2px solid rgba(255, 255, 255, 0.2)',
                         borderRadius: '12px',
                         padding: '32px',
                         transition: 'all 0.3s ease'
@@ -3164,7 +3164,7 @@ export default function App() {
                       >
                         {advantage.title}
                       </h3>
-                      <p className="text-[#2D3748]" style={{ fontSize: '15px', lineHeight: '1.6' }}>
+                      <p className="text-white/80" style={{ fontSize: '15px', lineHeight: '1.6' }}>
                         {advantage.description}
                       </p>
                     </motion.div>
@@ -3193,9 +3193,9 @@ export default function App() {
                     Documentation
                   </p>
                   <h2
-                    className="text-white mb-6"
+                    className="text-[#0D47A1] mb-6"
                     style={{
-                      fontFamily: 'Rajdhani, sans-serif',
+                      fontFamily: 'Inter, sans-serif',
                       fontWeight: '700',
                       fontSize: '48px',
                       lineHeight: '1.2'
