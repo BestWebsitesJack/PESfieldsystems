@@ -2097,14 +2097,14 @@ export default function App() {
                       transition: { duration: 0.3 }
                     }}
                     style={{
-                      background: 'rgba(255, 255, 255, 0.15)',
-                      border: '2px solid rgba(255, 255, 255, 0.25)',
+                      background: '#E3F2FD',
+                      border: '1px solid #BBDEFB',
+                      borderLeft: '4px solid #1565C0',
                       borderRadius: '8px',
                       padding: '28px',
                       display: 'flex',
                       flexDirection: 'column',
                       gap: '16px',
-                      backdropFilter: 'blur(10px)'
                     }}
                   >
                     {/* Icon */}
@@ -2113,10 +2113,10 @@ export default function App() {
                       transition={{ duration: 0.3 }}
                     >
                       <service.icon
-                        className="text-white"
+                        className="text-[#1565C0]"
                         style={{
-                          width: '32px',
-                          height: '32px',
+                          width: '36px',
+                          height: '36px',
                           strokeWidth: '2px'
                         }}
                       />
@@ -2124,7 +2124,7 @@ export default function App() {
 
                     {/* Service Name */}
                     <h3
-                      className="text-white"
+                      className="text-[#0D47A1]"
                       style={{
                         fontFamily: 'Inter, sans-serif',
                         fontWeight: '700',
@@ -2140,7 +2140,7 @@ export default function App() {
                       style={{
                         fontSize: '14px',
                         lineHeight: '1.6',
-                        color: 'rgba(255, 255, 255, 0.85)'
+                        color: '#4A5568'
                       }}
                     >
                       {service.desc}
