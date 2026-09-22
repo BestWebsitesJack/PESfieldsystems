@@ -3463,19 +3463,19 @@ export default function App() {
           <div className="container mx-auto px-4">
             <div className="max-w-6xl mx-auto">
               <div className="text-center mb-16">
-                <h1 className="text-6xl md:text-7xl font-black text-white mb-4 tracking-tight">
+                <h1 className="text-6xl md:text-7xl font-black text-[#0D47A1] mb-4 tracking-tight">
                   PROJECT GALLERY
                 </h1>
-                <p className="text-xl text-white">
+                <p className="text-xl text-[#4A5568]">
                   Explore our completed synthetic turf field installations for schools, Miracle League organizations, municipalities, and athletic programs nationwide
                 </p>
               </div>
 
               <Tabs defaultValue="all" className="w-full">
                 <TabsList className="grid w-full max-w-2xl mx-auto grid-cols-3 mb-12 bg-[#E3F2FD] border border-[#BBDEFB]">
-                  <TabsTrigger value="all" className="font-bold tracking-wider data-[state=active]:bg-[#1565C0] data-[state=active]:text-white">ALL PROJECTS</TabsTrigger>
-                  <TabsTrigger value="athletic" className="font-bold tracking-wider data-[state=active]:bg-[#1565C0] data-[state=active]:text-white">ATHLETIC FIELDS</TabsTrigger>
-                  <TabsTrigger value="adaptive" className="font-bold tracking-wider data-[state=active]:bg-[#1565C0] data-[state=active]:text-white">ADAPTIVE FIELDS</TabsTrigger>
+                  <TabsTrigger value="all" className="font-bold tracking-wider text-[#1565C0] data-[state=active]:bg-[#1565C0] data-[state=active]:text-white">ALL PROJECTS</TabsTrigger>
+                  <TabsTrigger value="athletic" className="font-bold tracking-wider text-[#1565C0] data-[state=active]:bg-[#1565C0] data-[state=active]:text-white">ATHLETIC FIELDS</TabsTrigger>
+                  <TabsTrigger value="adaptive" className="font-bold tracking-wider text-[#1565C0] data-[state=active]:bg-[#1565C0] data-[state=active]:text-white">ADAPTIVE FIELDS</TabsTrigger>
                 </TabsList>
 
                 <TabsContent value="all">
